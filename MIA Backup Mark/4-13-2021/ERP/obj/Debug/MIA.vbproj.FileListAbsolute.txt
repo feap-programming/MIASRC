@@ -1,0 +1,611 @@
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Debug\MIA.exe.config
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmAddItemSpecs.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCACostTable.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmAddBOMContents.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmAddLCS.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCostTableEditor.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmEditBOMItem.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmEditBOMMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmEditBOMSubContents.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmEditCTOA.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmEditLineGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmEditLineIssuance.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmEditInventoryTransfer.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmEditItemMasterData.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmEditModelGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmEditProcess.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmEditProductionOutput.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmEditReqdWorkingDays.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmEditWorkingDays.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmUpdateCustomerDemand.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCopyToCTOA.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCopyToLineGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCopyToModelGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmBOMRemarks.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmConfirmCode.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmChangePassword.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCopyChild.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmLogin.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmBase.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmProcessComponentList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCapacityPlanningPreview.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmRptModelCapacityTest.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmManageUser.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmReport.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmReportCustDemand.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmSettings.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmSystemInfo.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmTest.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmUsers.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmImportBOMMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmImportCTOA.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmImportInventoryPerLine.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmImportCountingReference.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmImportItemCodeHistory.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmImportInventoryPerWarehouse.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmImportLineGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmImportMaterialPrice.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmImportLinePerWarehouse.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmImportModelGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmImportWarehousing.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmImportItemPerProcess.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmImportItemPerModel.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmImportItemPerCustomer.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmImportItemMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmImportCustomerDemand.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmBOMMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmItemPerModel.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmLineGroupSharing.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmLinePerWarehouse.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmMaterialPriceList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmOutputType.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmWarehouseCodeList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmCategoryList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmItemCodeHistory.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCustomerItemMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCustomerList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmItemMasterData.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmLineList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmMachineList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmMakerList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmModelList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmProcessList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmProcessPerItem.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmShiftList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmUOMList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCapacityPlanning.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmMonthYearSelection.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.ucCTOA.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.ucLineGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.ucModelCapacity.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.ucModelGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.ucWorkingDays.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmBOMContents.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmBOMDetails.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCapacityForecast.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCostTable.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCountingReference.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmCustomerDemand.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmInventoryMonitoring.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmInventoryTransfer.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.frmBOMProvider.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmKanbanCreator.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmLCSCreator.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmLineIssuance.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmModelGroupAssignment.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmProductionOutput.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmSubContents.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmWarehousing.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.Resources.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.vbproj.GenerateResource.cache
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.exe.licenses
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\MIA.exe.config
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\MIA.exe
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\MIA.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\MIA.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\FEAPNS.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\MySql.Data.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\System.Data.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\System.Deployment.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\System.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\System.Drawing.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\System.Messaging.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\System.Windows.Forms.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\System.Xml.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\System.Xml.Linq.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Documents.SpreadsheetStreaming.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Reporting.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.ReportViewer.WinForms.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.GridView.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.RadDock.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Crystal.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.CrystalDark.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Fluent.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.FluentDark.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.HighContrastBlack.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Material.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.MaterialPink.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.MaterialTeal.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2013Dark.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2013Light.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Windows8.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Core.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Fixed.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Zip.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\TelerikCommon.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\TelerikExport.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.ReportViewer.Wpf.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Google.Protobuf.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\FEAPNS.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\FEAPNS.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\FEAPNS.dll.config
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\MySql.Data.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Documents.SpreadsheetStreaming.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Reporting.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Reporting.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.ReportViewer.WinForms.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.GridView.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.RadDock.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Core.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Fixed.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Windows.Zip.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\TelerikExport.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.ReportViewer.Wpf.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.ReportViewer.Wpf.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.vbproj.CoreCompileInputs.cache
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.vbproj.CopyComplete
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.exe
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\Telerik.Reporting.Services.HttpClient.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.vbprojAssemblyReference.cache
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Debug\MIA.FrmProcessComPerProcess.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\MIA.exe.config
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\MIA.exe
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\MIA.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\MIA.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\MySql.Data.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\System.Data.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\System.Deployment.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\System.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\System.Drawing.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\System.Messaging.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\System.Windows.Forms.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\System.Xml.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\System.Xml.Linq.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Documents.SpreadsheetStreaming.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.GridView.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.RadDock.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Crystal.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.CrystalDark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Fluent.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.FluentDark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.HighContrastBlack.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Material.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.MaterialPink.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.MaterialTeal.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2013Dark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2013Light.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Windows8.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Core.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Fixed.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Zip.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\TelerikCommon.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\TelerikExport.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.ReportViewer.Wpf.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Google.Protobuf.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\FEAPNS.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\FEAPNS.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\FEAPNS.dll.config
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\MySql.Data.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Documents.SpreadsheetStreaming.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Reporting.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Reporting.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.ReportViewer.WinForms.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.GridView.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.RadDock.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Core.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Fixed.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.Windows.Zip.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\TelerikExport.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.ReportViewer.Wpf.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\Telerik.ReportViewer.Wpf.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.vbprojAssemblyReference.cache
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmAddItemSpecs.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCACostTable.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmAddBOMContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmAddLCS.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCostTableEditor.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmEditBOMItem.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmEditBOMMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmEditBOMSubContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmEditCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmEditLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmEditLineIssuance.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmEditInventoryTransfer.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmEditItemMasterData.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmEditModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmEditProcess.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmEditProductionOutput.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmEditReqdWorkingDays.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmEditWorkingDays.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmUpdateCustomerDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCopyToCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCopyToLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCopyToModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmBOMRemarks.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmConfirmCode.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmChangePassword.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCopyChild.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmLogin.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmBase.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmProcessComPerProcess.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmProcessComponentList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCapacityPlanningPreview.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmRptModelCapacityTest.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmManageUser.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmReport.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmReportCustDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmSettings.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmSystemInfo.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmTest.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmUsers.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmImportBOMMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmImportCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmImportInventoryPerLine.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmImportCountingReference.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmImportItemCodeHistory.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmImportInventoryPerWarehouse.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmImportLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmImportMaterialPrice.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmImportLinePerWarehouse.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmImportModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmImportWarehousing.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmImportItemPerProcess.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmImportItemPerModel.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmImportItemPerCustomer.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmImportItemMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmImportCustomerDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmBOMMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmItemPerModel.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmLineGroupSharing.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmLinePerWarehouse.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmMaterialPriceList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmOutputType.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmWarehouseCodeList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmCategoryList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmItemCodeHistory.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCustomerItemMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCustomerList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmItemMasterData.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmLineList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmMachineList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmMakerList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmModelList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmProcessList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmProcessPerItem.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmShiftList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmUOMList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCapacityPlanning.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmMonthYearSelection.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.ucCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.ucLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.ucModelCapacity.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.ucModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.ucWorkingDays.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmBOMContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmBOMDetails.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCapacityForecast.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCostTable.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCountingReference.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmCustomerDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmInventoryMonitoring.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmInventoryTransfer.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.frmBOMProvider.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmKanbanCreator.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmLCSCreator.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmLineIssuance.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmModelGroupAssignment.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmProductionOutput.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmSubContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.FrmWarehousing.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.Resources.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.vbproj.GenerateResource.cache
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.exe.licenses
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.vbproj.CoreCompileInputs.cache
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.vbproj.CopyComplete
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.exe
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Debug\MIA.pdb
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.vbprojAssemblyReference.cache
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmAddCV.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmAddItemSpecs.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmAddProdOutputGroupProc.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmProdOutputGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCACostTable.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmAddBOMContents.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmAddLCS.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCostTableEditor.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditBOMItem.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditBOMMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditBOMSubContents.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditBusinessPartner.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditCTOA.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditItemPerCustomer.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditLineGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmEditLineIssuance.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmEditInventoryTransfer.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditItemMasterData.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditModelGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditProcess.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditProductionOutput.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditReqdWorkingDays.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditWorkingDays.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmUpdateCustomerDemand.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCopyToCTOA.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCopyToLineGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCopyToModelGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.ucIMEditor.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.ucCTEditorBak.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.ucCTEditor.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmBOMRemarks.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmClearDialog.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmConfirmCode.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmChangePassword.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmConversionRate.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCopyChild.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmGenCVBTReport.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmProcessingFeePreset.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmUnitPriceForMTMH.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCTFormulaSettings.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmLogin.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmBase.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmMasterList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportCostTable.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportItemSpecs.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportRMPriceList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportRMPerProcess.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmBusinessPartners.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCostTableUpdating.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmRMPriceList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmProcessComPerProcess.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmProcessPerRM.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmGLAccounts.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmProcessComponentList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCheckVoucher.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCosting.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmLotControlTemplates.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmProdOutputGroupProc.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCapacityPlanningPreview.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmRptModelCapacityTest.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.rptLCS.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.ucTest.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmManageUser.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmReport.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmGenProdInvOnHandSummaryRep.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmReportCustDemand.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmSettings.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmSystemInfo.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmTest.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmUsers.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportBOMMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmImportCTOA.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportInventoryPerLine.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportCountingReference.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportItemCodeHistory.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportInventoryPerWarehouse.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmImportLineGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportMaterialPrice.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmImportLinePerWarehouse.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmImportModelGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportWarehousing.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportItemPerProcess.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportItemPerModel.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportItemPerCustomer.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmImportItemMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmImportCustomerDemand.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmBOMMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmItemPerModel.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmLineGroupSharing.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmLinePerWarehouse.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmMaterialPriceList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmOutputType.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmWarehouseCodeList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmCategoryList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmItemCodeHistory.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCustomerItemMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCustomerList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmItemMasterData.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmLineList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmMachineList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmMakerList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmModelList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmProcessList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmProcessPerItem.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmShiftList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmUOMList.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCapacityPlanning.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmMonthYearSelection.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.ucCTOA.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.ucLineGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.ucModelCapacity.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.ucModelGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.ucWorkingDays.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmBOMContents.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmBOMDetails.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCapacityForecast.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCostTable.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCountingReference.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmCustomerDemand.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmInventoryMonitoring.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmInventoryTransfer.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmBOMProvider.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmKanbanCreator.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmLCSCreator.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmLineIssuance.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmModelGroupAssignment.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmProductionOutput.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmSubContents.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmWarehousing.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.Resources.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.vbproj.GenerateResource.cache
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.exe.licenses
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.vbproj.CoreCompileInputs.cache
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.exe
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.xml
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.pdb
+D:\SYSTEM\MIA\ERP\bin\Debug\MIA.exe.config
+D:\SYSTEM\MIA\ERP\bin\Debug\MIA.exe
+D:\SYSTEM\MIA\ERP\bin\Debug\MIA.pdb
+D:\SYSTEM\MIA\ERP\bin\Debug\MIA.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\BouncyCastle.Crypto.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\FEAPNS.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Google.Protobuf.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\MySql.Data.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Newtonsoft.Json.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\System.Data.DataSetExtensions.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\System.Data.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\System.Deployment.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\System.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\System.Drawing.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\System.Messaging.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\System.Windows.Forms.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\System.Xml.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\System.Xml.Linq.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Documents.SpreadsheetStreaming.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Reporting.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Reporting.Services.HttpClient.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.ReportViewer.WinForms.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.GridView.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.RadDock.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Crystal.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.CrystalDark.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Fluent.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.FluentDark.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.HighContrastBlack.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Material.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.MaterialPink.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.MaterialTeal.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2007Black.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2013Dark.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Office2013Light.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.Themes.Windows8.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.UI.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Core.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Fixed.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Zip.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\TelerikCommon.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\TelerikExport.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.ReportViewer.Wpf.dll
+D:\SYSTEM\MIA\ERP\bin\Debug\FEAPNS.pdb
+D:\SYSTEM\MIA\ERP\bin\Debug\FEAPNS.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\FEAPNS.dll.config
+D:\SYSTEM\MIA\ERP\bin\Debug\Google.Protobuf.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\MySql.Data.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Newtonsoft.Json.pdb
+D:\SYSTEM\MIA\ERP\bin\Debug\Newtonsoft.Json.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Documents.SpreadsheetStreaming.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.GridView.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.RadDock.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.WinControls.UI.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Core.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Fixed.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Windows.Zip.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\TelerikExport.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Reporting.pdb
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.Reporting.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.ReportViewer.WinForms.xml
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.ReportViewer.Wpf.pdb
+D:\SYSTEM\MIA\ERP\bin\Debug\Telerik.ReportViewer.Wpf.xml
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.vbproj.CopyComplete
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmUpdateProdOutputGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmBSSDefect.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmHourlyProdMnt.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmEditHourlyProdMnt.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmRMWorkProcess.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmAddRMWorkProcess.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.frmAddBSSLotNoBeforeOven.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmAddBSSLotNoAfterOven.resources
+D:\SYSTEM\MIA\ERP\bin\Debug\System.Net.Http.Formatting.dll
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmBSSOtherDetails.resources
+D:\SYSTEM\MIA\ERP\obj\Debug\MIA.FrmBSSTemplate.resources

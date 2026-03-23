@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="10.9.1" version="10.9.1" Modules="simple" RootPath="." Language="en" Id="{4D6C0617-ADCA-4CFB-BF4B-F896160BE4B8}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="Manufacturer" Value="FEAP"/>
+    <ROW Property="ProductCode" Value="1033:{3115DDC0-DBBC-43D9-BA54-A5D14D0C6623} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="MIA"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{2813A143-B629-435B-9800-031011B69CAA}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="StartMenuFolder" Directory_Parent="TARGETDIR" DefaultDir="STARTM~1|StartMenuFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="BouncyCastle.Crypto.dll" ComponentId="{ACFCDAB9-53E3-4026-A79D-63DC26E44112}" Directory_="APPDIR" Attributes="0" KeyPath="BouncyCastle.Crypto.dll"/>
+    <ROW Component="FEAPNS.dll" ComponentId="{881EB3F3-B594-4FA3-BD7F-5363AADCC01E}" Directory_="APPDIR" Attributes="0" KeyPath="FEAPNS.dll"/>
+    <ROW Component="Gma.QrCodeNet.Encoding.dll" ComponentId="{920CCADB-48F1-46D2-AF60-DC5AA6D4EB1E}" Directory_="APPDIR" Attributes="0" KeyPath="Gma.QrCodeNet.Encoding.dll"/>
+    <ROW Component="Google.Protobuf.dll" ComponentId="{FE2BFB69-1602-4275-BB58-AC922B76D09A}" Directory_="APPDIR" Attributes="0" KeyPath="Google.Protobuf.dll"/>
+    <ROW Component="MIA.exe" ComponentId="{84DAB4D6-BD09-453E-BEF7-4FAD408D507F}" Directory_="APPDIR" Attributes="0" KeyPath="MIA.exe"/>
+    <ROW Component="MySql.Data.dll" ComponentId="{54A7C57C-F851-402D-AA8A-27C9D6648526}" Directory_="APPDIR" Attributes="0" KeyPath="MySql.Data.dll"/>
+    <ROW Component="Newtonsoft.Json.dll" ComponentId="{ADF7C328-E515-4396-A799-1B05C3AF220D}" Directory_="APPDIR" Attributes="0" KeyPath="Newtonsoft.Json.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{0291B5CD-7397-4160-A7B0-A1FF50EA8D1B}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="ProgramUpdater.exe" ComponentId="{6C260B87-D1B1-4304-A3F7-E6F5BFBFAE2E}" Directory_="APPDIR" Attributes="0" KeyPath="ProgramUpdater.exe"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{B78A18F8-A90E-4C42-9771-490FA4D4BFCF}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="System.Data.DataSetExtensions.dll" ComponentId="{7AB8B717-86B4-4F34-9040-F216847DD8E7}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.DataSetExtensions.dll"/>
+    <ROW Component="System.Data.dll" ComponentId="{CC9DF341-5EC2-4A8A-8F6F-B6F25907654A}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.dll"/>
+    <ROW Component="System.Deployment.dll" ComponentId="{E30B44BE-BEBD-4DED-B567-0CA01176D660}" Directory_="APPDIR" Attributes="0" KeyPath="System.Deployment.dll"/>
+    <ROW Component="System.Drawing.dll" ComponentId="{30B111E7-1DFA-4DBA-819C-8851DCA128B6}" Directory_="APPDIR" Attributes="0" KeyPath="System.Drawing.dll"/>
+    <ROW Component="System.Messaging.dll" ComponentId="{966AB848-1657-4F46-B516-8C414E994B43}" Directory_="APPDIR" Attributes="0" KeyPath="System.Messaging.dll"/>
+    <ROW Component="System.Net.Http.Formatting.dll" ComponentId="{D4AAD728-2061-482F-9291-D369D3E50E01}" Directory_="APPDIR" Attributes="0" KeyPath="System.Net.Http.Formatting.dll"/>
+    <ROW Component="System.Windows.Forms.dll" ComponentId="{DD5A693A-A0EA-48B1-A38B-5416EC41F580}" Directory_="APPDIR" Attributes="0" KeyPath="System.Windows.Forms.dll"/>
+    <ROW Component="System.Xml.Linq.dll" ComponentId="{0301C5B1-3D92-454A-B511-3A09ADA8DB63}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.Linq.dll"/>
+    <ROW Component="System.Xml.dll" ComponentId="{591BE5DE-FF31-4C16-8486-5EF2245CB893}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.dll"/>
+    <ROW Component="System.dll" ComponentId="{36E08A24-F136-4C38-89D2-776760B641C9}" Directory_="APPDIR" Attributes="0" KeyPath="System.dll"/>
+    <ROW Component="Telerik.Documents.SpreadsheetStreaming.d" ComponentId="{B97F0779-A562-42E3-8BA9-CB26A47AA9A1}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.Documents.SpreadsheetStreaming.dll"/>
+    <ROW Component="Telerik.ReportViewer.WinForms.dll" ComponentId="{64F6EF38-036C-484B-9CCB-426900D25AAF}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.ReportViewer.WinForms.dll"/>
+    <ROW Component="Telerik.ReportViewer.Wpf.dll" ComponentId="{405023C7-8CE6-48CC-821B-4BC8D699A132}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.ReportViewer.Wpf.dll"/>
+    <ROW Component="Telerik.Reporting.Services.HttpClient.dl" ComponentId="{33B05EF1-B202-433E-A7C5-956C5D65F9DE}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.Reporting.Services.HttpClient.dll"/>
+    <ROW Component="Telerik.Reporting.dll" ComponentId="{CA3F0681-DE30-46B9-8D5E-50875E11ADEC}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.Reporting.dll"/>
+    <ROW Component="Telerik.WinControls.GridView.dll" ComponentId="{5652503B-0560-43EF-BD23-5E173854CF06}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.GridView.dll"/>
+    <ROW Component="Telerik.WinControls.RadDock.dll" ComponentId="{81A4ED8F-C793-41C4-8409-7AFA92017E88}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.RadDock.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Breeze.dll" ComponentId="{6FF0346F-C85B-4920-A3DE-B3B8BEFD23F2}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Breeze.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Crystal.dll" ComponentId="{F52ADFF4-251A-4833-A751-0CA0A5A3093A}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Crystal.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.CrystalDark.d" ComponentId="{4EAFB44C-1AFC-4D43-9362-D64D10F8FF8D}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.CrystalDark.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Desert.dll" ComponentId="{D77DEB3C-3A9B-44FD-BE78-1D9CEDD18004}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Desert.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Fluent.dll" ComponentId="{D537678E-103E-4FF8-B45A-7A157ACE1066}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Fluent.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.FluentDark.dl" ComponentId="{3346FAA5-719C-496A-B5CF-B5B863E68909}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.FluentDark.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.HighContrastB" ComponentId="{0D80E5D1-93DF-48E6-9B99-D791C924ADC0}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.HighContrastBlack.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Material.dll" ComponentId="{3BB86E0D-97F8-4354-A6B0-CE804F2981A4}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Material.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.MaterialBlueG" ComponentId="{115851C4-3D25-4562-ABC4-D8A02E1FFC31}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.MaterialBlueGrey.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.MaterialPink." ComponentId="{0BF3736A-6B7D-4266-BDF6-87DA282A5FFD}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.MaterialPink.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.MaterialTeal." ComponentId="{42C3477E-21B0-4442-B8EE-591C6A359E4B}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.MaterialTeal.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Office2007Bla" ComponentId="{1246D745-1D04-4132-9680-1C6BFACBECB5}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Office2007Black.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Office2010Bla" ComponentId="{E55A63C2-23BA-4628-9AD0-9707D96A00EF}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Office2010Black.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Office2010Blu" ComponentId="{AB6CD8D1-BF67-4EF6-827A-2DB0C79B7AAD}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Office2010Blue.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Office2010Sil" ComponentId="{A6CF672E-191D-4139-AD13-DE8F240F6391}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Office2010Silver.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Office2013Dar" ComponentId="{6AFF84CE-6331-4859-B047-7C04B45085C5}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Office2013Dark.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Office2013Lig" ComponentId="{97B7D85E-FB4D-4729-85B7-14D5EA757043}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Office2013Light.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.VisualStudi_1" ComponentId="{5616DF69-5110-4310-A6C5-9B25464E054A}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.VisualStudio2012Light.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.VisualStudio2" ComponentId="{F9EA8B01-11E0-4998-9CB3-1F32EA316884}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.VisualStudio2012Dark.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Windows7.dll" ComponentId="{307B0927-BEE2-42A3-8444-C5BB7EBAB0E3}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Windows7.dll"/>
+    <ROW Component="Telerik.WinControls.Themes.Windows8.dll" ComponentId="{28AB0501-B6B7-4973-92EF-844C9653E4E7}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.Themes.Windows8.dll"/>
+    <ROW Component="Telerik.WinControls.UI.dll" ComponentId="{A658998F-50C1-4F1F-A776-B5B33E35B843}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.UI.dll"/>
+    <ROW Component="Telerik.WinControls.dll" ComponentId="{6D9296B0-2E96-4192-8832-0F71E8970FA4}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.WinControls.dll"/>
+    <ROW Component="Telerik.Windows.Documents.Core.dll" ComponentId="{4F88BC38-AA64-4B0D-916D-0C341DF32AE0}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.Windows.Documents.Core.dll"/>
+    <ROW Component="Telerik.Windows.Documents.Fixed.dll" ComponentId="{BD8148A7-AE0A-4A60-AE3C-A2CE9455DA50}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.Windows.Documents.Fixed.dll"/>
+    <ROW Component="Telerik.Windows.Documents.Spreadsheet.Fo" ComponentId="{202D47B2-97FF-4F63-9763-1F6AD097E5E2}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll"/>
+    <ROW Component="Telerik.Windows.Documents.Spreadsheet._1" ComponentId="{01DFE612-0A63-45FC-ACD1-FD09D8FC4046}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll"/>
+    <ROW Component="Telerik.Windows.Documents.Spreadsheet.dl" ComponentId="{C5022325-D90B-4E12-9031-9B2F1DB9C499}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.Windows.Documents.Spreadsheet.dll"/>
+    <ROW Component="Telerik.Windows.Zip.dll" ComponentId="{80D9FACF-F61F-4E4C-9F64-078EB33BA332}" Directory_="APPDIR" Attributes="0" KeyPath="Telerik.Windows.Zip.dll"/>
+    <ROW Component="TelerikCommon.dll" ComponentId="{D9084270-1596-49E5-B9DC-DEE16B600E8C}" Directory_="APPDIR" Attributes="0" KeyPath="TelerikCommon.dll"/>
+    <ROW Component="TelerikExport.dll" ComponentId="{DF1A2EE7-DA32-46BC-B828-2FC1C74A6E7C}" Directory_="APPDIR" Attributes="0" KeyPath="TelerikExport.dll"/>
+    <ROW Component="manual.pdf" ComponentId="{5FA9DAD4-DBB4-4167-B7F1-5C7D9CF2C79F}" Directory_="APPDIR" Attributes="0" KeyPath="manual.pdf" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="BouncyCastle.Crypto.dll FEAPNS.dll Gma.QrCodeNet.Encoding.dll Google.Protobuf.dll MIA.exe MySql.Data.dll Newtonsoft.Json.dll ProductInformation ProgramUpdater.exe SHORTCUTDIR System.Data.DataSetExtensions.dll System.Data.dll System.Deployment.dll System.Drawing.dll System.Messaging.dll System.Net.Http.Formatting.dll System.Windows.Forms.dll System.Xml.Linq.dll System.Xml.dll System.dll Telerik.Documents.SpreadsheetStreaming.d Telerik.ReportViewer.WinForms.dll Telerik.ReportViewer.Wpf.dll Telerik.Reporting.Services.HttpClient.dl Telerik.Reporting.dll Telerik.WinControls.GridView.dll Telerik.WinControls.RadDock.dll Telerik.WinControls.Themes.Breeze.dll Telerik.WinControls.Themes.Crystal.dll Telerik.WinControls.Themes.CrystalDark.d Telerik.WinControls.Themes.Desert.dll Telerik.WinControls.Themes.Fluent.dll Telerik.WinControls.Themes.FluentDark.dl Telerik.WinControls.Themes.HighContrastB Telerik.WinControls.Themes.Material.dll Telerik.WinControls.Themes.MaterialBlueG Telerik.WinControls.Themes.MaterialPink. Telerik.WinControls.Themes.MaterialTeal. Telerik.WinControls.Themes.Office2007Bla Telerik.WinControls.Themes.Office2010Bla Telerik.WinControls.Themes.Office2010Blu Telerik.WinControls.Themes.Office2010Sil Telerik.WinControls.Themes.Office2013Dar Telerik.WinControls.Themes.Office2013Lig Telerik.WinControls.Themes.VisualStudi_1 Telerik.WinControls.Themes.VisualStudio2 Telerik.WinControls.Themes.Windows7.dll Telerik.WinControls.Themes.Windows8.dll Telerik.WinControls.UI.dll Telerik.WinControls.dll Telerik.Windows.Documents.Core.dll Telerik.Windows.Documents.Fixed.dll Telerik.Windows.Documents.Spreadsheet.Fo Telerik.Windows.Documents.Spreadsheet._1 Telerik.Windows.Documents.Spreadsheet.dl Telerik.Windows.Zip.dll TelerikCommon.dll TelerikExport.dll manual.pdf"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="BouncyCastle.Crypto.dll" Component_="BouncyCastle.Crypto.dll" FileName="BOUNCY~1.DLL|BouncyCastle.Crypto.dll" Attributes="0" SourcePath="..\ERP\bin\Release\BouncyCastle.Crypto.dll" SelfReg="false" NextFile="FEAPNS.dll"/>
+    <ROW File="ERP.xml" Component_="manual.pdf" FileName="ERP.xml" Attributes="0" SourcePath="..\ERP\bin\Release\ERP.xml" SelfReg="false" NextFile="FEAPNS.xml"/>
+    <ROW File="FEAPNS.dll" Component_="FEAPNS.dll" FileName="FEAPNS.dll" Attributes="0" SourcePath="..\ERP\bin\Release\FEAPNS.dll" SelfReg="false" NextFile="Gma.QrCodeNet.Encoding.dll"/>
+    <ROW File="FEAPNS.dll.config" Component_="manual.pdf" FileName="FEAPNS~1.CON|FEAPNS.dll.config" Attributes="0" SourcePath="..\ERP\bin\Release\FEAPNS.dll.config" SelfReg="false" NextFile="MIA.exe.config"/>
+    <ROW File="FEAPNS.pdb" Component_="FEAPNS.dll" FileName="FEAPNS.pdb" Attributes="0" SourcePath="..\ERP\bin\Release\FEAPNS.pdb" SelfReg="false" NextFile="MIA.pdb"/>
+    <ROW File="FEAPNS.xml" Component_="manual.pdf" FileName="FEAPNS.xml" Attributes="0" SourcePath="..\ERP\bin\Release\FEAPNS.xml" SelfReg="false" NextFile="MIA.xml"/>
+    <ROW File="Gma.QrCodeNet.Encoding.dll" Component_="Gma.QrCodeNet.Encoding.dll" FileName="GMAQRC~1.DLL|Gma.QrCodeNet.Encoding.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Gma.QrCodeNet.Encoding.dll" SelfReg="false" NextFile="Google.Protobuf.dll"/>
+    <ROW File="Google.Protobuf.dll" Component_="Google.Protobuf.dll" FileName="GOOGLE~1.DLL|Google.Protobuf.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Google.Protobuf.dll" SelfReg="false" NextFile="MySql.Data.dll"/>
+    <ROW File="MIA.exe" Component_="MIA.exe" FileName="MIA.exe" Attributes="0" SourcePath="..\ERP\bin\Release\MIA.exe" SelfReg="false" NextFile="BouncyCastle.Crypto.dll" DigSign="true"/>
+    <ROW File="MIA.exe.config" Component_="manual.pdf" FileName="MIAEXE~1.CON|MIA.exe.config" Attributes="0" SourcePath="..\ERP\bin\Release\MIA.exe.config" SelfReg="false" NextFile="ERP.xml"/>
+    <ROW File="MIA.pdb" Component_="MIA.exe" FileName="MIA.pdb" Attributes="0" SourcePath="..\ERP\bin\Release\MIA.pdb" SelfReg="false" NextFile="Newtonsoft.Json.pdb"/>
+    <ROW File="MIA.xml" Component_="manual.pdf" FileName="MIA.xml" Attributes="0" SourcePath="..\ERP\bin\Release\MIA.xml" SelfReg="false" NextFile="MySql.Data.xml"/>
+    <ROW File="MySql.Data.dll" Component_="MySql.Data.dll" FileName="MYSQLD~1.DLL|MySql.Data.dll" Attributes="0" SourcePath="..\ERP\bin\Release\MySql.Data.dll" SelfReg="false" NextFile="Newtonsoft.Json.dll"/>
+    <ROW File="MySql.Data.xml" Component_="manual.pdf" FileName="MYSQLD~1.XML|MySql.Data.xml" Attributes="0" SourcePath="..\ERP\bin\Release\MySql.Data.xml" SelfReg="false" NextFile="Newtonsoft.Json.xml"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="Newtonsoft.Json.dll" FileName="NEWTON~1.DLL|Newtonsoft.Json.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Newtonsoft.Json.dll" SelfReg="false" NextFile="System.Data.DataSetExtensions.dll"/>
+    <ROW File="Newtonsoft.Json.pdb" Component_="Newtonsoft.Json.dll" FileName="NEWTON~1.PDB|Newtonsoft.Json.pdb" Attributes="0" SourcePath="..\ERP\bin\Release\Newtonsoft.Json.pdb" SelfReg="false" NextFile="Telerik.Reporting.pdb"/>
+    <ROW File="Newtonsoft.Json.xml" Component_="manual.pdf" FileName="NEWTON~1.XML|Newtonsoft.Json.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Newtonsoft.Json.xml" SelfReg="false" NextFile="System.Net.Http.Formatting.xml"/>
+    <ROW File="ProgramUpdater.exe" Component_="ProgramUpdater.exe" FileName="PROGRA~1.EXE|ProgramUpdater.exe" Attributes="0" SourcePath="D:\VB PROGRAM SOURCE\FEAP  HRMS Program updater\ProgramUpdater\ProgramUpdater\bin\Release\ProgramUpdater.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="System.Data.DataSetExtensions.dll" Component_="System.Data.DataSetExtensions.dll" FileName="SYSTEM~1.DLL|System.Data.DataSetExtensions.dll" Attributes="0" SourcePath="..\ERP\bin\Release\System.Data.DataSetExtensions.dll" SelfReg="false" NextFile="System.Data.dll"/>
+    <ROW File="System.Data.dll" Component_="System.Data.dll" FileName="SYSTEM~2.DLL|System.Data.dll" Attributes="0" SourcePath="..\ERP\bin\Release\System.Data.dll" SelfReg="false" NextFile="System.Deployment.dll"/>
+    <ROW File="System.Deployment.dll" Component_="System.Deployment.dll" FileName="SYSTEM~3.DLL|System.Deployment.dll" Attributes="0" SourcePath="..\ERP\bin\Release\System.Deployment.dll" SelfReg="false" NextFile="System.dll"/>
+    <ROW File="System.Drawing.dll" Component_="System.Drawing.dll" FileName="SYSTEM~4.DLL|System.Drawing.dll" Attributes="0" SourcePath="..\ERP\bin\Release\System.Drawing.dll" SelfReg="false" NextFile="System.Messaging.dll"/>
+    <ROW File="System.Messaging.dll" Component_="System.Messaging.dll" FileName="SYSTEM~5.DLL|System.Messaging.dll" Attributes="0" SourcePath="..\ERP\bin\Release\System.Messaging.dll" SelfReg="false" NextFile="System.Net.Http.Formatting.dll"/>
+    <ROW File="System.Net.Http.Formatting.dll" Component_="System.Net.Http.Formatting.dll" FileName="SYSTEM~6.DLL|System.Net.Http.Formatting.dll" Attributes="0" SourcePath="..\ERP\bin\Release\System.Net.Http.Formatting.dll" SelfReg="false" NextFile="System.Windows.Forms.dll"/>
+    <ROW File="System.Net.Http.Formatting.xml" Component_="manual.pdf" FileName="SYSTEM~1.XML|System.Net.Http.Formatting.xml" Attributes="0" SourcePath="..\ERP\bin\Release\System.Net.Http.Formatting.xml" SelfReg="false" NextFile="Telerik.Documents.SpreadsheetStreaming.xml"/>
+    <ROW File="System.Windows.Forms.dll" Component_="System.Windows.Forms.dll" FileName="SYSTEM~7.DLL|System.Windows.Forms.dll" Attributes="0" SourcePath="..\ERP\bin\Release\System.Windows.Forms.dll" SelfReg="false" NextFile="System.Xml.dll"/>
+    <ROW File="System.Xml.Linq.dll" Component_="System.Xml.Linq.dll" FileName="SYSTEM~9.DLL|System.Xml.Linq.dll" Attributes="0" SourcePath="..\ERP\bin\Release\System.Xml.Linq.dll" SelfReg="false" NextFile="Telerik.Documents.SpreadsheetStreaming.dll"/>
+    <ROW File="System.Xml.dll" Component_="System.Xml.dll" FileName="SYSTEM~8.DLL|System.Xml.dll" Attributes="0" SourcePath="..\ERP\bin\Release\System.Xml.dll" SelfReg="false" NextFile="System.Xml.Linq.dll"/>
+    <ROW File="System.dll" Component_="System.dll" FileName="System.dll" Attributes="0" SourcePath="..\ERP\bin\Release\System.dll" SelfReg="false" NextFile="System.Drawing.dll"/>
+    <ROW File="Telerik.Documents.SpreadsheetStreaming.dll" Component_="Telerik.Documents.SpreadsheetStreaming.d" FileName="TELERI~1.DLL|Telerik.Documents.SpreadsheetStreaming.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Documents.SpreadsheetStreaming.dll" SelfReg="false" NextFile="Telerik.Reporting.dll"/>
+    <ROW File="Telerik.Documents.SpreadsheetStreaming.xml" Component_="manual.pdf" FileName="TELERI~1.XML|Telerik.Documents.SpreadsheetStreaming.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Documents.SpreadsheetStreaming.xml" SelfReg="false" NextFile="Telerik.Reporting.xml"/>
+    <ROW File="Telerik.ReportViewer.WinForms.dll" Component_="Telerik.ReportViewer.WinForms.dll" FileName="TELERI~4.DLL|Telerik.ReportViewer.WinForms.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.ReportViewer.WinForms.dll" SelfReg="false" NextFile="Telerik.ReportViewer.Wpf.dll"/>
+    <ROW File="Telerik.ReportViewer.WinForms.pdb" Component_="Telerik.ReportViewer.WinForms.dll" FileName="TELERI~2.PDB|Telerik.ReportViewer.WinForms.pdb" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.ReportViewer.WinForms.pdb" SelfReg="false" NextFile="Telerik.ReportViewer.Wpf.pdb"/>
+    <ROW File="Telerik.ReportViewer.WinForms.xml" Component_="manual.pdf" FileName="TELERI~3.XML|Telerik.ReportViewer.WinForms.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.ReportViewer.WinForms.xml" SelfReg="false" NextFile="Telerik.ReportViewer.Wpf.xml"/>
+    <ROW File="Telerik.ReportViewer.Wpf.dll" Component_="Telerik.ReportViewer.Wpf.dll" FileName="TELERI~5.DLL|Telerik.ReportViewer.Wpf.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.ReportViewer.Wpf.dll" SelfReg="false" NextFile="Telerik.WinControls.dll"/>
+    <ROW File="Telerik.ReportViewer.Wpf.pdb" Component_="Telerik.ReportViewer.Wpf.dll" FileName="TELERI~3.PDB|Telerik.ReportViewer.Wpf.pdb" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.ReportViewer.Wpf.pdb" SelfReg="false" NextFile="FEAPNS.dll.config"/>
+    <ROW File="Telerik.ReportViewer.Wpf.xml" Component_="manual.pdf" FileName="TELERI~4.XML|Telerik.ReportViewer.Wpf.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.ReportViewer.Wpf.xml" SelfReg="false" NextFile="Telerik.WinControls.GridView.xml"/>
+    <ROW File="Telerik.Reporting.Services.HttpClient.dll" Component_="Telerik.Reporting.Services.HttpClient.dl" FileName="TELERI~3.DLL|Telerik.Reporting.Services.HttpClient.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Reporting.Services.HttpClient.dll" SelfReg="false" NextFile="Telerik.ReportViewer.WinForms.dll"/>
+    <ROW File="Telerik.Reporting.dll" Component_="Telerik.Reporting.dll" FileName="TELERI~2.DLL|Telerik.Reporting.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Reporting.dll" SelfReg="false" NextFile="Telerik.Reporting.Services.HttpClient.dll"/>
+    <ROW File="Telerik.Reporting.pdb" Component_="Telerik.Reporting.dll" FileName="TELERI~1.PDB|Telerik.Reporting.pdb" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Reporting.pdb" SelfReg="false" NextFile="Telerik.ReportViewer.WinForms.pdb"/>
+    <ROW File="Telerik.Reporting.xml" Component_="manual.pdf" FileName="TELERI~2.XML|Telerik.Reporting.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Reporting.xml" SelfReg="false" NextFile="Telerik.ReportViewer.WinForms.xml"/>
+    <ROW File="Telerik.WinControls.GridView.dll" Component_="Telerik.WinControls.GridView.dll" FileName="TELERI~7.DLL|Telerik.WinControls.GridView.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.GridView.dll" SelfReg="false" NextFile="Telerik.WinControls.RadDock.dll"/>
+    <ROW File="Telerik.WinControls.GridView.xml" Component_="manual.pdf" FileName="TELERI~5.XML|Telerik.WinControls.GridView.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.GridView.xml" SelfReg="false" NextFile="Telerik.WinControls.RadDock.xml"/>
+    <ROW File="Telerik.WinControls.RadDock.dll" Component_="Telerik.WinControls.RadDock.dll" FileName="TELERI~8.DLL|Telerik.WinControls.RadDock.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.RadDock.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Breeze.dll"/>
+    <ROW File="Telerik.WinControls.RadDock.xml" Component_="manual.pdf" FileName="TELERI~6.XML|Telerik.WinControls.RadDock.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.RadDock.xml" SelfReg="false" NextFile="Telerik.WinControls.UI.xml"/>
+    <ROW File="Telerik.WinControls.Themes.Breeze.dll" Component_="Telerik.WinControls.Themes.Breeze.dll" FileName="TELERI~9.DLL|Telerik.WinControls.Themes.Breeze.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Breeze.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Crystal.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Crystal.dll" Component_="Telerik.WinControls.Themes.Crystal.dll" FileName="TELER~10.DLL|Telerik.WinControls.Themes.Crystal.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Crystal.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.CrystalDark.dll"/>
+    <ROW File="Telerik.WinControls.Themes.CrystalDark.dll" Component_="Telerik.WinControls.Themes.CrystalDark.d" FileName="TELER~11.DLL|Telerik.WinControls.Themes.CrystalDark.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.CrystalDark.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Desert.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Desert.dll" Component_="Telerik.WinControls.Themes.Desert.dll" FileName="TELER~12.DLL|Telerik.WinControls.Themes.Desert.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Desert.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Fluent.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Fluent.dll" Component_="Telerik.WinControls.Themes.Fluent.dll" FileName="TELER~13.DLL|Telerik.WinControls.Themes.Fluent.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Fluent.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.FluentDark.dll"/>
+    <ROW File="Telerik.WinControls.Themes.FluentDark.dll" Component_="Telerik.WinControls.Themes.FluentDark.dl" FileName="TELER~14.DLL|Telerik.WinControls.Themes.FluentDark.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.FluentDark.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.HighContrastBlack.dll"/>
+    <ROW File="Telerik.WinControls.Themes.HighContrastBlack.dll" Component_="Telerik.WinControls.Themes.HighContrastB" FileName="TELER~15.DLL|Telerik.WinControls.Themes.HighContrastBlack.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.HighContrastBlack.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Material.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Material.dll" Component_="Telerik.WinControls.Themes.Material.dll" FileName="TELER~16.DLL|Telerik.WinControls.Themes.Material.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Material.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.MaterialBlueGrey.dll"/>
+    <ROW File="Telerik.WinControls.Themes.MaterialBlueGrey.dll" Component_="Telerik.WinControls.Themes.MaterialBlueG" FileName="TELER~17.DLL|Telerik.WinControls.Themes.MaterialBlueGrey.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.MaterialBlueGrey.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.MaterialPink.dll"/>
+    <ROW File="Telerik.WinControls.Themes.MaterialPink.dll" Component_="Telerik.WinControls.Themes.MaterialPink." FileName="TELER~18.DLL|Telerik.WinControls.Themes.MaterialPink.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.MaterialPink.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.MaterialTeal.dll"/>
+    <ROW File="Telerik.WinControls.Themes.MaterialTeal.dll" Component_="Telerik.WinControls.Themes.MaterialTeal." FileName="TELER~19.DLL|Telerik.WinControls.Themes.MaterialTeal.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.MaterialTeal.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Office2007Black.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Office2007Black.dll" Component_="Telerik.WinControls.Themes.Office2007Bla" FileName="TELER~20.DLL|Telerik.WinControls.Themes.Office2007Black.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Office2007Black.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Office2010Black.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Office2010Black.dll" Component_="Telerik.WinControls.Themes.Office2010Bla" FileName="TELER~21.DLL|Telerik.WinControls.Themes.Office2010Black.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Black.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Office2010Blue.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Office2010Blue.dll" Component_="Telerik.WinControls.Themes.Office2010Blu" FileName="TELER~22.DLL|Telerik.WinControls.Themes.Office2010Blue.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Blue.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Office2010Silver.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Office2010Silver.dll" Component_="Telerik.WinControls.Themes.Office2010Sil" FileName="TELER~23.DLL|Telerik.WinControls.Themes.Office2010Silver.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Silver.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Office2013Dark.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Office2013Dark.dll" Component_="Telerik.WinControls.Themes.Office2013Dar" FileName="TELER~24.DLL|Telerik.WinControls.Themes.Office2013Dark.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Office2013Dark.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Office2013Light.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Office2013Light.dll" Component_="Telerik.WinControls.Themes.Office2013Lig" FileName="TELER~25.DLL|Telerik.WinControls.Themes.Office2013Light.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Office2013Light.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.VisualStudio2012Dark.dll"/>
+    <ROW File="Telerik.WinControls.Themes.VisualStudio2012Dark.dll" Component_="Telerik.WinControls.Themes.VisualStudio2" FileName="TELER~26.DLL|Telerik.WinControls.Themes.VisualStudio2012Dark.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.VisualStudio2012Dark.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.VisualStudio2012Light.dll"/>
+    <ROW File="Telerik.WinControls.Themes.VisualStudio2012Light.dll" Component_="Telerik.WinControls.Themes.VisualStudi_1" FileName="TELER~27.DLL|Telerik.WinControls.Themes.VisualStudio2012Light.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.VisualStudio2012Light.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Windows7.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Windows7.dll" Component_="Telerik.WinControls.Themes.Windows7.dll" FileName="TELER~28.DLL|Telerik.WinControls.Themes.Windows7.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Windows7.dll" SelfReg="false" NextFile="Telerik.WinControls.Themes.Windows8.dll"/>
+    <ROW File="Telerik.WinControls.Themes.Windows8.dll" Component_="Telerik.WinControls.Themes.Windows8.dll" FileName="TELER~29.DLL|Telerik.WinControls.Themes.Windows8.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.Themes.Windows8.dll" SelfReg="false" NextFile="Telerik.WinControls.UI.dll"/>
+    <ROW File="Telerik.WinControls.UI.dll" Component_="Telerik.WinControls.UI.dll" FileName="TELER~30.DLL|Telerik.WinControls.UI.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.UI.dll" SelfReg="false" NextFile="Telerik.Windows.Documents.Core.dll"/>
+    <ROW File="Telerik.WinControls.UI.xml" Component_="manual.pdf" FileName="TELERI~7.XML|Telerik.WinControls.UI.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.UI.xml" SelfReg="false" NextFile="Telerik.WinControls.xml"/>
+    <ROW File="Telerik.WinControls.dll" Component_="Telerik.WinControls.dll" FileName="TELERI~6.DLL|Telerik.WinControls.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.dll" SelfReg="false" NextFile="Telerik.WinControls.GridView.dll"/>
+    <ROW File="Telerik.WinControls.xml" Component_="manual.pdf" FileName="TELERI~8.XML|Telerik.WinControls.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.WinControls.xml" SelfReg="false" NextFile="Telerik.Windows.Documents.Core.xml"/>
+    <ROW File="Telerik.Windows.Documents.Core.dll" Component_="Telerik.Windows.Documents.Core.dll" FileName="TELER~31.DLL|Telerik.Windows.Documents.Core.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Documents.Core.dll" SelfReg="false" NextFile="Telerik.Windows.Documents.Fixed.dll"/>
+    <ROW File="Telerik.Windows.Documents.Core.xml" Component_="manual.pdf" FileName="TELERI~9.XML|Telerik.Windows.Documents.Core.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Documents.Core.xml" SelfReg="false" NextFile="Telerik.Windows.Documents.Fixed.xml"/>
+    <ROW File="Telerik.Windows.Documents.Fixed.dll" Component_="Telerik.Windows.Documents.Fixed.dll" FileName="TELER~32.DLL|Telerik.Windows.Documents.Fixed.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Documents.Fixed.dll" SelfReg="false" NextFile="Telerik.Windows.Documents.Spreadsheet.dll"/>
+    <ROW File="Telerik.Windows.Documents.Fixed.xml" Component_="manual.pdf" FileName="TELER~10.XML|Telerik.Windows.Documents.Fixed.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Documents.Fixed.xml" SelfReg="false" NextFile="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml"/>
+    <ROW File="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll" Component_="Telerik.Windows.Documents.Spreadsheet.Fo" FileName="TELER~34.DLL|Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll" SelfReg="false" NextFile="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll"/>
+    <ROW File="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml" Component_="manual.pdf" FileName="TELER~11.XML|Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml" SelfReg="false" NextFile="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml"/>
+    <ROW File="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll" Component_="Telerik.Windows.Documents.Spreadsheet._1" FileName="TELER~35.DLL|Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll" SelfReg="false" NextFile="Telerik.Windows.Zip.dll"/>
+    <ROW File="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml" Component_="manual.pdf" FileName="TELER~12.XML|Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml" SelfReg="false" NextFile="Telerik.Windows.Documents.Spreadsheet.xml"/>
+    <ROW File="Telerik.Windows.Documents.Spreadsheet.dll" Component_="Telerik.Windows.Documents.Spreadsheet.dl" FileName="TELER~33.DLL|Telerik.Windows.Documents.Spreadsheet.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.dll" SelfReg="false" NextFile="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll"/>
+    <ROW File="Telerik.Windows.Documents.Spreadsheet.xml" Component_="manual.pdf" FileName="TELER~13.XML|Telerik.Windows.Documents.Spreadsheet.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.xml" SelfReg="false" NextFile="Telerik.Windows.Zip.xml"/>
+    <ROW File="Telerik.Windows.Zip.dll" Component_="Telerik.Windows.Zip.dll" FileName="TELER~36.DLL|Telerik.Windows.Zip.dll" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Zip.dll" SelfReg="false" NextFile="TelerikCommon.dll"/>
+    <ROW File="Telerik.Windows.Zip.xml" Component_="manual.pdf" FileName="TELER~14.XML|Telerik.Windows.Zip.xml" Attributes="0" SourcePath="..\ERP\bin\Release\Telerik.Windows.Zip.xml" SelfReg="false" NextFile="TelerikExport.xml"/>
+    <ROW File="TelerikCommon.dll" Component_="TelerikCommon.dll" FileName="TELER~37.DLL|TelerikCommon.dll" Attributes="0" SourcePath="..\ERP\bin\Release\TelerikCommon.dll" SelfReg="false" NextFile="TelerikExport.dll"/>
+    <ROW File="TelerikExport.dll" Component_="TelerikExport.dll" FileName="TELER~38.DLL|TelerikExport.dll" Attributes="0" SourcePath="..\ERP\bin\Release\TelerikExport.dll" SelfReg="false" NextFile="FEAPNS.pdb"/>
+    <ROW File="TelerikExport.xml" Component_="manual.pdf" FileName="TELER~15.XML|TelerikExport.xml" Attributes="0" SourcePath="..\ERP\bin\Release\TelerikExport.xml" SelfReg="false" NextFile="ProgramUpdater.exe"/>
+    <ROW File="manual.pdf" Component_="manual.pdf" FileName="manual.pdf" Attributes="0" SourcePath="..\ERP\bin\Release\manual.pdf" SelfReg="false" NextFile="MIA.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+    <ATTRIBUTE name="CurrentBuild" value="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Type="1" Source="aicustact.dll" Target="GetLocalizedCredentials"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="52"/>
+    <ROW Action="AI_DpiContentScale" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT40Display]" DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]" DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="MIA" Directory_="SHORTCUTDIR" Name="MIA" Component_="MIA.exe" Target="[#MIA.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="MIA_1" Directory_="DesktopFolder" Name="MIA" Component_="MIA.exe" Target="[#MIA.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="MIA_2" Directory_="StartMenuFolder" Name="MIA" Component_="MIA.exe" Target="[#MIA.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>

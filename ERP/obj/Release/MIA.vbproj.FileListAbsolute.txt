@@ -1,0 +1,808 @@
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmAddBOMContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmAddLCS.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditBOMItem.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditBOMMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditBOMSubContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditItemMasterData.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditProcess.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmChangePassword.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCopyChild.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmLogin.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmBase.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmReport.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmTest.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmUsers.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmBOMMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmItemPerModel.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmCategoryList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmItemCodeHistory.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCustomerItemMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCustomerList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmItemMasterData.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmLineList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmMakerList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmModelList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmProcessList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmProcessPerItem.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmShiftList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmBOMContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmLCSCreator.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmModelGroupAssignment.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmSubContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.Resources.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.vbproj.GenerateResource.cache
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.exe.licenses
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.vbproj.CoreCompileInputs.cache
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\MIA.exe.config
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\MIA.exe
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\MIA.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\MIA.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\MySql.Data.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Newtonsoft.Json.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\System.Data.DataSetExtensions.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\System.Data.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\System.Deployment.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\System.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\System.Drawing.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\System.Windows.Forms.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\System.Xml.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\System.Xml.Linq.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Documents.SpreadsheetStreaming.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.GridView.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Crystal.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.CrystalDark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Desert.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Fluent.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.FluentDark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.HighContrastBlack.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Material.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.MaterialPink.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.MaterialTeal.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Office2013Dark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Office2013Light.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.Themes.Windows8.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.UI.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Documents.Core.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Documents.Fixed.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Zip.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\TelerikCommon.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\TelerikExport.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Newtonsoft.Json.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Newtonsoft.Json.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Documents.SpreadsheetStreaming.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Reporting.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Reporting.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.ReportViewer.WinForms.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.ReportViewer.WinForms.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.GridView.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.UI.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Documents.Core.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Documents.Fixed.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Windows.Zip.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\TelerikExport.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.vbproj.CopyComplete
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.exe
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.vbprojAssemblyReference.cache
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmImportItemMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmUOMList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmConfirmCode.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmManageUser.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmSettings.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmSystemInfo.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Google.Protobuf.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\MySql.Data.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmImportItemPerCustomer.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmImportItemPerModel.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmImportItemPerProcess.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmImportItemCodeHistory.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmMachineList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmKanbanCreator.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmImportBOMMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmWarehouseCodeList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmInventoryTransfer.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmLineIssuance.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmWarehousing.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmImportWarehousing.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmInventoryMonitoring.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\System.Messaging.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCustomerDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmUpdateCustomerDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmReportCustDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmImportCustomerDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditInventoryTransfer.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmEditLineIssuance.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmLinePerWarehouse.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmImportInventoryPerWarehouse.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmImportInventoryPerLine.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmOutputType.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmProductionOutput.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCountingReference.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditProductionOutput.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmImportCountingReference.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmImportLinePerWarehouse.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmBOMProvider.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmBOMDetails.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.RadDock.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.WinControls.RadDock.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmBOMRemarks.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmMaterialPriceList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmImportMaterialPrice.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmAddItemSpecs.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCostTable.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCACostTable.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Reporting.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.Reporting.Services.HttpClient.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.ReportViewer.WinForms.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditReqdWorkingDays.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmEditWorkingDays.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCopyToCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCopyToLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCopyToModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCapacityPlanningPreview.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmRptModelCapacityTest.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmImportCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmImportLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmImportModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmLineGroupSharing.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCapacityPlanning.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmMonthYearSelection.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.ucCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.ucLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.ucModelCapacity.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.ucModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.ucWorkingDays.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCapacityForecast.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\FEAPNS.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.ReportViewer.Wpf.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\FEAPNS.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\FEAPNS.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\FEAPNS.dll.config
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.ReportViewer.Wpf.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\Telerik.ReportViewer.Wpf.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.FrmCostTableEditor.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\ERP\obj\Release\MIA.frmProcessComponentList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\MIA.exe.config
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\MIA.exe
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\MIA.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\MIA.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\MySql.Data.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Newtonsoft.Json.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\System.Data.DataSetExtensions.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\System.Data.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\System.Deployment.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\System.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\System.Drawing.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\System.Messaging.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\System.Windows.Forms.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\System.Xml.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\System.Xml.Linq.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Documents.SpreadsheetStreaming.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.GridView.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.RadDock.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Crystal.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.CrystalDark.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Desert.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Fluent.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.FluentDark.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.HighContrastBlack.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Material.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.MaterialPink.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.MaterialTeal.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2013Dark.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2013Light.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Windows8.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.UI.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Documents.Core.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Documents.Fixed.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Zip.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\TelerikCommon.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\TelerikExport.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.ReportViewer.Wpf.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Google.Protobuf.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\FEAPNS.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\FEAPNS.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\FEAPNS.dll.config
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\MySql.Data.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Newtonsoft.Json.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Newtonsoft.Json.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Documents.SpreadsheetStreaming.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.GridView.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.RadDock.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.WinControls.UI.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Documents.Core.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Documents.Fixed.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Windows.Zip.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\TelerikExport.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Reporting.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.Reporting.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.ReportViewer.WinForms.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.ReportViewer.WinForms.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.ReportViewer.Wpf.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\Telerik.ReportViewer.Wpf.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.vbprojAssemblyReference.cache
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmAddItemSpecs.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCACostTable.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmAddBOMContents.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmAddLCS.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCostTableEditor.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmEditBOMItem.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmEditBOMMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmEditBOMSubContents.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmEditCTOA.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmEditLineGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmEditLineIssuance.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmEditInventoryTransfer.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmEditItemMasterData.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmEditModelGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmEditProcess.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmEditProductionOutput.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmEditReqdWorkingDays.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmEditWorkingDays.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmUpdateCustomerDemand.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCopyToCTOA.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCopyToLineGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCopyToModelGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmBOMRemarks.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmConfirmCode.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmChangePassword.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCopyChild.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmLogin.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmBase.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmProcessComponentList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCapacityPlanningPreview.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmRptModelCapacityTest.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmManageUser.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmReport.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmReportCustDemand.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmSettings.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmSystemInfo.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmTest.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmUsers.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmImportBOMMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmImportCTOA.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmImportInventoryPerLine.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmImportCountingReference.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmImportItemCodeHistory.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmImportInventoryPerWarehouse.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmImportLineGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmImportMaterialPrice.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmImportLinePerWarehouse.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmImportModelGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmImportWarehousing.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmImportItemPerProcess.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmImportItemPerModel.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmImportItemPerCustomer.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmImportItemMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmImportCustomerDemand.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmBOMMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmItemPerModel.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmLineGroupSharing.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmLinePerWarehouse.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmMaterialPriceList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmOutputType.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmWarehouseCodeList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmCategoryList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmItemCodeHistory.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCustomerItemMaster.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCustomerList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmItemMasterData.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmLineList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmMachineList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmMakerList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmModelList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmProcessList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmProcessPerItem.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmShiftList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmUOMList.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCapacityPlanning.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmMonthYearSelection.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.ucCTOA.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.ucLineGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.ucModelCapacity.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.ucModelGroup.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.ucWorkingDays.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmBOMContents.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmBOMDetails.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCapacityForecast.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCostTable.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCountingReference.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmCustomerDemand.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmInventoryMonitoring.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmInventoryTransfer.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.frmBOMProvider.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmKanbanCreator.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmLCSCreator.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmLineIssuance.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmModelGroupAssignment.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmProductionOutput.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmSubContents.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.FrmWarehousing.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.Resources.resources
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.vbproj.GenerateResource.cache
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.exe.licenses
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.vbproj.CoreCompileInputs.cache
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.vbproj.CopyComplete
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.exe
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.xml
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\obj\Release\MIA.pdb
+C:\Users\paulo.encontro\Documents\Visual Studio 2017\Projects\MIA\ERP\bin\Release\FEAPNS.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\MIA.exe.config
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\MIA.exe
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\MIA.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\MIA.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Gma.QrCodeNet.Encoding.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\MySql.Data.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Newtonsoft.Json.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\System.Data.DataSetExtensions.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\System.Data.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\System.Deployment.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\System.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\System.Drawing.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\System.Messaging.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\System.Windows.Forms.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\System.Xml.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\System.Xml.Linq.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Documents.SpreadsheetStreaming.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Reporting.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Reporting.Services.HttpClient.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.ReportViewer.WinForms.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.GridView.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.RadDock.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Crystal.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.CrystalDark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Desert.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Fluent.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.FluentDark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.HighContrastBlack.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Material.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.MaterialPink.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.MaterialTeal.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2013Dark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2013Light.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Windows8.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.UI.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Documents.Core.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Documents.Fixed.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Zip.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\TelerikCommon.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\TelerikExport.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Google.Protobuf.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\MySql.Data.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Newtonsoft.Json.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Newtonsoft.Json.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Documents.SpreadsheetStreaming.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.GridView.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.RadDock.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.WinControls.UI.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Documents.Core.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Documents.Fixed.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Windows.Zip.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\TelerikExport.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Reporting.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.Reporting.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.ReportViewer.WinForms.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\Telerik.ReportViewer.WinForms.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.vbprojAssemblyReference.cache
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmAddCV.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmAddItemSpecs.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCACostTable.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmAddBOMContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmAddLCS.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCostTableEditor.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditBOMItem.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditBOMMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditBOMSubContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditBusinessPartner.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditItemPerCustomer.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmEditLineIssuance.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmEditInventoryTransfer.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditItemMasterData.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditProcess.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditProductionOutput.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditReqdWorkingDays.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmEditWorkingDays.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmUpdateCustomerDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCopyToCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCopyToLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCopyToModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.ucIMEditor.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.ucCTEditorBak.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.ucCTEditor.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmBOMRemarks.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmClearDialog.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmConfirmCode.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmChangePassword.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmConversionRate.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCopyChild.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmGenCVBTReport.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmProcessingFeePreset.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmUnitPriceForMTMH.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCTFormulaSettings.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmLogin.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmBase.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmMasterList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportCostTable.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportItemSpecs.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportRMPriceList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportRMPerProcess.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmBusinessPartners.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCostTableUpdating.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmRMPriceList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmProcessComPerProcess.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmProcessPerRM.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmGLAccounts.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmProcessComponentList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCheckVoucher.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCosting.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmLotControlTemplates.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCapacityPlanningPreview.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmRptModelCapacityTest.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.rptLCS.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.ucTest.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmManageUser.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmReport.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmGenProdInvOnHandSummaryRep.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmReportCustDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmSettings.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmSystemInfo.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmTest.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmUsers.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportBOMMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmImportCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportInventoryPerLine.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportCountingReference.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportItemCodeHistory.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportInventoryPerWarehouse.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmImportLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportMaterialPrice.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmImportLinePerWarehouse.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmImportModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportWarehousing.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportItemPerProcess.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportItemPerModel.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportItemPerCustomer.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmImportItemMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmImportCustomerDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmBOMMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmItemPerModel.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmLineGroupSharing.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmLinePerWarehouse.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmMaterialPriceList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmOutputType.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmWarehouseCodeList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmCategoryList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmItemCodeHistory.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCustomerItemMaster.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCustomerList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmItemMasterData.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmLineList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmMachineList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmMakerList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmModelList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmProcessList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmProcessPerItem.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmShiftList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmUOMList.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCapacityPlanning.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmMonthYearSelection.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.ucCTOA.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.ucLineGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.ucModelCapacity.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.ucModelGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.ucWorkingDays.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmBOMContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmBOMDetails.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCapacityForecast.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCostTable.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCountingReference.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmCustomerDemand.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmInventoryMonitoring.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmInventoryTransfer.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmBOMProvider.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmKanbanCreator.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmLCSCreator.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmLineIssuance.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmModelGroupAssignment.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmProductionOutput.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmSubContents.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmWarehousing.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.Resources.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.vbproj.GenerateResource.cache
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.exe.licenses
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.vbproj.CoreCompileInputs.cache
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.vbproj.CopyComplete
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.exe
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmProdOutputGroup.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.FrmProdOutputGroupProc.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ERP\obj\Release\MIA.frmAddProdOutputGroupProc.resources
+D:\SYSTEM\MIA\ERP\bin\Release\MIA.exe.config
+D:\SYSTEM\MIA\ERP\bin\Release\MIA.exe
+D:\SYSTEM\MIA\ERP\bin\Release\MIA.pdb
+D:\SYSTEM\MIA\ERP\bin\Release\MIA.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Gma.QrCodeNet.Encoding.dll
+D:\SYSTEM\MIA\ERP\bin\Release\MySql.Data.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Newtonsoft.Json.dll
+D:\SYSTEM\MIA\ERP\bin\Release\System.Data.DataSetExtensions.dll
+D:\SYSTEM\MIA\ERP\bin\Release\System.Data.dll
+D:\SYSTEM\MIA\ERP\bin\Release\System.Deployment.dll
+D:\SYSTEM\MIA\ERP\bin\Release\System.dll
+D:\SYSTEM\MIA\ERP\bin\Release\System.Drawing.dll
+D:\SYSTEM\MIA\ERP\bin\Release\System.Messaging.dll
+D:\SYSTEM\MIA\ERP\bin\Release\System.Windows.Forms.dll
+D:\SYSTEM\MIA\ERP\bin\Release\System.Xml.dll
+D:\SYSTEM\MIA\ERP\bin\Release\System.Xml.Linq.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Documents.SpreadsheetStreaming.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.GridView.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.RadDock.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Breeze.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Crystal.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.CrystalDark.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Desert.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Fluent.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.FluentDark.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.HighContrastBlack.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Material.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.MaterialPink.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.MaterialTeal.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2007Black.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Black.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Blue.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2010Silver.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2013Dark.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Office2013Light.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Windows7.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.Themes.Windows8.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.UI.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Core.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Fixed.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Zip.dll
+D:\SYSTEM\MIA\ERP\bin\Release\TelerikCommon.dll
+D:\SYSTEM\MIA\ERP\bin\Release\TelerikExport.dll
+D:\SYSTEM\MIA\ERP\bin\Release\System.Net.Http.Formatting.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Newtonsoft.Json.pdb
+D:\SYSTEM\MIA\ERP\bin\Release\Newtonsoft.Json.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Documents.SpreadsheetStreaming.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.GridView.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.RadDock.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.WinControls.UI.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Core.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Fixed.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Zip.xml
+D:\SYSTEM\MIA\ERP\bin\Release\TelerikExport.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Reporting.pdb
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Reporting.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.ReportViewer.WinForms.pdb
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.ReportViewer.WinForms.xml
+D:\SYSTEM\MIA\ERP\bin\Release\System.Net.Http.Formatting.xml
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.vbprojAssemblyReference.cache
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmAddCV.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmAddItemSpecs.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmAddProdOutputGroupProc.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmProdOutputGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCACostTable.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmAddBOMContents.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmAddLCS.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCostTableEditor.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditBOMItem.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditBOMMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditBOMSubContents.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditBusinessPartner.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditCTOA.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditItemPerCustomer.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditLineGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmEditLineIssuance.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmEditInventoryTransfer.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditItemMasterData.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditModelGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditProcess.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditProductionOutput.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditReqdWorkingDays.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmEditWorkingDays.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmUpdateCustomerDemand.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCopyToCTOA.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCopyToLineGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCopyToModelGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.ucIMEditor.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.ucCTEditorBak.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.ucCTEditor.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmBOMRemarks.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmClearDialog.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmConfirmCode.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmChangePassword.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmConversionRate.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCopyChild.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmGenCVBTReport.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmProcessingFeePreset.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmUnitPriceForMTMH.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCTFormulaSettings.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmLogin.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmBase.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmMasterList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportCostTable.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportItemSpecs.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportRMPriceList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportRMPerProcess.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmBusinessPartners.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCostTableUpdating.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmRMPriceList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmProcessComPerProcess.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmProcessPerRM.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmGLAccounts.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmProcessComponentList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCheckVoucher.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCosting.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmLotControlTemplates.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmProdOutputGroupProc.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCapacityPlanningPreview.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmRptModelCapacityTest.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.rptLCS.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.ucTest.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmManageUser.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmReport.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmGenProdInvOnHandSummaryRep.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmReportCustDemand.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmSettings.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmSystemInfo.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmTest.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmUsers.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportBOMMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmImportCTOA.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportInventoryPerLine.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportCountingReference.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportItemCodeHistory.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportInventoryPerWarehouse.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmImportLineGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportMaterialPrice.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmImportLinePerWarehouse.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmImportModelGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportWarehousing.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportItemPerProcess.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportItemPerModel.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportItemPerCustomer.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmImportItemMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmImportCustomerDemand.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmBOMMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmItemPerModel.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmLineGroupSharing.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmLinePerWarehouse.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmMaterialPriceList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmOutputType.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmWarehouseCodeList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmCategoryList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmItemCodeHistory.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCustomerItemMaster.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCustomerList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmItemMasterData.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmLineList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmMachineList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmMakerList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmModelList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmProcessList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmProcessPerItem.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmShiftList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmUOMList.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCapacityPlanning.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmMonthYearSelection.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.ucCTOA.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.ucLineGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.ucModelCapacity.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.ucModelGroup.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.ucWorkingDays.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmBOMContents.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmBOMDetails.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCapacityForecast.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCostTable.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCountingReference.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmCustomerDemand.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmInventoryMonitoring.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmInventoryTransfer.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.frmBOMProvider.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmKanbanCreator.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmLCSCreator.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmLineIssuance.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmModelGroupAssignment.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmProductionOutput.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmSubContents.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.FrmWarehousing.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.Resources.resources
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.vbproj.GenerateResource.cache
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.exe.licenses
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.vbproj.CoreCompileInputs.cache
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.vbproj.CopyComplete
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.exe
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.xml
+D:\SYSTEM\MIA\ERP\obj\Release\MIA.pdb
+D:\SYSTEM\MIA\ERP\bin\Release\BouncyCastle.Crypto.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Google.Protobuf.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Google.Protobuf.xml
+D:\SYSTEM\MIA\ERP\bin\Release\MySql.Data.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.xml
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Reporting.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.Reporting.Services.HttpClient.dll
+D:\SYSTEM\MIA\ERP\bin\Release\Telerik.ReportViewer.WinForms.dll

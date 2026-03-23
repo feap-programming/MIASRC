@@ -1,0 +1,38 @@
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\MIA-OD.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\MIA-OD.pdb
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\MIA-OD.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\MySql.Data.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.Data.DataSetExtensions.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.Data.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.Net.Http.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.Xml.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.Xml.Linq.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\Google.Protobuf.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\MySql.Data.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA_OD.Resources.resources
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.vbproj.GenerateResource.cache
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.vbproj.CoreCompileInputs.cache
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.vbproj.CopyComplete
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.dll
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.xml
+C:\Users\carlo.sotomayor\Documents\VB.NET APPS\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.pdb
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\MIA-OD.dll
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\MIA-OD.pdb
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\MIA-OD.xml
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\MySql.Data.dll
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.Data.DataSetExtensions.dll
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.Data.dll
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.dll
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.Net.Http.dll
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.Xml.dll
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\bin\Release\System.Xml.Linq.dll
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.vbprojAssemblyReference.cache
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA_OD.Resources.resources
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.vbproj.GenerateResource.cache
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.vbproj.CoreCompileInputs.cache
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.vbproj.CopyComplete
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.dll
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.xml
+D:\SYSTEM\MIA\ObjectDataSource\MIA-OD\MIA-OD\obj\Release\MIA-OD.pdb

@@ -1,0 +1,1721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3D02F94B-D9D8-4B73-B988-5979C3908E5D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MIA.My.MyApplication</StartupObject>
+    <RootNamespace>MIA</RootNamespace>
+    <AssemblyName>MIA</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MIA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MIA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MIA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MIA.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>MIA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>MIA.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="FEAPNS">
+      <HintPath>\\192.168.191.20\mis\FEAP INHOUSE PROGRAMS\FEAPNS\Library\FEAPNSvb\FEAPNSvb\bin\Debug\FEAPNS.dll</HintPath>
+    </Reference>
+    <Reference Include="Gma.QrCodeNet.Encoding, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Gma.QrCodeNet.0.4.1.2\lib\net40\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.16\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Documents.SpreadsheetStreaming, Version=2021.1.201.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.Documents.SpreadsheetStreaming.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.GridView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.RadDock.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Breeze, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Breeze.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Crystal, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Crystal.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.CrystalDark, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.CrystalDark.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Desert.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Fluent, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Fluent.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.FluentDark, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.FluentDark.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.HighContrastBlack, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.HighContrastBlack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Material, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Material.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.MaterialBlueGrey, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.MaterialBlueGrey.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.MaterialPink, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.MaterialPink.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.MaterialTeal, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.MaterialTeal.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2007Black, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Office2007Black.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2010Black, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Office2010Black.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2010Blue, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Office2010Blue.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2010Silver, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Office2010Silver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2013Dark, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Office2013Dark.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2013Light, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Office2013Light.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Dark, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.VisualStudio2012Dark.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Light, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.VisualStudio2012Light.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Windows7, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Windows7.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Windows8, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.Themes.Windows8.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.WinControls.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2021.1.201.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.Windows.Documents.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Fixed, Version=2021.1.201.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.Windows.Documents.Fixed.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet, Version=2021.1.201.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml, Version=2021.1.201.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf, Version=2021.1.201.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls, Version=2021.1.201.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip, Version=2021.1.201.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\Telerik.Windows.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\TelerikCommon.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikExport, Version=2021.1.204.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2021.1.204.40\TelerikExport.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.23\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Zstandard.Net, Version=1.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.23\lib\net452\Zstandard.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Reporting, Version=15.0.21.120, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <HintPath>C:\Program Files (x86)\Progress\Telerik Reporting R1 2021\bin\Telerik.Reporting.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Reporting.Services.HttpClient, Version=15.0.21.120, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <HintPath>C:\Program Files (x86)\Progress\Telerik Reporting R1 2021\bin\Telerik.Reporting.Services.HttpClient.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.WinForms, Version=15.0.21.120, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <HintPath>C:\Program Files (x86)\Progress\Telerik Reporting R1 2021\bin\Telerik.ReportViewer.WinForms.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddForms\frmAddBSSLotNoAfterOven.Designer.vb">
+      <DependentUpon>frmAddBSSLotNoAfterOven.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\frmAddBSSLotNoAfterOven.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\frmAddBSSLotNoBeforeOven.Designer.vb">
+      <DependentUpon>frmAddBSSLotNoBeforeOven.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\frmAddBSSLotNoBeforeOven.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\frmAddCV.Designer.vb">
+      <DependentUpon>frmAddCV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\frmAddCV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\frmAddItemSpecs.Designer.vb">
+      <DependentUpon>frmAddItemSpecs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\frmAddItemSpecs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\frmAddProdOutputGroupProc.Designer.vb">
+      <DependentUpon>frmAddProdOutputGroupProc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\frmAddProdOutputGroupProc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\frmAddRMWorkProcess.Designer.vb">
+      <DependentUpon>frmAddRMWorkProcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\frmAddRMWorkProcess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditHourlyProdMnt.Designer.vb">
+      <DependentUpon>frmEditHourlyProdMnt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditHourlyProdMnt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmUpdateProdOutputGroup.Designer.vb">
+      <DependentUpon>frmUpdateProdOutputGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmUpdateProdOutputGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmBSSDefect.Designer.vb">
+      <DependentUpon>frmBSSDefect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmBSSDefect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmBSSOtherDetails.Designer.vb">
+      <DependentUpon>frmBSSOtherDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmBSSOtherDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmBSSTemplate.Designer.vb">
+      <DependentUpon>frmBSSTemplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmBSSTemplate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmHourlyProdMnt.Designer.vb">
+      <DependentUpon>frmHourlyProdMnt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmHourlyProdMnt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmProdOutputGroup.Designer.vb">
+      <DependentUpon>frmProdOutputGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmProdOutputGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BandaClass\Killswitch.vb" />
+    <Compile Include="EditForms\frmCACostTable.Designer.vb">
+      <DependentUpon>frmCACostTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmCACostTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\frmAddBOMContents.Designer.vb">
+      <DependentUpon>frmAddBOMContents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\frmAddBOMContents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\frmAddLCS.Designer.vb">
+      <DependentUpon>frmAddLCS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\frmAddLCS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BandaClass\AsILayDying Tmp.vb" />
+    <Compile Include="BandaClass\AsILayDying.vb" />
+    <Compile Include="BandaClass\BulletForMyValentine.vb" />
+    <Compile Include="BandaClass\Slapshock.vb" />
+    <Compile Include="BandaClass\Slipknot.vb" />
+    <Compile Include="BandaClass\test.vb" />
+    <Compile Include="BandaClass\test2.vb" />
+    <Compile Include="EditForms\frmCostTableEditor.Designer.vb">
+      <DependentUpon>frmCostTableEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmCostTableEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditBOMItem.Designer.vb">
+      <DependentUpon>frmEditBOMItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditBOMItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditBOMMaster.Designer.vb">
+      <DependentUpon>frmEditBOMMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditBOMMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditBOMSubContents.Designer.vb">
+      <DependentUpon>frmEditBOMSubContents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditBOMSubContents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditBusinessPartner.Designer.vb">
+      <DependentUpon>frmEditBusinessPartner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditBusinessPartner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditCTOA.designer.vb">
+      <DependentUpon>frmEditCTOA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditCTOA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditItemPerCustomer.Designer.vb">
+      <DependentUpon>frmEditItemPerCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditItemPerCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditLineGroup.designer.vb">
+      <DependentUpon>frmEditLineGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditLineGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditLineIssuance.Designer.vb">
+      <DependentUpon>frmEditLineIssuance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditLineIssuance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditInventoryTransfer.Designer.vb">
+      <DependentUpon>frmEditInventoryTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditInventoryTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditItemMasterData.Designer.vb">
+      <DependentUpon>frmEditItemMasterData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditItemMasterData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditModelGroup.designer.vb">
+      <DependentUpon>frmEditModelGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditModelGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditProcess.Designer.vb">
+      <DependentUpon>frmEditProcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditProcess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditProductionOutput.Designer.vb">
+      <DependentUpon>frmEditProductionOutput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditProductionOutput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditReqdWorkingDays.designer.vb">
+      <DependentUpon>frmEditReqdWorkingDays.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditReqdWorkingDays.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmEditWorkingDays.designer.vb">
+      <DependentUpon>frmEditWorkingDays.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmEditWorkingDays.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\frmUpdateCustomerDemand.designer.vb">
+      <DependentUpon>frmUpdateCustomerDemand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\frmUpdateCustomerDemand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyToForms\frmCopyToCTOA.designer.vb">
+      <DependentUpon>frmCopyToCTOA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CopyToForms\frmCopyToCTOA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyToForms\frmCopyToLineGroup.designer.vb">
+      <DependentUpon>frmCopyToLineGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CopyToForms\frmCopyToLineGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyToForms\frmCopyToModelGroup.designer.vb">
+      <DependentUpon>frmCopyToModelGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CopyToForms\frmCopyToModelGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\ucIMEditor.Designer.vb">
+      <DependentUpon>ucIMEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\ucIMEditor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditForms\ucCTEditorBak.Designer.vb">
+      <DependentUpon>ucCTEditorBak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\ucCTEditorBak.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditForms\ucCTEditor.Designer.vb">
+      <DependentUpon>ucCTEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\ucCTEditor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmBOMRemarks.Designer.vb">
+      <DependentUpon>frmBOMRemarks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBOMRemarks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClearDialog.designer.vb">
+      <DependentUpon>frmClearDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClearDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfirmCode.Designer.vb">
+      <DependentUpon>frmConfirmCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfirmCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.vb">
+      <DependentUpon>frmChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConversionRate.Designer.vb">
+      <DependentUpon>frmConversionRate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConversionRate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCopyChild.Designer.vb">
+      <DependentUpon>frmCopyChild.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCopyChild.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenCVBTReport.Designer.vb">
+      <DependentUpon>frmGenCVBTReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenCVBTReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProcessingFeePreset.Designer.vb">
+      <DependentUpon>frmProcessingFeePreset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProcessingFeePreset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnitPriceForMTMH.Designer.vb">
+      <DependentUpon>frmUnitPriceForMTMH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnitPriceForMTMH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCTFormulaSettings.Designer.vb">
+      <DependentUpon>frmCTFormulaSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCTFormulaSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase.Designer.vb">
+      <DependentUpon>frmBase.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMasterList.designer.vb">
+      <DependentUpon>frmMasterList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMasterList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportCostTable.Designer.vb">
+      <DependentUpon>frmImportCostTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportCostTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemSpecs.Designer.vb">
+      <DependentUpon>frmImportItemSpecs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemSpecs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportRMPriceList.Designer.vb">
+      <DependentUpon>frmImportRMPriceList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportRMPriceList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportRMPerProcess.Designer.vb">
+      <DependentUpon>frmImportRMPerProcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportRMPerProcess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmBusinessPartners.Designer.vb">
+      <DependentUpon>frmBusinessPartners.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmBusinessPartners.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmCostTableUpdating.Designer.vb">
+      <DependentUpon>frmCostTableUpdating.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmCostTableUpdating.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmRMPriceList.Designer.vb">
+      <DependentUpon>frmRMPriceList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmRMPriceList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmProcessComPerProcess.Designer.vb">
+      <DependentUpon>frmProcessComPerProcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmProcessComPerProcess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmProcessPerRM.Designer.vb">
+      <DependentUpon>frmProcessPerRM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmProcessPerRM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmGLAccounts.Designer.vb">
+      <DependentUpon>frmGLAccounts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmGLAccounts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmProcessComponentList.Designer.vb">
+      <DependentUpon>frmProcessComponentList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmProcessComponentList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmCheckVoucher.Designer.vb">
+      <DependentUpon>frmCheckVoucher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmCheckVoucher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmCosting.Designer.vb">
+      <DependentUpon>frmCosting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmCosting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmLotControlTemplates.designer.vb">
+      <DependentUpon>frmLotControlTemplates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmLotControlTemplates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmProdOutputGroupProc.Designer.vb">
+      <DependentUpon>frmProdOutputGroupProc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmProdOutputGroupProc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmRMWorkProcess.Designer.vb">
+      <DependentUpon>frmRMWorkProcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmRMWorkProcess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGenerators\frmCapacityPlanningPreview.designer.vb">
+      <DependentUpon>frmCapacityPlanningPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGenerators\frmCapacityPlanningPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewForms\frmRptModelCapacityTest.designer.vb">
+      <DependentUpon>frmRptModelCapacityTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewForms\frmRptModelCapacityTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGenerators\frmGenProdInvOnHandSummaryRep.Designer.vb">
+      <DependentUpon>frmGenProdInvOnHandSummaryRep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGenerators\frmGenProdInvOnHandSummaryRep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportServer.vb" />
+    <Compile Include="Reports\rptLCS.designer.vb">
+      <DependentUpon>rptLCS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptLCS.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ucTest.Designer.vb">
+      <DependentUpon>ucTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucTest.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <EmbeddedResource Include="AddForms\frmAddBSSLotNoAfterOven.resx">
+      <DependentUpon>frmAddBSSLotNoAfterOven.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\frmAddBSSLotNoBeforeOven.resx">
+      <DependentUpon>frmAddBSSLotNoBeforeOven.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\frmAddCV.resx">
+      <DependentUpon>frmAddCV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\frmAddItemSpecs.resx">
+      <DependentUpon>frmAddItemSpecs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\frmAddProdOutputGroupProc.resx">
+      <DependentUpon>frmAddProdOutputGroupProc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\frmAddRMWorkProcess.resx">
+      <DependentUpon>frmAddRMWorkProcess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditHourlyProdMnt.resx">
+      <DependentUpon>frmEditHourlyProdMnt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmUpdateProdOutputGroup.resx">
+      <DependentUpon>frmUpdateProdOutputGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmBSSDefect.resx">
+      <DependentUpon>frmBSSDefect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmBSSOtherDetails.resx">
+      <DependentUpon>frmBSSOtherDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmBSSTemplate.resx">
+      <DependentUpon>frmBSSTemplate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmHourlyProdMnt.resx">
+      <DependentUpon>frmHourlyProdMnt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmProdOutputGroup.resx">
+      <DependentUpon>frmProdOutputGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmCACostTable.resx">
+      <DependentUpon>frmCACostTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\frmAddBOMContents.resx">
+      <DependentUpon>frmAddBOMContents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\frmAddLCS.resx">
+      <DependentUpon>frmAddLCS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmCostTableEditor.resx">
+      <DependentUpon>frmCostTableEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditBOMItem.resx">
+      <DependentUpon>frmEditBOMItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditBOMMaster.resx">
+      <DependentUpon>frmEditBOMMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditBOMSubContents.resx">
+      <DependentUpon>frmEditBOMSubContents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditBusinessPartner.resx">
+      <DependentUpon>frmEditBusinessPartner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditCTOA.resx">
+      <DependentUpon>frmEditCTOA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditItemPerCustomer.resx">
+      <DependentUpon>frmEditItemPerCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditLineGroup.resx">
+      <DependentUpon>frmEditLineGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditLineIssuance.resx">
+      <DependentUpon>frmEditLineIssuance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditInventoryTransfer.resx">
+      <DependentUpon>frmEditInventoryTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditItemMasterData.resx">
+      <DependentUpon>frmEditItemMasterData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditModelGroup.resx">
+      <DependentUpon>frmEditModelGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditProcess.resx">
+      <DependentUpon>frmEditProcess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditProductionOutput.resx">
+      <DependentUpon>frmEditProductionOutput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditReqdWorkingDays.resx">
+      <DependentUpon>frmEditReqdWorkingDays.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmEditWorkingDays.resx">
+      <DependentUpon>frmEditWorkingDays.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\frmUpdateCustomerDemand.resx">
+      <DependentUpon>frmUpdateCustomerDemand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyToForms\frmCopyToCTOA.resx">
+      <DependentUpon>frmCopyToCTOA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyToForms\frmCopyToLineGroup.resx">
+      <DependentUpon>frmCopyToLineGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyToForms\frmCopyToModelGroup.resx">
+      <DependentUpon>frmCopyToModelGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\ucIMEditor.resx">
+      <DependentUpon>ucIMEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\ucCTEditorBak.resx">
+      <DependentUpon>ucCTEditorBak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\ucCTEditor.resx">
+      <DependentUpon>ucCTEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBOMRemarks.resx">
+      <DependentUpon>frmBOMRemarks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClearDialog.resx">
+      <DependentUpon>frmClearDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfirmCode.resx">
+      <DependentUpon>frmConfirmCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConversionRate.resx">
+      <DependentUpon>frmConversionRate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCopyChild.resx">
+      <DependentUpon>frmCopyChild.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenCVBTReport.resx">
+      <DependentUpon>frmGenCVBTReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcessingFeePreset.resx">
+      <DependentUpon>frmProcessingFeePreset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnitPriceForMTMH.resx">
+      <DependentUpon>frmUnitPriceForMTMH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCTFormulaSettings.resx">
+      <DependentUpon>frmCTFormulaSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBase.resx">
+      <DependentUpon>frmBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="frmManageUser.Designer.vb">
+      <DependentUpon>frmManageUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaster.Designer.vb">
+      <DependentUpon>frmMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReport.Designer.vb">
+      <DependentUpon>frmReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGenerators\frmReportCustDemand.Designer.vb">
+      <DependentUpon>frmReportCustDemand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGenerators\frmReportCustDemand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettings.Designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemInfo.Designer.vb">
+      <DependentUpon>frmSystemInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSystemInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.Designer.vb">
+      <DependentUpon>frmTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsers.Designer.vb">
+      <DependentUpon>frmUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="globalVariables.vb" />
+    <Compile Include="ImportForms\frmImportBOMMaster.Designer.vb">
+      <DependentUpon>frmImportBOMMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportBOMMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportCTOA.designer.vb">
+      <DependentUpon>frmImportCTOA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportCTOA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportInventoryPerLine.Designer.vb">
+      <DependentUpon>frmImportInventoryPerLine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportInventoryPerLine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportCountingReference.Designer.vb">
+      <DependentUpon>frmImportCountingReference.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportCountingReference.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemCodeHistory.Designer.vb">
+      <DependentUpon>frmImportItemCodeHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemCodeHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportInventoryPerWarehouse.Designer.vb">
+      <DependentUpon>frmImportInventoryPerWarehouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportInventoryPerWarehouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportLineGroup.designer.vb">
+      <DependentUpon>frmImportLineGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportLineGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportMaterialPrice.Designer.vb">
+      <DependentUpon>frmImportMaterialPrice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportMaterialPrice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportLinePerWarehouse.Designer.vb">
+      <DependentUpon>frmImportLinePerWarehouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportLinePerWarehouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportModelGroup.designer.vb">
+      <DependentUpon>frmImportModelGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportModelGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportWarehousing.Designer.vb">
+      <DependentUpon>frmImportWarehousing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportWarehousing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemPerProcess.Designer.vb">
+      <DependentUpon>frmImportItemPerProcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemPerProcess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemPerModel.Designer.vb">
+      <DependentUpon>frmImportItemPerModel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemPerModel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemPerCustomer.Designer.vb">
+      <DependentUpon>frmImportItemPerCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemPerCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemMaster.Designer.vb">
+      <DependentUpon>frmImportItemMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportItemMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportForms\frmImportCustomerDemand.designer.vb">
+      <DependentUpon>frmImportCustomerDemand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImportForms\frmImportCustomerDemand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmBOMMaster.Designer.vb">
+      <DependentUpon>frmBOMMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmBOMMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmItemPerModel.Designer.vb">
+      <DependentUpon>frmItemPerModel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmItemPerModel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmLineGroupSharing.designer.vb">
+      <DependentUpon>frmLineGroupSharing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmLineGroupSharing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmLinePerWarehouse.Designer.vb">
+      <DependentUpon>frmLinePerWarehouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmLinePerWarehouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmMaterialPriceList.Designer.vb">
+      <DependentUpon>frmMaterialPriceList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmMaterialPriceList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmOutputType.Designer.vb">
+      <DependentUpon>frmOutputType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmOutputType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmWarehouseCodeList.Designer.vb">
+      <DependentUpon>frmWarehouseCodeList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmWarehouseCodeList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmCategoryList.Designer.vb">
+      <DependentUpon>frmCategoryList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmCategoryList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmItemCodeHistory.Designer.vb">
+      <DependentUpon>frmItemCodeHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmItemCodeHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmCustomerItemMaster.Designer.vb">
+      <DependentUpon>frmCustomerItemMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmCustomerItemMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmCustomerList.Designer.vb">
+      <DependentUpon>frmCustomerList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmCustomerList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmItemMasterData.Designer.vb">
+      <DependentUpon>frmItemMasterData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmItemMasterData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmLineList.Designer.vb">
+      <DependentUpon>frmLineList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmLineList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmMachineList.Designer.vb">
+      <DependentUpon>frmMachineList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmMachineList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmMakerList.Designer.vb">
+      <DependentUpon>frmMakerList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmMakerList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmModelList.Designer.vb">
+      <DependentUpon>frmModelList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmModelList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmProcessList.Designer.vb">
+      <DependentUpon>frmProcessList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmProcessList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmProcessPerItem.Designer.vb">
+      <DependentUpon>frmProcessPerItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmProcessPerItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmShiftList.Designer.vb">
+      <DependentUpon>frmShiftList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmShiftList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmUOMList.Designer.vb">
+      <DependentUpon>frmUOMList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\MasterReferenceForms\frmUOMList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\CapacityPlan\frmCapacityPlanning.designer.vb">
+      <DependentUpon>frmCapacityPlanning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\CapacityPlan\frmCapacityPlanning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGenerators\frmMonthYearSelection.designer.vb">
+      <DependentUpon>frmMonthYearSelection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGenerators\frmMonthYearSelection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\ucCTOA.designer.vb">
+      <DependentUpon>ucCTOA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\ucCTOA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\ucLineGroup.designer.vb">
+      <DependentUpon>ucLineGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\ucLineGroup.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\ucModelCapacity.designer.vb">
+      <DependentUpon>ucModelCapacity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\ucModelCapacity.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\ucModelGroup.designer.vb">
+      <DependentUpon>ucModelGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\ucModelGroup.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\ucWorkingDays.designer.vb">
+      <DependentUpon>ucWorkingDays.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\CapacityForecast\ucWorkingDays.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmBOMContents.Designer.vb">
+      <DependentUpon>frmBOMContents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmBOMContents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmBOMDetails.Designer.vb">
+      <DependentUpon>frmBOMDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmBOMDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmCapacityForecast.designer.vb">
+      <DependentUpon>frmCapacityForecast.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmCapacityForecast.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmCostTable.Designer.vb">
+      <DependentUpon>frmCostTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmCostTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmCountingReference.Designer.vb">
+      <DependentUpon>frmCountingReference.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmCountingReference.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmCustomerDemand.designer.vb">
+      <DependentUpon>frmCustomerDemand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmCustomerDemand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmInventoryMonitoring.Designer.vb">
+      <DependentUpon>frmInventoryMonitoring.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmInventoryMonitoring.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmInventoryTransfer.Designer.vb">
+      <DependentUpon>frmInventoryTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmInventoryTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmBOMProvider.Designer.vb">
+      <DependentUpon>frmBOMProvider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmBOMProvider.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmKanbanCreator.Designer.vb">
+      <DependentUpon>frmKanbanCreator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmKanbanCreator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmLCSCreator.Designer.vb">
+      <DependentUpon>frmLCSCreator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmLCSCreator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmLineIssuance.Designer.vb">
+      <DependentUpon>frmLineIssuance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmLineIssuance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmModelGroupAssignment.Designer.vb">
+      <DependentUpon>frmModelGroupAssignment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmModelGroupAssignment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmProductionOutput.Designer.vb">
+      <DependentUpon>frmProductionOutput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmProductionOutput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\frmSubContents.Designer.vb">
+      <DependentUpon>frmSubContents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\frmSubContents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDataForms\frmWarehousing.Designer.vb">
+      <DependentUpon>frmWarehousing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataForms\frmWarehousing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="frmMasterList.resx">
+      <DependentUpon>frmMasterList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportCostTable.resx">
+      <DependentUpon>frmImportCostTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportItemSpecs.resx">
+      <DependentUpon>frmImportItemSpecs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportRMPriceList.resx">
+      <DependentUpon>frmImportRMPriceList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportRMPerProcess.resx">
+      <DependentUpon>frmImportRMPerProcess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmBusinessPartners.resx">
+      <DependentUpon>frmBusinessPartners.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmCostTableUpdating.resx">
+      <DependentUpon>frmCostTableUpdating.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmRMPriceList.resx">
+      <DependentUpon>frmRMPriceList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmProcessComPerProcess.resx">
+      <DependentUpon>frmProcessComPerProcess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmProcessPerRM.resx">
+      <DependentUpon>frmProcessPerRM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmGLAccounts.resx">
+      <DependentUpon>frmGLAccounts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmProcessComponentList.resx">
+      <DependentUpon>frmProcessComponentList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmCheckVoucher.resx">
+      <DependentUpon>frmCheckVoucher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmCosting.resx">
+      <DependentUpon>frmCosting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmLotControlTemplates.resx">
+      <DependentUpon>frmLotControlTemplates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmProdOutputGroupProc.resx">
+      <DependentUpon>frmProdOutputGroupProc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmRMWorkProcess.resx">
+      <DependentUpon>frmRMWorkProcess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGenerators\frmCapacityPlanningPreview.resx">
+      <DependentUpon>frmCapacityPlanningPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewForms\frmRptModelCapacityTest.resx">
+      <DependentUpon>frmRptModelCapacityTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptLCS.resx">
+      <DependentUpon>rptLCS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTest.resx">
+      <DependentUpon>ucTest.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmManageUser.resx">
+      <DependentUpon>frmManageUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaster.resx">
+      <DependentUpon>frmMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReport.resx">
+      <DependentUpon>frmReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGenerators\frmGenProdInvOnHandSummaryRep.resx">
+      <DependentUpon>frmGenProdInvOnHandSummaryRep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGenerators\frmReportCustDemand.resx">
+      <DependentUpon>frmReportCustDemand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSystemInfo.resx">
+      <DependentUpon>frmSystemInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.resx">
+      <DependentUpon>frmTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsers.resx">
+      <DependentUpon>frmUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportBOMMaster.resx">
+      <DependentUpon>frmImportBOMMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportCTOA.resx">
+      <DependentUpon>frmImportCTOA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportInventoryPerLine.resx">
+      <DependentUpon>frmImportInventoryPerLine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportCountingReference.resx">
+      <DependentUpon>frmImportCountingReference.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportItemCodeHistory.resx">
+      <DependentUpon>frmImportItemCodeHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportInventoryPerWarehouse.resx">
+      <DependentUpon>frmImportInventoryPerWarehouse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportLineGroup.resx">
+      <DependentUpon>frmImportLineGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportMaterialPrice.resx">
+      <DependentUpon>frmImportMaterialPrice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportLinePerWarehouse.resx">
+      <DependentUpon>frmImportLinePerWarehouse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportModelGroup.resx">
+      <DependentUpon>frmImportModelGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportWarehousing.resx">
+      <DependentUpon>frmImportWarehousing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportItemPerProcess.resx">
+      <DependentUpon>frmImportItemPerProcess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportItemPerModel.resx">
+      <DependentUpon>frmImportItemPerModel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportItemPerCustomer.resx">
+      <DependentUpon>frmImportItemPerCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportItemMaster.resx">
+      <DependentUpon>frmImportItemMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportForms\frmImportCustomerDemand.resx">
+      <DependentUpon>frmImportCustomerDemand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmBOMMaster.resx">
+      <DependentUpon>frmBOMMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmItemPerModel.resx">
+      <DependentUpon>frmItemPerModel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmLineGroupSharing.resx">
+      <DependentUpon>frmLineGroupSharing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmLinePerWarehouse.resx">
+      <DependentUpon>frmLinePerWarehouse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmMaterialPriceList.resx">
+      <DependentUpon>frmMaterialPriceList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmOutputType.resx">
+      <DependentUpon>frmOutputType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmWarehouseCodeList.resx">
+      <DependentUpon>frmWarehouseCodeList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmCategoryList.resx">
+      <DependentUpon>frmCategoryList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmItemCodeHistory.resx">
+      <DependentUpon>frmItemCodeHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmCustomerItemMaster.resx">
+      <DependentUpon>frmCustomerItemMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmCustomerList.resx">
+      <DependentUpon>frmCustomerList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmItemMasterData.resx">
+      <DependentUpon>frmItemMasterData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmLineList.resx">
+      <DependentUpon>frmLineList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmMachineList.resx">
+      <DependentUpon>frmMachineList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmMakerList.resx">
+      <DependentUpon>frmMakerList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmModelList.resx">
+      <DependentUpon>frmModelList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmProcessList.resx">
+      <DependentUpon>frmProcessList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmProcessPerItem.resx">
+      <DependentUpon>frmProcessPerItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmShiftList.resx">
+      <DependentUpon>frmShiftList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\MasterReferenceForms\frmUOMList.resx">
+      <DependentUpon>frmUOMList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\CapacityForecast\CapacityPlan\frmCapacityPlanning.resx">
+      <DependentUpon>frmCapacityPlanning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGenerators\frmMonthYearSelection.resx">
+      <DependentUpon>frmMonthYearSelection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\CapacityForecast\ucCTOA.resx">
+      <DependentUpon>ucCTOA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\CapacityForecast\ucLineGroup.resx">
+      <DependentUpon>ucLineGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\CapacityForecast\ucModelCapacity.resx">
+      <DependentUpon>ucModelCapacity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\CapacityForecast\ucModelGroup.resx">
+      <DependentUpon>ucModelGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\CapacityForecast\ucWorkingDays.resx">
+      <DependentUpon>ucWorkingDays.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmBOMContents.resx">
+      <DependentUpon>frmBOMContents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmBOMDetails.resx">
+      <DependentUpon>frmBOMDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmCapacityForecast.resx">
+      <DependentUpon>frmCapacityForecast.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmCostTable.resx">
+      <DependentUpon>frmCostTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmCountingReference.resx">
+      <DependentUpon>frmCountingReference.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmCustomerDemand.resx">
+      <DependentUpon>frmCustomerDemand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmInventoryMonitoring.resx">
+      <DependentUpon>frmInventoryMonitoring.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmInventoryTransfer.resx">
+      <DependentUpon>frmInventoryTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmBOMProvider.resx">
+      <DependentUpon>frmBOMProvider.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmKanbanCreator.resx">
+      <DependentUpon>frmKanbanCreator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmLCSCreator.resx">
+      <DependentUpon>frmLCSCreator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmLineIssuance.resx">
+      <DependentUpon>frmLineIssuance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmModelGroupAssignment.resx">
+      <DependentUpon>frmModelGroupAssignment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmProductionOutput.resx">
+      <DependentUpon>frmProductionOutput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\frmSubContents.resx">
+      <DependentUpon>frmSubContents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDataForms\frmWarehousing.resx">
+      <DependentUpon>frmWarehousing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\folderClose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folderClose2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabinet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\files-and-folders.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\013-exit-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\014-exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\partner.png" />
+    <None Include="Resources\ledger.png" />
+    <None Include="Resources\savings.png" />
+    <None Include="Resources\paper.png" />
+    <None Include="Resources\creative.png" />
+    <None Include="Resources\subprocess.png" />
+    <None Include="Resources\line_group_sharing.png" />
+    <None Include="Resources\cost.png" />
+    <None Include="Resources\conveyor %281%29.png" />
+    <None Include="Resources\warehouse.png" />
+    <None Include="Resources\product.png" />
+    <None Include="Resources\conveyor.png" />
+    <None Include="Resources\ecology-and-environment.png" />
+    <None Include="Resources\ancient-scroll.png" />
+    <None Include="Resources\process.png" />
+    <None Include="Resources\3d-design.png" />
+    <None Include="Resources\rate.png" />
+    <None Include="Resources\to-do-list.png" />
+    <None Include="Resources\folder %281%29 %281%29.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\prescription.png" />
+    <None Include="Resources\qr-code.png" />
+    <None Include="Resources\sketch.png" />
+    <None Include="Resources\family-tree.png" />
+    <None Include="Resources\admin2.png" />
+    <None Include="Resources\admin.png" />
+    <None Include="Resources\folderClose3.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\computer-monitor.png" />
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

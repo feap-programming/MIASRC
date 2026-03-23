@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="setServerHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.191.22</Value>
+    </Setting>
+    <Setting Name="setDBName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">dbMIA</Value>
+    </Setting>
+    <Setting Name="setDBUID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">feap</Value>
+    </Setting>
+    <Setting Name="setDBPWD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">45|iF$</Value>
+    </Setting>
+    <Setting Name="setTheme" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CrystalDark</Value>
+    </Setting>
+    <Setting Name="setLCSTemplate" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="setSRCModel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TMR-051</Value>
+    </Setting>
+    <Setting Name="setSRCLine" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="dbMIA" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Server=192.168.191.22;Database=dbMIA;Uid=feap;Pwd=45|iF$;Convert Zero Datetime=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Server=192.168.191.22;Database=dbMIA;Uid=feap;Pwd=45|iF$;Convert Zero Datetime=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

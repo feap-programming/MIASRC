@@ -1,0 +1,5 @@
+* RM should be automatic price updated by ms. cristy, include currency
+* Descripion for update by APQP
+* Part weight / runner weight, etc get from item master data
+* if wip sumup all the price of RM components = unit price
+* Unit price column is JPY, @jpn replace by orig price
