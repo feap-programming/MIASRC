@@ -261,7 +261,6 @@
     <Reference Include="Telerik.Licensing.Runtime, Version=1.8.2.0, Culture=neutral, PublicKeyToken=98bb5b04e55c09ef, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Licensing.1.8.2\lib\net462\Telerik.Licensing.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Reporting.Services.ServiceStack, Version=19.1.25.521, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls, Version=2026.1.210.462, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.GridView, Version=2026.1.210.462, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
       <HintPath>..\lib\RCWF\2026.1.210.462\Telerik.WinControls.GridView.dll</HintPath>

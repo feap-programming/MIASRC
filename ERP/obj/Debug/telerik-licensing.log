@@ -35968,3 +35968,1160 @@
 [2026-04-07 08:11:56.169] [Low]   Sending Telemetry...
 [2026-04-07 08:12:00.353] [Low]   Metrics done 00:00:04.1840260
 [2026-04-07 08:12:00.362] [Normal] Resolve Telerik Products. Done (00:00:08.0234890) for 
+[2026-04-07 20:32:46.309] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=2
+  MSBuildProjectDirectory=C:\Users\maydard.seno\source\repos\MIASRC\ERP
+  MSBuildProjectExtension=.vbproj
+  Language=VB
+  OutputPath=bin\Debug\
+  Platform=AnyCPU
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=WinExe
+  UseMaui=
+  NuGetPackageRoot=
+
+  PackageReferences
+  ReferencePaths
+  - BouncyCastle.Crypto.dll 1.8.3 at C:\Users\maydard.seno\source\repos\MIASRC\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll
+  - BouncyCastle.Cryptography.dll 2.5.1 at C:\Users\maydard.seno\source\repos\MIASRC\packages\BouncyCastle.Cryptography.2.5.1\lib\net461\BouncyCastle.Cryptography.dll
+  - ClosedXML.dll 0.96.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ClosedXML.0.96.0\lib\net40\ClosedXML.dll
+  - DocumentFormat.OpenXml.dll 2.16.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\DocumentFormat.OpenXml.2.16.0\lib\net40\DocumentFormat.OpenXml.dll
+  - ExcelNumberFormat.dll 1.1.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll
+  - FEAPNS.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\FEAPNS.dll
+  - Gma.QrCodeNet.Encoding.dll 0.4.1 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Gma.QrCodeNet.0.4.1.2\lib\net40\Gma.QrCodeNet.Encoding.dll
+  - Google.Protobuf.dll 3.30.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Google.Protobuf.3.30.0\lib\net45\Google.Protobuf.dll
+  - K4os.Compression.LZ4.dll 1.3.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll
+  - K4os.Compression.LZ4.Streams.dll 1.3.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll
+  - K4os.Hash.xxHash.dll 1.0.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll
+  - MIA-Linq.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\MIA-Linq.dll
+  - MIA-Report.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\MIA-Report.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 5.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - MySql.Data.dll 9.4.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\MySql.Data.9.4.0\lib\net48\MySql.Data.dll
+  - Newtonsoft.Json.dll 13.0.3 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll
+  - SRCDailyReportv2.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\SRCDailyReportv2.dll
+  - System.Buffers.dll 4.6.28619 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll
+  - System.ComponentModel.DataAnnotations.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.ComponentModel.DataAnnotations.dll
+  - System.ComponentModel.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\System.ComponentModel.dll
+  - System.Configuration.ConfigurationManager.dll 8.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll
+  - System.Configuration.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Configuration.dll
+  - System.Configuration.Install.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Configuration.Install.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Data.OleDb.dll 9.0.2 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Data.OleDb.9.0.2\lib\net462\System.Data.OleDb.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.Diagnostics.DiagnosticSource.dll 8.0.4 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.Design.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.Design.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.IO.Pipelines.dll 5.0.15 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll
+  - System.Management.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Management.dll
+  - System.Memory.dll 4.6.31308 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll
+  - System.Messaging.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Messaging.dll
+  - System.Net.Http.Formatting.dll 5.2.7 at C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\PublicAssemblies\System.Net.Http.Formatting.dll
+  - System.Numerics.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Numerics.dll
+  - System.Numerics.Vectors.dll 4.6.26515 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Runtime.CompilerServices.Unsafe.6.1.0\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Threading.Tasks.Extensions.4.6.0\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Transactions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Transactions.dll
+  - System.Web.Extensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Documents.SpreadsheetStreaming.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Documents.SpreadsheetStreaming.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Telerik.Licensing.1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.Reporting.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.dll
+  - Telerik.Reporting.Services.HttpClient.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.Services.HttpClient.dll
+  - Telerik.Reporting.Services.ServiceStack.dll 19.1.25 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\Telerik.Reporting.Services.ServiceStack.dll
+  - Telerik.ReportViewer.WinForms.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.WinForms.dll
+  - Telerik.ReportViewer.Wpf.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.Wpf.dll
+  - Telerik.WinControls.dll 2026.1.210 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.RadDock.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.RadDock.dll
+  - Telerik.WinControls.Themes.Aqua.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Aqua.dll
+  - Telerik.WinControls.Themes.Breeze.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Breeze.dll
+  - Telerik.WinControls.Themes.Crystal.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Crystal.dll
+  - Telerik.WinControls.Themes.CrystalDark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.CrystalDark.dll
+  - Telerik.WinControls.Themes.Desert.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Desert.dll
+  - Telerik.WinControls.Themes.Fluent.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Fluent.dll
+  - Telerik.WinControls.Themes.FluentDark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.FluentDark.dll
+  - Telerik.WinControls.Themes.HighContrastBlack.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.HighContrastBlack.dll
+  - Telerik.WinControls.Themes.Material.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Material.dll
+  - Telerik.WinControls.Themes.MaterialBlueGrey.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+  - Telerik.WinControls.Themes.MaterialPink.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialPink.dll
+  - Telerik.WinControls.Themes.MaterialTeal.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialTeal.dll
+  - Telerik.WinControls.Themes.Office2007Black.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2007Black.dll
+  - Telerik.WinControls.Themes.Office2010Black.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Black.dll
+  - Telerik.WinControls.Themes.Office2010Blue.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Blue.dll
+  - Telerik.WinControls.Themes.Office2010Silver.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Silver.dll
+  - Telerik.WinControls.Themes.Office2013Dark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Dark.dll
+  - Telerik.WinControls.Themes.Office2013Light.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Light.dll
+  - Telerik.WinControls.Themes.TelerikMetroBlue.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+  - Telerik.WinControls.Themes.VisualStudio2012Dark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+  - Telerik.WinControls.Themes.VisualStudio2012Light.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+  - Telerik.WinControls.Themes.Windows7.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows7.dll
+  - Telerik.WinControls.Themes.Windows8.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows8.dll
+  - Telerik.WinControls.UI.dll 2026.1.210 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.UI.dll
+  - Telerik.Windows.Documents.Core.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Core.dll
+  - Telerik.Windows.Documents.Fixed.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Fixed.dll
+  - Telerik.Windows.Documents.Spreadsheet.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+  - Telerik.Windows.Zip.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Zip.dll
+  - TelerikCommon.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikCommon.dll
+  - TelerikExport.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikExport.dll
+  - Ubiety.Dns.Core.dll 2.2.1 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\Ubiety.Dns.Core.dll
+  - UIAutomationProvider.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\UIAutomationProvider.dll
+  - UIAutomationTypes.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\UIAutomationTypes.dll
+  - WindowsBase.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\WindowsBase.dll
+  - ZstdSharp.dll 0.8.5 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ZstdSharp.Port.0.8.5\lib\net462\ZstdSharp.dll
+  MachineId=9yBtcep22L0gXy2kDTTDxJZi140=
+
+[2026-04-07 20:32:46.483] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Documents.SpreadsheetStreaming.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.dll
+        ProductCode: REPORTING, LicenseDate: 2026-03-04, ProductName: Telerik Reporting, ProductVersion: 20.0.26.304, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.Wpf.dll
+        Transitive product references:
+        - RCWPF 2026-02-11 (redistributed by: ) Telerik UI for WPF 2026.1.211.462
+        - REPORTING 2026-03-04 (redistributed by: ) Telerik Reporting 20.0.26.304
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.RadDock.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Aqua.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Breeze.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Crystal.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.CrystalDark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Desert.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Fluent.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.FluentDark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.HighContrastBlack.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Material.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialPink.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialTeal.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2007Black.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Black.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Blue.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Silver.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Dark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Light.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows7.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows8.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Core.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Fixed.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Zip.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikExport.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      Unique Products:
+      - "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10
+      - "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10
+      - "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11
+      - "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04
+      Found a total of 4 referenced Telerik products for 
+
+[2026-04-07 20:32:46.595] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\ERP\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\ERP\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\telerik-license.txt (LicenseFound)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\kendo-ui-license.txt (Skip)
+        - UserDirectory: C:\Users\maydard.seno\AppData\Roaming\Telerik\telerik-license.txt (Skip)
+        - UserDirectory: C:\Users\maydard.seno\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: f***.m**@f***************.com
+        - UsedId: ab69b8b5-c84c-45ed-8228-81dac868c759
+        - LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed
+        - IssuedAt: 1/20/2026 6:35:06 AM
+        - Licenses
+          0) Perpetual BLAZOR, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          1) Perpetual JM, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          2) Perpetual KENDOUIANGULAR, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          3) Perpetual KENDOUICOMPLETE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          4) Perpetual KENDOUIMVC, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          5) Perpetual KENDOUIREACT, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          6) Perpetual KENDOUIVUE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          7) Perpetual MAUI, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          8) Perpetual RCAJAX, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          9) Perpetual RCWF, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          10) Perpetual RCWPF, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          11) Perpetual REPORTING, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          12) Perpetual REPORTSERVER, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          13) Perpetual UIASPCORE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          14) Perpetual UIXAM, expiration 2/19/2025 6:00:00 AM, type: 'perpetual'
+          15) Perpetual WINUI, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          16) Usage UserId: ab69b8b5-c84c-45ed-8228-81dac868c759, LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed, type: 'usage'
+
+[2026-04-07 20:32:46.619] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10 - Perpetual for RCWF, valid until 2027-09-25.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODIxODc2NTczLCJ1c2VySWQiOiJhYjY5YjhiNS1jODRjLTQ1ZWQtODIyOC04MWRhYzg2OGM3NTkiLCJsaWNlbnNlSWQiOiJlN2VhYWZkYS04N2M3LTQyZDYtOWNlNi00OWE1NDFiOGM0ZWQifQ.H8sxX5O2T3i22Uhy0PFV3YDo-lS1iHVocWX9Eu-82PheI3XbKMkEr7QiChWfuNwS9afgR7PMGy4_nx9HXRV5V9cRQ1zWvIkJsG2EbadPtKlygaAkCh-FXSRVflm3WITNHIAYfazZa26sHSnqBW_XRbH3o0GQkqVYkLlxLuLuKa4M7LlA1KtQZcVFhOH2oaXQoxfrkUMQxNFCz0JdI76T1YJNrAwxpXri8KUzfoDwKhY-IhN-bU25hJs19yGvWykTuZqrZ3lv603aQkaCaPnlF_tHROsmC7nbV4aaxaSHRF1PVD5lqsAhkA5OdGmqH8Kq9F5mhRXVVwYWf3WBcxZKkg
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXUEYiLCJ0eXBlIjoicGVycGV0dWFsIiwiZXhwaXJhdGlvbiI6MTgyMTg3NjU3MywidXNlcklkIjoiYWI2OWI4YjUtYzg0Yy00NWVkLTgyMjgtODFkYWM4NjhjNzU5IiwibGljZW5zZUlkIjoiZTdlYWFmZGEtODdjNy00MmQ2LTljZTYtNDlhNTQxYjhjNGVkIn0.LwlzHSwpL2dnz5Wqf4te57LE-h8cvOp5eHSDmOfDx0qgxY3HjfYF0Qxtxw9lGaXhgCS7NxTBbW_YjuWaKHv_JvZx2vbm85bN5ErytMh1RQfxSiQUY4fQseKas_Ug52Vxw1pxgPsFCteuZwLTo1Y4NpC1dBlynKXDXMuM_7mY1ArnHgJ0qn9F91dWB4_qWlaKmgc5_SwCxiKVYP4qWC-1rAHwfYRN4nwxx9o7jKe3cTOq42Ub60dka8MQN51GGvqsF5EOMDu6XHjgizQAfTn0cMgoy2X6tNMo9lVG5qlvU5qrK7lAyXkmhR6BV3Bbf7kPfKMhiwoxIShNX2dYBG7zjw
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkVQT1JUSU5HIiwidHlwZSI6InBlcnBldHVhbCIsImV4cGlyYXRpb24iOjE4MjE4NzY1NzMsInVzZXJJZCI6ImFiNjliOGI1LWM4NGMtNDVlZC04MjI4LTgxZGFjODY4Yzc1OSIsImxpY2Vuc2VJZCI6ImU3ZWFhZmRhLTg3YzctNDJkNi05Y2U2LTQ5YTU0MWI4YzRlZCJ9.vMdezVVvhtRG-iThgXrXFDyr8L394y38spuHWK9Cyc_b9XZ2iHzEwyT9dLgOqBfvEQM3-GKFcOW6O4-_SSwoIjNhm9paVKSVEmeonMfEOgZjOXuqYFCrXmegYUefJNkHmL6P9cB0CPtA_PThVXqg_RGtCMGEoTW_ISG2ymjLnKXwuGf3uQoTxYWCmdBVMAeZHBlzpUh7aJ78fWmWbIvGf_jrykaFhCaWML2yJHyAjHIH1uzf088pGqdOeDvhBQsIva3Hg0KPLptC4ZqxkkVyYHFvvqFgwwkv8O3ex6Df238honjg-11aXIid1Ad6SSsrqEuKqHBUF__HbdhN0AvfLg
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10 - Perpetual for RCWF, valid until 2027-09-25.
+
+[2026-04-07 20:32:46.626] [Low] OutputType: WinExe, ImportXamlTargets: True
+[2026-04-07 20:32:46.669] [Low] 
+      Call-Home Telerik Products (3 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.1.210
+      - "DPL" (DPL) 2026.1.210
+      - "Telerik Reporting" (REPORTING) 20.0.26
+
+[2026-04-07 20:32:46.669] [Low] 
+[2026-04-07 20:32:46.681] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-04-07 20:32:46.681] [Low] 
+[2026-04-07 20:32:46.828] [Low]   Report Telerik.Licensing
+        UserId: ab69b8b5-c84c-45ed-8228-81dac868c759
+        LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed
+        Products
+        - LicenseUsed RCWF 2026.1.210.462 SKIPPED
+        - LicenseUsed RCWPF 2026.1.211.462 SKIPPED
+        - LicenseUsed REPORTING 20.0.26.304 SKIPPED
+        - LicenseUsed DPL 2026.1.210.462 SKIPPED
+      Report finished in 00:00:00.1307918
+
+[2026-04-07 20:32:46.833] [Low]   Sending Telemetry...
+[2026-04-07 20:32:46.939] [Low]   Metrics done 00:00:00.1064961
+[2026-04-07 20:32:46.949] [Normal] Resolve Telerik Products. Done (00:00:00.7473814) for 
+[2026-04-07 20:40:12.915] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=2
+  MSBuildProjectDirectory=C:\Users\maydard.seno\source\repos\MIASRC\ERP
+  MSBuildProjectExtension=.vbproj
+  Language=VB
+  OutputPath=bin\Debug\
+  Platform=AnyCPU
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=WinExe
+  UseMaui=
+  NuGetPackageRoot=
+
+  PackageReferences
+  ReferencePaths
+  - BouncyCastle.Crypto.dll 1.8.3 at C:\Users\maydard.seno\source\repos\MIASRC\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll
+  - BouncyCastle.Cryptography.dll 2.5.1 at C:\Users\maydard.seno\source\repos\MIASRC\packages\BouncyCastle.Cryptography.2.5.1\lib\net461\BouncyCastle.Cryptography.dll
+  - ClosedXML.dll 0.96.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ClosedXML.0.96.0\lib\net40\ClosedXML.dll
+  - DocumentFormat.OpenXml.dll 2.16.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\DocumentFormat.OpenXml.2.16.0\lib\net40\DocumentFormat.OpenXml.dll
+  - ExcelNumberFormat.dll 1.1.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll
+  - FEAPNS.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\FEAPNS.dll
+  - Gma.QrCodeNet.Encoding.dll 0.4.1 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Gma.QrCodeNet.0.4.1.2\lib\net40\Gma.QrCodeNet.Encoding.dll
+  - Google.Protobuf.dll 3.30.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Google.Protobuf.3.30.0\lib\net45\Google.Protobuf.dll
+  - K4os.Compression.LZ4.dll 1.3.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll
+  - K4os.Compression.LZ4.Streams.dll 1.3.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll
+  - K4os.Hash.xxHash.dll 1.0.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll
+  - MIA-Linq.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\MIA-Linq.dll
+  - MIA-Report.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\MIA-Report.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 5.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - MySql.Data.dll 9.4.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\MySql.Data.9.4.0\lib\net48\MySql.Data.dll
+  - Newtonsoft.Json.dll 13.0.3 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll
+  - SRCDailyReportv2.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\SRCDailyReportv2.dll
+  - System.Buffers.dll 4.6.28619 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll
+  - System.ComponentModel.DataAnnotations.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.ComponentModel.DataAnnotations.dll
+  - System.ComponentModel.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\System.ComponentModel.dll
+  - System.Configuration.ConfigurationManager.dll 8.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll
+  - System.Configuration.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Configuration.dll
+  - System.Configuration.Install.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Configuration.Install.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Data.OleDb.dll 9.0.2 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Data.OleDb.9.0.2\lib\net462\System.Data.OleDb.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.Diagnostics.DiagnosticSource.dll 8.0.4 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.Design.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.Design.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.IO.Pipelines.dll 5.0.15 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll
+  - System.Management.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Management.dll
+  - System.Memory.dll 4.6.31308 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll
+  - System.Messaging.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Messaging.dll
+  - System.Net.Http.Formatting.dll 5.2.7 at C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\PublicAssemblies\System.Net.Http.Formatting.dll
+  - System.Numerics.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Numerics.dll
+  - System.Numerics.Vectors.dll 4.6.26515 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Runtime.CompilerServices.Unsafe.6.1.0\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Threading.Tasks.Extensions.4.6.0\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Transactions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Transactions.dll
+  - System.Web.Extensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Documents.SpreadsheetStreaming.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Documents.SpreadsheetStreaming.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Telerik.Licensing.1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.Reporting.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.dll
+  - Telerik.Reporting.Services.HttpClient.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.Services.HttpClient.dll
+  - Telerik.ReportViewer.WinForms.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.WinForms.dll
+  - Telerik.ReportViewer.Wpf.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.Wpf.dll
+  - Telerik.WinControls.dll 2026.1.210 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.RadDock.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.RadDock.dll
+  - Telerik.WinControls.Themes.Aqua.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Aqua.dll
+  - Telerik.WinControls.Themes.Breeze.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Breeze.dll
+  - Telerik.WinControls.Themes.Crystal.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Crystal.dll
+  - Telerik.WinControls.Themes.CrystalDark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.CrystalDark.dll
+  - Telerik.WinControls.Themes.Desert.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Desert.dll
+  - Telerik.WinControls.Themes.Fluent.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Fluent.dll
+  - Telerik.WinControls.Themes.FluentDark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.FluentDark.dll
+  - Telerik.WinControls.Themes.HighContrastBlack.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.HighContrastBlack.dll
+  - Telerik.WinControls.Themes.Material.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Material.dll
+  - Telerik.WinControls.Themes.MaterialBlueGrey.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+  - Telerik.WinControls.Themes.MaterialPink.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialPink.dll
+  - Telerik.WinControls.Themes.MaterialTeal.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialTeal.dll
+  - Telerik.WinControls.Themes.Office2007Black.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2007Black.dll
+  - Telerik.WinControls.Themes.Office2010Black.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Black.dll
+  - Telerik.WinControls.Themes.Office2010Blue.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Blue.dll
+  - Telerik.WinControls.Themes.Office2010Silver.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Silver.dll
+  - Telerik.WinControls.Themes.Office2013Dark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Dark.dll
+  - Telerik.WinControls.Themes.Office2013Light.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Light.dll
+  - Telerik.WinControls.Themes.TelerikMetroBlue.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+  - Telerik.WinControls.Themes.VisualStudio2012Dark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+  - Telerik.WinControls.Themes.VisualStudio2012Light.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+  - Telerik.WinControls.Themes.Windows7.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows7.dll
+  - Telerik.WinControls.Themes.Windows8.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows8.dll
+  - Telerik.WinControls.UI.dll 2026.1.210 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.UI.dll
+  - Telerik.Windows.Documents.Core.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Core.dll
+  - Telerik.Windows.Documents.Fixed.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Fixed.dll
+  - Telerik.Windows.Documents.Spreadsheet.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+  - Telerik.Windows.Zip.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Zip.dll
+  - TelerikCommon.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikCommon.dll
+  - TelerikExport.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikExport.dll
+  - Ubiety.Dns.Core.dll 2.2.1 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\Ubiety.Dns.Core.dll
+  - UIAutomationProvider.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\UIAutomationProvider.dll
+  - UIAutomationTypes.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\UIAutomationTypes.dll
+  - WindowsBase.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\WindowsBase.dll
+  - ZstdSharp.dll 0.8.5 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ZstdSharp.Port.0.8.5\lib\net462\ZstdSharp.dll
+  MachineId=9yBtcep22L0gXy2kDTTDxJZi140=
+
+[2026-04-07 20:40:12.958] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Documents.SpreadsheetStreaming.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.dll
+        ProductCode: REPORTING, LicenseDate: 2026-03-04, ProductName: Telerik Reporting, ProductVersion: 20.0.26.304, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.Wpf.dll
+        Transitive product references:
+        - RCWPF 2026-02-11 (redistributed by: ) Telerik UI for WPF 2026.1.211.462
+        - REPORTING 2026-03-04 (redistributed by: ) Telerik Reporting 20.0.26.304
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.RadDock.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Aqua.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Breeze.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Crystal.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.CrystalDark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Desert.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Fluent.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.FluentDark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.HighContrastBlack.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Material.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialPink.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialTeal.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2007Black.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Black.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Blue.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Silver.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Dark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Light.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows7.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows8.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Core.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Fixed.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Zip.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikExport.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      Unique Products:
+      - "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10
+      - "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10
+      - "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11
+      - "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04
+      Found a total of 4 referenced Telerik products for 
+
+[2026-04-07 20:40:13.007] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\ERP\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\ERP\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\telerik-license.txt (LicenseFound)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\kendo-ui-license.txt (Skip)
+        - UserDirectory: C:\Users\maydard.seno\AppData\Roaming\Telerik\telerik-license.txt (Skip)
+        - UserDirectory: C:\Users\maydard.seno\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: f***.m**@f***************.com
+        - UsedId: ab69b8b5-c84c-45ed-8228-81dac868c759
+        - LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed
+        - IssuedAt: 1/20/2026 6:35:06 AM
+        - Licenses
+          0) Perpetual BLAZOR, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          1) Perpetual JM, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          2) Perpetual KENDOUIANGULAR, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          3) Perpetual KENDOUICOMPLETE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          4) Perpetual KENDOUIMVC, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          5) Perpetual KENDOUIREACT, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          6) Perpetual KENDOUIVUE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          7) Perpetual MAUI, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          8) Perpetual RCAJAX, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          9) Perpetual RCWF, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          10) Perpetual RCWPF, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          11) Perpetual REPORTING, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          12) Perpetual REPORTSERVER, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          13) Perpetual UIASPCORE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          14) Perpetual UIXAM, expiration 2/19/2025 6:00:00 AM, type: 'perpetual'
+          15) Perpetual WINUI, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          16) Usage UserId: ab69b8b5-c84c-45ed-8228-81dac868c759, LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed, type: 'usage'
+
+[2026-04-07 20:40:13.021] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10 - Perpetual for RCWF, valid until 2027-09-25.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODIxODc2NTczLCJ1c2VySWQiOiJhYjY5YjhiNS1jODRjLTQ1ZWQtODIyOC04MWRhYzg2OGM3NTkiLCJsaWNlbnNlSWQiOiJlN2VhYWZkYS04N2M3LTQyZDYtOWNlNi00OWE1NDFiOGM0ZWQifQ.H8sxX5O2T3i22Uhy0PFV3YDo-lS1iHVocWX9Eu-82PheI3XbKMkEr7QiChWfuNwS9afgR7PMGy4_nx9HXRV5V9cRQ1zWvIkJsG2EbadPtKlygaAkCh-FXSRVflm3WITNHIAYfazZa26sHSnqBW_XRbH3o0GQkqVYkLlxLuLuKa4M7LlA1KtQZcVFhOH2oaXQoxfrkUMQxNFCz0JdI76T1YJNrAwxpXri8KUzfoDwKhY-IhN-bU25hJs19yGvWykTuZqrZ3lv603aQkaCaPnlF_tHROsmC7nbV4aaxaSHRF1PVD5lqsAhkA5OdGmqH8Kq9F5mhRXVVwYWf3WBcxZKkg
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXUEYiLCJ0eXBlIjoicGVycGV0dWFsIiwiZXhwaXJhdGlvbiI6MTgyMTg3NjU3MywidXNlcklkIjoiYWI2OWI4YjUtYzg0Yy00NWVkLTgyMjgtODFkYWM4NjhjNzU5IiwibGljZW5zZUlkIjoiZTdlYWFmZGEtODdjNy00MmQ2LTljZTYtNDlhNTQxYjhjNGVkIn0.LwlzHSwpL2dnz5Wqf4te57LE-h8cvOp5eHSDmOfDx0qgxY3HjfYF0Qxtxw9lGaXhgCS7NxTBbW_YjuWaKHv_JvZx2vbm85bN5ErytMh1RQfxSiQUY4fQseKas_Ug52Vxw1pxgPsFCteuZwLTo1Y4NpC1dBlynKXDXMuM_7mY1ArnHgJ0qn9F91dWB4_qWlaKmgc5_SwCxiKVYP4qWC-1rAHwfYRN4nwxx9o7jKe3cTOq42Ub60dka8MQN51GGvqsF5EOMDu6XHjgizQAfTn0cMgoy2X6tNMo9lVG5qlvU5qrK7lAyXkmhR6BV3Bbf7kPfKMhiwoxIShNX2dYBG7zjw
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkVQT1JUSU5HIiwidHlwZSI6InBlcnBldHVhbCIsImV4cGlyYXRpb24iOjE4MjE4NzY1NzMsInVzZXJJZCI6ImFiNjliOGI1LWM4NGMtNDVlZC04MjI4LTgxZGFjODY4Yzc1OSIsImxpY2Vuc2VJZCI6ImU3ZWFhZmRhLTg3YzctNDJkNi05Y2U2LTQ5YTU0MWI4YzRlZCJ9.vMdezVVvhtRG-iThgXrXFDyr8L394y38spuHWK9Cyc_b9XZ2iHzEwyT9dLgOqBfvEQM3-GKFcOW6O4-_SSwoIjNhm9paVKSVEmeonMfEOgZjOXuqYFCrXmegYUefJNkHmL6P9cB0CPtA_PThVXqg_RGtCMGEoTW_ISG2ymjLnKXwuGf3uQoTxYWCmdBVMAeZHBlzpUh7aJ78fWmWbIvGf_jrykaFhCaWML2yJHyAjHIH1uzf088pGqdOeDvhBQsIva3Hg0KPLptC4ZqxkkVyYHFvvqFgwwkv8O3ex6Df238honjg-11aXIid1Ad6SSsrqEuKqHBUF__HbdhN0AvfLg
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10 - Perpetual for RCWF, valid until 2027-09-25.
+
+[2026-04-07 20:40:13.024] [Low] OutputType: WinExe, ImportXamlTargets: True
+[2026-04-07 20:40:13.044] [Low] 
+      Call-Home Telerik Products (3 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.1.210
+      - "DPL" (DPL) 2026.1.210
+      - "Telerik Reporting" (REPORTING) 20.0.26
+
+[2026-04-07 20:40:13.044] [Low] 
+[2026-04-07 20:40:13.050] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-04-07 20:40:13.050] [Low] 
+[2026-04-07 20:40:13.106] [Low]   Report Telerik.Licensing
+        UserId: ab69b8b5-c84c-45ed-8228-81dac868c759
+        LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed
+        Products
+        - LicenseUsed RCWF 2026.1.210.462 SKIPPED
+        - LicenseUsed RCWPF 2026.1.211.462 SKIPPED
+        - LicenseUsed REPORTING 20.0.26.304 SKIPPED
+        - LicenseUsed DPL 2026.1.210.462 SKIPPED
+      Report finished in 00:00:00.0502871
+
+[2026-04-07 20:40:13.109] [Low]   Sending Telemetry...
+[2026-04-07 20:40:13.149] [Low]   Metrics done 00:00:00.0396437
+[2026-04-07 20:40:13.152] [Normal] Resolve Telerik Products. Done (00:00:00.2803914) for 
+[2026-04-07 20:40:25.228] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=2
+  MSBuildProjectDirectory=C:\Users\maydard.seno\source\repos\MIASRC\ERP
+  MSBuildProjectExtension=.vbproj
+  Language=VB
+  OutputPath=bin\Debug\
+  Platform=AnyCPU
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=WinExe
+  UseMaui=
+  NuGetPackageRoot=
+
+  PackageReferences
+  ReferencePaths
+  - BouncyCastle.Crypto.dll 1.8.3 at C:\Users\maydard.seno\source\repos\MIASRC\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll
+  - BouncyCastle.Cryptography.dll 2.5.1 at C:\Users\maydard.seno\source\repos\MIASRC\packages\BouncyCastle.Cryptography.2.5.1\lib\net461\BouncyCastle.Cryptography.dll
+  - ClosedXML.dll 0.96.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ClosedXML.0.96.0\lib\net40\ClosedXML.dll
+  - DocumentFormat.OpenXml.dll 2.16.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\DocumentFormat.OpenXml.2.16.0\lib\net40\DocumentFormat.OpenXml.dll
+  - ExcelNumberFormat.dll 1.1.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll
+  - FEAPNS.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\FEAPNS.dll
+  - Gma.QrCodeNet.Encoding.dll 0.4.1 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Gma.QrCodeNet.0.4.1.2\lib\net40\Gma.QrCodeNet.Encoding.dll
+  - Google.Protobuf.dll 3.30.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Google.Protobuf.3.30.0\lib\net45\Google.Protobuf.dll
+  - K4os.Compression.LZ4.dll 1.3.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll
+  - K4os.Compression.LZ4.Streams.dll 1.3.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll
+  - K4os.Hash.xxHash.dll 1.0.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll
+  - MIA-Linq.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\MIA-Linq.dll
+  - MIA-Report.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\MIA-Report.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 5.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - MySql.Data.dll 9.4.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\MySql.Data.9.4.0\lib\net48\MySql.Data.dll
+  - Newtonsoft.Json.dll 13.0.3 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll
+  - SRCDailyReportv2.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\SRCDailyReportv2.dll
+  - System.Buffers.dll 4.6.28619 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll
+  - System.ComponentModel.DataAnnotations.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.ComponentModel.DataAnnotations.dll
+  - System.ComponentModel.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\System.ComponentModel.dll
+  - System.Configuration.ConfigurationManager.dll 8.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll
+  - System.Configuration.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Configuration.dll
+  - System.Configuration.Install.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Configuration.Install.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Data.OleDb.dll 9.0.2 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Data.OleDb.9.0.2\lib\net462\System.Data.OleDb.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.Diagnostics.DiagnosticSource.dll 8.0.4 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.Design.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.Design.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.IO.Pipelines.dll 5.0.15 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll
+  - System.Management.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Management.dll
+  - System.Memory.dll 4.6.31308 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll
+  - System.Messaging.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Messaging.dll
+  - System.Net.Http.Formatting.dll 5.2.7 at C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\PublicAssemblies\System.Net.Http.Formatting.dll
+  - System.Numerics.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Numerics.dll
+  - System.Numerics.Vectors.dll 4.6.26515 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Runtime.CompilerServices.Unsafe.6.1.0\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Threading.Tasks.Extensions.4.6.0\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Transactions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Transactions.dll
+  - System.Web.Extensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Documents.SpreadsheetStreaming.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Documents.SpreadsheetStreaming.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Telerik.Licensing.1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.Reporting.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.dll
+  - Telerik.Reporting.Services.HttpClient.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.Services.HttpClient.dll
+  - Telerik.ReportViewer.WinForms.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.WinForms.dll
+  - Telerik.ReportViewer.Wpf.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.Wpf.dll
+  - Telerik.WinControls.dll 2026.1.210 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.RadDock.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.RadDock.dll
+  - Telerik.WinControls.Themes.Aqua.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Aqua.dll
+  - Telerik.WinControls.Themes.Breeze.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Breeze.dll
+  - Telerik.WinControls.Themes.Crystal.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Crystal.dll
+  - Telerik.WinControls.Themes.CrystalDark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.CrystalDark.dll
+  - Telerik.WinControls.Themes.Desert.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Desert.dll
+  - Telerik.WinControls.Themes.Fluent.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Fluent.dll
+  - Telerik.WinControls.Themes.FluentDark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.FluentDark.dll
+  - Telerik.WinControls.Themes.HighContrastBlack.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.HighContrastBlack.dll
+  - Telerik.WinControls.Themes.Material.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Material.dll
+  - Telerik.WinControls.Themes.MaterialBlueGrey.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+  - Telerik.WinControls.Themes.MaterialPink.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialPink.dll
+  - Telerik.WinControls.Themes.MaterialTeal.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialTeal.dll
+  - Telerik.WinControls.Themes.Office2007Black.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2007Black.dll
+  - Telerik.WinControls.Themes.Office2010Black.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Black.dll
+  - Telerik.WinControls.Themes.Office2010Blue.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Blue.dll
+  - Telerik.WinControls.Themes.Office2010Silver.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Silver.dll
+  - Telerik.WinControls.Themes.Office2013Dark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Dark.dll
+  - Telerik.WinControls.Themes.Office2013Light.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Light.dll
+  - Telerik.WinControls.Themes.TelerikMetroBlue.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+  - Telerik.WinControls.Themes.VisualStudio2012Dark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+  - Telerik.WinControls.Themes.VisualStudio2012Light.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+  - Telerik.WinControls.Themes.Windows7.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows7.dll
+  - Telerik.WinControls.Themes.Windows8.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows8.dll
+  - Telerik.WinControls.UI.dll 2026.1.210 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.UI.dll
+  - Telerik.Windows.Documents.Core.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Core.dll
+  - Telerik.Windows.Documents.Fixed.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Fixed.dll
+  - Telerik.Windows.Documents.Spreadsheet.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+  - Telerik.Windows.Zip.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Zip.dll
+  - TelerikCommon.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikCommon.dll
+  - TelerikExport.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikExport.dll
+  - Ubiety.Dns.Core.dll 2.2.1 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\Ubiety.Dns.Core.dll
+  - UIAutomationProvider.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\UIAutomationProvider.dll
+  - UIAutomationTypes.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\UIAutomationTypes.dll
+  - WindowsBase.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\WindowsBase.dll
+  - ZstdSharp.dll 0.8.5 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ZstdSharp.Port.0.8.5\lib\net462\ZstdSharp.dll
+  MachineId=9yBtcep22L0gXy2kDTTDxJZi140=
+
+[2026-04-07 20:40:25.283] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Documents.SpreadsheetStreaming.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.dll
+        ProductCode: REPORTING, LicenseDate: 2026-03-04, ProductName: Telerik Reporting, ProductVersion: 20.0.26.304, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.Wpf.dll
+        Transitive product references:
+        - RCWPF 2026-02-11 (redistributed by: ) Telerik UI for WPF 2026.1.211.462
+        - REPORTING 2026-03-04 (redistributed by: ) Telerik Reporting 20.0.26.304
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.RadDock.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Aqua.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Breeze.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Crystal.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.CrystalDark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Desert.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Fluent.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.FluentDark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.HighContrastBlack.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Material.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialPink.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialTeal.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2007Black.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Black.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Blue.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Silver.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Dark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Light.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows7.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows8.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Core.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Fixed.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Zip.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikExport.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      Unique Products:
+      - "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10
+      - "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10
+      - "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11
+      - "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04
+      Found a total of 4 referenced Telerik products for 
+
+[2026-04-07 20:40:25.322] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\ERP\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\ERP\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\telerik-license.txt (LicenseFound)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\kendo-ui-license.txt (Skip)
+        - UserDirectory: C:\Users\maydard.seno\AppData\Roaming\Telerik\telerik-license.txt (Skip)
+        - UserDirectory: C:\Users\maydard.seno\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: f***.m**@f***************.com
+        - UsedId: ab69b8b5-c84c-45ed-8228-81dac868c759
+        - LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed
+        - IssuedAt: 1/20/2026 6:35:06 AM
+        - Licenses
+          0) Perpetual BLAZOR, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          1) Perpetual JM, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          2) Perpetual KENDOUIANGULAR, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          3) Perpetual KENDOUICOMPLETE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          4) Perpetual KENDOUIMVC, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          5) Perpetual KENDOUIREACT, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          6) Perpetual KENDOUIVUE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          7) Perpetual MAUI, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          8) Perpetual RCAJAX, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          9) Perpetual RCWF, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          10) Perpetual RCWPF, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          11) Perpetual REPORTING, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          12) Perpetual REPORTSERVER, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          13) Perpetual UIASPCORE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          14) Perpetual UIXAM, expiration 2/19/2025 6:00:00 AM, type: 'perpetual'
+          15) Perpetual WINUI, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          16) Usage UserId: ab69b8b5-c84c-45ed-8228-81dac868c759, LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed, type: 'usage'
+
+[2026-04-07 20:40:25.333] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10 - Perpetual for RCWF, valid until 2027-09-25.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODIxODc2NTczLCJ1c2VySWQiOiJhYjY5YjhiNS1jODRjLTQ1ZWQtODIyOC04MWRhYzg2OGM3NTkiLCJsaWNlbnNlSWQiOiJlN2VhYWZkYS04N2M3LTQyZDYtOWNlNi00OWE1NDFiOGM0ZWQifQ.H8sxX5O2T3i22Uhy0PFV3YDo-lS1iHVocWX9Eu-82PheI3XbKMkEr7QiChWfuNwS9afgR7PMGy4_nx9HXRV5V9cRQ1zWvIkJsG2EbadPtKlygaAkCh-FXSRVflm3WITNHIAYfazZa26sHSnqBW_XRbH3o0GQkqVYkLlxLuLuKa4M7LlA1KtQZcVFhOH2oaXQoxfrkUMQxNFCz0JdI76T1YJNrAwxpXri8KUzfoDwKhY-IhN-bU25hJs19yGvWykTuZqrZ3lv603aQkaCaPnlF_tHROsmC7nbV4aaxaSHRF1PVD5lqsAhkA5OdGmqH8Kq9F5mhRXVVwYWf3WBcxZKkg
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXUEYiLCJ0eXBlIjoicGVycGV0dWFsIiwiZXhwaXJhdGlvbiI6MTgyMTg3NjU3MywidXNlcklkIjoiYWI2OWI4YjUtYzg0Yy00NWVkLTgyMjgtODFkYWM4NjhjNzU5IiwibGljZW5zZUlkIjoiZTdlYWFmZGEtODdjNy00MmQ2LTljZTYtNDlhNTQxYjhjNGVkIn0.LwlzHSwpL2dnz5Wqf4te57LE-h8cvOp5eHSDmOfDx0qgxY3HjfYF0Qxtxw9lGaXhgCS7NxTBbW_YjuWaKHv_JvZx2vbm85bN5ErytMh1RQfxSiQUY4fQseKas_Ug52Vxw1pxgPsFCteuZwLTo1Y4NpC1dBlynKXDXMuM_7mY1ArnHgJ0qn9F91dWB4_qWlaKmgc5_SwCxiKVYP4qWC-1rAHwfYRN4nwxx9o7jKe3cTOq42Ub60dka8MQN51GGvqsF5EOMDu6XHjgizQAfTn0cMgoy2X6tNMo9lVG5qlvU5qrK7lAyXkmhR6BV3Bbf7kPfKMhiwoxIShNX2dYBG7zjw
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkVQT1JUSU5HIiwidHlwZSI6InBlcnBldHVhbCIsImV4cGlyYXRpb24iOjE4MjE4NzY1NzMsInVzZXJJZCI6ImFiNjliOGI1LWM4NGMtNDVlZC04MjI4LTgxZGFjODY4Yzc1OSIsImxpY2Vuc2VJZCI6ImU3ZWFhZmRhLTg3YzctNDJkNi05Y2U2LTQ5YTU0MWI4YzRlZCJ9.vMdezVVvhtRG-iThgXrXFDyr8L394y38spuHWK9Cyc_b9XZ2iHzEwyT9dLgOqBfvEQM3-GKFcOW6O4-_SSwoIjNhm9paVKSVEmeonMfEOgZjOXuqYFCrXmegYUefJNkHmL6P9cB0CPtA_PThVXqg_RGtCMGEoTW_ISG2ymjLnKXwuGf3uQoTxYWCmdBVMAeZHBlzpUh7aJ78fWmWbIvGf_jrykaFhCaWML2yJHyAjHIH1uzf088pGqdOeDvhBQsIva3Hg0KPLptC4ZqxkkVyYHFvvqFgwwkv8O3ex6Df238honjg-11aXIid1Ad6SSsrqEuKqHBUF__HbdhN0AvfLg
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10 - Perpetual for RCWF, valid until 2027-09-25.
+
+[2026-04-07 20:40:25.338] [Low] OutputType: WinExe, ImportXamlTargets: True
+[2026-04-07 20:40:25.352] [Low] 
+      Call-Home Telerik Products (3 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.1.210
+      - "DPL" (DPL) 2026.1.210
+      - "Telerik Reporting" (REPORTING) 20.0.26
+
+[2026-04-07 20:40:25.352] [Low] 
+[2026-04-07 20:40:25.356] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-04-07 20:40:25.356] [Low] 
+[2026-04-07 20:40:25.407] [Low]   Report Telerik.Licensing
+        UserId: ab69b8b5-c84c-45ed-8228-81dac868c759
+        LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed
+        Products
+        - LicenseUsed RCWF 2026.1.210.462 SKIPPED
+        - LicenseUsed RCWPF 2026.1.211.462 SKIPPED
+        - LicenseUsed REPORTING 20.0.26.304 SKIPPED
+        - LicenseUsed DPL 2026.1.210.462 SKIPPED
+      Report finished in 00:00:00.0474625
+
+[2026-04-07 20:40:25.408] [Low]   Sending Telemetry...
+[2026-04-07 20:40:25.451] [Low]   Metrics done 00:00:00.0426061
+[2026-04-07 20:40:25.454] [Normal] Resolve Telerik Products. Done (00:00:00.2500365) for 
+[2026-04-07 20:54:24.145] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=2
+  MSBuildProjectDirectory=C:\Users\maydard.seno\source\repos\MIASRC\ERP
+  MSBuildProjectExtension=.vbproj
+  Language=VB
+  OutputPath=bin\Debug\
+  Platform=AnyCPU
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=WinExe
+  UseMaui=
+  NuGetPackageRoot=
+
+  PackageReferences
+  ReferencePaths
+  - BouncyCastle.Crypto.dll 1.8.3 at C:\Users\maydard.seno\source\repos\MIASRC\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll
+  - BouncyCastle.Cryptography.dll 2.5.1 at C:\Users\maydard.seno\source\repos\MIASRC\packages\BouncyCastle.Cryptography.2.5.1\lib\net461\BouncyCastle.Cryptography.dll
+  - ClosedXML.dll 0.96.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ClosedXML.0.96.0\lib\net40\ClosedXML.dll
+  - DocumentFormat.OpenXml.dll 2.16.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\DocumentFormat.OpenXml.2.16.0\lib\net40\DocumentFormat.OpenXml.dll
+  - ExcelNumberFormat.dll 1.1.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll
+  - FEAPNS.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\FEAPNS.dll
+  - Gma.QrCodeNet.Encoding.dll 0.4.1 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Gma.QrCodeNet.0.4.1.2\lib\net40\Gma.QrCodeNet.Encoding.dll
+  - Google.Protobuf.dll 3.30.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Google.Protobuf.3.30.0\lib\net45\Google.Protobuf.dll
+  - K4os.Compression.LZ4.dll 1.3.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll
+  - K4os.Compression.LZ4.Streams.dll 1.3.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll
+  - K4os.Hash.xxHash.dll 1.0.8 at C:\Users\maydard.seno\source\repos\MIASRC\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll
+  - MIA-Linq.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\MIA-Linq.dll
+  - MIA-Report.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\MIA-Report.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 5.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - MySql.Data.dll 9.4.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\MySql.Data.9.4.0\lib\net48\MySql.Data.dll
+  - Newtonsoft.Json.dll 13.0.3 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll
+  - SRCDailyReportv2.dll 1.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\SRCDailyReportv2.dll
+  - System.Buffers.dll 4.6.28619 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll
+  - System.ComponentModel.DataAnnotations.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.ComponentModel.DataAnnotations.dll
+  - System.ComponentModel.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\System.ComponentModel.dll
+  - System.Configuration.ConfigurationManager.dll 8.0.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll
+  - System.Configuration.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Configuration.dll
+  - System.Configuration.Install.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Configuration.Install.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Data.OleDb.dll 9.0.2 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Data.OleDb.9.0.2\lib\net462\System.Data.OleDb.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.Diagnostics.DiagnosticSource.dll 8.0.4 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.Design.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.Design.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.IO.Pipelines.dll 5.0.15 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll
+  - System.Management.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Management.dll
+  - System.Memory.dll 4.6.31308 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll
+  - System.Messaging.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Messaging.dll
+  - System.Net.Http.Formatting.dll 5.2.7 at C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\PublicAssemblies\System.Net.Http.Formatting.dll
+  - System.Numerics.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Numerics.dll
+  - System.Numerics.Vectors.dll 4.6.26515 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Runtime.CompilerServices.Unsafe.6.1.0\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.0 at C:\Users\maydard.seno\source\repos\MIASRC\packages\System.Threading.Tasks.Extensions.4.6.0\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Transactions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Transactions.dll
+  - System.Web.Extensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Documents.SpreadsheetStreaming.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Documents.SpreadsheetStreaming.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\maydard.seno\source\repos\MIASRC\packages\Telerik.Licensing.1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.Reporting.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.dll
+  - Telerik.Reporting.Services.HttpClient.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.Services.HttpClient.dll
+  - Telerik.ReportViewer.WinForms.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.WinForms.dll
+  - Telerik.ReportViewer.Wpf.dll 20.0.26 at C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.Wpf.dll
+  - Telerik.WinControls.dll 2026.1.210 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.RadDock.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.RadDock.dll
+  - Telerik.WinControls.Themes.Aqua.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Aqua.dll
+  - Telerik.WinControls.Themes.Breeze.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Breeze.dll
+  - Telerik.WinControls.Themes.Crystal.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Crystal.dll
+  - Telerik.WinControls.Themes.CrystalDark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.CrystalDark.dll
+  - Telerik.WinControls.Themes.Desert.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Desert.dll
+  - Telerik.WinControls.Themes.Fluent.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Fluent.dll
+  - Telerik.WinControls.Themes.FluentDark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.FluentDark.dll
+  - Telerik.WinControls.Themes.HighContrastBlack.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.HighContrastBlack.dll
+  - Telerik.WinControls.Themes.Material.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Material.dll
+  - Telerik.WinControls.Themes.MaterialBlueGrey.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+  - Telerik.WinControls.Themes.MaterialPink.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialPink.dll
+  - Telerik.WinControls.Themes.MaterialTeal.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialTeal.dll
+  - Telerik.WinControls.Themes.Office2007Black.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2007Black.dll
+  - Telerik.WinControls.Themes.Office2010Black.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Black.dll
+  - Telerik.WinControls.Themes.Office2010Blue.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Blue.dll
+  - Telerik.WinControls.Themes.Office2010Silver.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Silver.dll
+  - Telerik.WinControls.Themes.Office2013Dark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Dark.dll
+  - Telerik.WinControls.Themes.Office2013Light.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Light.dll
+  - Telerik.WinControls.Themes.TelerikMetroBlue.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+  - Telerik.WinControls.Themes.VisualStudio2012Dark.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+  - Telerik.WinControls.Themes.VisualStudio2012Light.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+  - Telerik.WinControls.Themes.Windows7.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows7.dll
+  - Telerik.WinControls.Themes.Windows8.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows8.dll
+  - Telerik.WinControls.UI.dll 2026.1.210 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.UI.dll
+  - Telerik.Windows.Documents.Core.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Core.dll
+  - Telerik.Windows.Documents.Fixed.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Fixed.dll
+  - Telerik.Windows.Documents.Spreadsheet.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+  - Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+  - Telerik.Windows.Zip.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Zip.dll
+  - TelerikCommon.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikCommon.dll
+  - TelerikExport.dll 2026.1.210 at C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikExport.dll
+  - Ubiety.Dns.Core.dll 2.2.1 at C:\Users\maydard.seno\source\repos\MIASRC\ERP\bin\Debug\Ubiety.Dns.Core.dll
+  - UIAutomationProvider.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\UIAutomationProvider.dll
+  - UIAutomationTypes.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\UIAutomationTypes.dll
+  - WindowsBase.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\WindowsBase.dll
+  - ZstdSharp.dll 0.8.5 at C:\Users\maydard.seno\source\repos\MIASRC\packages\ZstdSharp.Port.0.8.5\lib\net462\ZstdSharp.dll
+  MachineId=9yBtcep22L0gXy2kDTTDxJZi140=
+
+[2026-04-07 20:54:24.207] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Documents.SpreadsheetStreaming.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.Reporting.dll
+        ProductCode: REPORTING, LicenseDate: 2026-03-04, ProductName: Telerik Reporting, ProductVersion: 20.0.26.304, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik Reporting 2026 Q1\Bin\Telerik.ReportViewer.Wpf.dll
+        Transitive product references:
+        - RCWPF 2026-02-11 (redistributed by: ) Telerik UI for WPF 2026.1.211.462
+        - REPORTING 2026-03-04 (redistributed by: ) Telerik Reporting 20.0.26.304
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.RadDock.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Aqua.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Breeze.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Crystal.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.CrystalDark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Desert.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Fluent.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.FluentDark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.HighContrastBlack.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Material.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialPink.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.MaterialTeal.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2007Black.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Black.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Blue.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2010Silver.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Dark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Office2013Light.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows7.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.WinControls.Themes.Windows8.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q1\Bin462\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Core.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Fixed.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\Telerik.Windows.Zip.dll
+        ProductCode: DPL, LicenseDate: 2026-02-10, Redistributed By: RCWPF, RCWF, MAUI, UIXAM, WINUI, RCAJAX, KENDOUIMVC, UIASPCORE, BLAZOR, ProductName: Telerik Document Processing Libraries, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      - C:\Users\maydard.seno\source\repos\MIASRC\lib\RCWF\2026.1.210.462\TelerikExport.dll
+        ProductCode: RCWF, LicenseDate: 2026-02-10, ProductName: Telerik UI for WinForms, ProductVersion: 2026.1.210.462, Flags: None
+      Unique Products:
+      - "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10
+      - "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10
+      - "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11
+      - "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04
+      Found a total of 4 referenced Telerik products for 
+
+[2026-04-07 20:54:24.263] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\ERP\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\ERP\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\telerik-license.txt (LicenseFound)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\MIASRC\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\repos\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\source\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\maydard.seno\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\Users\kendo-ui-license.txt (Skip)
+        - RecursiveFilePath: C:\telerik-license.txt (Skip)
+        - RecursiveFilePath: C:\kendo-ui-license.txt (Skip)
+        - UserDirectory: C:\Users\maydard.seno\AppData\Roaming\Telerik\telerik-license.txt (Skip)
+        - UserDirectory: C:\Users\maydard.seno\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: f***.m**@f***************.com
+        - UsedId: ab69b8b5-c84c-45ed-8228-81dac868c759
+        - LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed
+        - IssuedAt: 1/20/2026 6:35:06 AM
+        - Licenses
+          0) Perpetual BLAZOR, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          1) Perpetual JM, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          2) Perpetual KENDOUIANGULAR, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          3) Perpetual KENDOUICOMPLETE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          4) Perpetual KENDOUIMVC, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          5) Perpetual KENDOUIREACT, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          6) Perpetual KENDOUIVUE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          7) Perpetual MAUI, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          8) Perpetual RCAJAX, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          9) Perpetual RCWF, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          10) Perpetual RCWPF, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          11) Perpetual REPORTING, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          12) Perpetual REPORTSERVER, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          13) Perpetual UIASPCORE, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          14) Perpetual UIXAM, expiration 2/19/2025 6:00:00 AM, type: 'perpetual'
+          15) Perpetual WINUI, expiration 9/25/2027 12:49:33 PM, type: 'perpetual'
+          16) Usage UserId: ab69b8b5-c84c-45ed-8228-81dac868c759, LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed, type: 'usage'
+
+[2026-04-07 20:54:24.276] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10 - Perpetual for RCWF, valid until 2027-09-25.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODIxODc2NTczLCJ1c2VySWQiOiJhYjY5YjhiNS1jODRjLTQ1ZWQtODIyOC04MWRhYzg2OGM3NTkiLCJsaWNlbnNlSWQiOiJlN2VhYWZkYS04N2M3LTQyZDYtOWNlNi00OWE1NDFiOGM0ZWQifQ.H8sxX5O2T3i22Uhy0PFV3YDo-lS1iHVocWX9Eu-82PheI3XbKMkEr7QiChWfuNwS9afgR7PMGy4_nx9HXRV5V9cRQ1zWvIkJsG2EbadPtKlygaAkCh-FXSRVflm3WITNHIAYfazZa26sHSnqBW_XRbH3o0GQkqVYkLlxLuLuKa4M7LlA1KtQZcVFhOH2oaXQoxfrkUMQxNFCz0JdI76T1YJNrAwxpXri8KUzfoDwKhY-IhN-bU25hJs19yGvWykTuZqrZ3lv603aQkaCaPnlF_tHROsmC7nbV4aaxaSHRF1PVD5lqsAhkA5OdGmqH8Kq9F5mhRXVVwYWf3WBcxZKkg
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXUEYiLCJ0eXBlIjoicGVycGV0dWFsIiwiZXhwaXJhdGlvbiI6MTgyMTg3NjU3MywidXNlcklkIjoiYWI2OWI4YjUtYzg0Yy00NWVkLTgyMjgtODFkYWM4NjhjNzU5IiwibGljZW5zZUlkIjoiZTdlYWFmZGEtODdjNy00MmQ2LTljZTYtNDlhNTQxYjhjNGVkIn0.LwlzHSwpL2dnz5Wqf4te57LE-h8cvOp5eHSDmOfDx0qgxY3HjfYF0Qxtxw9lGaXhgCS7NxTBbW_YjuWaKHv_JvZx2vbm85bN5ErytMh1RQfxSiQUY4fQseKas_Ug52Vxw1pxgPsFCteuZwLTo1Y4NpC1dBlynKXDXMuM_7mY1ArnHgJ0qn9F91dWB4_qWlaKmgc5_SwCxiKVYP4qWC-1rAHwfYRN4nwxx9o7jKe3cTOq42Ub60dka8MQN51GGvqsF5EOMDu6XHjgizQAfTn0cMgoy2X6tNMo9lVG5qlvU5qrK7lAyXkmhR6BV3Bbf7kPfKMhiwoxIShNX2dYBG7zjw
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkVQT1JUSU5HIiwidHlwZSI6InBlcnBldHVhbCIsImV4cGlyYXRpb24iOjE4MjE4NzY1NzMsInVzZXJJZCI6ImFiNjliOGI1LWM4NGMtNDVlZC04MjI4LTgxZGFjODY4Yzc1OSIsImxpY2Vuc2VJZCI6ImU3ZWFhZmRhLTg3YzctNDJkNi05Y2U2LTQ5YTU0MWI4YzRlZCJ9.vMdezVVvhtRG-iThgXrXFDyr8L394y38spuHWK9Cyc_b9XZ2iHzEwyT9dLgOqBfvEQM3-GKFcOW6O4-_SSwoIjNhm9paVKSVEmeonMfEOgZjOXuqYFCrXmegYUefJNkHmL6P9cB0CPtA_PThVXqg_RGtCMGEoTW_ISG2ymjLnKXwuGf3uQoTxYWCmdBVMAeZHBlzpUh7aJ78fWmWbIvGf_jrykaFhCaWML2yJHyAjHIH1uzf088pGqdOeDvhBQsIva3Hg0KPLptC4ZqxkkVyYHFvvqFgwwkv8O3ex6Df238honjg-11aXIid1Ad6SSsrqEuKqHBUF__HbdhN0AvfLg
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.1.210.462 @2026-02-10 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik UI for WPF" (RCWPF) 2026.1.211.462 @2026-02-11 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Reporting" (REPORTING) 20.0.26.304 @2026-03-04 - Perpetual, valid until 2027-09-25.
+          - License OK for "Telerik Document Processing Libraries" (DPL) 2026.1.210.462 @2026-02-10 - Perpetual for RCWF, valid until 2027-09-25.
+
+[2026-04-07 20:54:24.280] [Low] OutputType: WinExe, ImportXamlTargets: True
+[2026-04-07 20:54:24.297] [Low] 
+      Call-Home Telerik Products (3 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.1.210
+      - "DPL" (DPL) 2026.1.210
+      - "Telerik Reporting" (REPORTING) 20.0.26
+
+[2026-04-07 20:54:24.297] [Low] 
+[2026-04-07 20:54:24.305] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-04-07 20:54:24.305] [Low] 
+[2026-04-07 20:54:24.375] [Low]   Report Telerik.Licensing
+        UserId: ab69b8b5-c84c-45ed-8228-81dac868c759
+        LicenseId: e7eaafda-87c7-42d6-9ce6-49a541b8c4ed
+        Products
+        - LicenseUsed RCWF 2026.1.210.462 SKIPPED
+        - LicenseUsed RCWPF 2026.1.211.462 SKIPPED
+        - LicenseUsed REPORTING 20.0.26.304 SKIPPED
+        - LicenseUsed DPL 2026.1.210.462 SKIPPED
+      Report finished in 00:00:00.0632595
+
+[2026-04-07 20:54:24.376] [Low]   Sending Telemetry...
+[2026-04-07 20:54:24.421] [Low]   Metrics done 00:00:00.0444677
+[2026-04-07 20:54:24.425] [Normal] Resolve Telerik Products. Done (00:00:00.3173647) for 

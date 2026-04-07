@@ -1656,13 +1656,13 @@ Public Class FrmSRCDailyReportNewV2
             Dim cavCell = rgvLotNo.Rows(row).Cells("fldCavNo").Value
             Dim partCell = rgvLotNo.Rows(row).Cells("fldPartName").Value
 
-            Dim lotNo As String = If(lotCell Is Nothing OrElse IsDBNull(lotCell), "", lotCell.ToString())
-            Dim cavNo As String = If(cavCell Is Nothing OrElse IsDBNull(cavCell), "", cavCell.ToString())
-            Dim partName As String = If(partCell Is Nothing OrElse IsDBNull(partCell), "", partCell.ToString())
+            Dim lotNo As String = If(lotCell Is Nothing OrElse IsDBNull(lotCell), "", lotCell.ToString().Trim())
+            Dim cavNo As String = If(cavCell Is Nothing OrElse IsDBNull(cavCell), "", cavCell.ToString().Trim())
+            Dim partName As String = If(partCell Is Nothing OrElse IsDBNull(partCell), "", partCell.ToString().Trim())
 
             Dim partLower As String = partName.ToLower()
 
-            If Not partLower.Contains("housing") Then
+            If Not partLower.Contains("housing") AndAlso Not String.IsNullOrWhiteSpace(cavNo) Then
 
                 If partLower.Contains("rotator") Then
                     rotatorParts.Add(cavNo)
@@ -1713,6 +1713,7 @@ Public Class FrmSRCDailyReportNewV2
         spnHQStator.Text = Stator
         spnHQSubstator.Text = SubStator
         spnHQSleeve.Text = Sleeve
+        ddHQTime.Text = ddLotTime.Text
 
         RadMessageBox.Show("Item Added", "SUCCESS", MessageBoxButtons.OK, RadMessageIcon.Info)
         ReloadLot()
@@ -1727,7 +1728,7 @@ Public Class FrmSRCDailyReportNewV2
                 If deleteExist = "Good" Then
                     InsertLot()
                 Else
-                    MessageBox.Show("Submit Unsuccessful")
+                    RadMessageBox.Show("Submit Unsuccessful", "SUCCESS", MessageBoxButtons.OK, RadMessageIcon.Info)
                 End If
             End If
         Catch ex As Exception

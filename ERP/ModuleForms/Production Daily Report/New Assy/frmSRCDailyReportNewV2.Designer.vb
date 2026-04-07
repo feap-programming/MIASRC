@@ -23,20 +23,20 @@ Partial Class FrmSRCDailyReportNewV2
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmSRCDailyReportNewV2))
-        Dim TableViewDefinition15 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
-        Dim TableViewDefinition16 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim TableViewDefinition1 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim TableViewDefinition2 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim RadListDataItem1 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem2 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem3 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim TableViewDefinition3 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim TableViewDefinition4 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim TableViewDefinition5 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim TableViewDefinition6 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
         Dim RadListDataItem4 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem5 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem6 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim TableViewDefinition17 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
-        Dim TableViewDefinition18 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
-        Dim TableViewDefinition19 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
-        Dim TableViewDefinition20 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
         Dim RadListDataItem7 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem8 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem9 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem10 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim TableViewDefinition21 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim TableViewDefinition7 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnReCons = New Telerik.WinControls.UI.RadButton()
         Me.RadProgressBar1 = New Telerik.WinControls.UI.RadProgressBar()
@@ -547,7 +547,7 @@ Partial Class FrmSRCDailyReportNewV2
         Me.rgvManpower.MasterTemplate.AllowRowHeaderContextMenu = False
         Me.rgvManpower.MasterTemplate.AllowRowResize = False
         Me.rgvManpower.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill
-        Me.rgvManpower.MasterTemplate.ViewDefinition = TableViewDefinition15
+        Me.rgvManpower.MasterTemplate.ViewDefinition = TableViewDefinition1
         Me.rgvManpower.Name = "rgvManpower"
         Me.rgvManpower.Size = New System.Drawing.Size(1087, 478)
         Me.rgvManpower.TabIndex = 1
@@ -636,7 +636,7 @@ Partial Class FrmSRCDailyReportNewV2
         Me.cbManpower.EditorControl.MasterTemplate.AllowColumnChooser = False
         Me.cbManpower.EditorControl.MasterTemplate.EnableGrouping = False
         Me.cbManpower.EditorControl.MasterTemplate.ShowFilteringRow = False
-        Me.cbManpower.EditorControl.MasterTemplate.ViewDefinition = TableViewDefinition16
+        Me.cbManpower.EditorControl.MasterTemplate.ViewDefinition = TableViewDefinition2
         Me.cbManpower.EditorControl.Name = "NestedRadGridView"
         Me.cbManpower.EditorControl.ReadOnly = True
         Me.cbManpower.EditorControl.ShowGroupPanel = False
@@ -679,12 +679,12 @@ Partial Class FrmSRCDailyReportNewV2
         'ddStatus
         '
         Me.ddStatus.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem4.Text = "Qualified"
-        RadListDataItem5.Text = "Transferred"
-        RadListDataItem6.Text = "Trainee"
-        Me.ddStatus.Items.Add(RadListDataItem4)
-        Me.ddStatus.Items.Add(RadListDataItem5)
-        Me.ddStatus.Items.Add(RadListDataItem6)
+        RadListDataItem1.Text = "Qualified"
+        RadListDataItem2.Text = "Transferred"
+        RadListDataItem3.Text = "Trainee"
+        Me.ddStatus.Items.Add(RadListDataItem1)
+        Me.ddStatus.Items.Add(RadListDataItem2)
+        Me.ddStatus.Items.Add(RadListDataItem3)
         Me.ddStatus.Location = New System.Drawing.Point(365, 89)
         Me.ddStatus.Name = "ddStatus"
         Me.ddStatus.Size = New System.Drawing.Size(215, 24)
@@ -764,7 +764,7 @@ Partial Class FrmSRCDailyReportNewV2
         Me.rgvHourly.MasterTemplate.AllowEditRow = False
         Me.rgvHourly.MasterTemplate.AllowRowHeaderContextMenu = False
         Me.rgvHourly.MasterTemplate.AllowRowResize = False
-        Me.rgvHourly.MasterTemplate.ViewDefinition = TableViewDefinition17
+        Me.rgvHourly.MasterTemplate.ViewDefinition = TableViewDefinition3
         Me.rgvHourly.Name = "rgvHourly"
         Me.rgvHourly.Size = New System.Drawing.Size(1087, 343)
         Me.rgvHourly.TabIndex = 2
@@ -1166,7 +1166,7 @@ Partial Class FrmSRCDailyReportNewV2
         Me.rgvAssyLineEff.MasterTemplate.AllowEditRow = False
         Me.rgvAssyLineEff.MasterTemplate.AllowRowHeaderContextMenu = False
         Me.rgvAssyLineEff.MasterTemplate.AllowRowResize = False
-        Me.rgvAssyLineEff.MasterTemplate.ViewDefinition = TableViewDefinition18
+        Me.rgvAssyLineEff.MasterTemplate.ViewDefinition = TableViewDefinition4
         Me.rgvAssyLineEff.Name = "rgvAssyLineEff"
         Me.rgvAssyLineEff.Size = New System.Drawing.Size(1087, 358)
         Me.rgvAssyLineEff.TabIndex = 3
@@ -1625,7 +1625,7 @@ Partial Class FrmSRCDailyReportNewV2
         Me.rgvSRCAssy.MasterTemplate.AllowEditRow = False
         Me.rgvSRCAssy.MasterTemplate.AllowRowHeaderContextMenu = False
         Me.rgvSRCAssy.MasterTemplate.AllowRowResize = False
-        Me.rgvSRCAssy.MasterTemplate.ViewDefinition = TableViewDefinition19
+        Me.rgvSRCAssy.MasterTemplate.ViewDefinition = TableViewDefinition5
         Me.rgvSRCAssy.Name = "rgvSRCAssy"
         Me.rgvSRCAssy.Size = New System.Drawing.Size(1087, 497)
         Me.rgvSRCAssy.TabIndex = 4
@@ -1836,7 +1836,7 @@ Partial Class FrmSRCDailyReportNewV2
         Me.rgvSRCDefects.MasterTemplate.AllowEditRow = False
         Me.rgvSRCDefects.MasterTemplate.AllowRowHeaderContextMenu = False
         Me.rgvSRCDefects.MasterTemplate.AllowRowResize = False
-        Me.rgvSRCDefects.MasterTemplate.ViewDefinition = TableViewDefinition20
+        Me.rgvSRCDefects.MasterTemplate.ViewDefinition = TableViewDefinition6
         Me.rgvSRCDefects.Name = "rgvSRCDefects"
         Me.rgvSRCDefects.Size = New System.Drawing.Size(1087, 463)
         Me.rgvSRCDefects.TabIndex = 5
@@ -2037,14 +2037,14 @@ Partial Class FrmSRCDailyReportNewV2
         'ddSPDCategory
         '
         Me.ddSPDCategory.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem7.Text = "A. Function Tester"
-        RadListDataItem8.Text = "B. Electrical Test"
-        RadListDataItem9.Text = "C. Final Tester"
-        RadListDataItem10.Text = "D. Others"
+        RadListDataItem4.Text = "A. Function Tester"
+        RadListDataItem5.Text = "B. Electrical Test"
+        RadListDataItem6.Text = "C. Final Tester"
+        RadListDataItem7.Text = "D. Others"
+        Me.ddSPDCategory.Items.Add(RadListDataItem4)
+        Me.ddSPDCategory.Items.Add(RadListDataItem5)
+        Me.ddSPDCategory.Items.Add(RadListDataItem6)
         Me.ddSPDCategory.Items.Add(RadListDataItem7)
-        Me.ddSPDCategory.Items.Add(RadListDataItem8)
-        Me.ddSPDCategory.Items.Add(RadListDataItem9)
-        Me.ddSPDCategory.Items.Add(RadListDataItem10)
         Me.ddSPDCategory.Location = New System.Drawing.Point(108, 13)
         Me.ddSPDCategory.Name = "ddSPDCategory"
         Me.ddSPDCategory.Size = New System.Drawing.Size(193, 24)
@@ -2239,7 +2239,7 @@ Partial Class FrmSRCDailyReportNewV2
         '
         '
         '
-        Me.rgvLotNo.MasterTemplate.ViewDefinition = TableViewDefinition21
+        Me.rgvLotNo.MasterTemplate.ViewDefinition = TableViewDefinition7
         Me.rgvLotNo.Name = "rgvLotNo"
         Me.rgvLotNo.Size = New System.Drawing.Size(1085, 449)
         Me.rgvLotNo.TabIndex = 29
