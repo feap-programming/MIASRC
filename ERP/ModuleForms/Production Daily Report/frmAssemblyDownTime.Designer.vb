@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FrmAssemblyDownTime
     Inherits Telerik.WinControls.UI.RadForm
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,25 +20,8 @@ Partial Class FrmAssemblyDownTime
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim RadListDataItem1 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem2 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem3 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem4 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem5 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem6 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem7 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem8 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem9 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem10 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem11 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem12 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem13 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem14 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem15 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem16 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem17 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem18 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem19 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem20 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
@@ -49,8 +32,42 @@ Partial Class FrmAssemblyDownTime
         Dim RadListDataItem25 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem26 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem27 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim TableViewDefinition1 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim RadListDataItem28 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem29 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem1 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem2 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem30 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem31 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem32 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem3 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem4 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem5 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem6 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem7 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem8 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem9 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem10 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem11 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem12 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim TableViewDefinition4 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
         Me.panelMore = New Telerik.WinControls.UI.RadPanel()
+        Me.ddMachName = New Telerik.WinControls.UI.RadDropDownList()
+        Me.ddProdName = New Telerik.WinControls.UI.RadDropDownList()
+        Me.cbQAMats = New System.Windows.Forms.CheckBox()
+        Me.cbQAMachine = New System.Windows.Forms.CheckBox()
+        Me.cbAAfterPM = New System.Windows.Forms.CheckBox()
+        Me.cbAAfterSetup = New System.Windows.Forms.CheckBox()
+        Me.cbSPDE = New System.Windows.Forms.CheckBox()
+        Me.cbSOthers = New System.Windows.Forms.CheckBox()
+        Me.cbSME = New System.Windows.Forms.CheckBox()
+        Me.cbSPME = New System.Windows.Forms.CheckBox()
+        Me.cbDCMethod = New System.Windows.Forms.CheckBox()
+        Me.cbDCOther = New System.Windows.Forms.CheckBox()
+        Me.cbDCMats = New System.Windows.Forms.CheckBox()
+        Me.cbDCWaitingKanban = New System.Windows.Forms.CheckBox()
+        Me.cbDCMachine = New System.Windows.Forms.CheckBox()
+        Me.cbDCSetup = New System.Windows.Forms.CheckBox()
+        Me.cbDCMan = New System.Windows.Forms.CheckBox()
         Me.txtPIC = New Telerik.WinControls.UI.RadTextBox()
         Me.lblWeldingNo = New Telerik.WinControls.UI.RadLabel()
         Me.ddWeldingNo = New Telerik.WinControls.UI.RadDropDownList()
@@ -86,23 +103,10 @@ Partial Class FrmAssemblyDownTime
         Me.Office2007BlackTheme1 = New Telerik.WinControls.Themes.Office2007BlackTheme()
         Me.VisualStudio2012DarkTheme1 = New Telerik.WinControls.Themes.VisualStudio2012DarkTheme()
         Me.CrystalDarkTheme1 = New Telerik.WinControls.Themes.CrystalDarkTheme()
-        Me.cbDCMan = New System.Windows.Forms.CheckBox()
-        Me.cbDCSetup = New System.Windows.Forms.CheckBox()
-        Me.cbDCWaitingKanban = New System.Windows.Forms.CheckBox()
-        Me.cbDCMachine = New System.Windows.Forms.CheckBox()
-        Me.cbDCOther = New System.Windows.Forms.CheckBox()
-        Me.cbDCMats = New System.Windows.Forms.CheckBox()
-        Me.cbDCMethod = New System.Windows.Forms.CheckBox()
-        Me.cbSME = New System.Windows.Forms.CheckBox()
-        Me.cbSPME = New System.Windows.Forms.CheckBox()
-        Me.cbSPDE = New System.Windows.Forms.CheckBox()
-        Me.cbSOthers = New System.Windows.Forms.CheckBox()
-        Me.cbAAfterPM = New System.Windows.Forms.CheckBox()
-        Me.cbAAfterSetup = New System.Windows.Forms.CheckBox()
-        Me.cbQAMats = New System.Windows.Forms.CheckBox()
-        Me.cbQAMachine = New System.Windows.Forms.CheckBox()
         CType(Me.panelMore, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panelMore.SuspendLayout()
+        CType(Me.ddMachName, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ddProdName, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtPIC, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lblWeldingNo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ddWeldingNo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -143,6 +147,8 @@ Partial Class FrmAssemblyDownTime
         '
         Me.panelMore.AutoScroll = True
         Me.panelMore.BackColor = System.Drawing.Color.LightGray
+        Me.panelMore.Controls.Add(Me.ddMachName)
+        Me.panelMore.Controls.Add(Me.ddProdName)
         Me.panelMore.Controls.Add(Me.cbQAMats)
         Me.panelMore.Controls.Add(Me.cbQAMachine)
         Me.panelMore.Controls.Add(Me.cbAAfterPM)
@@ -196,6 +202,212 @@ Partial Class FrmAssemblyDownTime
         Me.panelMore.TabIndex = 10
         Me.panelMore.ThemeName = "Office2007Black"
         '
+        'ddMachName
+        '
+        Me.ddMachName.Location = New System.Drawing.Point(559, 64)
+        Me.ddMachName.Name = "ddMachName"
+        Me.ddMachName.Size = New System.Drawing.Size(232, 20)
+        Me.ddMachName.TabIndex = 177
+        Me.ddMachName.ThemeName = "Office2007Black"
+        Me.ddMachName.Visible = False
+        '
+        'ddProdName
+        '
+        Me.ddProdName.Location = New System.Drawing.Point(100, 40)
+        Me.ddProdName.Name = "ddProdName"
+        Me.ddProdName.Size = New System.Drawing.Size(184, 20)
+        Me.ddProdName.TabIndex = 176
+        Me.ddProdName.ThemeName = "Office2007Black"
+        '
+        'cbQAMats
+        '
+        Me.cbQAMats.AutoSize = True
+        Me.cbQAMats.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbQAMats.ForeColor = System.Drawing.Color.Black
+        Me.cbQAMats.Location = New System.Drawing.Point(171, 231)
+        Me.cbQAMats.Name = "cbQAMats"
+        Me.cbQAMats.Size = New System.Drawing.Size(75, 21)
+        Me.cbQAMats.TabIndex = 174
+        Me.cbQAMats.Tag = "Quality Adjustment"
+        Me.cbQAMats.Text = "Material"
+        Me.cbQAMats.UseVisualStyleBackColor = True
+        '
+        'cbQAMachine
+        '
+        Me.cbQAMachine.AutoSize = True
+        Me.cbQAMachine.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbQAMachine.ForeColor = System.Drawing.Color.Black
+        Me.cbQAMachine.Location = New System.Drawing.Point(18, 231)
+        Me.cbQAMachine.Name = "cbQAMachine"
+        Me.cbQAMachine.Size = New System.Drawing.Size(76, 21)
+        Me.cbQAMachine.TabIndex = 173
+        Me.cbQAMachine.Tag = "Quality Adjustment"
+        Me.cbQAMachine.Text = "Machine"
+        Me.cbQAMachine.UseVisualStyleBackColor = True
+        '
+        'cbAAfterPM
+        '
+        Me.cbAAfterPM.AutoSize = True
+        Me.cbAAfterPM.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbAAfterPM.ForeColor = System.Drawing.Color.Black
+        Me.cbAAfterPM.Location = New System.Drawing.Point(171, 181)
+        Me.cbAAfterPM.Name = "cbAAfterPM"
+        Me.cbAAfterPM.Size = New System.Drawing.Size(78, 21)
+        Me.cbAAfterPM.TabIndex = 172
+        Me.cbAAfterPM.Text = "After PM"
+        Me.cbAAfterPM.UseVisualStyleBackColor = True
+        '
+        'cbAAfterSetup
+        '
+        Me.cbAAfterSetup.AutoSize = True
+        Me.cbAAfterSetup.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbAAfterSetup.ForeColor = System.Drawing.Color.Black
+        Me.cbAAfterSetup.Location = New System.Drawing.Point(18, 181)
+        Me.cbAAfterSetup.Name = "cbAAfterSetup"
+        Me.cbAAfterSetup.Size = New System.Drawing.Size(97, 21)
+        Me.cbAAfterSetup.TabIndex = 171
+        Me.cbAAfterSetup.Text = "After Set-up"
+        Me.cbAAfterSetup.UseVisualStyleBackColor = True
+        '
+        'cbSPDE
+        '
+        Me.cbSPDE.AutoSize = True
+        Me.cbSPDE.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSPDE.ForeColor = System.Drawing.Color.Black
+        Me.cbSPDE.Location = New System.Drawing.Point(609, 112)
+        Me.cbSPDE.Name = "cbSPDE"
+        Me.cbSPDE.Size = New System.Drawing.Size(50, 21)
+        Me.cbSPDE.TabIndex = 170
+        Me.cbSPDE.Text = "PDE"
+        Me.cbSPDE.UseVisualStyleBackColor = True
+        '
+        'cbSOthers
+        '
+        Me.cbSOthers.AutoSize = True
+        Me.cbSOthers.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSOthers.ForeColor = System.Drawing.Color.Black
+        Me.cbSOthers.Location = New System.Drawing.Point(609, 135)
+        Me.cbSOthers.Name = "cbSOthers"
+        Me.cbSOthers.Size = New System.Drawing.Size(66, 21)
+        Me.cbSOthers.TabIndex = 169
+        Me.cbSOthers.Text = "Others"
+        Me.cbSOthers.UseVisualStyleBackColor = True
+        '
+        'cbSME
+        '
+        Me.cbSME.AutoSize = True
+        Me.cbSME.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSME.ForeColor = System.Drawing.Color.Black
+        Me.cbSME.Location = New System.Drawing.Point(475, 112)
+        Me.cbSME.Name = "cbSME"
+        Me.cbSME.Size = New System.Drawing.Size(46, 21)
+        Me.cbSME.TabIndex = 168
+        Me.cbSME.Text = "ME"
+        Me.cbSME.UseVisualStyleBackColor = True
+        '
+        'cbSPME
+        '
+        Me.cbSPME.AutoSize = True
+        Me.cbSPME.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSPME.ForeColor = System.Drawing.Color.Black
+        Me.cbSPME.Location = New System.Drawing.Point(475, 135)
+        Me.cbSPME.Name = "cbSPME"
+        Me.cbSPME.Size = New System.Drawing.Size(53, 21)
+        Me.cbSPME.TabIndex = 167
+        Me.cbSPME.Text = "PME"
+        Me.cbSPME.UseVisualStyleBackColor = True
+        '
+        'cbDCMethod
+        '
+        Me.cbDCMethod.AutoSize = True
+        Me.cbDCMethod.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbDCMethod.ForeColor = System.Drawing.Color.Black
+        Me.cbDCMethod.Location = New System.Drawing.Point(254, 114)
+        Me.cbDCMethod.Name = "cbDCMethod"
+        Me.cbDCMethod.Size = New System.Drawing.Size(73, 21)
+        Me.cbDCMethod.TabIndex = 166
+        Me.cbDCMethod.Tag = "Method"
+        Me.cbDCMethod.Text = "Method"
+        Me.cbDCMethod.UseVisualStyleBackColor = True
+        '
+        'cbDCOther
+        '
+        Me.cbDCOther.AutoSize = True
+        Me.cbDCOther.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbDCOther.ForeColor = System.Drawing.Color.Black
+        Me.cbDCOther.Location = New System.Drawing.Point(234, 138)
+        Me.cbDCOther.Name = "cbDCOther"
+        Me.cbDCOther.Size = New System.Drawing.Size(66, 21)
+        Me.cbDCOther.TabIndex = 165
+        Me.cbDCOther.Tag = "Others"
+        Me.cbDCOther.Text = "Others"
+        Me.cbDCOther.UseVisualStyleBackColor = True
+        '
+        'cbDCMats
+        '
+        Me.cbDCMats.AutoSize = True
+        Me.cbDCMats.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbDCMats.ForeColor = System.Drawing.Color.Black
+        Me.cbDCMats.Location = New System.Drawing.Point(171, 114)
+        Me.cbDCMats.Name = "cbDCMats"
+        Me.cbDCMats.Size = New System.Drawing.Size(75, 21)
+        Me.cbDCMats.TabIndex = 164
+        Me.cbDCMats.Tag = "Material"
+        Me.cbDCMats.Text = "Material"
+        Me.cbDCMats.UseVisualStyleBackColor = True
+        '
+        'cbDCWaitingKanban
+        '
+        Me.cbDCWaitingKanban.AutoSize = True
+        Me.cbDCWaitingKanban.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbDCWaitingKanban.ForeColor = System.Drawing.Color.Black
+        Me.cbDCWaitingKanban.Location = New System.Drawing.Point(89, 139)
+        Me.cbDCWaitingKanban.Name = "cbDCWaitingKanban"
+        Me.cbDCWaitingKanban.Size = New System.Drawing.Size(139, 21)
+        Me.cbDCWaitingKanban.TabIndex = 163
+        Me.cbDCWaitingKanban.Tag = "Waiting for Kanban"
+        Me.cbDCWaitingKanban.Text = "Waiting for Kanban"
+        Me.cbDCWaitingKanban.UseVisualStyleBackColor = True
+        '
+        'cbDCMachine
+        '
+        Me.cbDCMachine.AutoSize = True
+        Me.cbDCMachine.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbDCMachine.ForeColor = System.Drawing.Color.Black
+        Me.cbDCMachine.Location = New System.Drawing.Point(89, 114)
+        Me.cbDCMachine.Name = "cbDCMachine"
+        Me.cbDCMachine.Size = New System.Drawing.Size(76, 21)
+        Me.cbDCMachine.TabIndex = 162
+        Me.cbDCMachine.Tag = "Machine"
+        Me.cbDCMachine.Text = "Machine"
+        Me.cbDCMachine.UseVisualStyleBackColor = True
+        '
+        'cbDCSetup
+        '
+        Me.cbDCSetup.AutoSize = True
+        Me.cbDCSetup.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbDCSetup.ForeColor = System.Drawing.Color.Black
+        Me.cbDCSetup.Location = New System.Drawing.Point(26, 139)
+        Me.cbDCSetup.Name = "cbDCSetup"
+        Me.cbDCSetup.Size = New System.Drawing.Size(65, 21)
+        Me.cbDCSetup.TabIndex = 161
+        Me.cbDCSetup.Tag = "Set-up"
+        Me.cbDCSetup.Text = "Set-up"
+        Me.cbDCSetup.UseVisualStyleBackColor = True
+        '
+        'cbDCMan
+        '
+        Me.cbDCMan.AutoSize = True
+        Me.cbDCMan.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbDCMan.ForeColor = System.Drawing.Color.Black
+        Me.cbDCMan.Location = New System.Drawing.Point(26, 114)
+        Me.cbDCMan.Name = "cbDCMan"
+        Me.cbDCMan.Size = New System.Drawing.Size(53, 21)
+        Me.cbDCMan.TabIndex = 160
+        Me.cbDCMan.Tag = "Man"
+        Me.cbDCMan.Text = "Man"
+        Me.cbDCMan.UseVisualStyleBackColor = True
+        '
         'txtPIC
         '
         Me.txtPIC.Location = New System.Drawing.Point(507, 181)
@@ -216,10 +428,10 @@ Partial Class FrmAssemblyDownTime
         'ddWeldingNo
         '
         Me.ddWeldingNo.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem1.Text = "108"
-        RadListDataItem2.Text = "112"
-        Me.ddWeldingNo.Items.Add(RadListDataItem1)
-        Me.ddWeldingNo.Items.Add(RadListDataItem2)
+        RadListDataItem18.Text = "108"
+        RadListDataItem19.Text = "112"
+        Me.ddWeldingNo.Items.Add(RadListDataItem18)
+        Me.ddWeldingNo.Items.Add(RadListDataItem19)
         Me.ddWeldingNo.Location = New System.Drawing.Point(762, 12)
         Me.ddWeldingNo.Name = "ddWeldingNo"
         Me.ddWeldingNo.Size = New System.Drawing.Size(88, 20)
@@ -273,6 +485,8 @@ Partial Class FrmAssemblyDownTime
         '
         'tbCause
         '
+        Me.tbCause.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
+        Me.tbCause.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
         Me.tbCause.Location = New System.Drawing.Point(58, 258)
         Me.tbCause.Name = "tbCause"
         Me.tbCause.Size = New System.Drawing.Size(375, 20)
@@ -345,16 +559,16 @@ Partial Class FrmAssemblyDownTime
         '
         'ddStartMin
         '
-        RadListDataItem3.Text = "6AM-2PM(1st Shift)"
-        RadListDataItem4.Text = "6AM-6PM"
-        RadListDataItem5.Text = "2PM-10PM(2nd Shift)"
-        RadListDataItem6.Text = "6PM - 6AM"
-        RadListDataItem7.Text = "10PM-6AM(3rd Shift)"
-        Me.ddStartMin.Items.Add(RadListDataItem3)
-        Me.ddStartMin.Items.Add(RadListDataItem4)
-        Me.ddStartMin.Items.Add(RadListDataItem5)
-        Me.ddStartMin.Items.Add(RadListDataItem6)
-        Me.ddStartMin.Items.Add(RadListDataItem7)
+        RadListDataItem20.Text = "6AM-2PM(1st Shift)"
+        RadListDataItem21.Text = "6AM-6PM"
+        RadListDataItem22.Text = "2PM-10PM(2nd Shift)"
+        RadListDataItem23.Text = "6PM - 6AM"
+        RadListDataItem24.Text = "10PM-6AM(3rd Shift)"
+        Me.ddStartMin.Items.Add(RadListDataItem20)
+        Me.ddStartMin.Items.Add(RadListDataItem21)
+        Me.ddStartMin.Items.Add(RadListDataItem22)
+        Me.ddStartMin.Items.Add(RadListDataItem23)
+        Me.ddStartMin.Items.Add(RadListDataItem24)
         Me.ddStartMin.Location = New System.Drawing.Point(566, 39)
         Me.ddStartMin.Name = "ddStartMin"
         Me.ddStartMin.Size = New System.Drawing.Size(44, 20)
@@ -363,16 +577,16 @@ Partial Class FrmAssemblyDownTime
         '
         'ddStartTime
         '
-        RadListDataItem8.Text = "6AM-2PM(1st Shift)"
-        RadListDataItem9.Text = "6AM-6PM"
-        RadListDataItem10.Text = "2PM-10PM(2nd Shift)"
-        RadListDataItem11.Text = "6PM - 6AM"
-        RadListDataItem12.Text = "10PM-6AM(3rd Shift)"
-        Me.ddStartTime.Items.Add(RadListDataItem8)
-        Me.ddStartTime.Items.Add(RadListDataItem9)
-        Me.ddStartTime.Items.Add(RadListDataItem10)
-        Me.ddStartTime.Items.Add(RadListDataItem11)
-        Me.ddStartTime.Items.Add(RadListDataItem12)
+        RadListDataItem25.Text = "6AM-2PM(1st Shift)"
+        RadListDataItem26.Text = "6AM-6PM"
+        RadListDataItem27.Text = "2PM-10PM(2nd Shift)"
+        RadListDataItem28.Text = "6PM - 6AM"
+        RadListDataItem29.Text = "10PM-6AM(3rd Shift)"
+        Me.ddStartTime.Items.Add(RadListDataItem25)
+        Me.ddStartTime.Items.Add(RadListDataItem26)
+        Me.ddStartTime.Items.Add(RadListDataItem27)
+        Me.ddStartTime.Items.Add(RadListDataItem28)
+        Me.ddStartTime.Items.Add(RadListDataItem29)
         Me.ddStartTime.Location = New System.Drawing.Point(517, 39)
         Me.ddStartTime.Name = "ddStartTime"
         Me.ddStartTime.Size = New System.Drawing.Size(44, 20)
@@ -398,16 +612,16 @@ Partial Class FrmAssemblyDownTime
         '
         'ddStopMin
         '
-        RadListDataItem13.Text = "6AM-2PM(1st Shift)"
-        RadListDataItem14.Text = "6AM-6PM"
-        RadListDataItem15.Text = "2PM-10PM(2nd Shift)"
-        RadListDataItem16.Text = "6PM - 6AM"
-        RadListDataItem17.Text = "10PM-6AM(3rd Shift)"
-        Me.ddStopMin.Items.Add(RadListDataItem13)
-        Me.ddStopMin.Items.Add(RadListDataItem14)
-        Me.ddStopMin.Items.Add(RadListDataItem15)
-        Me.ddStopMin.Items.Add(RadListDataItem16)
-        Me.ddStopMin.Items.Add(RadListDataItem17)
+        RadListDataItem1.Text = "6AM-2PM(1st Shift)"
+        RadListDataItem2.Text = "6AM-6PM"
+        RadListDataItem30.Text = "2PM-10PM(2nd Shift)"
+        RadListDataItem31.Text = "6PM - 6AM"
+        RadListDataItem32.Text = "10PM-6AM(3rd Shift)"
+        Me.ddStopMin.Items.Add(RadListDataItem1)
+        Me.ddStopMin.Items.Add(RadListDataItem2)
+        Me.ddStopMin.Items.Add(RadListDataItem30)
+        Me.ddStopMin.Items.Add(RadListDataItem31)
+        Me.ddStopMin.Items.Add(RadListDataItem32)
         Me.ddStopMin.Location = New System.Drawing.Point(402, 40)
         Me.ddStopMin.Name = "ddStopMin"
         Me.ddStopMin.Size = New System.Drawing.Size(44, 20)
@@ -416,16 +630,16 @@ Partial Class FrmAssemblyDownTime
         '
         'ddStopTime
         '
-        RadListDataItem18.Text = "6AM-2PM(1st Shift)"
-        RadListDataItem19.Text = "6AM-6PM"
-        RadListDataItem20.Text = "2PM-10PM(2nd Shift)"
-        RadListDataItem21.Text = "6PM - 6AM"
-        RadListDataItem22.Text = "10PM-6AM(3rd Shift)"
-        Me.ddStopTime.Items.Add(RadListDataItem18)
-        Me.ddStopTime.Items.Add(RadListDataItem19)
-        Me.ddStopTime.Items.Add(RadListDataItem20)
-        Me.ddStopTime.Items.Add(RadListDataItem21)
-        Me.ddStopTime.Items.Add(RadListDataItem22)
+        RadListDataItem3.Text = "6AM-2PM(1st Shift)"
+        RadListDataItem4.Text = "6AM-6PM"
+        RadListDataItem5.Text = "2PM-10PM(2nd Shift)"
+        RadListDataItem6.Text = "6PM - 6AM"
+        RadListDataItem7.Text = "10PM-6AM(3rd Shift)"
+        Me.ddStopTime.Items.Add(RadListDataItem3)
+        Me.ddStopTime.Items.Add(RadListDataItem4)
+        Me.ddStopTime.Items.Add(RadListDataItem5)
+        Me.ddStopTime.Items.Add(RadListDataItem6)
+        Me.ddStopTime.Items.Add(RadListDataItem7)
         Me.ddStopTime.Location = New System.Drawing.Point(353, 40)
         Me.ddStopTime.Name = "ddStopTime"
         Me.ddStopTime.Size = New System.Drawing.Size(44, 20)
@@ -442,25 +656,26 @@ Partial Class FrmAssemblyDownTime
         '
         'tbProdName
         '
-        Me.tbProdName.Location = New System.Drawing.Point(100, 39)
+        Me.tbProdName.Location = New System.Drawing.Point(353, 66)
         Me.tbProdName.Name = "tbProdName"
         Me.tbProdName.Size = New System.Drawing.Size(184, 20)
         Me.tbProdName.TabIndex = 123
         Me.tbProdName.ThemeName = "Office2007Black"
+        Me.tbProdName.Visible = False
         '
         'ddShift
         '
         Me.ddShift.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem23.Text = "1st Shift"
-        RadListDataItem24.Text = "2nd Shift"
-        RadListDataItem25.Text = "3rd Shift"
-        RadListDataItem26.Text = "Day Shift"
-        RadListDataItem27.Text = "Night Shift"
-        Me.ddShift.Items.Add(RadListDataItem23)
-        Me.ddShift.Items.Add(RadListDataItem24)
-        Me.ddShift.Items.Add(RadListDataItem25)
-        Me.ddShift.Items.Add(RadListDataItem26)
-        Me.ddShift.Items.Add(RadListDataItem27)
+        RadListDataItem8.Text = "1st Shift"
+        RadListDataItem9.Text = "2nd Shift"
+        RadListDataItem10.Text = "3rd Shift"
+        RadListDataItem11.Text = "Day Shift"
+        RadListDataItem12.Text = "Night Shift"
+        Me.ddShift.Items.Add(RadListDataItem8)
+        Me.ddShift.Items.Add(RadListDataItem9)
+        Me.ddShift.Items.Add(RadListDataItem10)
+        Me.ddShift.Items.Add(RadListDataItem11)
+        Me.ddShift.Items.Add(RadListDataItem12)
         Me.ddShift.Location = New System.Drawing.Point(558, 11)
         Me.ddShift.Name = "ddShift"
         Me.ddShift.Size = New System.Drawing.Size(126, 20)
@@ -536,192 +751,12 @@ Partial Class FrmAssemblyDownTime
         Me.gvData.MasterTemplate.AllowDragToGroup = False
         Me.gvData.MasterTemplate.AllowEditRow = False
         Me.gvData.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill
-        Me.gvData.MasterTemplate.ViewDefinition = TableViewDefinition1
+        Me.gvData.MasterTemplate.ViewDefinition = TableViewDefinition4
         Me.gvData.Name = "gvData"
         Me.gvData.Padding = New System.Windows.Forms.Padding(0, 0, 0, 1)
         Me.gvData.Size = New System.Drawing.Size(853, 300)
         Me.gvData.TabIndex = 11
         Me.gvData.ThemeName = "Office2007Black"
-        '
-        'cbDCMan
-        '
-        Me.cbDCMan.AutoSize = True
-        Me.cbDCMan.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbDCMan.ForeColor = System.Drawing.Color.Black
-        Me.cbDCMan.Location = New System.Drawing.Point(26, 114)
-        Me.cbDCMan.Name = "cbDCMan"
-        Me.cbDCMan.Size = New System.Drawing.Size(53, 21)
-        Me.cbDCMan.TabIndex = 160
-        Me.cbDCMan.Text = "Man"
-        Me.cbDCMan.UseVisualStyleBackColor = True
-        '
-        'cbDCSetup
-        '
-        Me.cbDCSetup.AutoSize = True
-        Me.cbDCSetup.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbDCSetup.ForeColor = System.Drawing.Color.Black
-        Me.cbDCSetup.Location = New System.Drawing.Point(26, 139)
-        Me.cbDCSetup.Name = "cbDCSetup"
-        Me.cbDCSetup.Size = New System.Drawing.Size(65, 21)
-        Me.cbDCSetup.TabIndex = 161
-        Me.cbDCSetup.Text = "Set-up"
-        Me.cbDCSetup.UseVisualStyleBackColor = True
-        '
-        'cbDCWaitingKanban
-        '
-        Me.cbDCWaitingKanban.AutoSize = True
-        Me.cbDCWaitingKanban.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbDCWaitingKanban.ForeColor = System.Drawing.Color.Black
-        Me.cbDCWaitingKanban.Location = New System.Drawing.Point(89, 139)
-        Me.cbDCWaitingKanban.Name = "cbDCWaitingKanban"
-        Me.cbDCWaitingKanban.Size = New System.Drawing.Size(139, 21)
-        Me.cbDCWaitingKanban.TabIndex = 163
-        Me.cbDCWaitingKanban.Text = "Waiting for Kanban"
-        Me.cbDCWaitingKanban.UseVisualStyleBackColor = True
-        '
-        'cbDCMachine
-        '
-        Me.cbDCMachine.AutoSize = True
-        Me.cbDCMachine.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbDCMachine.ForeColor = System.Drawing.Color.Black
-        Me.cbDCMachine.Location = New System.Drawing.Point(89, 114)
-        Me.cbDCMachine.Name = "cbDCMachine"
-        Me.cbDCMachine.Size = New System.Drawing.Size(76, 21)
-        Me.cbDCMachine.TabIndex = 162
-        Me.cbDCMachine.Text = "Machine"
-        Me.cbDCMachine.UseVisualStyleBackColor = True
-        '
-        'cbDCOther
-        '
-        Me.cbDCOther.AutoSize = True
-        Me.cbDCOther.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbDCOther.ForeColor = System.Drawing.Color.Black
-        Me.cbDCOther.Location = New System.Drawing.Point(234, 138)
-        Me.cbDCOther.Name = "cbDCOther"
-        Me.cbDCOther.Size = New System.Drawing.Size(66, 21)
-        Me.cbDCOther.TabIndex = 165
-        Me.cbDCOther.Text = "Others"
-        Me.cbDCOther.UseVisualStyleBackColor = True
-        '
-        'cbDCMats
-        '
-        Me.cbDCMats.AutoSize = True
-        Me.cbDCMats.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbDCMats.ForeColor = System.Drawing.Color.Black
-        Me.cbDCMats.Location = New System.Drawing.Point(171, 114)
-        Me.cbDCMats.Name = "cbDCMats"
-        Me.cbDCMats.Size = New System.Drawing.Size(75, 21)
-        Me.cbDCMats.TabIndex = 164
-        Me.cbDCMats.Text = "Material"
-        Me.cbDCMats.UseVisualStyleBackColor = True
-        '
-        'cbDCMethod
-        '
-        Me.cbDCMethod.AutoSize = True
-        Me.cbDCMethod.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbDCMethod.ForeColor = System.Drawing.Color.Black
-        Me.cbDCMethod.Location = New System.Drawing.Point(254, 114)
-        Me.cbDCMethod.Name = "cbDCMethod"
-        Me.cbDCMethod.Size = New System.Drawing.Size(73, 21)
-        Me.cbDCMethod.TabIndex = 166
-        Me.cbDCMethod.Text = "Method"
-        Me.cbDCMethod.UseVisualStyleBackColor = True
-        '
-        'cbSME
-        '
-        Me.cbSME.AutoSize = True
-        Me.cbSME.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbSME.ForeColor = System.Drawing.Color.Black
-        Me.cbSME.Location = New System.Drawing.Point(475, 112)
-        Me.cbSME.Name = "cbSME"
-        Me.cbSME.Size = New System.Drawing.Size(46, 21)
-        Me.cbSME.TabIndex = 168
-        Me.cbSME.Text = "ME"
-        Me.cbSME.UseVisualStyleBackColor = True
-        '
-        'cbSPME
-        '
-        Me.cbSPME.AutoSize = True
-        Me.cbSPME.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbSPME.ForeColor = System.Drawing.Color.Black
-        Me.cbSPME.Location = New System.Drawing.Point(475, 135)
-        Me.cbSPME.Name = "cbSPME"
-        Me.cbSPME.Size = New System.Drawing.Size(53, 21)
-        Me.cbSPME.TabIndex = 167
-        Me.cbSPME.Text = "PME"
-        Me.cbSPME.UseVisualStyleBackColor = True
-        '
-        'cbSPDE
-        '
-        Me.cbSPDE.AutoSize = True
-        Me.cbSPDE.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbSPDE.ForeColor = System.Drawing.Color.Black
-        Me.cbSPDE.Location = New System.Drawing.Point(609, 112)
-        Me.cbSPDE.Name = "cbSPDE"
-        Me.cbSPDE.Size = New System.Drawing.Size(50, 21)
-        Me.cbSPDE.TabIndex = 170
-        Me.cbSPDE.Text = "PDE"
-        Me.cbSPDE.UseVisualStyleBackColor = True
-        '
-        'cbSOthers
-        '
-        Me.cbSOthers.AutoSize = True
-        Me.cbSOthers.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbSOthers.ForeColor = System.Drawing.Color.Black
-        Me.cbSOthers.Location = New System.Drawing.Point(609, 135)
-        Me.cbSOthers.Name = "cbSOthers"
-        Me.cbSOthers.Size = New System.Drawing.Size(66, 21)
-        Me.cbSOthers.TabIndex = 169
-        Me.cbSOthers.Text = "Others"
-        Me.cbSOthers.UseVisualStyleBackColor = True
-        '
-        'cbAAfterPM
-        '
-        Me.cbAAfterPM.AutoSize = True
-        Me.cbAAfterPM.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbAAfterPM.ForeColor = System.Drawing.Color.Black
-        Me.cbAAfterPM.Location = New System.Drawing.Point(171, 181)
-        Me.cbAAfterPM.Name = "cbAAfterPM"
-        Me.cbAAfterPM.Size = New System.Drawing.Size(78, 21)
-        Me.cbAAfterPM.TabIndex = 172
-        Me.cbAAfterPM.Text = "After PM"
-        Me.cbAAfterPM.UseVisualStyleBackColor = True
-        '
-        'cbAAfterSetup
-        '
-        Me.cbAAfterSetup.AutoSize = True
-        Me.cbAAfterSetup.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbAAfterSetup.ForeColor = System.Drawing.Color.Black
-        Me.cbAAfterSetup.Location = New System.Drawing.Point(18, 181)
-        Me.cbAAfterSetup.Name = "cbAAfterSetup"
-        Me.cbAAfterSetup.Size = New System.Drawing.Size(97, 21)
-        Me.cbAAfterSetup.TabIndex = 171
-        Me.cbAAfterSetup.Text = "After Set-up"
-        Me.cbAAfterSetup.UseVisualStyleBackColor = True
-        '
-        'cbQAMats
-        '
-        Me.cbQAMats.AutoSize = True
-        Me.cbQAMats.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbQAMats.ForeColor = System.Drawing.Color.Black
-        Me.cbQAMats.Location = New System.Drawing.Point(171, 231)
-        Me.cbQAMats.Name = "cbQAMats"
-        Me.cbQAMats.Size = New System.Drawing.Size(75, 21)
-        Me.cbQAMats.TabIndex = 174
-        Me.cbQAMats.Text = "Material"
-        Me.cbQAMats.UseVisualStyleBackColor = True
-        '
-        'cbQAMachine
-        '
-        Me.cbQAMachine.AutoSize = True
-        Me.cbQAMachine.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbQAMachine.ForeColor = System.Drawing.Color.Black
-        Me.cbQAMachine.Location = New System.Drawing.Point(18, 231)
-        Me.cbQAMachine.Name = "cbQAMachine"
-        Me.cbQAMachine.Size = New System.Drawing.Size(76, 21)
-        Me.cbQAMachine.TabIndex = 173
-        Me.cbQAMachine.Text = "Machine"
-        Me.cbQAMachine.UseVisualStyleBackColor = True
         '
         'FrmAssemblyDownTime
         '
@@ -736,6 +771,8 @@ Partial Class FrmAssemblyDownTime
         CType(Me.panelMore, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panelMore.ResumeLayout(False)
         Me.panelMore.PerformLayout()
+        CType(Me.ddMachName, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ddProdName, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtPIC, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lblWeldingNo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ddWeldingNo, System.ComponentModel.ISupportInitialize).EndInit()
@@ -825,5 +862,7 @@ Partial Class FrmAssemblyDownTime
     Friend WithEvents cbQAMachine As CheckBox
     Friend WithEvents cbAAfterPM As CheckBox
     Friend WithEvents cbAAfterSetup As CheckBox
+    Friend WithEvents ddProdName As Telerik.WinControls.UI.RadDropDownList
+    Friend WithEvents ddMachName As Telerik.WinControls.UI.RadDropDownList
 End Class
 

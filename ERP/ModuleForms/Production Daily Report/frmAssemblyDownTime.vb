@@ -1,35 +1,97 @@
 ﻿Imports FEAPNS.DataAccess
+Imports Telerik.WinControls
 Imports Telerik.WinControls.UI
 
 Public Class FrmAssemblyDownTime
     Dim EditID As Integer = 0
     Dim Maria As New Kurumi.DB("192.168.191.22", "dbMIA", "feap", "45|iF$")
     'Dim Maria As New DB("localhost", "dbmia", "root", "password")
-    Dim Catherine As New Kurumi.DB("192.168.191.252", "dbHRMSlive", "feap", "45|iF$")
-    Dim EngEmp As DataTable = Catherine.MyQuery("SELECT fldEmpNo,fldEmpName FROM dbHRMSlive.tblEmployee where (fldEmpDepartment='ENG' or fldEmpDepartment='ENG1' or fldEmpDepartment='ENG2') and fldEmpStatus='ACTIVE' order by fldEmpName asc")
+    'Dim Catherine As New Kurumi.DB("192.168.191.252", "dbHRMSlive", "feap", "45|iF$")
+    'Dim EngEmp As DataTable = Catherine.MyQuery("SELECT fldEmpNo,fldEmpName FROM dbHRMSlive.tblEmployee where (fldEmpDepartment='ENG' or fldEmpDepartment='ENG1' or fldEmpDepartment='ENG2') and fldEmpStatus='ACTIVE' order by fldEmpName asc")
+    Public Property DowntimeType As String
+    Public Property AssyDownTimeID As Integer
+    Public Property AssyDownTimeModel As String
+    Public Property AssyDownTimeLine As String
+    Public Property AssyDownTimeDate As Date
+    Public Property AssyDownTimeType As String
+    Public Property FWGroupDt As String
+
+    Private allCauses As New List(Of String)
+
     Private Sub FrmAssemblyDownTime_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         'GetEngEmp()
         GetMinutes()
         ReloadTimeDD()
-        If globalVariables.AssyDownTimeType = "PW" Then
+        'If globalVariables.AssyDownTimeType = "PW" Then
+        '    ReadyPWWeldingNo()
+        'ElseIf globalVariables.AssyDownTimeType = "FW" Then
+        '    ReadyFWWeldingNo()
+        'ElseIf globalVariables.DowntimeType = "Taping" Then
+        '    ReadyATMachine()
+        'End If
+
+
+        'dpDate.Value = globalVariables.AssyDownTimeDate
+        'tbAssyLine.Text = globalVariables.AssyDownTimeModel & " " & globalVariables.AssyDownTimeLine
+        'If globalVariables.DowntimeType = "ASSY" Then
+        '    ddWeldingNo.Visible = False
+        '    lblWeldingNo.Visible = False
+        'End If
+        If AssyDownTimeType = "PW" Then
             ReadyPWWeldingNo()
-        ElseIf globalVariables.AssyDownTimeType = "FW" Then
+        ElseIf AssyDownTimeType = "FW" Then
             ReadyFWWeldingNo()
-        ElseIf globalVariables.DowntimeType = "Taping" Then
+        ElseIf DowntimeType = "Taping" Then
             ReadyATMachine()
         End If
 
 
-        dpDate.Value = globalVariables.AssyDownTimeDate
-        tbAssyLine.Text = globalVariables.AssyDownTimeModel & " " & globalVariables.AssyDownTimeLine
-        If globalVariables.DowntimeType = "ASSY" Then
+        dpDate.Value = AssyDownTimeDate
+        tbAssyLine.Text = AssyDownTimeModel & " " & AssyDownTimeLine
+        If DowntimeType = "ASSY" Then
             ddWeldingNo.Visible = False
             lblWeldingNo.Visible = False
         End If
         GridCol()
         ReloadGrid()
+        readyddModelName()
+        readyddMachineName()
+        ddProdName.SelectedIndex = -1
+        ddMachName.SelectedIndex = -1
     End Sub
+    Private Sub readyddModelName()
+        Dim DTModelName As DataTable
+        DTModelName = GetModelName()
+        ddProdName.DataSource = DTModelName
+        ddProdName.DisplayMember = "fldPartName"
+        ddProdName.ValueMember = "fldID"
+        ddProdName.AutoCompleteMode = AutoCompleteMode.SuggestAppend
+        Me.ddProdName.DropDownListElement.AutoCompleteSuggest.SuggestMode = Telerik.WinControls.UI.SuggestMode.Contains
+    End Sub
+
+    Private Sub readyddMachineName()
+        Dim DTModelName As DataTable
+        DTModelName = GetMachineName()
+        ddMachName.DataSource = DTModelName
+        ddMachName.DisplayMember = "fldMachName"
+        ddMachName.ValueMember = "fldMachName"
+        ddMachName.AutoCompleteMode = AutoCompleteMode.SuggestAppend
+        Me.ddMachName.DropDownListElement.AutoCompleteSuggest.SuggestMode = Telerik.WinControls.UI.SuggestMode.Contains
+    End Sub
+
+    Private Function GetModelName() As DataTable
+        Dim DTModelName As DataTable
+        Maria.AddMySqlParameters("parModel", AssyDownTimeModel)
+        DTModelName = Maria.SPSelect("SP_SelectModelNamev3")
+        Return DTModelName
+    End Function
+
+    Private Function GetMachineName() As DataTable
+        Dim DTMachineName As DataTable
+        DTMachineName = Maria.SPSelect("SP_SelectMachineName")
+        Return DTMachineName
+    End Function
 
     Private Sub GridCol()
         gvData.Columns.Clear()
@@ -218,8 +280,10 @@ Public Class FrmAssemblyDownTime
     End Sub
     Private Sub ReadyPWWeldingNo()
         Dim dtPWMachine As New DataTable
-        Maria.AddMySqlParameters("parModel", globalVariables.AssyDownTimeModel.ToString())
-        Maria.AddMySqlParameters("parLine", globalVariables.AssyDownTimeLine)
+        'Maria.AddMySqlParameters("parModel", globalVariables.AssyDownTimeModel.ToString())
+        'Maria.AddMySqlParameters("parLine", globalVariables.AssyDownTimeLine)
+        Maria.AddMySqlParameters("parModel", AssyDownTimeModel.ToString())
+        Maria.AddMySqlParameters("parLine", AssyDownTimeLine)
         dtPWMachine = Maria.SPSelect("SP_WeldingDowntime_SelectPWMachine")
         ddWeldingNo.Items.Clear()
         ddWeldingNo.DataSource = dtPWMachine
@@ -229,9 +293,12 @@ Public Class FrmAssemblyDownTime
     End Sub
     Private Sub ReadyFWWeldingNo()
         Dim dtFWMachine As New DataTable
-        Maria.AddMySqlParameters("parModel", globalVariables.AssyDownTimeModel.ToString())
-        Maria.AddMySqlParameters("parLine", globalVariables.AssyDownTimeLine)
-        Maria.AddMySqlParameters("parGroup", globalVariables.FWGroupDt)
+        'Maria.AddMySqlParameters("parModel", globalVariables.AssyDownTimeModel.ToString())
+        'Maria.AddMySqlParameters("parLine", globalVariables.AssyDownTimeLine)
+        'Maria.AddMySqlParameters("parGroup", globalVariables.FWGroupDt)
+        Maria.AddMySqlParameters("parModel", AssyDownTimeModel.ToString())
+        Maria.AddMySqlParameters("parLine", AssyDownTimeLine)
+        Maria.AddMySqlParameters("parGroup", FWGroupDt)
         dtFWMachine = Maria.SPSelect("SP_WeldingDowntime_SelectFWMachine")
         ddWeldingNo.Items.Clear()
         ddWeldingNo.DataSource = dtFWMachine
@@ -240,8 +307,10 @@ Public Class FrmAssemblyDownTime
     End Sub
     Private Sub ReadyATMachine()
         Dim dtATMachine As New DataTable
-        Maria.AddMySqlParameters("parModel", globalVariables.AssyDownTimeModel.ToString())
-        Maria.AddMySqlParameters("parLine", globalVariables.AssyDownTimeLine)
+        'Maria.AddMySqlParameters("parModel", globalVariables.AssyDownTimeModel.ToString())
+        'Maria.AddMySqlParameters("parLine", globalVariables.AssyDownTimeLine)
+        Maria.AddMySqlParameters("parModel", AssyDownTimeModel.ToString())
+        Maria.AddMySqlParameters("parLine", AssyDownTimeLine)
         dtATMachine = Maria.SPSelect("SP_SRC_SelectATDowntimeMachine")
         ddWeldingNo.Items.Clear()
         ddWeldingNo.DataSource = dtATMachine
@@ -261,7 +330,8 @@ Public Class FrmAssemblyDownTime
         Try
             Maria.AddMySqlParameters("parID", EditID)
             Maria.AddMySqlParameters("parShift", ddShift.Text)
-            Maria.AddMySqlParameters("parProdName", tbProdName.Text)
+            'Maria.AddMySqlParameters("parProdName", tbProdName.Text)
+            Maria.AddMySqlParameters("parProdName", ddProdName.Text)
             Maria.AddMySqlParameters("parStopTime", If(ddStopTime.Text = "24", "00", ddStopTime.Text) & ":" & ddStopMin.Text & ":00")
             Maria.AddMySqlParameters("parStartTime", If(ddStartTime.Text = "24", "00", ddStartTime.Text) & ":" & ddStartMin.Text & ":00")
             Maria.AddMySqlParameters("parPlan", swPlan.Value)
@@ -283,7 +353,8 @@ Public Class FrmAssemblyDownTime
             Maria.AddMySqlParameters("parPME", cbSPME.CheckState)
             Maria.AddMySqlParameters("parOthers2", cbSOthers.CheckState)
             Maria.AddMySqlParameters("parPIC", txtPIC.Text)
-            If globalVariables.DowntimeType = "ASSY" Then
+            'If globalVariables.DowntimeType = "ASSY" Then
+            If DowntimeType = "ASSY" Then
                 Maria.AddMySqlParameters("parWeldingNo", 0)
             Else
                 Maria.AddMySqlParameters("parWeldingNo", ddWeldingNo.Text)
@@ -313,9 +384,11 @@ Public Class FrmAssemblyDownTime
     Private Sub SaveReport()
 
         Try
-            Maria.AddMySqlParameters("parDTID", globalVariables.AssyDownTimeID)
+            'Maria.AddMySqlParameters("parDTID", globalVariables.AssyDownTimeID)
+            Maria.AddMySqlParameters("parDTID", AssyDownTimeID)
             Maria.AddMySqlParameters("parShift", ddShift.Text)
-            Maria.AddMySqlParameters("parProdName", tbProdName.Text)
+            'Maria.AddMySqlParameters("parProdName", tbProdName.Text)
+            Maria.AddMySqlParameters("parProdName", ddProdName.Text)
             Maria.AddMySqlParameters("parStopTime", If(ddStopTime.Text = "24", "00", ddStopTime.Text) & ":" & ddStopMin.Text & ":00")
             Maria.AddMySqlParameters("parStartTime", If(ddStartTime.Text = "24", "00", ddStartTime.Text) & ":" & ddStartMin.Text & ":00")
             Maria.AddMySqlParameters("parPlan", swPlan.Value)
@@ -338,7 +411,8 @@ Public Class FrmAssemblyDownTime
             Maria.AddMySqlParameters("parOthers2", cbSOthers.CheckState)
             Maria.AddMySqlParameters("parPIC", txtPIC.Text)
             Maria.AddMySqlParameters("parAddedBy", globalVariables.currentUser(1))
-            If globalVariables.DowntimeType = "ASSY" Then
+            'If globalVariables.DowntimeType = "ASSY" Then
+            If DowntimeType = "ASSY" Then
                 Maria.AddMySqlParameters("parWeldingNo", 0)
             Else
                 Maria.AddMySqlParameters("parWeldingNo", ddWeldingNo.Text)
@@ -358,7 +432,8 @@ Public Class FrmAssemblyDownTime
 
     End Sub
     Private Sub ReloadGrid()
-        gvData.DataSource = Maria.MyQuery("SELECT * FROM tblDailyReportDownTime where fldDTID=" & globalVariables.AssyDownTimeID & " order by fldStopTime")
+        'gvData.DataSource = Maria.MyQuery("SELECT * FROM tblDailyReportDownTime where fldDTID=" & globalVariables.AssyDownTimeID & " order by fldStopTime")
+        gvData.DataSource = Maria.MyQuery("SELECT * FROM tblDailyReportDownTime where fldDTID=" & AssyDownTimeID & " order by fldStopTime")
     End Sub
 
     Private Sub gvData_CommandCellClick(sender As Object, e As GridViewCellEventArgs) Handles gvData.CommandCellClick
@@ -366,7 +441,8 @@ Public Class FrmAssemblyDownTime
         Dim DTEdit As DataTable = Maria.MyQuery("SELECT *, hour(fldStopTime) as StopHour, minute(fldStopTime) as StopMin, hour(fldStartTime) as StartHour, minute(fldStartTime) as StartMin FROM tblDailyReportDownTime where fldID=" & gvData.CurrentRow.Cells("fldID").Value & "")
         EditID = DTEdit.Rows(0).Item("fldID")
         ddShift.Text = DTEdit.Rows(0).Item("fldShift")
-        tbProdName.Text = DTEdit.Rows(0).Item("fldProdName")
+        'tbProdName.Text = DTEdit.Rows(0).Item("fldProdName")
+        ddProdName.Text = DTEdit.Rows(0).Item("fldProdName")
         ddStopTime.Text = DTEdit.Rows(0).Item("StopHour")
         ddStopMin.Text = DTEdit.Rows(0).Item("StopMin")
         ddStartTime.Text = DTEdit.Rows(0).Item("StartHour")
@@ -434,5 +510,82 @@ Public Class FrmAssemblyDownTime
             End If
 
         End If
+    End Sub
+    Private Sub LoadDownTimeCause(ByVal category As String)
+        Dim dt As New DataTable
+
+        Maria.AddMySqlParameters("parCategory", category)
+        Maria.AddMySqlParameters("parPlan", swPlan.Value)
+
+        dt = Maria.SPSelect("SP_SelectDowntimeCause")
+
+        Dim autoSource As New AutoCompleteStringCollection()
+        For Each row As DataRow In dt.Rows
+            autoSource.Add(row(0).ToString())
+        Next
+
+        tbCause.AutoCompleteCustomSource = Nothing
+
+        tbCause.AutoCompleteCustomSource = autoSource
+        tbCause.AutoCompleteMode = AutoCompleteMode.SuggestAppend
+        tbCause.AutoCompleteSource = AutoCompleteSource.CustomSource
+    End Sub
+
+    'Private Sub CheckBox_CheckedChanged(sender As Object, e As EventArgs) _
+    'Handles cbDCMan.CheckedChanged, cbDCMachine.CheckedChanged, cbDCMats.CheckedChanged, cbDCMethod.CheckedChanged, cbDCSetup.CheckedChanged, cbDCWaitingKanban.CheckedChanged, cbDCOther.CheckedChanged, cbQAMachine.CheckedChanged, cbQAMachine.CheckedChanged
+
+    '    Dim cb As CheckBox = CType(sender, CheckBox)
+
+    '    If cb.Checked AndAlso cb.Text IsNot Nothing Then
+    '        Dim category As String = cb.Text.ToString()
+    '        LoadDownTimeCause(category)
+    '    End If
+    'End Sub
+    'If Single selection
+    Private Sub CheckBox_CheckedChanged(sender As Object, e As EventArgs) Handles cbDCMan.CheckedChanged, cbDCMachine.CheckedChanged, cbDCMats.CheckedChanged, cbDCMethod.CheckedChanged, cbDCSetup.CheckedChanged, cbDCWaitingKanban.CheckedChanged, cbDCOther.CheckedChanged, cbQAMachine.CheckedChanged, cbQAMats.CheckedChanged
+
+        Dim cb As CheckBox = CType(sender, CheckBox)
+
+        If cb.Checked AndAlso Not String.IsNullOrEmpty(cb.Tag) Then
+
+            Dim checkboxes As CheckBox() = {
+                cbDCMan, cbDCMachine, cbDCMats,
+                cbDCMethod, cbDCSetup, cbDCWaitingKanban, cbDCOther, cbQAMachine, cbQAMats
+            }
+
+            Dim selectedCategories As New List(Of String)
+
+            For Each chx As CheckBox In checkboxes
+                If chx.Checked Then
+                    selectedCategories.Add(chx.Tag.ToString())
+                End If
+            Next
+
+            Dim categoryStr As String = String.Join(",", selectedCategories)
+            LoadDownTimeCause(categoryStr)
+
+        End If
+
+    End Sub
+    Private Sub swPlan_ValueChanged(sender As Object, e As EventArgs) Handles swPlan.ValueChanged
+
+        Dim selectedCategory As String = Nothing
+
+        Dim checkboxes As CheckBox() = {
+            cbDCMan, cbDCMachine, cbDCMats,
+            cbDCMethod, cbDCSetup, cbDCWaitingKanban, cbDCOther, cbQAMachine, cbQAMats
+        }
+
+        For Each cb In checkboxes
+            If cb.Checked Then
+                selectedCategory = cb.Tag
+                Exit For
+            End If
+        Next
+
+        If Not String.IsNullOrEmpty(selectedCategory) Then
+            LoadDownTimeCause(selectedCategory)
+        End If
+
     End Sub
 End Class

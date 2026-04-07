@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\SYSTEM\MIA\ERP\MIA-Mark.vbproj" />
+  <event action="Analyze" type="Success" name="frmAddBOMContents.resx" path="D:\SYSTEM\MIA\ERP\AddForms\frmAddBOMContents.resx" />
+  <event action="Analyze" type="Success" name="frmAddBSSLotNoAfterOven.resx" path="D:\SYSTEM\MIA\ERP\AddForms\frmAddBSSLotNoAfterOven.resx" />
+  <event action="Analyze" type="Success" name="frmAddBSSLotNoBeforeOven.resx" path="D:\SYSTEM\MIA\ERP\AddForms\frmAddBSSLotNoBeforeOven.resx" />
+  <event action="Analyze" type="Success" name="frmAddCV.resx" path="D:\SYSTEM\MIA\ERP\AddForms\frmAddCV.resx" />
+  <event action="Analyze" type="Success" name="frmAddItemSpecs.resx" path="D:\SYSTEM\MIA\ERP\AddForms\frmAddItemSpecs.resx" />
+  <event action="Analyze" type="Success" name="frmAddLCS.resx" path="D:\SYSTEM\MIA\ERP\AddForms\frmAddLCS.resx" />
+  <event action="Analyze" type="Success" name="frmAddProdMainProcess.resx" path="D:\SYSTEM\MIA\ERP\AddForms\frmAddProdMainProcess.resx" />
+  <event action="Analyze" type="Success" name="frmAddProdOutputGroupProc.resx" path="D:\SYSTEM\MIA\ERP\AddForms\frmAddProdOutputGroupProc.resx" />
+  <event action="Analyze" type="Success" name="frmAddRMWorkProcess.resx" path="D:\SYSTEM\MIA\ERP\AddForms\frmAddRMWorkProcess.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\SYSTEM\MIA\ERP\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\SYSTEM\MIA\ERP\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\SYSTEM\MIA\ERP\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\SYSTEM\MIA\ERP\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\SYSTEM\MIA\ERP\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\SYSTEM\MIA\ERP\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="D:\SYSTEM\MIA\ERP\App.config" />
+  <event action="Analyze" type="Success" name="frmCopyToCTOA.resx" path="D:\SYSTEM\MIA\ERP\CopyToForms\frmCopyToCTOA.resx" />
+  <event action="Analyze" type="Success" name="frmCopyToLineGroup.resx" path="D:\SYSTEM\MIA\ERP\CopyToForms\frmCopyToLineGroup.resx" />
+  <event action="Analyze" type="Success" name="frmCopyToModelGroup.resx" path="D:\SYSTEM\MIA\ERP\CopyToForms\frmCopyToModelGroup.resx" />
+  <event action="Analyze" type="Success" name="frmCACostTable.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmCACostTable.resx" />
+  <event action="Analyze" type="Success" name="frmCostTableEditor.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmCostTableEditor.resx" />
+  <event action="Analyze" type="Success" name="frmEditBOMItem.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditBOMItem.resx" />
+  <event action="Analyze" type="Success" name="frmEditBOMMaster.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditBOMMaster.resx" />
+  <event action="Analyze" type="Success" name="frmEditBOMSubContents.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditBOMSubContents.resx" />
+  <event action="Analyze" type="Success" name="frmEditBusinessPartner.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditBusinessPartner.resx" />
+  <event action="Analyze" type="Success" name="frmEditCTOA.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditCTOA.resx" />
+  <event action="Analyze" type="Success" name="frmEditHourlyProdMnt.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditHourlyProdMnt.resx" />
+  <event action="Analyze" type="Success" name="frmEditInventoryTransfer.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditInventoryTransfer.resx" />
+  <event action="Analyze" type="Success" name="frmEditItemMasterData.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditItemMasterData.resx" />
+  <event action="Analyze" type="Success" name="frmEditItemPerCustomer.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditItemPerCustomer.resx" />
+  <event action="Analyze" type="Success" name="frmEditLineGroup.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditLineGroup.resx" />
+  <event action="Analyze" type="Success" name="frmEditLineIssuance.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditLineIssuance.resx" />
+  <event action="Analyze" type="Success" name="frmEditModelGroup.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditModelGroup.resx" />
+  <event action="Analyze" type="Success" name="frmEditProcess.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditProcess.resx" />
+  <event action="Analyze" type="Success" name="frmEditProductionOutput.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditProductionOutput.resx" />
+  <event action="Analyze" type="Success" name="frmEditReqdWorkingDays.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditReqdWorkingDays.resx" />
+  <event action="Analyze" type="Success" name="frmEditWorkingDays.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmEditWorkingDays.resx" />
+  <event action="Analyze" type="Success" name="frmUpdateCustomerDemand.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmUpdateCustomerDemand.resx" />
+  <event action="Analyze" type="Success" name="frmUpdateProdOutputGroup.resx" path="D:\SYSTEM\MIA\ERP\EditForms\frmUpdateProdOutputGroup.resx" />
+  <event action="Analyze" type="Success" name="ucCTEditor.resx" path="D:\SYSTEM\MIA\ERP\EditForms\ucCTEditor.resx" />
+  <event action="Analyze" type="Success" name="ucCTEditorBak.resx" path="D:\SYSTEM\MIA\ERP\EditForms\ucCTEditorBak.resx" />
+  <event action="Analyze" type="Success" name="ucIMEditor.resx" path="D:\SYSTEM\MIA\ERP\EditForms\ucIMEditor.resx" />
+  <event action="Analyze" type="Success" name="frmBase.resx" path="D:\SYSTEM\MIA\ERP\frmBase.resx" />
+  <event action="Analyze" type="Success" name="frmBOMRemarks.resx" path="D:\SYSTEM\MIA\ERP\frmBOMRemarks.resx" />
+  <event action="Analyze" type="Success" name="frmChangePassword.resx" path="D:\SYSTEM\MIA\ERP\frmChangePassword.resx" />
+  <event action="Analyze" type="Success" name="frmClearDialog.resx" path="D:\SYSTEM\MIA\ERP\frmClearDialog.resx" />
+  <event action="Analyze" type="Success" name="frmConfirmCode.resx" path="D:\SYSTEM\MIA\ERP\frmConfirmCode.resx" />
+  <event action="Analyze" type="Success" name="frmConversionRate.resx" path="D:\SYSTEM\MIA\ERP\frmConversionRate.resx" />
+  <event action="Analyze" type="Success" name="frmCopyChild.resx" path="D:\SYSTEM\MIA\ERP\frmCopyChild.resx" />
+  <event action="Analyze" type="Success" name="frmCTFormulaSettings.resx" path="D:\SYSTEM\MIA\ERP\frmCTFormulaSettings.resx" />
+  <event action="Analyze" type="Success" name="frmGenCVBTReport.resx" path="D:\SYSTEM\MIA\ERP\frmGenCVBTReport.resx" />
+  <event action="Analyze" type="Success" name="frmLogin.resx" path="D:\SYSTEM\MIA\ERP\frmLogin.resx" />
+  <event action="Analyze" type="Success" name="frmManageUser.resx" path="D:\SYSTEM\MIA\ERP\frmManageUser.resx" />
+  <event action="Analyze" type="Success" name="frmMaster.resx" path="D:\SYSTEM\MIA\ERP\frmMaster.resx" />
+  <event action="Analyze" type="Success" name="frmMasterList.resx" path="D:\SYSTEM\MIA\ERP\frmMasterList.resx" />
+  <event action="Analyze" type="Success" name="frmProcessingFeePreset.resx" path="D:\SYSTEM\MIA\ERP\frmProcessingFeePreset.resx" />
+  <event action="Analyze" type="Success" name="frmReport.resx" path="D:\SYSTEM\MIA\ERP\frmReport.resx" />
+  <event action="Analyze" type="Success" name="frmSettings.resx" path="D:\SYSTEM\MIA\ERP\frmSettings.resx" />
+  <event action="Analyze" type="Success" name="frmSystemInfo.resx" path="D:\SYSTEM\MIA\ERP\frmSystemInfo.resx" />
+  <event action="Analyze" type="Success" name="frmTest.resx" path="D:\SYSTEM\MIA\ERP\frmTest.resx" />
+  <event action="Analyze" type="Success" name="frmUnitPriceForMTMH.resx" path="D:\SYSTEM\MIA\ERP\frmUnitPriceForMTMH.resx" />
+  <event action="Analyze" type="Success" name="frmUsers.resx" path="D:\SYSTEM\MIA\ERP\frmUsers.resx" />
+  <event action="Analyze" type="Success" name="frmImportBOMMaster.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportBOMMaster.resx" />
+  <event action="Analyze" type="Success" name="frmImportCostTable.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportCostTable.resx" />
+  <event action="Analyze" type="Success" name="frmImportCountingReference.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportCountingReference.resx" />
+  <event action="Analyze" type="Success" name="frmImportCTOA.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportCTOA.resx" />
+  <event action="Analyze" type="Success" name="frmImportCustomerDemand.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportCustomerDemand.resx" />
+  <event action="Analyze" type="Success" name="frmImportInventoryPerLine.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportInventoryPerLine.resx" />
+  <event action="Analyze" type="Success" name="frmImportInventoryPerWarehouse.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportInventoryPerWarehouse.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemCodeHistory.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportItemCodeHistory.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemMaster.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportItemMaster.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemPerCustomer.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportItemPerCustomer.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemPerModel.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportItemPerModel.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemPerProcess.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportItemPerProcess.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemSpecs.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportItemSpecs.resx" />
+  <event action="Analyze" type="Success" name="frmImportLineGroup.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportLineGroup.resx" />
+  <event action="Analyze" type="Success" name="frmImportLinePerWarehouse.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportLinePerWarehouse.resx" />
+  <event action="Analyze" type="Success" name="frmImportMaterialPrice.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportMaterialPrice.resx" />
+  <event action="Analyze" type="Success" name="frmImportModelGroup.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportModelGroup.resx" />
+  <event action="Analyze" type="Success" name="frmImportRMPerProcess.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportRMPerProcess.resx" />
+  <event action="Analyze" type="Success" name="frmImportRMPriceList.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportRMPriceList.resx" />
+  <event action="Analyze" type="Success" name="frmImportWarehousing.resx" path="D:\SYSTEM\MIA\ERP\ImportForms\frmImportWarehousing.resx" />
+  <event action="Analyze" type="Success" name="frmBOMMaster.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmBOMMaster.resx" />
+  <event action="Analyze" type="Success" name="frmBusinessPartners.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmBusinessPartners.resx" />
+  <event action="Analyze" type="Success" name="frmCostTableUpdating.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmCostTableUpdating.resx" />
+  <event action="Analyze" type="Success" name="frmCustomerItemMaster.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmCustomerItemMaster.resx" />
+  <event action="Analyze" type="Success" name="frmGLAccounts.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmGLAccounts.resx" />
+  <event action="Analyze" type="Success" name="frmItemCodeHistory.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmItemCodeHistory.resx" />
+  <event action="Analyze" type="Success" name="frmItemMasterData.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmItemMasterData.resx" />
+  <event action="Analyze" type="Success" name="frmItemPerModel.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmItemPerModel.resx" />
+  <event action="Analyze" type="Success" name="frmLineGroupSharing.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmLineGroupSharing.resx" />
+  <event action="Analyze" type="Success" name="frmLinePerWarehouse.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmLinePerWarehouse.resx" />
+  <event action="Analyze" type="Success" name="frmMaterialPriceList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmMaterialPriceList.resx" />
+  <event action="Analyze" type="Success" name="frmProcessComPerProcess.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmProcessComPerProcess.resx" />
+  <event action="Analyze" type="Success" name="frmProcessPerItem.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmProcessPerItem.resx" />
+  <event action="Analyze" type="Success" name="frmProcessPerRM.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmProcessPerRM.resx" />
+  <event action="Analyze" type="Success" name="frmRMPriceList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmRMPriceList.resx" />
+  <event action="Analyze" type="Success" name="frmWarehousing.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\frmWarehousing.resx" />
+  <event action="Analyze" type="Success" name="frmCategoryList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmCategoryList.resx" />
+  <event action="Analyze" type="Success" name="frmCustomerList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmCustomerList.resx" />
+  <event action="Analyze" type="Success" name="frmLineList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmLineList.resx" />
+  <event action="Analyze" type="Success" name="frmMachineList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmMachineList.resx" />
+  <event action="Analyze" type="Success" name="frmMakerList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmMakerList.resx" />
+  <event action="Analyze" type="Success" name="frmModelList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmModelList.resx" />
+  <event action="Analyze" type="Success" name="frmOutputType.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmOutputType.resx" />
+  <event action="Analyze" type="Success" name="frmProcessComponentList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmProcessComponentList.resx" />
+  <event action="Analyze" type="Success" name="frmProcessList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmProcessList.resx" />
+  <event action="Analyze" type="Success" name="frmShiftList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmShiftList.resx" />
+  <event action="Analyze" type="Success" name="frmUOMList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmUOMList.resx" />
+  <event action="Analyze" type="Success" name="frmWarehouseCodeList.resx" path="D:\SYSTEM\MIA\ERP\MasterDataForms\MasterReferenceForms\frmWarehouseCodeList.resx" />
+  <event action="Analyze" type="Success" name="frmCapacityPlanning.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\CapacityForecast\CapacityPlan\frmCapacityPlanning.resx" />
+  <event action="Analyze" type="Success" name="ucCTOA.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\CapacityForecast\ucCTOA.resx" />
+  <event action="Analyze" type="Success" name="ucLineGroup.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\CapacityForecast\ucLineGroup.resx" />
+  <event action="Analyze" type="Success" name="ucModelCapacity.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\CapacityForecast\ucModelCapacity.resx" />
+  <event action="Analyze" type="Success" name="ucModelGroup.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\CapacityForecast\ucModelGroup.resx" />
+  <event action="Analyze" type="Success" name="ucWorkingDays.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\CapacityForecast\ucWorkingDays.resx" />
+  <event action="Analyze" type="Success" name="frmBOMContents.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmBOMContents.resx" />
+  <event action="Analyze" type="Success" name="frmBOMDetails.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmBOMDetails.resx" />
+  <event action="Analyze" type="Success" name="frmBOMProvider.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmBOMProvider.resx" />
+  <event action="Analyze" type="Success" name="frmBSSDefect.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmBSSDefect.resx" />
+  <event action="Analyze" type="Success" name="frmBSSOtherDetails.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmBSSOtherDetails.resx" />
+  <event action="Analyze" type="Success" name="frmBSSProcessDefects.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmBSSProcessDefects.resx" />
+  <event action="Analyze" type="Success" name="frmBSSSample.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmBSSSample.resx" />
+  <event action="Analyze" type="Success" name="frmBSSTemplate.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmBSSTemplate.resx" />
+  <event action="Analyze" type="Success" name="frmCapacityForecast.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmCapacityForecast.resx" />
+  <event action="Analyze" type="Success" name="frmCheckVoucher.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmCheckVoucher.resx" />
+  <event action="Analyze" type="Success" name="frmCosting.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmCosting.resx" />
+  <event action="Analyze" type="Success" name="frmCostTable.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmCostTable.resx" />
+  <event action="Analyze" type="Success" name="frmCountingReference.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmCountingReference.resx" />
+  <event action="Analyze" type="Success" name="frmCustomerDemand.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmCustomerDemand.resx" />
+  <event action="Analyze" type="Success" name="frmHourlyProdMnt.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmHourlyProdMnt.resx" />
+  <event action="Analyze" type="Success" name="frmInventoryMonitoring.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmInventoryMonitoring.resx" />
+  <event action="Analyze" type="Success" name="frmInventoryTransfer.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmInventoryTransfer.resx" />
+  <event action="Analyze" type="Success" name="frmKanbanCreator.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmKanbanCreator.resx" />
+  <event action="Analyze" type="Success" name="frmLCSCreator.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmLCSCreator.resx" />
+  <event action="Analyze" type="Success" name="frmLineIssuance.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmLineIssuance.resx" />
+  <event action="Analyze" type="Success" name="frmLotControlTemplates.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmLotControlTemplates.resx" />
+  <event action="Analyze" type="Success" name="frmModelGroupAssignment.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmModelGroupAssignment.resx" />
+  <event action="Analyze" type="Success" name="frmProdOutputGroup.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmProdOutputGroup.resx" />
+  <event action="Analyze" type="Success" name="frmProdOutputGroupProc.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmProdOutputGroupProc.resx" />
+  <event action="Analyze" type="Success" name="frmProductionOutput.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmProductionOutput.resx" />
+  <event action="Analyze" type="Success" name="frmRMWorkProcess.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmRMWorkProcess.resx" />
+  <event action="Analyze" type="Success" name="frmSubContents.resx" path="D:\SYSTEM\MIA\ERP\ModuleForms\frmSubContents.resx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="D:\SYSTEM\MIA\ERP\My Project\Resources.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\SYSTEM\MIA\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\SYSTEM\MIA\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\SYSTEM\MIA\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\SYSTEM\MIA\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\SYSTEM\MIA\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\SYSTEM\MIA\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="D:\SYSTEM\MIA\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="frmRptModelCapacityTest.resx" path="D:\SYSTEM\MIA\ERP\PreviewForms\frmRptModelCapacityTest.resx" />
+  <event action="Analyze" type="Success" name="frmCapacityPlanningPreview.resx" path="D:\SYSTEM\MIA\ERP\ReportGenerators\frmCapacityPlanningPreview.resx" />
+  <event action="Analyze" type="Success" name="frmGenProdInvOnHandSummaryRep.resx" path="D:\SYSTEM\MIA\ERP\ReportGenerators\frmGenProdInvOnHandSummaryRep.resx" />
+  <event action="Analyze" type="Success" name="frmMonthYearSelection.resx" path="D:\SYSTEM\MIA\ERP\ReportGenerators\frmMonthYearSelection.resx" />
+  <event action="Analyze" type="Success" name="frmReportCustDemand.resx" path="D:\SYSTEM\MIA\ERP\ReportGenerators\frmReportCustDemand.resx" />
+  <event action="Analyze" type="Success" name="rptLCS.resx" path="D:\SYSTEM\MIA\ERP\Reports\rptLCS.resx" />
+  <event action="Analyze" type="Success" name="ucTest.resx" path="D:\SYSTEM\MIA\ERP\ucTest.resx" />
+  <event action="Analyze" type="Success" name="MIA-Mark" path="D:\SYSTEM\MIA\ERP\MIA-Mark.vbproj" />
+  <event action="Analyze" type="Success" name="MIA" path="D:\SYSTEM\MIA\ERP\MIA.sln" />
+  <event action="Backup" type="Error" name="MIA-Mark" path="D:\SYSTEM\MIA\ERP\MIA-Mark.vbproj">System.IO.IOException: The process cannot access the file 'D:\SYSTEM\MIA\ERP\.vs\MIA\v15\Server\sqlite3\db.lock' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.ProjectItem.BackupInternal()
+   at Telerik.Reporting.UpgradeWizard.Engine.UpgradeItem.Backup()</event>
+  <event action="Restore" type="Success" name="MIA-Mark" path="D:\SYSTEM\MIA\ERP\MIA-Mark.vbproj" />
+</log>
