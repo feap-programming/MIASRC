@@ -34,7 +34,7 @@ Public Class FrmSRCDailyReportViewer
                 Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                 Me.report.AddReportParameters("parID", "," & globalVariables.DailyRepID)
                 Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                 Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailyManpower")
                 ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                 ReportViewer1.RefreshReport()
@@ -58,7 +58,7 @@ Public Class FrmSRCDailyReportViewer
                 Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                 Me.report.AddReportParameters("parID", "," & globalVariables.DailyRepID)
                 Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                 Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailyAssyEffZwei")
                 ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                 ReportViewer1.RefreshReport()
@@ -68,7 +68,7 @@ Public Class FrmSRCDailyReportViewer
                 Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                 Me.report.AddReportParameters("parID", "," & globalVariables.DailyRepID)
                 Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                 Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailySRCAssyZwei")
                 ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                 ReportViewer1.RefreshReport()
@@ -78,7 +78,7 @@ Public Class FrmSRCDailyReportViewer
                 Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                 Me.report.AddReportParameters("parID", "," & globalVariables.DailyRepID)
                 Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                 Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailySRCDefectZwei")
                 ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                 ReportViewer1.RefreshReport()
@@ -88,7 +88,7 @@ Public Class FrmSRCDailyReportViewer
                 Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                 Me.report.AddReportParameters("parID", "," & globalVariables.DailyRepID)
                 Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                 Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailySRCOthersZwei")
                 ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                 ReportViewer1.RefreshReport()
@@ -98,7 +98,7 @@ Public Class FrmSRCDailyReportViewer
                 Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                 Me.report.AddReportParameters("parID", "," & globalVariables.DailyRepID)
                 Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                 Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailySRCLotNoZwei")
                 ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                 ReportViewer1.RefreshReport()
@@ -108,7 +108,7 @@ Public Class FrmSRCDailyReportViewer
                 Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                 Me.report.AddReportParameters("parID", "," & globalVariables.DailyRepID)
                 Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                 Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptBookSRCDaily")
                 ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                 ReportViewer1.RefreshReport()
@@ -162,7 +162,7 @@ Public Class FrmSRCDailyReportViewer
                         Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                         Me.report.AddReportParameters("parID", GetIDArray)
                         Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                         Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailyManpower")
                         ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                         ReportViewer1.RefreshReport()
@@ -172,7 +172,7 @@ Public Class FrmSRCDailyReportViewer
                         Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                         Me.report.AddReportParameters("parID", GetIDArray)
                         Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                         Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailyHourlyZwei")
                         ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                         ReportViewer1.RefreshReport()
@@ -182,7 +182,7 @@ Public Class FrmSRCDailyReportViewer
                         Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                         Me.report.AddReportParameters("parID", GetIDArray)
                         Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                         Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailyAssyEffZwei")
                         ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                         ReportViewer1.RefreshReport()
@@ -192,7 +192,7 @@ Public Class FrmSRCDailyReportViewer
                         Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                         Me.report.AddReportParameters("parID", GetIDArray)
                         Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                         Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailySRCAssyZwei")
                         ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                         ReportViewer1.RefreshReport()
@@ -202,7 +202,7 @@ Public Class FrmSRCDailyReportViewer
                         Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                         Me.report.AddReportParameters("parID", GetIDArray)
                         Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                         Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailySRCDefectZwei")
                         ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                         ReportViewer1.RefreshReport()
@@ -212,7 +212,7 @@ Public Class FrmSRCDailyReportViewer
                         Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                         Me.report.AddReportParameters("parID", GetIDArray)
                         Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                         Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailySRCOthersZwei")
                         ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                         ReportViewer1.RefreshReport()
@@ -222,7 +222,7 @@ Public Class FrmSRCDailyReportViewer
                         Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                         Me.report.AddReportParameters("parID", GetIDArray)
                         Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                         Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptSRCDailySRCLotNoZwei")
                         ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                         ReportViewer1.RefreshReport()
@@ -232,7 +232,7 @@ Public Class FrmSRCDailyReportViewer
                         Me.ReportViewer1.ReportEngineConnection = Me.report.Connection
                         Me.report.AddReportParameters("parID", GetIDArray)
                         Me.report.AddReportParameters("parModel", globalVariables.DailyReportModelZwei)
-                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei)
+                        Me.report.AddReportParameters("parDate", globalVariables.DailyReportDateZwei.ToString("yyyy-MM-dd"))
                         Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptBookSRCDaily")
                         ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                         ReportViewer1.RefreshReport()

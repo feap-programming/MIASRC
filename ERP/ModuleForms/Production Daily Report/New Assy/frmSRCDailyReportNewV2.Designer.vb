@@ -125,8 +125,8 @@ Partial Class FrmSRCDailyReportNewV2
         Me.RadLabel13 = New Telerik.WinControls.UI.RadLabel()
         Me.btnALESubmit = New Telerik.WinControls.UI.RadButton()
         Me.RadGroupBox5 = New Telerik.WinControls.UI.RadGroupBox()
-        Me.btnCancel = New Telerik.WinControls.UI.RadButton()
         Me.cbModelName = New Telerik.WinControls.UI.RadDropDownList()
+        Me.btnCancel = New Telerik.WinControls.UI.RadButton()
         Me.cbDelivered = New System.Windows.Forms.CheckBox()
         Me.btnALEAdd = New Telerik.WinControls.UI.RadButton()
         Me.spnALESample = New Telerik.WinControls.UI.RadSpinEditor()
@@ -323,8 +323,8 @@ Partial Class FrmSRCDailyReportNewV2
         CType(Me.btnALESubmit, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadGroupBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox5.SuspendLayout()
-        CType(Me.btnCancel, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cbModelName, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnCancel, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnALEAdd, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.spnALESample, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel27, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1136,7 +1136,7 @@ Partial Class FrmSRCDailyReportNewV2
         Me.Assylinef.ItemSize = New System.Drawing.SizeF(176.0!, 40.0!)
         Me.Assylinef.Location = New System.Drawing.Point(281, 37)
         Me.Assylinef.Name = "Assylinef"
-        Me.Assylinef.Size = New System.Drawing.Size(1087, 655)
+        Me.Assylinef.Size = New System.Drawing.Size(1087, 653)
         Me.Assylinef.Text = "Assembly Line Efficiency"
         '
         'RadPanel5
@@ -1146,7 +1146,7 @@ Partial Class FrmSRCDailyReportNewV2
         Me.RadPanel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RadPanel5.Location = New System.Drawing.Point(0, 0)
         Me.RadPanel5.Name = "RadPanel5"
-        Me.RadPanel5.Size = New System.Drawing.Size(1087, 655)
+        Me.RadPanel5.Size = New System.Drawing.Size(1087, 653)
         Me.RadPanel5.TabIndex = 1
         Me.RadPanel5.ThemeName = "CrystalDark"
         '
@@ -1168,7 +1168,7 @@ Partial Class FrmSRCDailyReportNewV2
         Me.rgvAssyLineEff.MasterTemplate.AllowRowResize = False
         Me.rgvAssyLineEff.MasterTemplate.ViewDefinition = TableViewDefinition4
         Me.rgvAssyLineEff.Name = "rgvAssyLineEff"
-        Me.rgvAssyLineEff.Size = New System.Drawing.Size(1087, 360)
+        Me.rgvAssyLineEff.Size = New System.Drawing.Size(1087, 358)
         Me.rgvAssyLineEff.TabIndex = 3
         Me.rgvAssyLineEff.ThemeName = "CrystalDark"
         '
@@ -1338,8 +1338,8 @@ Partial Class FrmSRCDailyReportNewV2
         'RadGroupBox5
         '
         Me.RadGroupBox5.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping
-        Me.RadGroupBox5.Controls.Add(Me.btnCancel)
         Me.RadGroupBox5.Controls.Add(Me.cbModelName)
+        Me.RadGroupBox5.Controls.Add(Me.btnCancel)
         Me.RadGroupBox5.Controls.Add(Me.cbDelivered)
         Me.RadGroupBox5.Controls.Add(Me.btnALEAdd)
         Me.RadGroupBox5.Controls.Add(Me.spnALESample)
@@ -1367,6 +1367,13 @@ Partial Class FrmSRCDailyReportNewV2
         Me.RadGroupBox5.TabIndex = 41
         Me.RadGroupBox5.ThemeName = "CrystalDark"
         '
+        'cbModelName
+        '
+        Me.cbModelName.Location = New System.Drawing.Point(86, 81)
+        Me.cbModelName.Name = "cbModelName"
+        Me.cbModelName.Size = New System.Drawing.Size(158, 24)
+        Me.cbModelName.TabIndex = 35
+        '
         'btnCancel
         '
         Me.btnCancel.Location = New System.Drawing.Point(469, 142)
@@ -1374,13 +1381,6 @@ Partial Class FrmSRCDailyReportNewV2
         Me.btnCancel.Size = New System.Drawing.Size(88, 24)
         Me.btnCancel.TabIndex = 55
         Me.btnCancel.Text = "CANCEL"
-        '
-        'cbModelName
-        '
-        Me.cbModelName.Location = New System.Drawing.Point(86, 81)
-        Me.cbModelName.Name = "cbModelName"
-        Me.cbModelName.Size = New System.Drawing.Size(158, 24)
-        Me.cbModelName.TabIndex = 35
         '
         'cbDelivered
         '
@@ -2425,8 +2425,8 @@ Partial Class FrmSRCDailyReportNewV2
         CType(Me.RadGroupBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RadGroupBox5.ResumeLayout(False)
         Me.RadGroupBox5.PerformLayout()
-        CType(Me.btnCancel, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cbModelName, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnCancel, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnALEAdd, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.spnALESample, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel27, System.ComponentModel.ISupportInitialize).EndInit()

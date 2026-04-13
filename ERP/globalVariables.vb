@@ -33,6 +33,8 @@ Module globalVariables
 
     Public reportType As Integer
 
+    Public reportSource As Integer = 1
+
     Public confirmCode As Boolean = False
 
     Public errorMessage As String

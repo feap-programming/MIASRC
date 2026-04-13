@@ -57,13 +57,13 @@ Partial Class FldAssemblyDowntimeMain
         Me.RadCommandBar1 = New Telerik.WinControls.UI.RadCommandBar()
         Me.CommandBarRowElement1 = New Telerik.WinControls.UI.CommandBarRowElement()
         Me.CommandBarStripElement1 = New Telerik.WinControls.UI.CommandBarStripElement()
-        Me.cbbRefresh = New Telerik.WinControls.UI.CommandBarButton()
         Me.CommandBarSeparator1 = New Telerik.WinControls.UI.CommandBarSeparator()
+        Me.CommandBarSeparator2 = New Telerik.WinControls.UI.CommandBarSeparator()
+        Me.CommandBarSeparator3 = New Telerik.WinControls.UI.CommandBarSeparator()
+        Me.cbbRefresh = New Telerik.WinControls.UI.CommandBarButton()
         Me.cbbAdd = New Telerik.WinControls.UI.CommandBarButton()
         Me.cbbDelete = New Telerik.WinControls.UI.CommandBarButton()
-        Me.CommandBarSeparator2 = New Telerik.WinControls.UI.CommandBarSeparator()
         Me.cbbDownTime = New Telerik.WinControls.UI.CommandBarButton()
-        Me.CommandBarSeparator3 = New Telerik.WinControls.UI.CommandBarSeparator()
         Me.cbbReport = New Telerik.WinControls.UI.CommandBarButton()
         Me.cbbUpload = New Telerik.WinControls.UI.CommandBarButton()
         Me.CommandBarButton3 = New Telerik.WinControls.UI.CommandBarButton()
@@ -232,7 +232,7 @@ Partial Class FldAssemblyDowntimeMain
         'gvData
         '
         Me.gvData.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.gvData.Location = New System.Drawing.Point(0, 102)
+        Me.gvData.Location = New System.Drawing.Point(0, 126)
         '
         '
         '
@@ -244,7 +244,7 @@ Partial Class FldAssemblyDowntimeMain
         Me.gvData.MasterTemplate.ViewDefinition = TableViewDefinition1
         Me.gvData.Name = "gvData"
         Me.gvData.Padding = New System.Windows.Forms.Padding(0, 0, 0, 1)
-        Me.gvData.Size = New System.Drawing.Size(799, 400)
+        Me.gvData.Size = New System.Drawing.Size(799, 376)
         Me.gvData.TabIndex = 18
         Me.gvData.ThemeName = "Office2007Black"
         '
@@ -254,7 +254,7 @@ Partial Class FldAssemblyDowntimeMain
         Me.RadCommandBar1.Location = New System.Drawing.Point(0, 45)
         Me.RadCommandBar1.Name = "RadCommandBar1"
         Me.RadCommandBar1.Rows.AddRange(New Telerik.WinControls.UI.CommandBarRowElement() {Me.CommandBarRowElement1})
-        Me.RadCommandBar1.Size = New System.Drawing.Size(799, 57)
+        Me.RadCommandBar1.Size = New System.Drawing.Size(799, 81)
         Me.RadCommandBar1.TabIndex = 19
         Me.RadCommandBar1.ThemeName = "Office2007Black"
         '
@@ -278,6 +278,33 @@ Partial Class FldAssemblyDowntimeMain
         Me.CommandBarStripElement1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
         Me.CommandBarStripElement1.UseCompatibleTextRendering = False
         '
+        'CommandBarSeparator1
+        '
+        Me.CommandBarSeparator1.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator1.DisplayName = "Separator 1"
+        Me.CommandBarSeparator1.Name = "CommandBarSeparator1"
+        Me.CommandBarSeparator1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator1.UseCompatibleTextRendering = False
+        Me.CommandBarSeparator1.VisibleInOverflowMenu = False
+        '
+        'CommandBarSeparator2
+        '
+        Me.CommandBarSeparator2.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator2.DisplayName = "Separator 2"
+        Me.CommandBarSeparator2.Name = "CommandBarSeparator2"
+        Me.CommandBarSeparator2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator2.UseCompatibleTextRendering = False
+        Me.CommandBarSeparator2.VisibleInOverflowMenu = False
+        '
+        'CommandBarSeparator3
+        '
+        Me.CommandBarSeparator3.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator3.DisplayName = "Separator 3"
+        Me.CommandBarSeparator3.Name = "CommandBarSeparator3"
+        Me.CommandBarSeparator3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator3.UseCompatibleTextRendering = False
+        Me.CommandBarSeparator3.VisibleInOverflowMenu = False
+        '
         'cbbRefresh
         '
         Me.cbbRefresh.AutoSize = False
@@ -291,15 +318,6 @@ Partial Class FldAssemblyDowntimeMain
         Me.cbbRefresh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.cbbRefresh.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
         Me.cbbRefresh.UseCompatibleTextRendering = False
-        '
-        'CommandBarSeparator1
-        '
-        Me.CommandBarSeparator1.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator1.DisplayName = "Separator 1"
-        Me.CommandBarSeparator1.Name = "CommandBarSeparator1"
-        Me.CommandBarSeparator1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator1.UseCompatibleTextRendering = False
-        Me.CommandBarSeparator1.VisibleInOverflowMenu = False
         '
         'cbbAdd
         '
@@ -329,15 +347,6 @@ Partial Class FldAssemblyDowntimeMain
         Me.cbbDelete.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
         Me.cbbDelete.UseCompatibleTextRendering = False
         '
-        'CommandBarSeparator2
-        '
-        Me.CommandBarSeparator2.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator2.DisplayName = "Separator 2"
-        Me.CommandBarSeparator2.Name = "CommandBarSeparator2"
-        Me.CommandBarSeparator2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator2.UseCompatibleTextRendering = False
-        Me.CommandBarSeparator2.VisibleInOverflowMenu = False
-        '
         'cbbDownTime
         '
         Me.cbbDownTime.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -349,15 +358,6 @@ Partial Class FldAssemblyDowntimeMain
         Me.cbbDownTime.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.cbbDownTime.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
         Me.cbbDownTime.UseCompatibleTextRendering = False
-        '
-        'CommandBarSeparator3
-        '
-        Me.CommandBarSeparator3.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator3.DisplayName = "Separator 3"
-        Me.CommandBarSeparator3.Name = "CommandBarSeparator3"
-        Me.CommandBarSeparator3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator3.UseCompatibleTextRendering = False
-        Me.CommandBarSeparator3.VisibleInOverflowMenu = False
         '
         'cbbReport
         '

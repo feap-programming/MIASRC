@@ -38,8 +38,8 @@ Partial Class FrmProdDailyReportSRC
         Dim RadListDataItem14 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem15 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem16 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmProdDailyReportSRC))
         Dim TableViewDefinition1 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmProdDailyReportSRC))
         Me.panelMore = New Telerik.WinControls.UI.RadPanel()
         Me.btnHelp = New Telerik.WinControls.UI.RadButton()
         Me.spnLine = New Telerik.WinControls.UI.RadSpinEditor()
@@ -55,26 +55,26 @@ Partial Class FrmProdDailyReportSRC
         Me.RadCommandBar1 = New Telerik.WinControls.UI.RadCommandBar()
         Me.CommandBarRowElement1 = New Telerik.WinControls.UI.CommandBarRowElement()
         Me.Nyani = New Telerik.WinControls.UI.CommandBarStripElement()
-        Me.cbbRefresh = New Telerik.WinControls.UI.CommandBarButton()
         Me.CommandBarSeparator1 = New Telerik.WinControls.UI.CommandBarSeparator()
-        Me.cbbAdd = New Telerik.WinControls.UI.CommandBarButton()
-        Me.cbbDelete = New Telerik.WinControls.UI.CommandBarButton()
         Me.CommandBarSeparator2 = New Telerik.WinControls.UI.CommandBarSeparator()
-        Me.cbbDailyReport = New Telerik.WinControls.UI.CommandBarButton()
-        Me.cbbUploadDaily = New Telerik.WinControls.UI.CommandBarButton()
-        Me.cbbDownTime = New Telerik.WinControls.UI.CommandBarButton()
-        Me.cbbRework = New Telerik.WinControls.UI.CommandBarButton()
         Me.CommandBarSeparator3 = New Telerik.WinControls.UI.CommandBarSeparator()
-        Me.cbbOptions = New Telerik.WinControls.UI.CommandBarDropDownButton()
-        Me.cbbReport = New Telerik.WinControls.UI.CommandBarButton()
-        Me.ccbOffTemp = New Telerik.WinControls.UI.CommandBarButton()
-        Me.cbbInfo = New Telerik.WinControls.UI.CommandBarButton()
         Me.gvData = New Telerik.WinControls.UI.RadGridView()
         Me.CrystalDarkTheme1 = New Telerik.WinControls.Themes.CrystalDarkTheme()
         Me.Office2007BlackTheme1 = New Telerik.WinControls.Themes.Office2007BlackTheme()
         Me.RadProgressBar1 = New Telerik.WinControls.UI.RadProgressBar()
         Me.RadPanel1 = New Telerik.WinControls.UI.RadPanel()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.cbbRefresh = New Telerik.WinControls.UI.CommandBarButton()
+        Me.cbbAdd = New Telerik.WinControls.UI.CommandBarButton()
+        Me.cbbDelete = New Telerik.WinControls.UI.CommandBarButton()
+        Me.cbbDailyReport = New Telerik.WinControls.UI.CommandBarButton()
+        Me.cbbUploadDaily = New Telerik.WinControls.UI.CommandBarButton()
+        Me.cbbDownTime = New Telerik.WinControls.UI.CommandBarButton()
+        Me.cbbRework = New Telerik.WinControls.UI.CommandBarButton()
+        Me.cbbOptions = New Telerik.WinControls.UI.CommandBarDropDownButton()
+        Me.cbbReport = New Telerik.WinControls.UI.CommandBarButton()
+        Me.ccbOffTemp = New Telerik.WinControls.UI.CommandBarButton()
+        Me.cbbInfo = New Telerik.WinControls.UI.CommandBarButton()
         Me.cbTeamLeader = New Telerik.WinControls.UI.CommandBarButton()
         Me.cbDefectTemplate = New Telerik.WinControls.UI.CommandBarButton()
         Me.cbProcessDefect = New Telerik.WinControls.UI.CommandBarButton()
@@ -286,6 +286,75 @@ Partial Class FrmProdDailyReportSRC
         Me.Nyani.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
         Me.Nyani.UseCompatibleTextRendering = False
         '
+        'CommandBarSeparator1
+        '
+        Me.CommandBarSeparator1.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator1.DisplayName = "Separator 1"
+        Me.CommandBarSeparator1.Name = "CommandBarSeparator1"
+        Me.CommandBarSeparator1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator1.UseCompatibleTextRendering = False
+        Me.CommandBarSeparator1.VisibleInOverflowMenu = False
+        '
+        'CommandBarSeparator2
+        '
+        Me.CommandBarSeparator2.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator2.DisplayName = "Separator 2"
+        Me.CommandBarSeparator2.Name = "CommandBarSeparator2"
+        Me.CommandBarSeparator2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator2.UseCompatibleTextRendering = False
+        Me.CommandBarSeparator2.VisibleInOverflowMenu = False
+        '
+        'CommandBarSeparator3
+        '
+        Me.CommandBarSeparator3.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator3.DisplayName = "Separator 3"
+        Me.CommandBarSeparator3.Name = "CommandBarSeparator3"
+        Me.CommandBarSeparator3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.CommandBarSeparator3.UseCompatibleTextRendering = False
+        Me.CommandBarSeparator3.VisibleInOverflowMenu = False
+        '
+        'gvData
+        '
+        Me.gvData.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.gvData.Location = New System.Drawing.Point(0, 147)
+        '
+        '
+        '
+        Me.gvData.MasterTemplate.AllowAddNewRow = False
+        Me.gvData.MasterTemplate.AllowDeleteRow = False
+        Me.gvData.MasterTemplate.AllowDragToGroup = False
+        Me.gvData.MasterTemplate.AllowEditRow = False
+        Me.gvData.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill
+        Me.gvData.MasterTemplate.MultiSelect = True
+        Me.gvData.MasterTemplate.ViewDefinition = TableViewDefinition1
+        Me.gvData.Name = "gvData"
+        Me.gvData.Size = New System.Drawing.Size(1355, 481)
+        Me.gvData.TabIndex = 12
+        Me.gvData.ThemeName = "CrystalDark"
+        '
+        'RadProgressBar1
+        '
+        Me.RadProgressBar1.Dock = System.Windows.Forms.DockStyle.Right
+        Me.RadProgressBar1.Location = New System.Drawing.Point(1154, 0)
+        Me.RadProgressBar1.Name = "RadProgressBar1"
+        Me.RadProgressBar1.Size = New System.Drawing.Size(201, 20)
+        Me.RadProgressBar1.TabIndex = 13
+        Me.RadProgressBar1.ThemeName = "CrystalDark"
+        '
+        'RadPanel1
+        '
+        Me.RadPanel1.Controls.Add(Me.RadProgressBar1)
+        Me.RadPanel1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.RadPanel1.Location = New System.Drawing.Point(0, 628)
+        Me.RadPanel1.Name = "RadPanel1"
+        Me.RadPanel1.Size = New System.Drawing.Size(1355, 20)
+        Me.RadPanel1.TabIndex = 14
+        '
+        'BackgroundWorker1
+        '
+        Me.BackgroundWorker1.WorkerReportsProgress = True
+        Me.BackgroundWorker1.WorkerSupportsCancellation = True
+        '
         'cbbRefresh
         '
         Me.cbbRefresh.AutoSize = False
@@ -299,15 +368,6 @@ Partial Class FrmProdDailyReportSRC
         Me.cbbRefresh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.cbbRefresh.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
         Me.cbbRefresh.UseCompatibleTextRendering = False
-        '
-        'CommandBarSeparator1
-        '
-        Me.CommandBarSeparator1.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator1.DisplayName = "Separator 1"
-        Me.CommandBarSeparator1.Name = "CommandBarSeparator1"
-        Me.CommandBarSeparator1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator1.UseCompatibleTextRendering = False
-        Me.CommandBarSeparator1.VisibleInOverflowMenu = False
         '
         'cbbAdd
         '
@@ -336,15 +396,6 @@ Partial Class FrmProdDailyReportSRC
         Me.cbbDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.cbbDelete.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
         Me.cbbDelete.UseCompatibleTextRendering = False
-        '
-        'CommandBarSeparator2
-        '
-        Me.CommandBarSeparator2.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator2.DisplayName = "Separator 2"
-        Me.CommandBarSeparator2.Name = "CommandBarSeparator2"
-        Me.CommandBarSeparator2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator2.UseCompatibleTextRendering = False
-        Me.CommandBarSeparator2.VisibleInOverflowMenu = False
         '
         'cbbDailyReport
         '
@@ -390,15 +441,6 @@ Partial Class FrmProdDailyReportSRC
         Me.cbbRework.Text = "Reworking"
         Me.cbbRework.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
-        'CommandBarSeparator3
-        '
-        Me.CommandBarSeparator3.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator3.DisplayName = "Separator 3"
-        Me.CommandBarSeparator3.Name = "CommandBarSeparator3"
-        Me.CommandBarSeparator3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarSeparator3.UseCompatibleTextRendering = False
-        Me.CommandBarSeparator3.VisibleInOverflowMenu = False
-        '
         'cbbOptions
         '
         Me.cbbOptions.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -440,48 +482,6 @@ Partial Class FrmProdDailyReportSRC
         Me.cbbInfo.Name = "cbbInfo"
         Me.cbbInfo.Text = "Docs Info"
         Me.cbbInfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
-        'gvData
-        '
-        Me.gvData.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.gvData.Location = New System.Drawing.Point(0, 147)
-        '
-        '
-        '
-        Me.gvData.MasterTemplate.AllowAddNewRow = False
-        Me.gvData.MasterTemplate.AllowDeleteRow = False
-        Me.gvData.MasterTemplate.AllowDragToGroup = False
-        Me.gvData.MasterTemplate.AllowEditRow = False
-        Me.gvData.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill
-        Me.gvData.MasterTemplate.MultiSelect = True
-        Me.gvData.MasterTemplate.ViewDefinition = TableViewDefinition1
-        Me.gvData.Name = "gvData"
-        Me.gvData.Size = New System.Drawing.Size(1355, 481)
-        Me.gvData.TabIndex = 12
-        Me.gvData.ThemeName = "CrystalDark"
-        '
-        'RadProgressBar1
-        '
-        Me.RadProgressBar1.Dock = System.Windows.Forms.DockStyle.Right
-        Me.RadProgressBar1.Location = New System.Drawing.Point(1154, 0)
-        Me.RadProgressBar1.Name = "RadProgressBar1"
-        Me.RadProgressBar1.Size = New System.Drawing.Size(201, 20)
-        Me.RadProgressBar1.TabIndex = 13
-        Me.RadProgressBar1.ThemeName = "CrystalDark"
-        '
-        'RadPanel1
-        '
-        Me.RadPanel1.Controls.Add(Me.RadProgressBar1)
-        Me.RadPanel1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.RadPanel1.Location = New System.Drawing.Point(0, 628)
-        Me.RadPanel1.Name = "RadPanel1"
-        Me.RadPanel1.Size = New System.Drawing.Size(1355, 20)
-        Me.RadPanel1.TabIndex = 14
-        '
-        'BackgroundWorker1
-        '
-        Me.BackgroundWorker1.WorkerReportsProgress = True
-        Me.BackgroundWorker1.WorkerSupportsCancellation = True
         '
         'cbTeamLeader
         '

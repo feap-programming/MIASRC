@@ -2,306 +2,311 @@
 <?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
 <log>
   <event>Get project references.</event>
-  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\2.vbproj" />
-  <event action="Analyze" type="Success" name="frmAddBOMContents.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\AddForms\frmAddBOMContents.resx" />
-  <event action="Analyze" type="Success" name="frmAddCV.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\AddForms\frmAddCV.resx" />
-  <event action="Analyze" type="Success" name="frmAddItemSpecs.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\AddForms\frmAddItemSpecs.resx" />
-  <event action="Analyze" type="Success" name="frmAddLCS.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\AddForms\frmAddLCS.resx" />
-  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\App.config" />
-  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\App.config" />
-  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\App.config" />
-  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\App.config" />
-  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\App.config" />
-  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\App.config" />
-  <event action="Analyze" type="Success" name="App.config" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\App.config" />
-  <event action="Analyze" type="Success" name="frmAddBSSLotNoAfterOven.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmAddBSSLotNoAfterOven.resx" />
-  <event action="Analyze" type="Success" name="frmAddBSSLotNoBeforeOven.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmAddBSSLotNoBeforeOven.resx" />
-  <event action="Analyze" type="Success" name="frmAddProdMainProcess.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmAddProdMainProcess.resx" />
-  <event action="Analyze" type="Success" name="frmAddProdOutputGroupProc.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmAddProdOutputGroupProc.resx" />
-  <event action="Analyze" type="Success" name="frmAddRMWorkProcess.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmAddRMWorkProcess.resx" />
-  <event action="Analyze" type="Success" name="frmBSSCopyLotNo.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSCopyLotNo.resx" />
-  <event action="Analyze" type="Success" name="frmBSSDefect.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSDefect.resx" />
-  <event action="Analyze" type="Success" name="frmBSSEditRMWorkProcess.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSEditRMWorkProcess.resx" />
-  <event action="Analyze" type="Success" name="frmBSSOtherDetails.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSOtherDetails.resx" />
-  <event action="Analyze" type="Success" name="frmBSSProcessDefects.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSProcessDefects.resx" />
-  <event action="Analyze" type="Success" name="frmBSSSample.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSSample.resx" />
-  <event action="Analyze" type="Success" name="frmBSSTemplate.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSTemplate.resx" />
-  <event action="Analyze" type="Success" name="frmBSSTemplateAddDefect.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSTemplateAddDefect.resx" />
-  <event action="Analyze" type="Success" name="frmBSSTemplateUpdate.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSTemplateUpdate.resx" />
-  <event action="Analyze" type="Success" name="frmBSSTemplateUpdateBack.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSTemplateUpdateBack.resx" />
-  <event action="Analyze" type="Success" name="frmBSSTL.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSTL.resx" />
-  <event action="Analyze" type="Success" name="frmBSSUpdateDefect.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmBSSUpdateDefect.resx" />
-  <event action="Analyze" type="Success" name="frmHourlyProdMnt.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmHourlyProdMnt.resx" />
-  <event action="Analyze" type="Success" name="frmProdOutputGroup.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmProdOutputGroup.resx" />
-  <event action="Analyze" type="Success" name="frmProdOutputGroupProc.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmProdOutputGroupProc.resx" />
-  <event action="Analyze" type="Success" name="frmRMWorkProcess.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\BSS\frmRMWorkProcess.resx" />
-  <event action="Analyze" type="Success" name="frmCopyToCTOA.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\CopyToForms\frmCopyToCTOA.resx" />
-  <event action="Analyze" type="Success" name="frmCopyToLineGroup.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\CopyToForms\frmCopyToLineGroup.resx" />
-  <event action="Analyze" type="Success" name="frmCopyToModelGroup.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\CopyToForms\frmCopyToModelGroup.resx" />
-  <event action="Analyze" type="Success" name="frmCACostTable.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmCACostTable.resx" />
-  <event action="Analyze" type="Success" name="frmCostTableEditor.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmCostTableEditor.resx" />
-  <event action="Analyze" type="Success" name="frmEditActual.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditActual.resx" />
-  <event action="Analyze" type="Success" name="frmEditBacklog.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditBacklog.resx" />
-  <event action="Analyze" type="Success" name="frmEditBIRReference.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditBIRReference.resx" />
-  <event action="Analyze" type="Success" name="frmEditBOMItem.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditBOMItem.resx" />
-  <event action="Analyze" type="Success" name="frmEditBOMMaster.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditBOMMaster.resx" />
-  <event action="Analyze" type="Success" name="frmEditBOMSubContents.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditBOMSubContents.resx" />
-  <event action="Analyze" type="Success" name="frmEditBudget.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditBudget.resx" />
-  <event action="Analyze" type="Success" name="frmEditBusinessPartner.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditBusinessPartner.resx" />
-  <event action="Analyze" type="Success" name="frmEditCTOA.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditCTOA.resx" />
-  <event action="Analyze" type="Success" name="frmEditCustomerReference.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditCustomerReference.resx" />
-  <event action="Analyze" type="Success" name="frmEditCustomerStdLeadTime.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditCustomerStdLeadTime.resx" />
-  <event action="Analyze" type="Success" name="frmEditDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditDemand.resx" />
-  <event action="Analyze" type="Success" name="frmEditHourlyProdMnt.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditHourlyProdMnt.resx" />
-  <event action="Analyze" type="Success" name="frmEditInventoryTransfer.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditInventoryTransfer.resx" />
-  <event action="Analyze" type="Success" name="frmEditInvoice.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditInvoice.resx" />
-  <event action="Analyze" type="Success" name="frmEditItemMasterData.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditItemMasterData.resx" />
-  <event action="Analyze" type="Success" name="frmEditItemPerCustomer.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditItemPerCustomer.resx" />
-  <event action="Analyze" type="Success" name="frmEditLatestDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditLatestDemand.resx" />
-  <event action="Analyze" type="Success" name="frmEditLineGroup.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditLineGroup.resx" />
-  <event action="Analyze" type="Success" name="frmEditLineIssuance.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditLineIssuance.resx" />
-  <event action="Analyze" type="Success" name="frmEditModelGroup.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditModelGroup.resx" />
-  <event action="Analyze" type="Success" name="frmEditProcess.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditProcess.resx" />
-  <event action="Analyze" type="Success" name="frmEditProductionOutput.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditProductionOutput.resx" />
-  <event action="Analyze" type="Success" name="frmEditPurchaseOrder.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditPurchaseOrder.resx" />
-  <event action="Analyze" type="Success" name="frmEditReqdWorkingDays.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditReqdWorkingDays.resx" />
-  <event action="Analyze" type="Success" name="frmEditWorkingDays.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmEditWorkingDays.resx" />
-  <event action="Analyze" type="Success" name="frmUpdateCustomerDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmUpdateCustomerDemand.resx" />
-  <event action="Analyze" type="Success" name="frmUpdateProdOutputGroup.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\frmUpdateProdOutputGroup.resx" />
-  <event action="Analyze" type="Success" name="ucCTEditor.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\ucCTEditor.resx" />
-  <event action="Analyze" type="Success" name="ucCTEditorBak.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\ucCTEditorBak.resx" />
-  <event action="Analyze" type="Success" name="ucIMEditor.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\EditForms\ucIMEditor.resx" />
-  <event action="Analyze" type="Success" name="frmBase.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmBase.resx" />
-  <event action="Analyze" type="Success" name="frmBOMRemarks.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmBOMRemarks.resx" />
-  <event action="Analyze" type="Success" name="frmChangePassword.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmChangePassword.resx" />
-  <event action="Analyze" type="Success" name="frmClearDialog.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmClearDialog.resx" />
-  <event action="Analyze" type="Success" name="frmConfirmCode.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmConfirmCode.resx" />
-  <event action="Analyze" type="Success" name="frmConversionRate.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmConversionRate.resx" />
-  <event action="Analyze" type="Success" name="frmCopyChild.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmCopyChild.resx" />
-  <event action="Analyze" type="Success" name="frmCTFormulaSettings.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmCTFormulaSettings.resx" />
-  <event action="Analyze" type="Success" name="frmGenCVBTReport.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmGenCVBTReport.resx" />
-  <event action="Analyze" type="Success" name="frmLogin.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmLogin.resx" />
-  <event action="Analyze" type="Success" name="frmManageUser.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmManageUser.resx" />
-  <event action="Analyze" type="Success" name="frmMaster.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmMaster.resx" />
-  <event action="Analyze" type="Success" name="frmMasterList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmMasterList.resx" />
-  <event action="Analyze" type="Success" name="frmProcessingFeePreset.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmProcessingFeePreset.resx" />
-  <event action="Analyze" type="Success" name="frmReport.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmReport.resx" />
-  <event action="Analyze" type="Success" name="frmSettings.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmSettings.resx" />
-  <event action="Analyze" type="Success" name="frmSystemInfo.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmSystemInfo.resx" />
-  <event action="Analyze" type="Success" name="frmTest.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmTest.resx" />
-  <event action="Analyze" type="Success" name="frmUnitPriceForMTMH.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmUnitPriceForMTMH.resx" />
-  <event action="Analyze" type="Success" name="frmUsers.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\frmUsers.resx" />
-  <event action="Analyze" type="Success" name="frmHistoryActual.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\HistoryForms\frmHistoryActual.resx" />
-  <event action="Analyze" type="Success" name="frmHistoryAllBacklogs.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\HistoryForms\frmHistoryAllBacklogs.resx" />
-  <event action="Analyze" type="Success" name="frmHistoryAllServedPO.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\HistoryForms\frmHistoryAllServedPO.resx" />
-  <event action="Analyze" type="Success" name="frmHistoryBacklog.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\HistoryForms\frmHistoryBacklog.resx" />
-  <event action="Analyze" type="Success" name="frmHistoryBudget.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\HistoryForms\frmHistoryBudget.resx" />
-  <event action="Analyze" type="Success" name="frmHistoryCustomerStdLeadTime.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\HistoryForms\frmHistoryCustomerStdLeadTime.resx" />
-  <event action="Analyze" type="Success" name="frmHistoryDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\HistoryForms\frmHistoryDemand.resx" />
-  <event action="Analyze" type="Success" name="frmHistoryLatestDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\HistoryForms\frmHistoryLatestDemand.resx" />
-  <event action="Analyze" type="Success" name="frmHistoryPurchaseOrder.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\HistoryForms\frmHistoryPurchaseOrder.resx" />
-  <event action="Analyze" type="Success" name="frmHistoryServedPO.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\HistoryForms\frmHistoryServedPO.resx" />
-  <event action="Analyze" type="Success" name="frmImportActual.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportActual.resx" />
-  <event action="Analyze" type="Success" name="frmImportBacklog.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportBacklog.resx" />
-  <event action="Analyze" type="Success" name="frmImportBOMMaster.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportBOMMaster.resx" />
-  <event action="Analyze" type="Success" name="frmImportBudget.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportBudget.resx" />
-  <event action="Analyze" type="Success" name="frmImportCostTable.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportCostTable.resx" />
-  <event action="Analyze" type="Success" name="frmImportCountingReference.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportCountingReference.resx" />
-  <event action="Analyze" type="Success" name="frmImportCTOA.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportCTOA.resx" />
-  <event action="Analyze" type="Success" name="frmImportCustomerDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportCustomerDemand.resx" />
-  <event action="Analyze" type="Success" name="frmImportDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportDemand.resx" />
-  <event action="Analyze" type="Success" name="frmImportInventoryPerLine.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportInventoryPerLine.resx" />
-  <event action="Analyze" type="Success" name="frmImportInventoryPerWarehouse.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportInventoryPerWarehouse.resx" />
-  <event action="Analyze" type="Success" name="frmImportItemCodeHistory.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportItemCodeHistory.resx" />
-  <event action="Analyze" type="Success" name="frmImportItemMaster.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportItemMaster.resx" />
-  <event action="Analyze" type="Success" name="frmImportItemPerCustomer.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportItemPerCustomer.resx" />
-  <event action="Analyze" type="Success" name="frmImportItemPerModel.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportItemPerModel.resx" />
-  <event action="Analyze" type="Success" name="frmImportItemPerProcess.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportItemPerProcess.resx" />
-  <event action="Analyze" type="Success" name="frmImportItemSpecs.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportItemSpecs.resx" />
-  <event action="Analyze" type="Success" name="frmImportLatestDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportLatestDemand.resx" />
-  <event action="Analyze" type="Success" name="frmImportLineGroup.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportLineGroup.resx" />
-  <event action="Analyze" type="Success" name="frmImportLinePerWarehouse.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportLinePerWarehouse.resx" />
-  <event action="Analyze" type="Success" name="frmImportMaterialPrice.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportMaterialPrice.resx" />
-  <event action="Analyze" type="Success" name="frmImportModelGroup.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportModelGroup.resx" />
-  <event action="Analyze" type="Success" name="frmImportPurchaseOrder.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportPurchaseOrder.resx" />
-  <event action="Analyze" type="Success" name="frmImportRMPerProcess.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportRMPerProcess.resx" />
-  <event action="Analyze" type="Success" name="frmImportRMPriceList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportRMPriceList.resx" />
-  <event action="Analyze" type="Success" name="frmImportServedPO.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportServedPO.resx" />
-  <event action="Analyze" type="Success" name="frmImportWarehousing.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ImportForms\frmImportWarehousing.resx" />
-  <event action="Analyze" type="Success" name="frmBIRReference.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmBIRReference.resx" />
-  <event action="Analyze" type="Success" name="frmBOMMaster.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmBOMMaster.resx" />
-  <event action="Analyze" type="Success" name="frmBusinessPartners.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmBusinessPartners.resx" />
-  <event action="Analyze" type="Success" name="frmCostTableUpdating.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmCostTableUpdating.resx" />
-  <event action="Analyze" type="Success" name="frmCustomerItemMaster.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmCustomerItemMaster.resx" />
-  <event action="Analyze" type="Success" name="frmCustomerReference.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmCustomerReference.resx" />
-  <event action="Analyze" type="Success" name="frmCustomerStdLeadTime.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmCustomerStdLeadTime.resx" />
-  <event action="Analyze" type="Success" name="frmGLAccounts.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmGLAccounts.resx" />
-  <event action="Analyze" type="Success" name="frmItemCodeHistory.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmItemCodeHistory.resx" />
-  <event action="Analyze" type="Success" name="frmItemMasterData.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmItemMasterData.resx" />
-  <event action="Analyze" type="Success" name="frmItemPerModel.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmItemPerModel.resx" />
-  <event action="Analyze" type="Success" name="frmLineGroupSharing.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmLineGroupSharing.resx" />
-  <event action="Analyze" type="Success" name="frmLinePerWarehouse.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmLinePerWarehouse.resx" />
-  <event action="Analyze" type="Success" name="frmMaterialPriceList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmMaterialPriceList.resx" />
-  <event action="Analyze" type="Success" name="frmProcessComPerProcess.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmProcessComPerProcess.resx" />
-  <event action="Analyze" type="Success" name="frmProcessPerItem.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmProcessPerItem.resx" />
-  <event action="Analyze" type="Success" name="frmProcessPerRM.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmProcessPerRM.resx" />
-  <event action="Analyze" type="Success" name="frmRMPriceList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmRMPriceList.resx" />
-  <event action="Analyze" type="Success" name="frmWarehousing.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\frmWarehousing.resx" />
-  <event action="Analyze" type="Success" name="frmCategoryList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmCategoryList.resx" />
-  <event action="Analyze" type="Success" name="frmCustomerList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmCustomerList.resx" />
-  <event action="Analyze" type="Success" name="frmLineList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmLineList.resx" />
-  <event action="Analyze" type="Success" name="frmMachineList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmMachineList.resx" />
-  <event action="Analyze" type="Success" name="frmMakerList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmMakerList.resx" />
-  <event action="Analyze" type="Success" name="frmModelList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmModelList.resx" />
-  <event action="Analyze" type="Success" name="frmOutputType.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmOutputType.resx" />
-  <event action="Analyze" type="Success" name="frmProcessComponentList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmProcessComponentList.resx" />
-  <event action="Analyze" type="Success" name="frmProcessList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmProcessList.resx" />
-  <event action="Analyze" type="Success" name="frmShiftList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmShiftList.resx" />
-  <event action="Analyze" type="Success" name="frmUOMList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmUOMList.resx" />
-  <event action="Analyze" type="Success" name="frmWarehouseCodeList.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\MasterDataForms\MasterReferenceForms\frmWarehouseCodeList.resx" />
-  <event action="Analyze" type="Success" name="frmCapacityPlanning.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\CapacityForecast\CapacityPlan\frmCapacityPlanning.resx" />
-  <event action="Analyze" type="Success" name="ucCTOA.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\CapacityForecast\ucCTOA.resx" />
-  <event action="Analyze" type="Success" name="ucLineGroup.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\CapacityForecast\ucLineGroup.resx" />
-  <event action="Analyze" type="Success" name="ucModelCapacity.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\CapacityForecast\ucModelCapacity.resx" />
-  <event action="Analyze" type="Success" name="ucModelGroup.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\CapacityForecast\ucModelGroup.resx" />
-  <event action="Analyze" type="Success" name="ucWorkingDays.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\CapacityForecast\ucWorkingDays.resx" />
-  <event action="Analyze" type="Success" name="frmBOMContents.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmBOMContents.resx" />
-  <event action="Analyze" type="Success" name="frmBOMDetails.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmBOMDetails.resx" />
-  <event action="Analyze" type="Success" name="frmBOMProvider.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmBOMProvider.resx" />
-  <event action="Analyze" type="Success" name="frmBudgetAmount.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmBudgetAmount.resx" />
-  <event action="Analyze" type="Success" name="frmCapacityForecast.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmCapacityForecast.resx" />
-  <event action="Analyze" type="Success" name="frmCheckVoucher.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmCheckVoucher.resx" />
-  <event action="Analyze" type="Success" name="frmCosting.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmCosting.resx" />
-  <event action="Analyze" type="Success" name="frmCostTable.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmCostTable.resx" />
-  <event action="Analyze" type="Success" name="frmCountingReference.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmCountingReference.resx" />
-  <event action="Analyze" type="Success" name="frmCustomerDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmCustomerDemand.resx" />
-  <event action="Analyze" type="Success" name="frmDeletePassword.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmDeletePassword.resx" />
-  <event action="Analyze" type="Success" name="frmInventoryMonitoring.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmInventoryMonitoring.resx" />
-  <event action="Analyze" type="Success" name="frmInventoryTransfer.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmInventoryTransfer.resx" />
-  <event action="Analyze" type="Success" name="frmInvoice.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmInvoice.resx" />
-  <event action="Analyze" type="Success" name="frmKanbanCreator.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmKanbanCreator.resx" />
-  <event action="Analyze" type="Success" name="frmLCSCreator.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmLCSCreator.resx" />
-  <event action="Analyze" type="Success" name="frmLineIssuance.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmLineIssuance.resx" />
-  <event action="Analyze" type="Success" name="frmLongTermForecast.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmLongTermForecast.resx" />
-  <event action="Analyze" type="Success" name="frmLongTermForecast2.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmLongTermForecast2.resx" />
-  <event action="Analyze" type="Success" name="frmLotControlTemplates.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmLotControlTemplates.resx" />
-  <event action="Analyze" type="Success" name="frmModelGroupAssignment.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmModelGroupAssignment.resx" />
-  <event action="Analyze" type="Success" name="frmProductionOutput.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmProductionOutput.resx" />
-  <event action="Analyze" type="Success" name="frmSubContents.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\frmSubContents.resx" />
-  <event action="Analyze" type="Success" name="frmCreateInvoice.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Invoice\frmCreateInvoice.resx" />
-  <event action="Analyze" type="Success" name="frmUploadInvoiceItem.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Invoice\frmUploadInvoiceItem.resx" />
-  <event action="Analyze" type="Success" name="frmViewInvoiceItem.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Invoice\frmViewInvoiceItem.resx" />
-  <event action="Analyze" type="Success" name="frmRptSalesInvoice.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Invoice\Report\frmRptSalesInvoice.resx" />
-  <event action="Analyze" type="Success" name="frmRptSalesInvoiceSummary.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Invoice\Report\frmRptSalesInvoiceSummary.resx" />
-  <event action="Analyze" type="Success" name="frmSalesInvoiceReportSelector.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Invoice\Report\frmSalesInvoiceReportSelector.resx" />
-  <event action="Analyze" type="Success" name="frmBudgetReportSelector.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmBudgetReportSelector.resx" />
-  <event action="Analyze" type="Success" name="frmDemandPOMonitoringSelector.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmDemandPOMonitoringSelector.resx" />
-  <event action="Analyze" type="Success" name="frmDemandReportSelector.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmDemandReportSelector.resx" />
-  <event action="Analyze" type="Success" name="frmLatestDemandReportSelector.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmLatestDemandReportSelector.resx" />
-  <event action="Analyze" type="Success" name="frmRptBookDemandComparison.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBookDemandComparison.resx" />
-  <event action="Analyze" type="Success" name="frmRptBookLatestDemandPerCustomer.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBookLatestDemandPerCustomer.resx" />
-  <event action="Analyze" type="Success" name="frmRptBudgetAllCustomer.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBudgetAllCustomer.resx" />
-  <event action="Analyze" type="Success" name="frmRptBudgetETDFEAP.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBudgetETDFEAP.resx" />
-  <event action="Analyze" type="Success" name="frmRptBudgetPerCustomer.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBudgetPerCustomer.resx" />
-  <event action="Analyze" type="Success" name="frmRptBudgetPerModel.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBudgetPerModel.resx" />
-  <event action="Analyze" type="Success" name="frmRptDemandComparison.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptDemandComparison.resx" />
-  <event action="Analyze" type="Success" name="frmRptDemandComparisonPageView.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptDemandComparisonPageView.resx" />
-  <event action="Analyze" type="Success" name="frmRptDemandETDFEAP.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptDemandETDFEAP.resx" />
-  <event action="Analyze" type="Success" name="frmRptForecastVsLatestDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptForecastVsLatestDemand.resx" />
-  <event action="Analyze" type="Success" name="frmRptLatestDemandCustPageView.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptLatestDemandCustPageView.resx" />
-  <event action="Analyze" type="Success" name="frmRptLatestDemandForecast.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptLatestDemandForecast.resx" />
-  <event action="Analyze" type="Success" name="frmRptLatestDemandPerCustomer.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptLatestDemandPerCustomer.resx" />
-  <event action="Analyze" type="Success" name="frmRptPurchaseOrder.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptPurchaseOrder.resx" />
-  <event action="Analyze" type="Success" name="frmActualUploaderTemplate.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\Template\frmActualUploaderTemplate.resx" />
-  <event action="Analyze" type="Success" name="frmLatestDemandUploaderTemplate.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\Template\frmLatestDemandUploaderTemplate.resx" />
-  <event action="Analyze" type="Success" name="ucActual.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ucActual.resx" />
-  <event action="Analyze" type="Success" name="ucBudget.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ucBudget.resx" />
-  <event action="Analyze" type="Success" name="ucDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ucDemand.resx" />
-  <event action="Analyze" type="Success" name="ucLatestDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ucLatestDemand.resx" />
-  <event action="Analyze" type="Success" name="ucPurchaseOrder.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\LongTermForecast\ucPurchaseOrder.resx" />
-  <event action="Analyze" type="Success" name="frmATDailyReport.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\Auto Taping\frmATDailyReport.resx" />
-  <event action="Analyze" type="Success" name="frmATMaster.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\Auto Taping\frmATMaster.resx" />
-  <event action="Analyze" type="Success" name="fldAssemblyDowntimeMain.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\fldAssemblyDowntimeMain.resx" />
-  <event action="Analyze" type="Success" name="frmAssemblyDownTime.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmAssemblyDownTime.resx" />
-  <event action="Analyze" type="Success" name="frmAutoTapingDailyReport.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmAutoTapingDailyReport.resx" />
-  <event action="Analyze" type="Success" name="frmDailyReportData.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmDailyReportData.resx" />
-  <event action="Analyze" type="Success" name="frmDocsInfo.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmDocsInfo.resx" />
-  <event action="Analyze" type="Success" name="frmDowntimeExcel.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmDowntimeExcel.resx" />
-  <event action="Analyze" type="Success" name="frmDowntimeGraphInfo.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmDowntimeGraphInfo.resx" />
-  <event action="Analyze" type="Success" name="frmDowntimeReportSelector.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmDowntimeReportSelector.resx" />
-  <event action="Analyze" type="Success" name="frmEditLineTimePart.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmEditLineTimePart.resx" />
-  <event action="Analyze" type="Success" name="frmEditSRCHeader.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmEditSRCHeader.resx" />
-  <event action="Analyze" type="Success" name="frmFWPWDailyReport.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmFWPWDailyReport.resx" />
-  <event action="Analyze" type="Success" name="frmManpowerTemplate.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmManpowerTemplate.resx" />
-  <event action="Analyze" type="Success" name="frmNewAssyDailyReport.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmNewAssyDailyReport.resx" />
-  <event action="Analyze" type="Success" name="frmProdDailyReportSRC.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmProdDailyReportSRC.resx" />
-  <event action="Analyze" type="Success" name="frmRawMatsWPTemplate.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmRawMatsWPTemplate.resx" />
-  <event action="Analyze" type="Success" name="frmReworkingAssy.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmReworkingAssy.resx" />
-  <event action="Analyze" type="Success" name="frmReworkingData.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmReworkingData.resx" />
-  <event action="Analyze" type="Success" name="frmSRCAssyReportSelector.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmSRCAssyReportSelector.resx" />
-  <event action="Analyze" type="Success" name="frmSRCAssyTemplate.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmSRCAssyTemplate.resx" />
-  <event action="Analyze" type="Success" name="frmSRCDailyReportViewer.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmSRCDailyReportViewer.resx" />
-  <event action="Analyze" type="Success" name="frmSRCReportSelectorSeparate.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmSRCReportSelectorSeparate.resx" />
-  <event action="Analyze" type="Success" name="frmSRCTime.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmSRCTime.resx" />
-  <event action="Analyze" type="Success" name="frmSyncSRC.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmSyncSRC.resx" />
-  <event action="Analyze" type="Success" name="frmWeldingDailyReportData.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmWeldingDailyReportData.resx" />
-  <event action="Analyze" type="Success" name="frmWeldingPlan.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmWeldingPlan.resx" />
-  <event action="Analyze" type="Success" name="frmWeldingTemplateLotNo.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmWeldingTemplateLotNo.resx" />
-  <event action="Analyze" type="Success" name="frmWeldingTemplates.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\frmWeldingTemplates.resx" />
-  <event action="Analyze" type="Success" name="frmSRCDailyReportNew.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\New Assy\frmSRCDailyReportNew.resx" />
-  <event action="Analyze" type="Success" name="frmSRCDailyReportNewV2.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\New Assy\frmSRCDailyReportNewV2.resx" />
-  <event action="Analyze" type="Success" name="frmPWDailyReportNew.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\New PW\frmPWDailyReportNew.resx" />
-  <event action="Analyze" type="Success" name="frmDailyReportPassword.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\frmDailyReportPassword.resx" />
-  <event action="Analyze" type="Success" name="frmDownTimeUpload.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\frmDownTimeUpload.resx" />
-  <event action="Analyze" type="Success" name="frmSRCAssyUpload.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\frmSRCAssyUpload.resx" />
-  <event action="Analyze" type="Success" name="frmTestDataTable.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\frmTestDataTable.resx" />
-  <event action="Analyze" type="Success" name="frmWeldingUpload.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\frmWeldingUpload.resx" />
-  <event action="Analyze" type="Success" name="ucAssyLineEff.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucAssyLineEff.resx" />
-  <event action="Analyze" type="Success" name="ucDailyHourlyQuality.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucDailyHourlyQuality.resx" />
-  <event action="Analyze" type="Success" name="ucDailyManpower.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucDailyManpower.resx" />
-  <event action="Analyze" type="Success" name="ucDailyOtherDetails.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucDailyOtherDetails.resx" />
-  <event action="Analyze" type="Success" name="ucDailyRawMats.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucDailyRawMats.resx" />
-  <event action="Analyze" type="Success" name="ucDailySRCAssy.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucDailySRCAssy.resx" />
-  <event action="Analyze" type="Success" name="ucFWManpower.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucFWManpower.resx" />
-  <event action="Analyze" type="Success" name="ucSRCInProcDefects.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucSRCInProcDefects.resx" />
-  <event action="Analyze" type="Success" name="ucWeldingDefectsFW.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucWeldingDefectsFW.resx" />
-  <event action="Analyze" type="Success" name="ucWeldingDefectsPW.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucWeldingDefectsPW.resx" />
-  <event action="Analyze" type="Success" name="ucWeldingHourly.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucWeldingHourly.resx" />
-  <event action="Analyze" type="Success" name="ucWeldingManpower.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucWeldingManpower.resx" />
-  <event action="Analyze" type="Success" name="ucWeldingRMWIP.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucWeldingRMWIP.resx" />
-  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\My Project\Resources.resx" />
-  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\packages.config" />
-  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\packages.config" />
-  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\packages.config" />
-  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\packages.config" />
-  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\packages.config" />
-  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\packages.config" />
-  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\packages.config" />
-  <event action="Analyze" type="Success" name="frmRptModelCapacityTest.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\PreviewForms\frmRptModelCapacityTest.resx" />
-  <event action="Analyze" type="Success" name="frmCapacityPlanningPreview.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ReportGenerators\frmCapacityPlanningPreview.resx" />
-  <event action="Analyze" type="Success" name="frmGenProdInvOnHandSummaryRep.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ReportGenerators\frmGenProdInvOnHandSummaryRep.resx" />
-  <event action="Analyze" type="Success" name="frmMonthYearSelection.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ReportGenerators\frmMonthYearSelection.resx" />
-  <event action="Analyze" type="Success" name="frmReportCustDemand.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ReportGenerators\frmReportCustDemand.resx" />
-  <event action="Analyze" type="Success" name="rptLCS.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptLCS.resx" />
-  <event action="Analyze" type="Success" name="rptPWDailyReportv2.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptPWDailyReportv2.resx" />
-  <event action="Analyze" type="Success" name="rptPWDailyReportv22.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptPWDailyReportv22.resx" />
-  <event action="Analyze" type="Success" name="rptSubPWWeldingLot1.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptSubPWWeldingLot1.resx" />
-  <event action="Analyze" type="Success" name="rptSubPWWeldingLot2.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptSubPWWeldingLot2.resx" />
-  <event action="Analyze" type="Success" name="rptSubPWWeldingLot3.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptSubPWWeldingLot3.resx" />
-  <event action="Analyze" type="Success" name="rptSubPWWeldingLot4.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptSubPWWeldingLot4.resx" />
-  <event action="Analyze" type="Success" name="rptSubPWWeldingLot5.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptSubPWWeldingLot5.resx" />
-  <event action="Analyze" type="Success" name="rptSubWeldingGoodQty1.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptSubWeldingGoodQty1.resx" />
-  <event action="Analyze" type="Success" name="rptSubWeldingGoodQty2.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptSubWeldingGoodQty2.resx" />
-  <event action="Analyze" type="Success" name="ucTest.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\ucTest.resx" />
-  <event action="Analyze" type="Success" name="frmUpdateActual.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\UpdateForms\frmUpdateActual.resx" />
-  <event action="Analyze" type="Success" name="2" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\2.vbproj" />
-  <event action="Analyze" type="Success" name="MIA" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\MIA.sln" />
-  <event action="Backup" type="Success" name="2" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\2.vbproj" />
-  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\2.vbproj" />
-  <event action="Upgrade" type="Success" name="Config Sections" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\App.config" />
-  <event action="Upgrade" type="Success" name="App.config" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\App.config" />
-  <event action="Upgrade" type="Success" name="rptPWDailyReportv2.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptPWDailyReportv2.resx" />
-  <event action="Upgrade" type="Success" name="rptPWDailyReportv22.resx" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\Reports\rptPWDailyReportv22.resx" />
-  <event action="Upgrade" type="Success" name="2" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\ERP\2.vbproj" />
-  <event action="Upgrade" type="Success" name="MIA" path="C:\Users\jayhan.somosierra\source\repos\MIA FOR LIVE\MIA.sln" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\2.vbproj" />
+  <event action="Analyze" type="Success" name="frmAddBOMContents.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\AddForms\frmAddBOMContents.resx" />
+  <event action="Analyze" type="Success" name="frmAddCV.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\AddForms\frmAddCV.resx" />
+  <event action="Analyze" type="Success" name="frmAddItemSpecs.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\AddForms\frmAddItemSpecs.resx" />
+  <event action="Analyze" type="Success" name="frmAddLCS.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\AddForms\frmAddLCS.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\App.config" />
+  <event action="Analyze" type="Success" name="frmAddBSSLotNoAfterOven.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmAddBSSLotNoAfterOven.resx" />
+  <event action="Analyze" type="Success" name="frmAddBSSLotNoBeforeOven.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmAddBSSLotNoBeforeOven.resx" />
+  <event action="Analyze" type="Success" name="frmAddProdMainProcess.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmAddProdMainProcess.resx" />
+  <event action="Analyze" type="Success" name="frmAddProdOutputGroupProc.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmAddProdOutputGroupProc.resx" />
+  <event action="Analyze" type="Success" name="frmAddRMWorkProcess.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmAddRMWorkProcess.resx" />
+  <event action="Analyze" type="Success" name="frmBSSCopyLotNo.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSCopyLotNo.resx" />
+  <event action="Analyze" type="Success" name="frmBSSDefect.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSDefect.resx" />
+  <event action="Analyze" type="Success" name="frmBSSEditRMWorkProcess.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSEditRMWorkProcess.resx" />
+  <event action="Analyze" type="Success" name="frmBSSOtherDetails.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSOtherDetails.resx" />
+  <event action="Analyze" type="Success" name="frmBSSProcessDefects.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSProcessDefects.resx" />
+  <event action="Analyze" type="Success" name="frmBSSSample.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSSample.resx" />
+  <event action="Analyze" type="Success" name="frmBSSTemplate.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSTemplate.resx" />
+  <event action="Analyze" type="Success" name="frmBSSTemplateAddDefect.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSTemplateAddDefect.resx" />
+  <event action="Analyze" type="Success" name="frmBSSTemplateUpdate.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSTemplateUpdate.resx" />
+  <event action="Analyze" type="Success" name="frmBSSTemplateUpdateBack.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSTemplateUpdateBack.resx" />
+  <event action="Analyze" type="Success" name="frmBSSTL.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSTL.resx" />
+  <event action="Analyze" type="Success" name="frmBSSUpdateDefect.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmBSSUpdateDefect.resx" />
+  <event action="Analyze" type="Success" name="frmHourlyProdMnt.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmHourlyProdMnt.resx" />
+  <event action="Analyze" type="Success" name="frmProdOutputGroup.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmProdOutputGroup.resx" />
+  <event action="Analyze" type="Success" name="frmProdOutputGroupProc.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmProdOutputGroupProc.resx" />
+  <event action="Analyze" type="Success" name="frmRMWorkProcess.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\BSS\frmRMWorkProcess.resx" />
+  <event action="Analyze" type="Success" name="frmCopyToCTOA.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\CopyToForms\frmCopyToCTOA.resx" />
+  <event action="Analyze" type="Success" name="frmCopyToLineGroup.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\CopyToForms\frmCopyToLineGroup.resx" />
+  <event action="Analyze" type="Success" name="frmCopyToModelGroup.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\CopyToForms\frmCopyToModelGroup.resx" />
+  <event action="Analyze" type="Success" name="frmCACostTable.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmCACostTable.resx" />
+  <event action="Analyze" type="Success" name="frmCostTableEditor.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmCostTableEditor.resx" />
+  <event action="Analyze" type="Success" name="frmEditActual.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditActual.resx" />
+  <event action="Analyze" type="Success" name="frmEditBacklog.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditBacklog.resx" />
+  <event action="Analyze" type="Success" name="frmEditBIRReference.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditBIRReference.resx" />
+  <event action="Analyze" type="Success" name="frmEditBOMItem.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditBOMItem.resx" />
+  <event action="Analyze" type="Success" name="frmEditBOMMaster.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditBOMMaster.resx" />
+  <event action="Analyze" type="Success" name="frmEditBOMSubContents.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditBOMSubContents.resx" />
+  <event action="Analyze" type="Success" name="frmEditBudget.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditBudget.resx" />
+  <event action="Analyze" type="Success" name="frmEditBusinessPartner.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditBusinessPartner.resx" />
+  <event action="Analyze" type="Success" name="frmEditCTOA.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditCTOA.resx" />
+  <event action="Analyze" type="Success" name="frmEditCustomerReference.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditCustomerReference.resx" />
+  <event action="Analyze" type="Success" name="frmEditCustomerStdLeadTime.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditCustomerStdLeadTime.resx" />
+  <event action="Analyze" type="Success" name="frmEditDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditDemand.resx" />
+  <event action="Analyze" type="Success" name="frmEditHourlyProdMnt.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditHourlyProdMnt.resx" />
+  <event action="Analyze" type="Success" name="frmEditInventoryTransfer.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditInventoryTransfer.resx" />
+  <event action="Analyze" type="Success" name="frmEditInvoice.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditInvoice.resx" />
+  <event action="Analyze" type="Success" name="frmEditItemMasterData.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditItemMasterData.resx" />
+  <event action="Analyze" type="Success" name="frmEditItemPerCustomer.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditItemPerCustomer.resx" />
+  <event action="Analyze" type="Success" name="frmEditLatestDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditLatestDemand.resx" />
+  <event action="Analyze" type="Success" name="frmEditLineGroup.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditLineGroup.resx" />
+  <event action="Analyze" type="Success" name="frmEditLineIssuance.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditLineIssuance.resx" />
+  <event action="Analyze" type="Success" name="frmEditModelGroup.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditModelGroup.resx" />
+  <event action="Analyze" type="Success" name="frmEditProcess.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditProcess.resx" />
+  <event action="Analyze" type="Success" name="frmEditProductionOutput.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditProductionOutput.resx" />
+  <event action="Analyze" type="Success" name="frmEditPurchaseOrder.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditPurchaseOrder.resx" />
+  <event action="Analyze" type="Success" name="frmEditReqdWorkingDays.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditReqdWorkingDays.resx" />
+  <event action="Analyze" type="Success" name="frmEditWorkingDays.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmEditWorkingDays.resx" />
+  <event action="Analyze" type="Success" name="frmUpdateCustomerDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmUpdateCustomerDemand.resx" />
+  <event action="Analyze" type="Success" name="frmUpdateProdOutputGroup.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\frmUpdateProdOutputGroup.resx" />
+  <event action="Analyze" type="Success" name="ucCTEditor.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\ucCTEditor.resx" />
+  <event action="Analyze" type="Success" name="ucCTEditorBak.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\ucCTEditorBak.resx" />
+  <event action="Analyze" type="Success" name="ucIMEditor.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\EditForms\ucIMEditor.resx" />
+  <event action="Analyze" type="Success" name="frmBase.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmBase.resx" />
+  <event action="Analyze" type="Success" name="frmBOMRemarks.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmBOMRemarks.resx" />
+  <event action="Analyze" type="Success" name="frmChangePassword.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmChangePassword.resx" />
+  <event action="Analyze" type="Success" name="frmClearDialog.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmClearDialog.resx" />
+  <event action="Analyze" type="Success" name="frmConfirmCode.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmConfirmCode.resx" />
+  <event action="Analyze" type="Success" name="frmConversionRate.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmConversionRate.resx" />
+  <event action="Analyze" type="Success" name="frmCopyChild.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmCopyChild.resx" />
+  <event action="Analyze" type="Success" name="frmCTFormulaSettings.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmCTFormulaSettings.resx" />
+  <event action="Analyze" type="Success" name="frmGenCVBTReport.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmGenCVBTReport.resx" />
+  <event action="Analyze" type="Success" name="frmLogin.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmLogin.resx" />
+  <event action="Analyze" type="Success" name="frmManageUser.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmManageUser.resx" />
+  <event action="Analyze" type="Success" name="frmMaster.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmMaster.resx" />
+  <event action="Analyze" type="Success" name="frmMasterList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmMasterList.resx" />
+  <event action="Analyze" type="Success" name="frmProcessingFeePreset.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmProcessingFeePreset.resx" />
+  <event action="Analyze" type="Success" name="frmReport.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmReport.resx" />
+  <event action="Analyze" type="Success" name="frmSettings.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmSettings.resx" />
+  <event action="Analyze" type="Success" name="frmSystemInfo.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmSystemInfo.resx" />
+  <event action="Analyze" type="Success" name="frmTest.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmTest.resx" />
+  <event action="Analyze" type="Success" name="frmUnitPriceForMTMH.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmUnitPriceForMTMH.resx" />
+  <event action="Analyze" type="Success" name="frmUsers.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\frmUsers.resx" />
+  <event action="Analyze" type="Success" name="frmHistoryActual.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\HistoryForms\frmHistoryActual.resx" />
+  <event action="Analyze" type="Success" name="frmHistoryAllBacklogs.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\HistoryForms\frmHistoryAllBacklogs.resx" />
+  <event action="Analyze" type="Success" name="frmHistoryAllServedPO.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\HistoryForms\frmHistoryAllServedPO.resx" />
+  <event action="Analyze" type="Success" name="frmHistoryBacklog.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\HistoryForms\frmHistoryBacklog.resx" />
+  <event action="Analyze" type="Success" name="frmHistoryBudget.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\HistoryForms\frmHistoryBudget.resx" />
+  <event action="Analyze" type="Success" name="frmHistoryCustomerStdLeadTime.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\HistoryForms\frmHistoryCustomerStdLeadTime.resx" />
+  <event action="Analyze" type="Success" name="frmHistoryDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\HistoryForms\frmHistoryDemand.resx" />
+  <event action="Analyze" type="Success" name="frmHistoryLatestDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\HistoryForms\frmHistoryLatestDemand.resx" />
+  <event action="Analyze" type="Success" name="frmHistoryPurchaseOrder.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\HistoryForms\frmHistoryPurchaseOrder.resx" />
+  <event action="Analyze" type="Success" name="frmHistoryServedPO.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\HistoryForms\frmHistoryServedPO.resx" />
+  <event action="Analyze" type="Success" name="frmImportActual.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportActual.resx" />
+  <event action="Analyze" type="Success" name="frmImportBacklog.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportBacklog.resx" />
+  <event action="Analyze" type="Success" name="frmImportBOMMaster.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportBOMMaster.resx" />
+  <event action="Analyze" type="Success" name="frmImportBudget.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportBudget.resx" />
+  <event action="Analyze" type="Success" name="frmImportCostTable.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportCostTable.resx" />
+  <event action="Analyze" type="Success" name="frmImportCountingReference.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportCountingReference.resx" />
+  <event action="Analyze" type="Success" name="frmImportCTOA.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportCTOA.resx" />
+  <event action="Analyze" type="Success" name="frmImportCustomerDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportCustomerDemand.resx" />
+  <event action="Analyze" type="Success" name="frmImportDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportDemand.resx" />
+  <event action="Analyze" type="Success" name="frmImportInventoryPerLine.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportInventoryPerLine.resx" />
+  <event action="Analyze" type="Success" name="frmImportInventoryPerWarehouse.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportInventoryPerWarehouse.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemCodeHistory.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportItemCodeHistory.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemMaster.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportItemMaster.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemPerCustomer.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportItemPerCustomer.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemPerModel.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportItemPerModel.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemPerProcess.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportItemPerProcess.resx" />
+  <event action="Analyze" type="Success" name="frmImportItemSpecs.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportItemSpecs.resx" />
+  <event action="Analyze" type="Success" name="frmImportLatestDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportLatestDemand.resx" />
+  <event action="Analyze" type="Success" name="frmImportLineGroup.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportLineGroup.resx" />
+  <event action="Analyze" type="Success" name="frmImportLinePerWarehouse.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportLinePerWarehouse.resx" />
+  <event action="Analyze" type="Success" name="frmImportMaterialPrice.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportMaterialPrice.resx" />
+  <event action="Analyze" type="Success" name="frmImportModelGroup.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportModelGroup.resx" />
+  <event action="Analyze" type="Success" name="frmImportPurchaseOrder.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportPurchaseOrder.resx" />
+  <event action="Analyze" type="Success" name="frmImportRMPerProcess.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportRMPerProcess.resx" />
+  <event action="Analyze" type="Success" name="frmImportRMPriceList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportRMPriceList.resx" />
+  <event action="Analyze" type="Success" name="frmImportServedPO.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportServedPO.resx" />
+  <event action="Analyze" type="Success" name="frmImportWarehousing.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ImportForms\frmImportWarehousing.resx" />
+  <event action="Analyze" type="Success" name="frmBIRReference.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmBIRReference.resx" />
+  <event action="Analyze" type="Success" name="frmBOMMaster.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmBOMMaster.resx" />
+  <event action="Analyze" type="Success" name="frmBusinessPartners.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmBusinessPartners.resx" />
+  <event action="Analyze" type="Success" name="frmCostTableUpdating.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmCostTableUpdating.resx" />
+  <event action="Analyze" type="Success" name="frmCustomerItemMaster.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmCustomerItemMaster.resx" />
+  <event action="Analyze" type="Success" name="frmCustomerReference.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmCustomerReference.resx" />
+  <event action="Analyze" type="Success" name="frmCustomerStdLeadTime.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmCustomerStdLeadTime.resx" />
+  <event action="Analyze" type="Success" name="frmGLAccounts.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmGLAccounts.resx" />
+  <event action="Analyze" type="Success" name="frmItemCodeHistory.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmItemCodeHistory.resx" />
+  <event action="Analyze" type="Success" name="frmItemMasterData.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmItemMasterData.resx" />
+  <event action="Analyze" type="Success" name="frmItemPerModel.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmItemPerModel.resx" />
+  <event action="Analyze" type="Success" name="frmLineGroupSharing.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmLineGroupSharing.resx" />
+  <event action="Analyze" type="Success" name="frmLinePerWarehouse.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmLinePerWarehouse.resx" />
+  <event action="Analyze" type="Success" name="frmMaterialPriceList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmMaterialPriceList.resx" />
+  <event action="Analyze" type="Success" name="frmProcessComPerProcess.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmProcessComPerProcess.resx" />
+  <event action="Analyze" type="Success" name="frmProcessPerItem.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmProcessPerItem.resx" />
+  <event action="Analyze" type="Success" name="frmProcessPerRM.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmProcessPerRM.resx" />
+  <event action="Analyze" type="Success" name="frmRMPriceList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmRMPriceList.resx" />
+  <event action="Analyze" type="Success" name="frmWarehousing.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\frmWarehousing.resx" />
+  <event action="Analyze" type="Success" name="frmCategoryList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmCategoryList.resx" />
+  <event action="Analyze" type="Success" name="frmCustomerList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmCustomerList.resx" />
+  <event action="Analyze" type="Success" name="frmLineList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmLineList.resx" />
+  <event action="Analyze" type="Success" name="frmMachineList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmMachineList.resx" />
+  <event action="Analyze" type="Success" name="frmMakerList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmMakerList.resx" />
+  <event action="Analyze" type="Success" name="frmModelList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmModelList.resx" />
+  <event action="Analyze" type="Success" name="frmOutputType.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmOutputType.resx" />
+  <event action="Analyze" type="Success" name="frmProcessComponentList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmProcessComponentList.resx" />
+  <event action="Analyze" type="Success" name="frmProcessList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmProcessList.resx" />
+  <event action="Analyze" type="Success" name="frmShiftList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmShiftList.resx" />
+  <event action="Analyze" type="Success" name="frmUOMList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmUOMList.resx" />
+  <event action="Analyze" type="Success" name="frmWarehouseCodeList.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\MasterDataForms\MasterReferenceForms\frmWarehouseCodeList.resx" />
+  <event action="Analyze" type="Success" name="frmCapacityPlanning.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\CapacityForecast\CapacityPlan\frmCapacityPlanning.resx" />
+  <event action="Analyze" type="Success" name="ucCTOA.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\CapacityForecast\ucCTOA.resx" />
+  <event action="Analyze" type="Success" name="ucLineGroup.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\CapacityForecast\ucLineGroup.resx" />
+  <event action="Analyze" type="Success" name="ucModelCapacity.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\CapacityForecast\ucModelCapacity.resx" />
+  <event action="Analyze" type="Success" name="ucModelGroup.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\CapacityForecast\ucModelGroup.resx" />
+  <event action="Analyze" type="Success" name="ucWorkingDays.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\CapacityForecast\ucWorkingDays.resx" />
+  <event action="Analyze" type="Success" name="frmBOMContents.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmBOMContents.resx" />
+  <event action="Analyze" type="Success" name="frmBOMDetails.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmBOMDetails.resx" />
+  <event action="Analyze" type="Success" name="frmBOMProvider.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmBOMProvider.resx" />
+  <event action="Analyze" type="Success" name="frmBudgetAmount.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmBudgetAmount.resx" />
+  <event action="Analyze" type="Success" name="frmCapacityForecast.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmCapacityForecast.resx" />
+  <event action="Analyze" type="Success" name="frmCheckVoucher.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmCheckVoucher.resx" />
+  <event action="Analyze" type="Success" name="frmCosting.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmCosting.resx" />
+  <event action="Analyze" type="Success" name="frmCostTable.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmCostTable.resx" />
+  <event action="Analyze" type="Success" name="frmCountingReference.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmCountingReference.resx" />
+  <event action="Analyze" type="Success" name="frmCustomerDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmCustomerDemand.resx" />
+  <event action="Analyze" type="Success" name="frmDeletePassword.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmDeletePassword.resx" />
+  <event action="Analyze" type="Success" name="frmInventoryMonitoring.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmInventoryMonitoring.resx" />
+  <event action="Analyze" type="Success" name="frmInventoryTransfer.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmInventoryTransfer.resx" />
+  <event action="Analyze" type="Success" name="frmInvoice.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmInvoice.resx" />
+  <event action="Analyze" type="Success" name="frmKanbanCreator.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmKanbanCreator.resx" />
+  <event action="Analyze" type="Success" name="frmLCSCreator.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmLCSCreator.resx" />
+  <event action="Analyze" type="Success" name="frmLineIssuance.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmLineIssuance.resx" />
+  <event action="Analyze" type="Success" name="frmLongTermForecast.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmLongTermForecast.resx" />
+  <event action="Analyze" type="Success" name="frmLongTermForecast2.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmLongTermForecast2.resx" />
+  <event action="Analyze" type="Success" name="frmLotControlTemplates.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmLotControlTemplates.resx" />
+  <event action="Analyze" type="Success" name="frmModelGroupAssignment.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmModelGroupAssignment.resx" />
+  <event action="Analyze" type="Success" name="frmProductionOutput.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmProductionOutput.resx" />
+  <event action="Analyze" type="Success" name="frmSubContents.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\frmSubContents.resx" />
+  <event action="Analyze" type="Success" name="frmCreateInvoice.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Invoice\frmCreateInvoice.resx" />
+  <event action="Analyze" type="Success" name="frmUploadInvoiceItem.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Invoice\frmUploadInvoiceItem.resx" />
+  <event action="Analyze" type="Success" name="frmViewInvoiceItem.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Invoice\frmViewInvoiceItem.resx" />
+  <event action="Analyze" type="Success" name="frmRptSalesInvoice.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Invoice\Report\frmRptSalesInvoice.resx" />
+  <event action="Analyze" type="Success" name="frmRptSalesInvoiceSummary.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Invoice\Report\frmRptSalesInvoiceSummary.resx" />
+  <event action="Analyze" type="Success" name="frmSalesInvoiceReportSelector.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Invoice\Report\frmSalesInvoiceReportSelector.resx" />
+  <event action="Analyze" type="Success" name="frmBudgetReportSelector.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmBudgetReportSelector.resx" />
+  <event action="Analyze" type="Success" name="frmDemandPOMonitoringSelector.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmDemandPOMonitoringSelector.resx" />
+  <event action="Analyze" type="Success" name="frmDemandReportSelector.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmDemandReportSelector.resx" />
+  <event action="Analyze" type="Success" name="frmLatestDemandReportSelector.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmLatestDemandReportSelector.resx" />
+  <event action="Analyze" type="Success" name="frmRptBookDemandComparison.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBookDemandComparison.resx" />
+  <event action="Analyze" type="Success" name="frmRptBookLatestDemandPerCustomer.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBookLatestDemandPerCustomer.resx" />
+  <event action="Analyze" type="Success" name="frmRptBudgetAllCustomer.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBudgetAllCustomer.resx" />
+  <event action="Analyze" type="Success" name="frmRptBudgetETDFEAP.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBudgetETDFEAP.resx" />
+  <event action="Analyze" type="Success" name="frmRptBudgetPerCustomer.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBudgetPerCustomer.resx" />
+  <event action="Analyze" type="Success" name="frmRptBudgetPerModel.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptBudgetPerModel.resx" />
+  <event action="Analyze" type="Success" name="frmRptDemandComparison.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptDemandComparison.resx" />
+  <event action="Analyze" type="Success" name="frmRptDemandComparisonPageView.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptDemandComparisonPageView.resx" />
+  <event action="Analyze" type="Success" name="frmRptDemandETDFEAP.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptDemandETDFEAP.resx" />
+  <event action="Analyze" type="Success" name="frmRptForecastVsLatestDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptForecastVsLatestDemand.resx" />
+  <event action="Analyze" type="Success" name="frmRptLatestDemandCustPageView.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptLatestDemandCustPageView.resx" />
+  <event action="Analyze" type="Success" name="frmRptLatestDemandForecast.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptLatestDemandForecast.resx" />
+  <event action="Analyze" type="Success" name="frmRptLatestDemandPerCustomer.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptLatestDemandPerCustomer.resx" />
+  <event action="Analyze" type="Success" name="frmRptPurchaseOrder.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ReportSelector\frmRptPurchaseOrder.resx" />
+  <event action="Analyze" type="Success" name="frmActualUploaderTemplate.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\Template\frmActualUploaderTemplate.resx" />
+  <event action="Analyze" type="Success" name="frmLatestDemandUploaderTemplate.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\Template\frmLatestDemandUploaderTemplate.resx" />
+  <event action="Analyze" type="Success" name="ucActual.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ucActual.resx" />
+  <event action="Analyze" type="Success" name="ucBudget.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ucBudget.resx" />
+  <event action="Analyze" type="Success" name="ucDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ucDemand.resx" />
+  <event action="Analyze" type="Success" name="ucLatestDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ucLatestDemand.resx" />
+  <event action="Analyze" type="Success" name="ucPurchaseOrder.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\LongTermForecast\ucPurchaseOrder.resx" />
+  <event action="Analyze" type="Success" name="frmATDailyReport.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\Auto Taping\frmATDailyReport.resx" />
+  <event action="Analyze" type="Success" name="frmATMaster.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\Auto Taping\frmATMaster.resx" />
+  <event action="Analyze" type="Success" name="fldAssemblyDowntimeMain.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\fldAssemblyDowntimeMain.resx" />
+  <event action="Analyze" type="Success" name="frmAssemblyDownTime.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmAssemblyDownTime.resx" />
+  <event action="Analyze" type="Success" name="frmAutoTapingDailyReport.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmAutoTapingDailyReport.resx" />
+  <event action="Analyze" type="Success" name="frmDailyReportData.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmDailyReportData.resx" />
+  <event action="Analyze" type="Success" name="frmDocsInfo.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmDocsInfo.resx" />
+  <event action="Analyze" type="Success" name="frmDowntimeExcel.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmDowntimeExcel.resx" />
+  <event action="Analyze" type="Success" name="frmDowntimeGraphInfo.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmDowntimeGraphInfo.resx" />
+  <event action="Analyze" type="Success" name="frmDowntimeReportSelector.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmDowntimeReportSelector.resx" />
+  <event action="Analyze" type="Success" name="frmEditLineTimePart.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmEditLineTimePart.resx" />
+  <event action="Analyze" type="Success" name="frmEditSRCHeader.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmEditSRCHeader.resx" />
+  <event action="Analyze" type="Success" name="frmFWPWDailyReport.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmFWPWDailyReport.resx" />
+  <event action="Analyze" type="Success" name="frmManpowerTemplate.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmManpowerTemplate.resx" />
+  <event action="Analyze" type="Success" name="frmNewAssyDailyReport.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmNewAssyDailyReport.resx" />
+  <event action="Analyze" type="Success" name="frmProdDailyReportSRC.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmProdDailyReportSRC.resx" />
+  <event action="Analyze" type="Success" name="frmRawMatsWPTemplate.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmRawMatsWPTemplate.resx" />
+  <event action="Analyze" type="Success" name="frmReworkingAssy.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmReworkingAssy.resx" />
+  <event action="Analyze" type="Success" name="frmReworkingData.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmReworkingData.resx" />
+  <event action="Analyze" type="Success" name="frmSRCAssyReportSelector.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmSRCAssyReportSelector.resx" />
+  <event action="Analyze" type="Success" name="frmSRCAssyTemplate.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmSRCAssyTemplate.resx" />
+  <event action="Analyze" type="Success" name="frmSRCDailyReportViewer.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmSRCDailyReportViewer.resx" />
+  <event action="Analyze" type="Success" name="frmSRCReportSelectorSeparate.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmSRCReportSelectorSeparate.resx" />
+  <event action="Analyze" type="Success" name="frmSRCTime.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmSRCTime.resx" />
+  <event action="Analyze" type="Success" name="frmSyncSRC.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmSyncSRC.resx" />
+  <event action="Analyze" type="Success" name="frmWeldingDailyReportData.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmWeldingDailyReportData.resx" />
+  <event action="Analyze" type="Success" name="FrmWeldingDailyReportViewer.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\FrmWeldingDailyReportViewer.resx" />
+  <event action="Analyze" type="Success" name="frmWeldingPlan.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmWeldingPlan.resx" />
+  <event action="Analyze" type="Success" name="frmWeldingTemplateLotNo.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmWeldingTemplateLotNo.resx" />
+  <event action="Analyze" type="Success" name="frmWeldingTemplates.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\frmWeldingTemplates.resx" />
+  <event action="Analyze" type="Success" name="frmSRCDailyReportNew.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\New Assy\frmSRCDailyReportNew.resx" />
+  <event action="Analyze" type="Success" name="frmSRCDailyReportNewV2.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\New Assy\frmSRCDailyReportNewV2.resx" />
+  <event action="Analyze" type="Success" name="frmPWDailyReportNew.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\New PW\frmPWDailyReportNew.resx" />
+  <event action="Analyze" type="Success" name="frmDailyReportPassword.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\frmDailyReportPassword.resx" />
+  <event action="Analyze" type="Success" name="frmDownTimeUpload.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\frmDownTimeUpload.resx" />
+  <event action="Analyze" type="Success" name="frmFWDailyReport.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\frmFWDailyReport.resx" />
+  <event action="Analyze" type="Success" name="frmSRCAssyUpload.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\frmSRCAssyUpload.resx" />
+  <event action="Analyze" type="Success" name="frmTestDataTable.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\frmTestDataTable.resx" />
+  <event action="Analyze" type="Success" name="frmWeldingUpload.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\frmWeldingUpload.resx" />
+  <event action="Analyze" type="Success" name="ucAssyLineEff.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucAssyLineEff.resx" />
+  <event action="Analyze" type="Success" name="ucDailyHourlyQuality.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucDailyHourlyQuality.resx" />
+  <event action="Analyze" type="Success" name="ucDailyManpower.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucDailyManpower.resx" />
+  <event action="Analyze" type="Success" name="ucDailyOtherDetails.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucDailyOtherDetails.resx" />
+  <event action="Analyze" type="Success" name="ucDailyRawMats.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucDailyRawMats.resx" />
+  <event action="Analyze" type="Success" name="ucDailySRCAssy.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucDailySRCAssy.resx" />
+  <event action="Analyze" type="Success" name="ucFWManpower.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucFWManpower.resx" />
+  <event action="Analyze" type="Success" name="ucSRCInProcDefects.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucSRCInProcDefects.resx" />
+  <event action="Analyze" type="Success" name="ucWeldingDefectsFW.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucWeldingDefectsFW.resx" />
+  <event action="Analyze" type="Success" name="ucWeldingDefectsPW.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucWeldingDefectsPW.resx" />
+  <event action="Analyze" type="Success" name="ucWeldingHourly.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucWeldingHourly.resx" />
+  <event action="Analyze" type="Success" name="ucWeldingManpower.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucWeldingManpower.resx" />
+  <event action="Analyze" type="Success" name="ucWeldingManpowerv3.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucWeldingManpowerv3.resx" />
+  <event action="Analyze" type="Success" name="ucWeldingRMWIP.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ModuleForms\Production Daily Report\ucDailyRep\ucWeldingRMWIP.resx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\My Project\Resources.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\packages.config" />
+  <event action="Analyze" type="Success" name="frmRptModelCapacityTest.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\PreviewForms\frmRptModelCapacityTest.resx" />
+  <event action="Analyze" type="Success" name="frmCapacityPlanningPreview.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ReportGenerators\frmCapacityPlanningPreview.resx" />
+  <event action="Analyze" type="Success" name="frmGenProdInvOnHandSummaryRep.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ReportGenerators\frmGenProdInvOnHandSummaryRep.resx" />
+  <event action="Analyze" type="Success" name="frmMonthYearSelection.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ReportGenerators\frmMonthYearSelection.resx" />
+  <event action="Analyze" type="Success" name="frmReportCustDemand.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ReportGenerators\frmReportCustDemand.resx" />
+  <event action="Analyze" type="Success" name="rptFWDailyReport.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptFWDailyReport.resx" />
+  <event action="Analyze" type="Success" name="rptLCS.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptLCS.resx" />
+  <event action="Analyze" type="Success" name="rptPWDailyReportv2.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptPWDailyReportv2.resx" />
+  <event action="Analyze" type="Success" name="rptPWDailyReportv22.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptPWDailyReportv22.resx" />
+  <event action="Analyze" type="Success" name="rptSubPWWeldingLot1.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptSubPWWeldingLot1.resx" />
+  <event action="Analyze" type="Success" name="rptSubPWWeldingLot2.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptSubPWWeldingLot2.resx" />
+  <event action="Analyze" type="Success" name="rptSubPWWeldingLot3.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptSubPWWeldingLot3.resx" />
+  <event action="Analyze" type="Success" name="rptSubPWWeldingLot4.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptSubPWWeldingLot4.resx" />
+  <event action="Analyze" type="Success" name="rptSubPWWeldingLot5.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptSubPWWeldingLot5.resx" />
+  <event action="Analyze" type="Success" name="rptSubWeldingGoodQty1.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptSubWeldingGoodQty1.resx" />
+  <event action="Analyze" type="Success" name="rptSubWeldingGoodQty2.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptSubWeldingGoodQty2.resx" />
+  <event action="Analyze" type="Success" name="ucTest.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\ucTest.resx" />
+  <event action="Analyze" type="Success" name="frmUpdateActual.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\UpdateForms\frmUpdateActual.resx" />
+  <event action="Analyze" type="Success" name="2" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\2.vbproj" />
+  <event action="Analyze" type="Success" name="MIA" path="C:\Users\maydard.seno\source\repos\MIASRC\MIA.sln" />
+  <event action="Backup" type="Success" name="2" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\2.vbproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\2.vbproj" />
+  <event action="Upgrade" type="Success" name="Config Sections" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\App.config" />
+  <event action="Upgrade" type="Success" name="App.config" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\App.config" />
+  <event action="Upgrade" type="Success" name="rptFWDailyReport.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptFWDailyReport.resx" />
+  <event action="Upgrade" type="Success" name="rptPWDailyReportv2.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptPWDailyReportv2.resx" />
+  <event action="Upgrade" type="Success" name="rptPWDailyReportv22.resx" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\Reports\rptPWDailyReportv22.resx" />
+  <event action="Upgrade" type="Success" name="2" path="C:\Users\maydard.seno\source\repos\MIASRC\ERP\2.vbproj" />
+  <event action="Upgrade" type="Success" name="MIA" path="C:\Users\maydard.seno\source\repos\MIASRC\MIA.sln" />
 </log>

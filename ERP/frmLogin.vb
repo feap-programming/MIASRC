@@ -62,6 +62,7 @@ Public Class FrmLogin
         Dim settings As DataTable = Slipknot.dbSelect("SP_SelectSettings")
 
         If settings.Rows.Count > 0 Then
+            globalVariables.reportSource = settings.Rows(0).Item("fldOnlineReport")
 
             If lblVersion.Text = Convert.ToString(settings.Rows(0).Item("fldMiaSrcVersion")) Then
                 checkVersion = True
