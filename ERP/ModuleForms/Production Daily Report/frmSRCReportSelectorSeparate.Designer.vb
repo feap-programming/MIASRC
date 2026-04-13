@@ -50,13 +50,12 @@ Partial Class FrmSRCReportSelectorSeparate
         '
         'ddType
         '
-        Me.ddType.DropDownAnimationEnabled = True
         Me.ddType.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
         RadListDataItem1.Text = "STANDARD"
         RadListDataItem2.Text = "MANPOWER"
         RadListDataItem3.Text = "HOURLY"
-        RadListDataItem4.Text = "ASSY"
-        RadListDataItem5.Text = "SRC ASSCY"
+        RadListDataItem4.Text = "ASSY LINE EFF."
+        RadListDataItem5.Text = "SRC ASSY"
         RadListDataItem6.Text = "DEFECTS"
         RadListDataItem7.Text = "OTHERS"
         RadListDataItem8.Text = "LOTNO"
@@ -72,6 +71,7 @@ Partial Class FrmSRCReportSelectorSeparate
         Me.ddType.Items.Add(RadListDataItem9)
         Me.ddType.Location = New System.Drawing.Point(12, 31)
         Me.ddType.Name = "ddType"
+        Me.ddType.NullText = "ALL"
         Me.ddType.Size = New System.Drawing.Size(329, 24)
         Me.ddType.TabIndex = 3
         Me.ddType.Text = "ALL"

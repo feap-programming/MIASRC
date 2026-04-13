@@ -148,4 +148,8 @@ Public Class FrmWeldingDailyReportViewer
             End If
         End If
     End Sub
+
+    Private Sub FrmWeldingDailyReportViewer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

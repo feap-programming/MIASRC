@@ -261,6 +261,7 @@
     <Reference Include="Telerik.Licensing.Runtime, Version=1.8.2.0, Culture=neutral, PublicKeyToken=98bb5b04e55c09ef, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Licensing.1.8.2\lib\net462\Telerik.Licensing.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Telerik.Reporting.Services.WebApi, Version=20.0.26.304, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls, Version=2026.1.210.462, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.GridView, Version=2026.1.210.462, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
       <HintPath>..\lib\RCWF\2026.1.210.462\Telerik.WinControls.GridView.dll</HintPath>
@@ -1409,19 +1410,29 @@
     <Compile Include="ModuleForms\Production Daily Report\frmNewAssyDailyReport.Designer.vb">
       <DependentUpon>frmNewAssyDailyReport.vb</DependentUpon>
     </Compile>
-    <Compile Include="ModuleForms\Production Daily Report\frmNewAssyDailyReport.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="ModuleForms\Production Daily Report\frmNewAssyDailyReport.vb" />
     <Compile Include="ModuleForms\Production Daily Report\frmProdDailyReportSRC.Designer.vb">
       <DependentUpon>frmProdDailyReportSRC.vb</DependentUpon>
     </Compile>
     <Compile Include="ModuleForms\Production Daily Report\frmProdDailyReportSRC.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ModuleForms\Production Daily Report\frmSRCDailyReportOfflineViewer.Designer.vb">
+      <DependentUpon>frmSRCDailyReportOfflineViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\Production Daily Report\frmSRCDailyReportOfflineViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ModuleForms\Production Daily Report\frmSRCTime.Designer.vb">
       <DependentUpon>frmSRCTime.vb</DependentUpon>
     </Compile>
     <Compile Include="ModuleForms\Production Daily Report\frmSRCTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForms\Production Daily Report\FrmWeldingDailyReportOfflineViewer.Designer.vb">
+      <DependentUpon>FrmWeldingDailyReportOfflineViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleForms\Production Daily Report\FrmWeldingDailyReportOfflineViewer.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ModuleForms\Production Daily Report\FrmWeldingDailyReportViewer.Designer.vb">
@@ -1664,6 +1675,102 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ReportServer.vb" />
+    <Compile Include="Reports\rptAutoTapingDailyReport.Designer.vb">
+      <DependentUpon>rptAutoTapingDailyReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptAutoTapingDailyReport.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptBookSRCAssyDailyReport.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptBookSRCDaily.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptHourlyQuality.Designer.vb">
+      <DependentUpon>rptHourlyQuality.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptHourlyQuality.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailyAssyEffZwei.Designer.vb">
+      <DependentUpon>rptSRCDailyAssyEffZwei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailyAssyEffZwei.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailyHourlyZwei.Designer.vb">
+      <DependentUpon>rptSRCDailyHourlyZwei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailyHourlyZwei.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailyManpower.Designer.vb">
+      <DependentUpon>rptSRCDailyManpower.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailyManpower.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailyReport.Designer.vb">
+      <DependentUpon>rptSRCDailyReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailyReport.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailySRCAssyZwei.Designer.vb">
+      <DependentUpon>rptSRCDailySRCAssyZwei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailySRCAssyZwei.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailySRCDefectZwei.Designer.vb">
+      <DependentUpon>rptSRCDailySRCDefectZwei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailySRCDefectZwei.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailySRCLotNoZwei.Designer.vb">
+      <DependentUpon>rptSRCDailySRCLotNoZwei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailySRCLotNoZwei.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailySRCOthersZwei.Designer.vb">
+      <DependentUpon>rptSRCDailySRCOthersZwei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDailySRCOthersZwei.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDowntimeGraphPerDay.Designer.vb">
+      <DependentUpon>rptSRCDowntimeGraphPerDay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDowntimeGraphPerDay.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDowntimeGraphPerShift.Designer.vb">
+      <DependentUpon>rptSRCDowntimeGraphPerShift.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDowntimeGraphPerShift.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDowntimeReportFW.Designer.vb">
+      <DependentUpon>rptSRCDowntimeReportFW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDowntimeReportFW.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDowntimeReportFWBoth.Designer.vb">
+      <DependentUpon>rptSRCDowntimeReportFWBoth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDowntimeReportFWBoth.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSRCDowntimeReportPW.Designer.vb">
+      <DependentUpon>rptSRCDowntimeReportPW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSRCDowntimeReportPW.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\rptSRCDowntimeReportv2.Designer.vb">
       <DependentUpon>rptSRCDowntimeReportv2.vb</DependentUpon>
     </Compile>
@@ -2647,8 +2754,14 @@
     <EmbeddedResource Include="ModuleForms\Production Daily Report\frmProdDailyReportSRC.resx">
       <DependentUpon>frmProdDailyReportSRC.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\Production Daily Report\frmSRCDailyReportOfflineViewer.resx">
+      <DependentUpon>frmSRCDailyReportOfflineViewer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ModuleForms\Production Daily Report\frmSRCTime.resx">
       <DependentUpon>frmSRCTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForms\Production Daily Report\FrmWeldingDailyReportOfflineViewer.resx">
+      <DependentUpon>FrmWeldingDailyReportOfflineViewer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModuleForms\Production Daily Report\FrmWeldingDailyReportViewer.resx">
       <DependentUpon>FrmWeldingDailyReportViewer.vb</DependentUpon>
@@ -2763,6 +2876,51 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PreviewForms\frmRptModelCapacityTest.resx">
       <DependentUpon>frmRptModelCapacityTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptAutoTapingDailyReport.resx">
+      <DependentUpon>rptAutoTapingDailyReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptHourlyQuality.resx">
+      <DependentUpon>rptHourlyQuality.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDailyAssyEffZwei.resx">
+      <DependentUpon>rptSRCDailyAssyEffZwei.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDailyHourlyZwei.resx">
+      <DependentUpon>rptSRCDailyHourlyZwei.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDailyManpower.resx">
+      <DependentUpon>rptSRCDailyManpower.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDailyReport.resx">
+      <DependentUpon>rptSRCDailyReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDailySRCAssyZwei.resx">
+      <DependentUpon>rptSRCDailySRCAssyZwei.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDailySRCDefectZwei.resx">
+      <DependentUpon>rptSRCDailySRCDefectZwei.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDailySRCLotNoZwei.resx">
+      <DependentUpon>rptSRCDailySRCLotNoZwei.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDailySRCOthersZwei.resx">
+      <DependentUpon>rptSRCDailySRCOthersZwei.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDowntimeGraphPerDay.resx">
+      <DependentUpon>rptSRCDowntimeGraphPerDay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDowntimeGraphPerShift.resx">
+      <DependentUpon>rptSRCDowntimeGraphPerShift.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDowntimeReportFW.resx">
+      <DependentUpon>rptSRCDowntimeReportFW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDowntimeReportFWBoth.resx">
+      <DependentUpon>rptSRCDowntimeReportFWBoth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSRCDowntimeReportPW.resx">
+      <DependentUpon>rptSRCDowntimeReportPW.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\rptSRCDowntimeReportv2.resx">
       <DependentUpon>rptSRCDowntimeReportv2.vb</DependentUpon>
