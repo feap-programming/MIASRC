@@ -8,6 +8,7 @@ Public Class FrmSRCDailyReportOfflineViewer
     Private Sub FrmSRCDailyReportViewer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Slipknot.changeTheme(Me)
 
+
         Dim SetReport As Action(Of Telerik.Reporting.Report) =
             Sub(rpt As Telerik.Reporting.Report)
                 Dim instance As New Telerik.Reporting.InstanceReportSource()
@@ -112,7 +113,7 @@ Public Class FrmSRCDailyReportOfflineViewer
                 SetReport(rpt)
                 ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
 
-            ElseIf globalVariables.SRCReportSeparate = "ALL (WORK BOOK)" Then
+            ElseIf globalVariables.SRCReportSeparate = "ALL (WORK BOOK)" Or globalVariables.SRCReportSeparate = "ALL" Then
 
                 'Dim rpt As New MIA.rptBookSRCDaily()
                 'rpt.ReportParameters("parID").Value = "," & globalVariables.DailyRepID
@@ -214,7 +215,7 @@ Public Class FrmSRCDailyReportOfflineViewer
                     SetReport(rpt)
                     ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
 
-                ElseIf globalVariables.SRCReportSeparate = "ALL (WORK BOOK)" Then
+                ElseIf globalVariables.SRCReportSeparate = "ALL (WORK BOOK)" Or globalVariables.SRCReportSeparate = "ALL" Then
                     'Dim rpt As New MIA.rptBookSRCDaily()
                     'rpt.ReportParameters("parID").Value = idArray
                     'rpt.ReportParameters("parModel").Value = globalVariables.DailyReportModelZwei
@@ -227,6 +228,72 @@ Public Class FrmSRCDailyReportOfflineViewer
                     ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                 End If
 
+            End If
+        ElseIf globalVariables.SRCReportType = "Welding Daily Report" Then
+            If globalVariables.parType = "PW" Then
+                Dim rpt As New MIA.rptPWDailyReportv5()
+
+                rpt.ReportParameters("parID").Value = globalVariables.parDRID
+                rpt.ReportParameters("parType").Value = globalVariables.parType
+                rpt.ReportParameters("parGroup").Value = globalVariables.parGroup
+                rpt.ReportParameters("parModel").Value = globalVariables.parModel
+                rpt.ReportParameters("parLine").Value = globalVariables.parLine
+                rpt.ReportParameters("parDate").Value = globalVariables.parDate
+                rpt.ReportParameters("parLotNo").Value = globalVariables.parLotNo
+                rpt.ReportParameters("parShift").Value = globalVariables.parShift
+                rpt.ReportParameters("parTeamLeader").Value = globalVariables.parTeamLeader
+                rpt.ReportParameters("parPartName1").Value = globalVariables.parPartName1
+                rpt.ReportParameters("parPartName2").Value = globalVariables.parPartName2
+                rpt.ReportParameters("parWeldingNo1").Value = globalVariables.parWeldingNo1
+                rpt.ReportParameters("parWeldingNo2").Value = globalVariables.parWeldingNo2
+                rpt.ReportParameters("parLot1").Value = globalVariables.parLot1
+                rpt.ReportParameters("parLot2").Value = globalVariables.parLot2
+                rpt.ReportParameters("parLot3").Value = globalVariables.parLot3
+                rpt.ReportParameters("parLot4").Value = globalVariables.parLot4
+                rpt.ReportParameters("parLot5").Value = globalVariables.parLot5
+                rpt.ReportParameters("parLot6").Value = globalVariables.parLot6
+                rpt.ReportParameters("parLot7").Value = globalVariables.parLot7
+                rpt.ReportParameters("parLot8").Value = globalVariables.parLot8
+                rpt.ReportParameters("parLot9").Value = globalVariables.parLot9
+                rpt.ReportParameters("parGoodQty1").Value = globalVariables.parGoodQty1
+                rpt.ReportParameters("parGoodQty2").Value = globalVariables.parGoodQty2
+                SetReport(rpt)
+                ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
+            ElseIf globalVariables.parType = "FW" Then
+
+                Dim rpt As New MIA.rptFWDailyReportv2()
+                rpt.ReportParameters("parID").Value = globalVariables.parDRID
+                rpt.ReportParameters("parType").Value = globalVariables.parType
+                rpt.ReportParameters("parGroup").Value = globalVariables.parGroup
+                rpt.ReportParameters("parModel").Value = globalVariables.parModel
+                rpt.ReportParameters("parLine").Value = globalVariables.parLine
+                rpt.ReportParameters("parDate").Value = globalVariables.parDate
+                rpt.ReportParameters("parLotNo").Value = globalVariables.parLotNo
+                rpt.ReportParameters("parShift").Value = globalVariables.parShift
+                rpt.ReportParameters("parTeamLeader").Value = globalVariables.parTeamLeader
+                rpt.ReportParameters("parPartName1").Value = globalVariables.parPartName1
+                rpt.ReportParameters("parPartName2").Value = globalVariables.parPartName2
+                rpt.ReportParameters("parWeldingNo1").Value = globalVariables.parWeldingNo1
+                rpt.ReportParameters("parWeldingNo2").Value = globalVariables.parWeldingNo2
+                rpt.ReportParameters("parWeldingNo3").Value = globalVariables.parWeldingNo3
+                rpt.ReportParameters("parWeldingNo4").Value = globalVariables.parWeldingNo4
+                rpt.ReportParameters("parLot1").Value = globalVariables.parLot1
+                rpt.ReportParameters("parLot2").Value = globalVariables.parLot2
+                rpt.ReportParameters("parLot3").Value = globalVariables.parLot3
+                rpt.ReportParameters("parLot4").Value = globalVariables.parLot4
+                rpt.ReportParameters("parLot5").Value = globalVariables.parLot5
+                rpt.ReportParameters("parLot6").Value = globalVariables.parLot6
+                rpt.ReportParameters("parLot7").Value = globalVariables.parLot7
+                rpt.ReportParameters("parLot8").Value = globalVariables.parLot8
+                rpt.ReportParameters("parLot9").Value = globalVariables.parLot9
+                rpt.ReportParameters("parGoodQty1").Value = globalVariables.parGoodQty1
+                rpt.ReportParameters("parGoodQty2").Value = globalVariables.parGoodQty2
+                rpt.ReportParameters("parGoodQty3").Value = globalVariables.parGoodQty3
+                rpt.ReportParameters("parGoodQty4").Value = globalVariables.parGoodQty4
+                SetReport(rpt)
+
+                ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
+                ReportViewer1.ZoomPercent = 100
             End If
         ElseIf globalVariables.DowntimeType = "PW" Then
 
@@ -257,7 +324,7 @@ Public Class FrmSRCDailyReportOfflineViewer
             rpt.ReportParameters("parID").Value = globalVariables.AssyDownTimeID
 
             SetReport(rpt)
-            ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.PrintPreview
+            ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
         ElseIf globalVariables.downtimeReportType = "PER DAY" Then
 
             Dim rpt As New MIA.rptSRCDowntimeGraphPerDay()

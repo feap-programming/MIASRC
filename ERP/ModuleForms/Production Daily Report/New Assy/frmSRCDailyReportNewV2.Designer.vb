@@ -502,7 +502,7 @@ Partial Class FrmSRCDailyReportNewV2
         Me.RadPageView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RadPageView1.Location = New System.Drawing.Point(0, 38)
         Me.RadPageView1.Name = "RadPageView1"
-        Me.RadPageView1.SelectedPage = Me.Lot
+        Me.RadPageView1.SelectedPage = Me.Manpower
         Me.RadPageView1.Size = New System.Drawing.Size(1369, 691)
         Me.RadPageView1.TabIndex = 4
         Me.RadPageView1.ThemeName = "FluentDark"

@@ -14,7 +14,7 @@ Public Class FrmAutoTapingDailyReport
     End Sub
     Private Sub GetModels()
 
-        Dim DTModel As DataTable = Maria.MyQuery("SELECT * FROM tblModelList")
+        Dim DTModel As DataTable = Maria.MyQuery("SELECT * FROM tblModelList ORDER BY fldModelName")
 
         ddModel.DataSource = DTModel
         ddModel.DisplayMember = "fldModelName"
@@ -231,6 +231,11 @@ Public Class FrmAutoTapingDailyReport
         Catch ex As Exception
             Mio.ReportATLot5 = " "
         End Try
-        FrmSRCDailyReportViewer.Show()
+        'FrmSRCDailyReportViewer.Show()
+        If globalVariables.currentUser("fldUserType") = "ADMINISTRATOR" AndAlso globalVariables.currentUser("fldModDailyReportSRC") = "RW" AndAlso globalVariables.reportSource = 0 Then
+            FrmSRCDailyReportOfflineViewer.Show()
+        Else
+            FrmSRCDailyReportViewer.Show()
+        End If
     End Sub
 End Class

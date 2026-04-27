@@ -328,7 +328,7 @@ Partial Class FrmFWDailyReport
         'gvData
         '
         Me.gvData.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.gvData.Location = New System.Drawing.Point(0, 227)
+        Me.gvData.Location = New System.Drawing.Point(0, 202)
         '
         '
         '
@@ -339,7 +339,7 @@ Partial Class FrmFWDailyReport
         Me.gvData.MasterTemplate.EnablePaging = True
         Me.gvData.MasterTemplate.ViewDefinition = TableViewDefinition1
         Me.gvData.Name = "gvData"
-        Me.gvData.Size = New System.Drawing.Size(1070, 528)
+        Me.gvData.Size = New System.Drawing.Size(1070, 553)
         Me.gvData.TabIndex = 18
         Me.gvData.ThemeName = "CrystalDark"
         '
@@ -349,7 +349,7 @@ Partial Class FrmFWDailyReport
         Me.RadCommandBar1.Location = New System.Drawing.Point(0, 115)
         Me.RadCommandBar1.Name = "RadCommandBar1"
         Me.RadCommandBar1.Rows.AddRange(New Telerik.WinControls.UI.CommandBarRowElement() {Me.CommandBarRowElement1, Me.CommandBarRowElement2})
-        Me.RadCommandBar1.Size = New System.Drawing.Size(1070, 112)
+        Me.RadCommandBar1.Size = New System.Drawing.Size(1070, 87)
         Me.RadCommandBar1.TabIndex = 17
         Me.RadCommandBar1.ThemeName = "CrystalDark"
         '
@@ -529,6 +529,7 @@ Partial Class FrmFWDailyReport
         Me.Name = "FrmFWDailyReport"
         Me.Text = "FrmFWDailyReport"
         Me.ThemeName = "CrystalDark"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.ddGroup, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.spnGroup, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).EndInit()

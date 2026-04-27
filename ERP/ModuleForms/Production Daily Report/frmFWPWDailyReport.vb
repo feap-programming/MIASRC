@@ -49,7 +49,7 @@ Public Class FrmFWPWDailyReport
     End Sub
     Private Sub GetModels()
 
-        Dim DTModel As DataTable = Maria.MyQuery("SELECT * FROM tblModelList")
+        Dim DTModel As DataTable = Maria.MyQuery("SELECT * FROM tblModelList ORDER BY fldModelName")
 
         ddModel.DataSource = DTModel
         ddModel.DisplayMember = "fldModelName"
@@ -220,6 +220,10 @@ Public Class FrmFWPWDailyReport
     End Sub
 
     Private Sub cbbDailyReport_Click(sender As Object, e As EventArgs) Handles cbbDailyReport.Click
+        If gvData.CurrentRow Is Nothing Then
+            RadMessageBox.Show("Please select a record first.", "No Selection", MessageBoxButtons.OK)
+            Exit Sub
+        End If
         globalVariables.DailyRepID = gvData.CurrentRow.Cells("fldID").Value
         globalVariables.ModelCode = gvData.CurrentRow.Cells("fldModel").Value
         globalVariables.SRCReportType = gvData.CurrentRow.Cells("fldType").Value
@@ -227,13 +231,13 @@ Public Class FrmFWPWDailyReport
         globalVariables.DailyReportModel = gvData.CurrentRow.Cells("fldModel").Value
         globalVariables.DailyReportDate = gvData.CurrentRow.Cells("fldDate").Value
         globalVariables.ModelLineWelding = gvData.CurrentRow.Cells("fldLine").Value
-        FrmWeldingDailyReportData.MdiParent = frmBase
-        FrmWeldingDailyReportData.Show()
+        'FrmWeldingDailyReportData.MdiParent = frmBase
+        'FrmWeldingDailyReportData.Show()
+        'FrmWeldingDailyReportData.BringToFront()
+        'FrmWeldingDailyReportData.Activate()
 
-
-        'Dim formFW As New FrmWeldingDailyReportData()
-
-        'formFW.Show()
+        Dim frm As New FrmWeldingDailyReportData()
+        frm.Show()
 
         'Mio.PWDRID = gvData.CurrentRow.Cells("fldID").Value
         'Mio.PWModel = gvData.CurrentRow.Cells("fldModel").Value
@@ -264,140 +268,180 @@ Public Class FrmFWPWDailyReport
         'globalVariables.parWeldingNo1 = DTGetReportDetais.Rows(0).Item("fldFWPWNo").ToString
         'globalVariables.parWeldingNo2 = DTGetReportDetais.Rows(1).Item("fldFWPWNo").ToString
 
-        If DTGetReportDetais.Rows.Count >= 4 Then
-            globalVariables.parWeldingNo1 = DTGetReportDetais.Rows(0).Item("fldFWPWNo").ToString
-            globalVariables.parWeldingNo2 = DTGetReportDetais.Rows(1).Item("fldFWPWNo").ToString
-            globalVariables.parWeldingNo3 = DTGetReportDetais.Rows(2).Item("fldFWPWNo").ToString
-            globalVariables.parWeldingNo4 = DTGetReportDetais.Rows(3).Item("fldFWPWNo").ToString
-        ElseIf DTGetReportDetais.Rows.Count >= 3 Then
-            globalVariables.parWeldingNo1 = DTGetReportDetais.Rows(0).Item("fldFWPWNo").ToString
-            globalVariables.parWeldingNo2 = DTGetReportDetais.Rows(1).Item("fldFWPWNo").ToString
-            globalVariables.parWeldingNo3 = DTGetReportDetais.Rows(2).Item("fldFWPWNo").ToString
-            globalVariables.parWeldingNo4 = 0
-        ElseIf DTGetReportDetais.Rows.Count >= 2 Then
-            globalVariables.parWeldingNo1 = DTGetReportDetais.Rows(0).Item("fldFWPWNo").ToString
-            globalVariables.parWeldingNo2 = DTGetReportDetais.Rows(1).Item("fldFWPWNo").ToString
-            globalVariables.parWeldingNo3 = 0
-            globalVariables.parWeldingNo4 = 0
-        ElseIf DTGetReportDetais.Rows.Count >= 1 Then
-            globalVariables.parWeldingNo1 = DTGetReportDetais.Rows(0).Item("fldFWPWNo").ToString
-            globalVariables.parWeldingNo2 = 0
-            globalVariables.parWeldingNo3 = 0
-            globalVariables.parWeldingNo4 = 0
-        ElseIf DTGetReportDetais.Rows.Count <= 0 Then
-            globalVariables.parWeldingNo1 = 0
-            globalVariables.parWeldingNo2 = 0
-            globalVariables.parWeldingNo3 = 0
-            globalVariables.parWeldingNo4 = 0
-        End If
+        'start M comment
+        'If DTGetReportDetais.Rows.Count >= 4 Then
+        '    globalVariables.parWeldingNo1 = DTGetReportDetais.Rows(0).Item("fldFWPWNo").ToString
+        '    globalVariables.parWeldingNo2 = DTGetReportDetais.Rows(1).Item("fldFWPWNo").ToString
+        '    globalVariables.parWeldingNo3 = DTGetReportDetais.Rows(2).Item("fldFWPWNo").ToString
+        '    globalVariables.parWeldingNo4 = DTGetReportDetais.Rows(3).Item("fldFWPWNo").ToString
+        'ElseIf DTGetReportDetais.Rows.Count >= 3 Then
+        '    globalVariables.parWeldingNo1 = DTGetReportDetais.Rows(0).Item("fldFWPWNo").ToString
+        '    globalVariables.parWeldingNo2 = DTGetReportDetais.Rows(1).Item("fldFWPWNo").ToString
+        '    globalVariables.parWeldingNo3 = DTGetReportDetais.Rows(2).Item("fldFWPWNo").ToString
+        '    globalVariables.parWeldingNo4 = 0
+        'ElseIf DTGetReportDetais.Rows.Count >= 2 Then
+        '    globalVariables.parWeldingNo1 = DTGetReportDetais.Rows(0).Item("fldFWPWNo").ToString
+        '    globalVariables.parWeldingNo2 = DTGetReportDetais.Rows(1).Item("fldFWPWNo").ToString
+        '    globalVariables.parWeldingNo3 = 0
+        '    globalVariables.parWeldingNo4 = 0
+        'ElseIf DTGetReportDetais.Rows.Count >= 1 Then
+        '    globalVariables.parWeldingNo1 = DTGetReportDetais.Rows(0).Item("fldFWPWNo").ToString
+        '    globalVariables.parWeldingNo2 = 0
+        '    globalVariables.parWeldingNo3 = 0
+        '    globalVariables.parWeldingNo4 = 0
+        'ElseIf DTGetReportDetais.Rows.Count <= 0 Then
+        '    globalVariables.parWeldingNo1 = 0
+        '    globalVariables.parWeldingNo2 = 0
+        '    globalVariables.parWeldingNo3 = 0
+        '    globalVariables.parWeldingNo4 = 0
+        'End If
+        globalVariables.parWeldingNo1 = 0
+        globalVariables.parWeldingNo2 = 0
+        globalVariables.parWeldingNo3 = 0
+        globalVariables.parWeldingNo4 = 0
+
+        ' Fill values from DTGetReportDetais
+        For i As Integer = 0 To Math.Min(DTGetReportDetais.Rows.Count, 4) - 1
+            Select Case i
+                Case 0 : globalVariables.parWeldingNo1 = DTGetReportDetais.Rows(i).Item("fldFWPWNo").ToString()
+                Case 1 : globalVariables.parWeldingNo2 = DTGetReportDetais.Rows(i).Item("fldFWPWNo").ToString()
+                Case 2 : globalVariables.parWeldingNo3 = DTGetReportDetais.Rows(i).Item("fldFWPWNo").ToString()
+                Case 3 : globalVariables.parWeldingNo4 = DTGetReportDetais.Rows(i).Item("fldFWPWNo").ToString()
+            End Select
+        Next
 
         Dim DTGetLotNoCount As DataTable = Maria.MyQuery("SELECT distinct fldAssyNo FROM tblDailyReportWeldingLotNo where fldDRID='" & parDRID & "'")
-        If DTGetLotNoCount.Rows.Count >= 9 Then
-            globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
-            globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
-            globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
-            globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
-            globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
-            globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
-            globalVariables.parLot6 = DTGetLotNoCount.Rows(5).Item("fldAssyNo").ToString
-            globalVariables.parLot7 = DTGetLotNoCount.Rows(6).Item("fldAssyNo").ToString
-            globalVariables.parLot8 = DTGetLotNoCount.Rows(7).Item("fldAssyNo").ToString
-            globalVariables.parLot9 = DTGetLotNoCount.Rows(8).Item("fldAssyNo").ToString
-        ElseIf DTGetLotNoCount.Rows.Count >= 8 Then
-            globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
-            globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
-            globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
-            globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
-            globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
-            globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
-            globalVariables.parLot6 = DTGetLotNoCount.Rows(5).Item("fldAssyNo").ToString
-            globalVariables.parLot7 = DTGetLotNoCount.Rows(6).Item("fldAssyNo").ToString
-            globalVariables.parLot8 = DTGetLotNoCount.Rows(7).Item("fldAssyNo").ToString
-            globalVariables.parLot9 = 0
-        ElseIf DTGetLotNoCount.Rows.Count >= 7 Then
-            globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
-            globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
-            globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
-            globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
-            globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
-            globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
-            globalVariables.parLot6 = DTGetLotNoCount.Rows(5).Item("fldAssyNo").ToString
-            globalVariables.parLot7 = DTGetLotNoCount.Rows(6).Item("fldAssyNo").ToString
-            globalVariables.parLot8 = 0
-            globalVariables.parLot9 = 0
-        ElseIf DTGetLotNoCount.Rows.Count >= 6 Then
-            globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
-            globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
-            globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
-            globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
-            globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
-            globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
-            globalVariables.parLot6 = DTGetLotNoCount.Rows(5).Item("fldAssyNo").ToString
-            globalVariables.parLot7 = 0
-            globalVariables.parLot8 = 0
-            globalVariables.parLot9 = 0
-        ElseIf DTGetLotNoCount.Rows.Count >= 5 Then
-            globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
-            globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
-            globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
-            globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
-            globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
-            globalVariables.parLot6 = 0
-            globalVariables.parLot7 = 0
-            globalVariables.parLot8 = 0
-            globalVariables.parLot9 = 0
-        ElseIf DTGetLotNoCount.Rows.Count >= 4 Then
-            globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
-            globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
-            globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
-            globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
-            globalVariables.parLot5 = 0
-            globalVariables.parLot6 = 0
-            globalVariables.parLot7 = 0
-            globalVariables.parLot8 = 0
-            globalVariables.parLot9 = 0
-        ElseIf DTGetLotNoCount.Rows.Count >= 3 Then
-            globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
-            globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
-            globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
-            globalVariables.parLot4 = 0
-            globalVariables.parLot5 = 0
-            globalVariables.parLot6 = 0
-            globalVariables.parLot7 = 0
-            globalVariables.parLot8 = 0
-            globalVariables.parLot9 = 0
 
-        ElseIf DTGetLotNoCount.Rows.Count >= 2 Then
-            globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
-            globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
-            globalVariables.parLot3 = 0
-            globalVariables.parLot4 = 0
-            globalVariables.parLot5 = 0
-            globalVariables.parLot6 = 0
-            globalVariables.parLot7 = 0
-            globalVariables.parLot8 = 0
-            globalVariables.parLot9 = 0
-        ElseIf DTGetLotNoCount.Rows.Count >= 1 Then
-            globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
-            globalVariables.parLot2 = 0
-            globalVariables.parLot3 = 0
-            globalVariables.parLot4 = 0
-            globalVariables.parLot5 = 0
-            globalVariables.parLot6 = 0
-            globalVariables.parLot7 = 0
-            globalVariables.parLot8 = 0
-            globalVariables.parLot9 = 0
-        ElseIf DTGetLotNoCount.Rows.Count <= 0 Then
-            globalVariables.parLot1 = 0
-            globalVariables.parLot2 = 0
-            globalVariables.parLot3 = 0
-            globalVariables.parLot4 = 0
-            globalVariables.parLot5 = 0
-            globalVariables.parLot6 = 0
-            globalVariables.parLot7 = 0
-            globalVariables.parLot8 = 0
-            globalVariables.parLot9 = 0
-        End If
+        'start M comment
+        'If DTGetLotNoCount.Rows.Count >= 9 Then
+        '    globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
+        '    globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
+        '    globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
+        '    globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
+        '    globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
+        '    globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
+        '    globalVariables.parLot6 = DTGetLotNoCount.Rows(5).Item("fldAssyNo").ToString
+        '    globalVariables.parLot7 = DTGetLotNoCount.Rows(6).Item("fldAssyNo").ToString
+        '    globalVariables.parLot8 = DTGetLotNoCount.Rows(7).Item("fldAssyNo").ToString
+        '    globalVariables.parLot9 = DTGetLotNoCount.Rows(8).Item("fldAssyNo").ToString
+        'ElseIf DTGetLotNoCount.Rows.Count >= 8 Then
+        '    globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
+        '    globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
+        '    globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
+        '    globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
+        '    globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
+        '    globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
+        '    globalVariables.parLot6 = DTGetLotNoCount.Rows(5).Item("fldAssyNo").ToString
+        '    globalVariables.parLot7 = DTGetLotNoCount.Rows(6).Item("fldAssyNo").ToString
+        '    globalVariables.parLot8 = DTGetLotNoCount.Rows(7).Item("fldAssyNo").ToString
+        '    globalVariables.parLot9 = 0
+        'ElseIf DTGetLotNoCount.Rows.Count >= 7 Then
+        '    globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
+        '    globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
+        '    globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
+        '    globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
+        '    globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
+        '    globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
+        '    globalVariables.parLot6 = DTGetLotNoCount.Rows(5).Item("fldAssyNo").ToString
+        '    globalVariables.parLot7 = DTGetLotNoCount.Rows(6).Item("fldAssyNo").ToString
+        '    globalVariables.parLot8 = 0
+        '    globalVariables.parLot9 = 0
+        'ElseIf DTGetLotNoCount.Rows.Count >= 6 Then
+        '    globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
+        '    globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
+        '    globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
+        '    globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
+        '    globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
+        '    globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
+        '    globalVariables.parLot6 = DTGetLotNoCount.Rows(5).Item("fldAssyNo").ToString
+        '    globalVariables.parLot7 = 0
+        '    globalVariables.parLot8 = 0
+        '    globalVariables.parLot9 = 0
+        'ElseIf DTGetLotNoCount.Rows.Count >= 5 Then
+        '    globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
+        '    globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
+        '    globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
+        '    globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
+        '    globalVariables.parLot5 = DTGetLotNoCount.Rows(4).Item("fldAssyNo").ToString
+        '    globalVariables.parLot6 = 0
+        '    globalVariables.parLot7 = 0
+        '    globalVariables.parLot8 = 0
+        '    globalVariables.parLot9 = 0
+        'ElseIf DTGetLotNoCount.Rows.Count >= 4 Then
+        '    globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
+        '    globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
+        '    globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
+        '    globalVariables.parLot4 = DTGetLotNoCount.Rows(3).Item("fldAssyNo").ToString
+        '    globalVariables.parLot5 = 0
+        '    globalVariables.parLot6 = 0
+        '    globalVariables.parLot7 = 0
+        '    globalVariables.parLot8 = 0
+        '    globalVariables.parLot9 = 0
+        'ElseIf DTGetLotNoCount.Rows.Count >= 3 Then
+        '    globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
+        '    globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
+        '    globalVariables.parLot3 = DTGetLotNoCount.Rows(2).Item("fldAssyNo").ToString
+        '    globalVariables.parLot4 = 0
+        '    globalVariables.parLot5 = 0
+        '    globalVariables.parLot6 = 0
+        '    globalVariables.parLot7 = 0
+        '    globalVariables.parLot8 = 0
+        '    globalVariables.parLot9 = 0
+
+        'ElseIf DTGetLotNoCount.Rows.Count >= 2 Then
+        '    globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
+        '    globalVariables.parLot2 = DTGetLotNoCount.Rows(1).Item("fldAssyNo").ToString
+        '    globalVariables.parLot3 = 0
+        '    globalVariables.parLot4 = 0
+        '    globalVariables.parLot5 = 0
+        '    globalVariables.parLot6 = 0
+        '    globalVariables.parLot7 = 0
+        '    globalVariables.parLot8 = 0
+        '    globalVariables.parLot9 = 0
+        'ElseIf DTGetLotNoCount.Rows.Count >= 1 Then
+        '    globalVariables.parLot1 = DTGetLotNoCount.Rows(0).Item("fldAssyNo").ToString
+        '    globalVariables.parLot2 = 0
+        '    globalVariables.parLot3 = 0
+        '    globalVariables.parLot4 = 0
+        '    globalVariables.parLot5 = 0
+        '    globalVariables.parLot6 = 0
+        '    globalVariables.parLot7 = 0
+        '    globalVariables.parLot8 = 0
+        '    globalVariables.parLot9 = 0
+        'ElseIf DTGetLotNoCount.Rows.Count <= 0 Then
+        '    globalVariables.parLot1 = 0
+        '    globalVariables.parLot2 = 0
+        '    globalVariables.parLot3 = 0
+        '    globalVariables.parLot4 = 0
+        '    globalVariables.parLot5 = 0
+        '    globalVariables.parLot6 = 0
+        '    globalVariables.parLot7 = 0
+        '    globalVariables.parLot8 = 0
+        '    globalVariables.parLot9 = 0
+        'End If
+        globalVariables.parLot1 = 0
+        globalVariables.parLot2 = 0
+        globalVariables.parLot3 = 0
+        globalVariables.parLot4 = 0
+        globalVariables.parLot5 = 0
+        globalVariables.parLot6 = 0
+        globalVariables.parLot7 = 0
+        globalVariables.parLot8 = 0
+        globalVariables.parLot9 = 0
+
+        For i As Integer = 0 To Math.Min(DTGetLotNoCount.Rows.Count, 9) - 1
+            Select Case i
+                Case 0 : globalVariables.parLot1 = DTGetLotNoCount.Rows(i).Item("fldAssyNo").ToString()
+                Case 1 : globalVariables.parLot2 = DTGetLotNoCount.Rows(i).Item("fldAssyNo").ToString()
+                Case 2 : globalVariables.parLot3 = DTGetLotNoCount.Rows(i).Item("fldAssyNo").ToString()
+                Case 3 : globalVariables.parLot4 = DTGetLotNoCount.Rows(i).Item("fldAssyNo").ToString()
+                Case 4 : globalVariables.parLot5 = DTGetLotNoCount.Rows(i).Item("fldAssyNo").ToString()
+                Case 5 : globalVariables.parLot6 = DTGetLotNoCount.Rows(i).Item("fldAssyNo").ToString()
+                Case 6 : globalVariables.parLot7 = DTGetLotNoCount.Rows(i).Item("fldAssyNo").ToString()
+                Case 7 : globalVariables.parLot8 = DTGetLotNoCount.Rows(i).Item("fldAssyNo").ToString()
+                Case 8 : globalVariables.parLot9 = DTGetLotNoCount.Rows(i).Item("fldAssyNo").ToString()
+            End Select
+        Next
 
         Dim CheckGoodQtyCount1 As DataTable = Maria.MyQuery("Select count(fldDRID) as fldCount From tblDailyReportWeldingManpowerGoodQty where fldDRID=" & gvData.CurrentRow.Cells("fldID").Value & " and fldType='" & gvData.CurrentRow.Cells("fldType").Value.ToString & "' and fldPWFWNo='" & globalVariables.parWeldingNo1 & "'")
         Dim CheckGoodQtyCount2 As DataTable = Maria.MyQuery("Select count(fldDRID) as fldCount From tblDailyReportWeldingManpowerGoodQty where fldDRID=" & gvData.CurrentRow.Cells("fldID").Value & " and fldType='" & gvData.CurrentRow.Cells("fldType").Value.ToString & "' and fldPWFWNo='" & globalVariables.parWeldingNo2 & "'")
@@ -413,7 +457,11 @@ Public Class FrmFWPWDailyReport
 
 
         'FrmSRCDailyReportViewer.Show()
-        FrmWeldingDailyReportViewer.Show()
+        If globalVariables.currentUser("fldUserType") = "ADMINISTRATOR" AndAlso globalVariables.currentUser("fldModDailyReportSRC") = "RW" AndAlso globalVariables.reportSource = 0 Then
+            FrmSRCDailyReportOfflineViewer.Show()
+        Else
+            FrmWeldingDailyReportViewer.Show()
+        End If
     End Sub
 
     Private Sub cbbDownTime_Click(sender As Object, e As EventArgs) Handles cbbDownTime.Click

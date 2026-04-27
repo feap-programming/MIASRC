@@ -3,8 +3,184 @@
   "WorkspaceRootPath": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|c:\\users\\maydard.seno\\source\\repos\\miasrc\\erp\\frmbase.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|c:\\users\\maydard.seno\\source\\repos\\miasrc\\erp\\moduleforms\\production daily report\\auto taping\\frmatdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\auto taping\\frmatdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|c:\\users\\maydard.seno\\source\\repos\\miasrc\\erp\\moduleforms\\production daily report\\new pw\\frmpwdailyreportnew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\new pw\\frmpwdailyreportnew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|c:\\users\\maydard.seno\\source\\repos\\miasrc\\erp\\moduleforms\\production daily report\\new pw\\frmpwdailyreportnew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\new pw\\frmpwdailyreportnew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmweldingdailyreportviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmweldingdailyreportviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|c:\\users\\maydard.seno\\source\\repos\\miasrc\\erp\\moduleforms\\production daily report\\ucdailyrep\\frmfwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\ucdailyrep\\frmfwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcdailyreportviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcdailyreportviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|c:\\users\\maydard.seno\\source\\repos\\miasrc\\erp\\reports\\rptfwdailyreportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptfwdailyreportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmassemblydowntime.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmassemblydowntime.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|c:\\users\\maydard.seno\\source\\repos\\miasrc\\erp\\moduleforms\\production daily report\\frmassemblydowntime.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmassemblydowntime.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\fldassemblydowntimemain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\fldassemblydowntimemain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\fldassemblydowntimemain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\fldassemblydowntimemain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmautotapingdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmautotapingdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmautotapingdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmautotapingdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|c:\\users\\maydard.seno\\source\\repos\\miasrc\\erp\\moduleforms\\production daily report\\ucdailyrep\\frmfwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\ucdailyrep\\frmfwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmfwpwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmfwpwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmfwpwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmfwpwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|c:\\users\\maydard.seno\\source\\repos\\miasrc\\erp\\moduleforms\\production daily report\\frmnewassydailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmnewassydailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdailysrcdefectzwei.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdailysrcdefectzwei.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\ucdailyrep\\frmdailyreportpassword.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\ucdailyrep\\frmdailyreportpassword.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmnewassydailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmnewassydailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\frmbase.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\frmbase.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\frmbase.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\frmbase.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|c:\\users\\maydard.seno\\source\\repos\\miasrc\\erp\\moduleforms\\production daily report\\frmfwdailyreport.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmfwdailyreport.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|c:\\users\\maydard.seno\\source\\repos\\miasrc\\erp\\moduleforms\\production daily report\\frmfwpwdailyreport.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmfwpwdailyreport.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcdailyreportofflineviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcdailyreportofflineviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcdailyreportofflineviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcdailyreportofflineviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\ucdailyrep\\frmfwdailyreport.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\ucdailyrep\\frmfwdailyreport.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcreportselectorseparate.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcreportselectorseparate.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcassyreportselector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcassyreportselector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcassyreportselector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcassyreportselector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\new assy\\frmsrcdailyreportnewv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\new assy\\frmsrcdailyreportnewv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmdowntimereportselector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmdowntimereportselector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdowntimereportfwboth.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdowntimereportfwboth.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdowntimereportpw.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdowntimereportpw.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdowntimereportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdowntimereportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsubweldinggoodqtyfw.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsubweldinggoodqtyfw.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsubweldinggoodqty.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsubweldinggoodqty.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsubpwweldinglot.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsubpwweldinglot.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptpwdailyreportv5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptpwdailyreportv5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptpwdailyreportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptpwdailyreportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptfwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptfwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsubweldinggoodqty1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsubweldinggoodqty1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\new assy\\frmsrcdailyreportnewv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\new assy\\frmsrcdailyreportnewv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\globalvariables.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\globalvariables.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmproddailyreportsrc.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -15,14 +191,6 @@
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmproddailyreportsrc.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmnewassydailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmnewassydailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptpwdailyreportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptpwdailyreportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\bandaclass\\slipknot.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\bandaclass\\slipknot.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -31,24 +199,12 @@
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptautotapingdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmweldingdailyreportviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmweldingdailyreportviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsubpwweldinglot1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsubpwweldinglot1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptpwdailyreportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptpwdailyreportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsubweldinggoodqty1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsubweldinggoodqty1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptfwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptfwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptfwdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -65,10 +221,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmweldingdailyreportofflineviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmweldingdailyreportofflineviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcdailyreportofflineviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcdailyreportofflineviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmweldingdailyreportofflineviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -99,26 +251,6 @@
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdailysrclotnozwei.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdowntimereportfwboth.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdowntimereportfwboth.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcdailyreportviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcdailyreportviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdowntimereportpw.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdowntimereportpw.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcassyreportselector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcassyreportselector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcreportselectorseparate.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcreportselectorseparate.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptbooksrcdaily.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptbooksrcdaily.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -127,24 +259,12 @@
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdailysrcotherszwei.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdailysrcdefectzwei.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdailysrcdefectzwei.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdailysrcassyzwei.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdailysrcassyzwei.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdailyassyeffzwei.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdailyassyeffzwei.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcassyreportselector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcassyreportselector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\fldassemblydowntimemain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\fldassemblydowntimemain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcreportselectorseparate.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -159,28 +279,8 @@
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rpthourlyquality.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\fldassemblydowntimemain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\fldassemblydowntimemain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmnewassydailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmnewassydailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmassemblydowntime.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmassemblydowntime.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\globalvariables.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\globalvariables.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdailymanpower.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdailymanpower.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcdailyreportofflineviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\frmsrcdailyreportofflineviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\frmsrcdailyreportviewer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -189,14 +289,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdailyreport.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\reports\\rptsrcdowntimereportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\reports\\rptsrcdowntimereportv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\new assy\\frmsrcdailyreportnewv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\new assy\\frmsrcdailyreportnewv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -213,10 +305,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\erp\\moduleforms\\production daily report\\new assy\\frmsrcdailyreportnewv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3D02F94B-D9D8-4B73-B988-5979C3908E5D}|ERP\\2.vbproj|solutionrelative:erp\\moduleforms\\production daily report\\new assy\\frmsrcdailyreportnewv2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -239,18 +327,493 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmATDailyReport.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\Auto Taping\\frmATDailyReport.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\Auto Taping\\frmATDailyReport.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\Auto Taping\\frmATDailyReport.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\Auto Taping\\frmATDailyReport.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-27T00:13:53.807Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmPWDailyReportNew.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New PW\\frmPWDailyReportNew.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\New PW\\frmPWDailyReportNew.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New PW\\frmPWDailyReportNew.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\New PW\\frmPWDailyReportNew.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-27T00:13:15.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmAssemblyDownTime.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb",
+              "ViewState": "AgIAAI8CAAAAAAAAAAAAAKACAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-14T02:03:24.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmSRCDailyReportViewer.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwAUBAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T05:02:20.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmFWDailyReport.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.vb",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwDAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-23T01:46:22.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmWeldingDailyReportViewer.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAIAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-09T08:42:00.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPWDailyReportNew.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New PW\\frmPWDailyReportNew.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\New PW\\frmPWDailyReportNew.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New PW\\frmPWDailyReportNew.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\New PW\\frmPWDailyReportNew.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-23T05:39:13.785Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "rptFWDailyReportv2.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptFWDailyReportv2.vb",
+              "RelativeDocumentMoniker": "ERP\\Reports\\rptFWDailyReportv2.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptFWDailyReportv2.vb [Design]",
+              "RelativeToolTip": "ERP\\Reports\\rptFWDailyReportv2.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-26T06:39:53.599Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "fldAssemblyDowntimeMain.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T06:22:01.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "fldAssemblyDowntimeMain.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T06:21:56.256Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmAssemblyDownTime.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T06:22:31.131Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmAutoTapingDailyReport.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmAutoTapingDailyReport.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmAutoTapingDailyReport.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmAutoTapingDailyReport.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmAutoTapingDailyReport.vb",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T09:03:05.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmAutoTapingDailyReport.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmAutoTapingDailyReport.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmAutoTapingDailyReport.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmAutoTapingDailyReport.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmAutoTapingDailyReport.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T09:02:57.744Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmFWDailyReport.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-23T01:46:50.597Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmFWPWDailyReport.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.vb",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwDEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T02:43:38.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmFWPWDailyReport.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T03:40:13.655Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmNewAssyDailyReport.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-22T05:44:39.454Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "rptSRCDailySRCDefectZwei.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDailySRCDefectZwei.vb",
+              "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDailySRCDefectZwei.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDailySRCDefectZwei.vb [Design]",
+              "RelativeToolTip": "ERP\\Reports\\rptSRCDailySRCDefectZwei.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-09T04:04:40.726Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmDailyReportPassword.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmDailyReportPassword.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmDailyReportPassword.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmDailyReportPassword.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmDailyReportPassword.vb",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-13T08:03:38.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmNewAssyDailyReport.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
+              "ViewState": "AgIAANgAAAAAAAAAAAAowOcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T04:55:58.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmBase.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\frmBase.vb",
+              "RelativeDocumentMoniker": "ERP\\frmBase.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\frmBase.vb",
+              "RelativeToolTip": "ERP\\frmBase.vb",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAkwJMBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T09:02:19.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "frmBase.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\frmBase.vb",
               "RelativeDocumentMoniker": "ERP\\frmBase.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\frmBase.vb [Design]*",
-              "RelativeToolTip": "ERP\\frmBase.vb [Design]*",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\frmBase.vb [Design]",
+              "RelativeToolTip": "ERP\\frmBase.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-04-10T03:48:41.294Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 22,
+              "Title": "frmFWDailyReport.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmFWDailyReport.Designer.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmFWDailyReport.Designer.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmFWDailyReport.Designer.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmFWDailyReport.Designer.vb",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-23T01:26:58.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmFWPWDailyReport.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.Designer.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.Designer.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.Designer.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmFWPWDailyReport.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-23T01:32:20.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmSRCDailyReportOfflineViewer.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T04:34:04.271Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmSRCDailyReportOfflineViewer.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
+              "ViewState": "AgIAADkBAAAAAAAAAAAgwEYBAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T04:33:30.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmFWDailyReport.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.Designer.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.Designer.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.Designer.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\ucDailyRep\\frmFWDailyReport.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T09:11:16.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmSRCReportSelectorSeparate.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCReportSelectorSeparate.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCReportSelectorSeparate.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCReportSelectorSeparate.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCReportSelectorSeparate.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T04:54:06.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmSRCAssyReportSelector.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T04:53:53.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frmSRCAssyReportSelector.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T03:39:29.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmSRCDailyReportNewV2.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T09:05:54.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmDowntimeReportSelector.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmDowntimeReportSelector.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmDowntimeReportSelector.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmDowntimeReportSelector.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmDowntimeReportSelector.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T09:04:45.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\App.config",
+              "RelativeDocumentMoniker": "ERP\\App.config",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\App.config",
+              "RelativeToolTip": "ERP\\App.config",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-21T08:50:22.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "rptSRCDowntimeReportFWBoth.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportFWBoth.vb",
+              "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDowntimeReportFWBoth.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportFWBoth.vb [Design]",
+              "RelativeToolTip": "ERP\\Reports\\rptSRCDowntimeReportFWBoth.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-09T07:16:44.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "rptSRCDowntimeReportPW.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportPW.vb",
+              "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDowntimeReportPW.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportPW.vb [Design]",
+              "RelativeToolTip": "ERP\\Reports\\rptSRCDowntimeReportPW.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-09T06:59:54.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "rptSRCDowntimeReportv2.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportv2.vb",
+              "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDowntimeReportv2.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportv2.vb [Design]",
+              "RelativeToolTip": "ERP\\Reports\\rptSRCDowntimeReportv2.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T03:10:40.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "rptSubWeldingGoodQtyFW.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSubWeldingGoodQtyFW.vb",
+              "RelativeDocumentMoniker": "ERP\\Reports\\rptSubWeldingGoodQtyFW.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSubWeldingGoodQtyFW.vb [Design]",
+              "RelativeToolTip": "ERP\\Reports\\rptSubWeldingGoodQtyFW.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T02:30:02.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "rptSubWeldingGoodQty.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSubWeldingGoodQty.vb",
+              "RelativeDocumentMoniker": "ERP\\Reports\\rptSubWeldingGoodQty.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSubWeldingGoodQty.vb [Design]",
+              "RelativeToolTip": "ERP\\Reports\\rptSubWeldingGoodQty.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T01:25:59.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "rptSubPWWeldingLot.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSubPWWeldingLot.vb",
+              "RelativeDocumentMoniker": "ERP\\Reports\\rptSubPWWeldingLot.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSubPWWeldingLot.vb [Design]",
+              "RelativeToolTip": "ERP\\Reports\\rptSubPWWeldingLot.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T01:18:04.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "rptPWDailyReportv5.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptPWDailyReportv5.vb",
+              "RelativeDocumentMoniker": "ERP\\Reports\\rptPWDailyReportv5.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptPWDailyReportv5.vb [Design]",
+              "RelativeToolTip": "ERP\\Reports\\rptPWDailyReportv5.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-21T05:13:21.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "rptPWDailyReportv2.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptPWDailyReportv2.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptPWDailyReportv2.vb",
@@ -261,7 +824,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 43,
+              "Title": "frmSRCDailyReportNewV2.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
+              "ViewState": "AgIAANcAAAAAAAAAAAAswOwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-07T12:35:30.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "rptFWDailyReport.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptFWDailyReport.vb",
+              "RelativeDocumentMoniker": "ERP\\Reports\\rptFWDailyReport.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptFWDailyReport.vb [Design]",
+              "RelativeToolTip": "ERP\\Reports\\rptFWDailyReport.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-09T08:49:37.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "rptSubWeldingGoodQty1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSubWeldingGoodQty1.vb",
+              "RelativeDocumentMoniker": "ERP\\Reports\\rptSubWeldingGoodQty1.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSubWeldingGoodQty1.vb [Design]",
+              "RelativeToolTip": "ERP\\Reports\\rptSubWeldingGoodQty1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-09T09:21:23.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "globalVariables.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\globalVariables.vb",
+              "RelativeDocumentMoniker": "ERP\\globalVariables.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\globalVariables.vb",
+              "RelativeToolTip": "ERP\\globalVariables.vb",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwEsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T02:37:34.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "frmProdDailyReportSRC.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb [Design]",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T04:53:34.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "frmProdDailyReportSRC.vb",
+              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
+              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
+              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
+              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAiwJwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-08T04:53:39.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
               "Title": "Slipknot.vb",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\BandaClass\\Slipknot.vb",
               "RelativeDocumentMoniker": "ERP\\BandaClass\\Slipknot.vb",
@@ -273,41 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmNewAssyDailyReport.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb [Design]",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T04:55:51.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmProdDailyReportSRC.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb [Design]",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T04:53:34.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmProdDailyReportSRC.vb",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmProdDailyReportSRC.vb",
-              "ViewState": "AgIAAJsAAAAAAAAAAAA6wJwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T04:53:39.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 48,
               "Title": "rptAutoTapingDailyReport.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptAutoTapingDailyReport.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptAutoTapingDailyReport.vb",
@@ -318,19 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmWeldingDailyReportViewer.vb",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAgwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-09T08:42:00.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 49,
               "Title": "rptSubPWWeldingLot1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSubPWWeldingLot1.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptSubPWWeldingLot1.vb",
@@ -341,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 50,
               "Title": "rptPWDailyReportv2.vb",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptPWDailyReportv2.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptPWDailyReportv2.vb",
@@ -353,18 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "rptSubWeldingGoodQty1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSubWeldingGoodQty1.vb",
-              "RelativeDocumentMoniker": "ERP\\Reports\\rptSubWeldingGoodQty1.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSubWeldingGoodQty1.vb [Design]",
-              "RelativeToolTip": "ERP\\Reports\\rptSubWeldingGoodQty1.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-09T09:21:23.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 52,
               "Title": "rptFWDailyReport.Designer.vb",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptFWDailyReport.Designer.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptFWDailyReport.Designer.vb",
@@ -376,7 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 53,
               "Title": "rptFWDailyReport.resx",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptFWDailyReport.resx",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptFWDailyReport.resx",
@@ -387,7 +962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 51,
               "Title": "rptFWDailyReport.vb",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptFWDailyReport.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptFWDailyReport.vb",
@@ -399,18 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "rptFWDailyReport.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptFWDailyReport.vb",
-              "RelativeDocumentMoniker": "ERP\\Reports\\rptFWDailyReport.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptFWDailyReport.vb [Design]",
-              "RelativeToolTip": "ERP\\Reports\\rptFWDailyReport.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-09T08:49:37.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 55,
               "Title": "FrmWeldingDailyReportOfflineViewer.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportOfflineViewer.vb",
               "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportOfflineViewer.vb",
@@ -421,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 54,
               "Title": "FrmWeldingDailyReportOfflineViewer.vb",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportOfflineViewer.vb",
               "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportOfflineViewer.vb",
@@ -433,30 +997,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 56,
               "Title": "FrmWeldingDailyReportViewer.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb",
               "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb",
               "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb [Design]",
               "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\FrmWeldingDailyReportViewer.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-09T08:41:54.375Z"
+              "WhenOpened": "2026-04-09T08:41:54.375Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "frmSRCDailyReportOfflineViewer.vb",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T04:33:30.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 57,
               "Title": "rptBookSRCAssyDailyReport.vb",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptBookSRCAssyDailyReport.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptBookSRCAssyDailyReport.vb",
@@ -468,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 59,
               "Title": "rptSRCDowntimeGraphPerShift.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeGraphPerShift.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDowntimeGraphPerShift.vb",
@@ -479,7 +1032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 58,
               "Title": "rptSRCDowntimeGraphPerDay.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeGraphPerDay.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDowntimeGraphPerDay.vb",
@@ -490,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 60,
               "Title": "rptSRCDowntimeReportFW.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportFW.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDowntimeReportFW.vb",
@@ -501,7 +1054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 61,
               "Title": "rptSRCDailySRCLotNoZwei.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDailySRCLotNoZwei.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDailySRCLotNoZwei.vb",
@@ -512,65 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "rptSRCDowntimeReportFWBoth.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportFWBoth.vb",
-              "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDowntimeReportFWBoth.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportFWBoth.vb [Design]",
-              "RelativeToolTip": "ERP\\Reports\\rptSRCDowntimeReportFWBoth.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-09T07:16:44.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "rptSRCDowntimeReportPW.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportPW.vb",
-              "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDowntimeReportPW.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportPW.vb [Design]",
-              "RelativeToolTip": "ERP\\Reports\\rptSRCDowntimeReportPW.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-09T06:59:54.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "frmSRCDailyReportViewer.vb",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb",
-              "ViewState": "AgIAAOgAAAAAAAAAAAAAACYAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T05:02:20.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "frmSRCAssyReportSelector.vb",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T04:53:53.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "frmSRCReportSelectorSeparate.vb",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCReportSelectorSeparate.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCReportSelectorSeparate.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCReportSelectorSeparate.vb",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCReportSelectorSeparate.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T04:54:06.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 62,
               "Title": "rptBookSRCDaily.vb",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptBookSRCDaily.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptBookSRCDaily.vb",
@@ -582,7 +1077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 63,
               "Title": "rptSRCDailySRCOthersZwei.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDailySRCOthersZwei.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDailySRCOthersZwei.vb",
@@ -593,18 +1088,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "rptSRCDailySRCDefectZwei.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDailySRCDefectZwei.vb",
-              "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDailySRCDefectZwei.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDailySRCDefectZwei.vb [Design]",
-              "RelativeToolTip": "ERP\\Reports\\rptSRCDailySRCDefectZwei.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-09T04:04:40.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 64,
               "Title": "rptSRCDailySRCAssyZwei.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDailySRCAssyZwei.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDailySRCAssyZwei.vb",
@@ -615,7 +1099,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 65,
               "Title": "rptSRCDailyAssyEffZwei.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDailyAssyEffZwei.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDailyAssyEffZwei.vb",
@@ -626,29 +1110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "fldAssemblyDowntimeMain.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb [Design]",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T06:21:56.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "frmSRCAssyReportSelector.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb [Design]",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCAssyReportSelector.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T06:49:46.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 67,
               "Title": "rptSRCDailyHourlyZwei.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDailyHourlyZwei.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDailyHourlyZwei.vb",
@@ -659,7 +1121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 66,
               "Title": "frmSRCReportSelectorSeparate.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCReportSelectorSeparate.vb",
               "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCReportSelectorSeparate.vb",
@@ -670,19 +1132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "fldAssemblyDowntimeMain.vb",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\fldAssemblyDowntimeMain.vb",
-              "ViewState": "AgIAAOYAAAAAAAAAAAAiwPYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T06:22:01.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 68,
               "Title": "rptHourlyQuality.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptHourlyQuality.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptHourlyQuality.vb",
@@ -693,42 +1143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "frmNewAssyDailyReport.vb",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmNewAssyDailyReport.vb",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAiwBkBAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T04:55:58.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "frmAssemblyDownTime.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb [Design]",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmAssemblyDownTime.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T06:22:31.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "globalVariables.vb",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\globalVariables.vb",
-              "RelativeDocumentMoniker": "ERP\\globalVariables.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\globalVariables.vb",
-              "RelativeToolTip": "ERP\\globalVariables.vb",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T02:37:34.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 69,
               "Title": "rptSRCDailyManpower.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDailyManpower.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDailyManpower.vb",
@@ -739,29 +1154,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "frmSRCDailyReportOfflineViewer.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb [Design]",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportOfflineViewer.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T04:34:04.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 70,
               "Title": "frmSRCDailyReportViewer.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb",
               "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb",
               "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb [Design]",
               "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\frmSRCDailyReportViewer.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T04:29:16.018Z"
+              "WhenOpened": "2026-04-08T04:29:16.018Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 71,
               "Title": "rptSRCDailyReport.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDailyReport.vb",
               "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDailyReport.vb",
@@ -772,18 +1177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "rptSRCDowntimeReportv2.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportv2.vb",
-              "RelativeDocumentMoniker": "ERP\\Reports\\rptSRCDowntimeReportv2.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\Reports\\rptSRCDowntimeReportv2.vb [Design]",
-              "RelativeToolTip": "ERP\\Reports\\rptSRCDowntimeReportv2.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-08T03:10:40.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 73,
               "Title": "frmReport.vb",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\frmReport.vb",
               "RelativeDocumentMoniker": "ERP\\frmReport.vb",
@@ -795,7 +1189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 72,
               "Title": "frmLogin.vb",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\frmLogin.vb",
               "RelativeDocumentMoniker": "ERP\\frmLogin.vb",
@@ -807,7 +1201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 74,
               "Title": "frmReport.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\frmReport.vb",
               "RelativeDocumentMoniker": "ERP\\frmReport.vb",
@@ -818,30 +1212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "frmSRCDailyReportNewV2.vb",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-07T12:35:30.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "frmSRCDailyReportNewV2.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
-              "RelativeDocumentMoniker": "ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb",
-              "ToolTip": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb [Design]",
-              "RelativeToolTip": "ERP\\ModuleForms\\Production Daily Report\\New Assy\\frmSRCDailyReportNewV2.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-07T12:35:19.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 75,
               "Title": "frmLogin.vb [Design]",
               "DocumentMoniker": "C:\\Users\\maydard.seno\\source\\repos\\MIASRC\\ERP\\frmLogin.vb",
               "RelativeDocumentMoniker": "ERP\\frmLogin.vb",

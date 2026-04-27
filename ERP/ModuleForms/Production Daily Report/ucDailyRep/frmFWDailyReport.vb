@@ -49,7 +49,7 @@ Public Class FrmFWDailyReport
     End Sub
     Private Sub GetModels()
 
-        Dim DTModel As DataTable = Maria.MyQuery("SELECT * FROM tblModelList")
+        Dim DTModel As DataTable = Maria.MyQuery("SELECT * FROM tblModelList ORDER BY fldModelName")
 
         ddModel.DataSource = DTModel
         ddModel.DisplayMember = "fldModelName"
@@ -220,6 +220,11 @@ Public Class FrmFWDailyReport
     End Sub
 
     Private Sub cbbDailyReport_Click(sender As Object, e As EventArgs) Handles cbbDailyReport.Click
+
+        If gvData.CurrentRow Is Nothing Then
+            RadMessageBox.Show("Please select a record first.", "No Selection", MessageBoxButtons.OK)
+            Exit Sub
+        End If
         globalVariables.DailyRepID = gvData.CurrentRow.Cells("fldID").Value
         globalVariables.ModelCode = gvData.CurrentRow.Cells("fldModel").Value
         globalVariables.SRCReportType = gvData.CurrentRow.Cells("fldType").Value
@@ -229,13 +234,11 @@ Public Class FrmFWDailyReport
         globalVariables.ModelLineWelding = gvData.CurrentRow.Cells("fldLine").Value
         'FrmWeldingDailyReportData.MdiParent = frmBase
         'FrmWeldingDailyReportData.Show()
+        'FrmWeldingDailyReportData.BringToFront()
+        'FrmWeldingDailyReportData.Activate()
 
-
-        Dim formFW As New FrmWeldingDailyReportData()
-
-        formFW.Show()
-
-
+        Dim frm As New FrmWeldingDailyReportData()
+        frm.Show()
 
         'Mio.PWDRID = gvData.CurrentRow.Cells("fldID").Value
         'Mio.PWModel = gvData.CurrentRow.Cells("fldModel").Value
@@ -411,8 +414,12 @@ Public Class FrmFWDailyReport
 
 
 
-        'FrmSRCDailyReportViewer.Show()
-        FrmWeldingDailyReportViewer.Show()
+        'FrmWeldingDailyReportViewer.Show()
+        If globalVariables.currentUser("fldUserType") = "ADMINISTRATOR" AndAlso globalVariables.currentUser("fldModDailyReportSRC") = "RW" AndAlso globalVariables.reportSource = 0 Then
+            FrmSRCDailyReportOfflineViewer.Show()
+        Else
+            FrmWeldingDailyReportViewer.Show()
+        End If
     End Sub
 
     Private Sub cbbDownTime_Click(sender As Object, e As EventArgs) Handles cbbDownTime.Click

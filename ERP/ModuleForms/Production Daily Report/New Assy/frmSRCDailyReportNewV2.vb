@@ -229,7 +229,9 @@ Public Class FrmSRCDailyReportNewV2
 
     Private Sub GetTeam()
         Furina.AddMySqlParameters("empName", cbManpower.Text)
-        Dim DTTeamNo As DataTable = Furina.SPSelect("SP_SelectTeamv3")
+        Furina.AddMySqlParameters("parModel", Mio.ModelCode)
+        Furina.AddMySqlParameters("parLine", Mio.Line)
+        Dim DTTeamNo As DataTable = Furina.SPSelect("SP_SelectTeamv4")
         Dim currentRow As Integer = cbManpower.SelectedIndex
 
         ddTeam.DataSource = DTTeamNo

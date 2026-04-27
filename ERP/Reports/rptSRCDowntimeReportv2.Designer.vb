@@ -618,24 +618,30 @@ Partial Class rptSRCDowntimeReportv2
         '
         'Main
         '
-        Me.Main.ConnectionString = "MIA.My.MySettings.dbMIA"
+        Me.Main.ConnectionString = "Server=192.168.191.22;Database=dbMIA;Uid=feap;Pwd=45|iF$;Convert Zero Datetime=Tr" &
+    "ue"
         Me.Main.Name = "Main"
         Me.Main.Parameters.Add(New Telerik.Reporting.SqlDataSourceParameter("@parID", System.Data.DbType.[String], "= Parameters.parID.Value"))
+        Me.Main.ProviderName = "MySql.Data.MySqlClient"
         Me.Main.SelectCommand = "SELECT " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "* " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "tblDailyReportDownMain" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "where" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "fldID=@parID"
         '
         'Prepared
         '
-        Me.Prepared.ConnectionString = "MIA.My.MySettings.dbMIA"
+        Me.Prepared.ConnectionString = "Server=192.168.191.22;Database=dbMIA;Uid=feap;Pwd=45|iF$;Convert Zero Datetime=Tr" &
+    "ue"
         Me.Prepared.Name = "Prepared"
         Me.Prepared.Parameters.Add(New Telerik.Reporting.SqlDataSourceParameter("@parID", System.Data.DbType.[String], "= Parameters.parID.Value"))
+        Me.Prepared.ProviderName = "MySql.Data.MySqlClient"
         Me.Prepared.SelectCommand = "SELECT " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "concat(fldShift,': ',fldAddedBy) as OwO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "tblDailyReportDownTime" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) &
     "where" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "fldDTID=@parID" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "group by concat(fldShift,': ',fldAddedBy) " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & ";"
         '
         'data
         '
-        Me.data.ConnectionString = "MIA.My.MySettings.dbMIA"
+        Me.data.ConnectionString = "Server=192.168.191.22;Database=dbMIA;Uid=feap;Pwd=45|iF$;Convert Zero Datetime=Tr" &
+    "ue"
         Me.data.Name = "data"
         Me.data.Parameters.Add(New Telerik.Reporting.SqlDataSourceParameter("@parID", System.Data.DbType.Int32, "= Parameters.parID.Value"))
+        Me.data.ProviderName = "MySql.Data.MySqlClient"
         Me.data.SelectCommand = "dbMIA.SP_SRCDownTime_SRCDatav2"
         Me.data.SelectCommandType = Telerik.Reporting.SqlDataSourceCommandType.StoredProcedure
         '

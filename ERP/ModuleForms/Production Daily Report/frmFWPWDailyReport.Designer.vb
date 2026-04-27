@@ -109,7 +109,8 @@ Partial Class FrmFWPWDailyReport
         'gvData
         '
         Me.gvData.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.gvData.Location = New System.Drawing.Point(0, 227)
+        Me.gvData.Location = New System.Drawing.Point(0, 276)
+        Me.gvData.Margin = New System.Windows.Forms.Padding(5)
         '
         '
         '
@@ -120,24 +121,25 @@ Partial Class FrmFWPWDailyReport
         Me.gvData.MasterTemplate.EnablePaging = True
         Me.gvData.MasterTemplate.ViewDefinition = TableViewDefinition1
         Me.gvData.Name = "gvData"
-        Me.gvData.Size = New System.Drawing.Size(1070, 526)
+        Me.gvData.Size = New System.Drawing.Size(1125, 477)
         Me.gvData.TabIndex = 15
         Me.gvData.ThemeName = "CrystalDark"
         '
         'RadCommandBar1
         '
         Me.RadCommandBar1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.RadCommandBar1.Location = New System.Drawing.Point(0, 115)
+        Me.RadCommandBar1.Location = New System.Drawing.Point(0, 180)
+        Me.RadCommandBar1.Margin = New System.Windows.Forms.Padding(5)
         Me.RadCommandBar1.Name = "RadCommandBar1"
         Me.RadCommandBar1.Rows.AddRange(New Telerik.WinControls.UI.CommandBarRowElement() {Me.CommandBarRowElement1, Me.CommandBarRowElement2})
-        Me.RadCommandBar1.Size = New System.Drawing.Size(1070, 112)
+        Me.RadCommandBar1.Size = New System.Drawing.Size(1125, 96)
         Me.RadCommandBar1.TabIndex = 14
         Me.RadCommandBar1.ThemeName = "CrystalDark"
         '
         'CommandBarRowElement1
         '
         Me.CommandBarRowElement1.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.CommandBarRowElement1.MinSize = New System.Drawing.Size(25, 25)
+        Me.CommandBarRowElement1.MinSize = New System.Drawing.Size(39, 39)
         Me.CommandBarRowElement1.Name = "CommandBarRowElement1"
         Me.CommandBarRowElement1.Strips.AddRange(New Telerik.WinControls.UI.CommandBarStripElement() {Me.CommandBarStripElement1})
         Me.CommandBarRowElement1.Text = ""
@@ -150,6 +152,8 @@ Partial Class FrmFWPWDailyReport
         Me.CommandBarStripElement1.DisplayName = "Control Bar"
         Me.CommandBarStripElement1.Items.AddRange(New Telerik.WinControls.UI.RadCommandBarBaseItem() {Me.cbbRefresh, Me.CommandBarSeparator1, Me.cbbAdd, Me.cbbDelete, Me.CommandBarSeparator2, Me.cbbDailyReport, Me.CommandBarButton1, Me.cbbDownTime, Me.CommandBarSeparator3, Me.cbbOptions, Me.cbbReport, Me.cbbOffline})
         Me.CommandBarStripElement1.Name = "CommandBarStripElement1"
+        Me.CommandBarStripElement1.OverflowMenuMaxSize = New System.Drawing.Size(422, 0)
+        Me.CommandBarStripElement1.OverflowMenuMinSize = New System.Drawing.Size(78, 39)
         Me.CommandBarStripElement1.StretchHorizontally = True
         Me.CommandBarStripElement1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
         Me.CommandBarStripElement1.UseCompatibleTextRendering = False
@@ -295,7 +299,7 @@ Partial Class FrmFWPWDailyReport
         '
         'CommandBarRowElement2
         '
-        Me.CommandBarRowElement2.MinSize = New System.Drawing.Size(25, 25)
+        Me.CommandBarRowElement2.MinSize = New System.Drawing.Size(39, 39)
         Me.CommandBarRowElement2.Name = "CommandBarRowElement2"
         '
         'panelMore
@@ -321,35 +325,40 @@ Partial Class FrmFWPWDailyReport
         Me.panelMore.Controls.Add(Me.lblTo)
         Me.panelMore.Dock = System.Windows.Forms.DockStyle.Top
         Me.panelMore.Location = New System.Drawing.Point(0, 0)
+        Me.panelMore.Margin = New System.Windows.Forms.Padding(5)
         Me.panelMore.Name = "panelMore"
-        Me.panelMore.Size = New System.Drawing.Size(1070, 115)
+        Me.panelMore.Size = New System.Drawing.Size(1125, 180)
         Me.panelMore.TabIndex = 13
         Me.panelMore.ThemeName = "Office2007Black"
         '
         'ddGroup
         '
+        Me.ddGroup.DropDownHeight = 166
         RadListDataItem1.Text = "PW"
         RadListDataItem2.Text = "FW"
         Me.ddGroup.Items.Add(RadListDataItem1)
         Me.ddGroup.Items.Add(RadListDataItem2)
-        Me.ddGroup.Location = New System.Drawing.Point(172, 84)
+        Me.ddGroup.Location = New System.Drawing.Point(269, 131)
+        Me.ddGroup.Margin = New System.Windows.Forms.Padding(5)
         Me.ddGroup.Name = "ddGroup"
-        Me.ddGroup.Size = New System.Drawing.Size(184, 20)
+        Me.ddGroup.Size = New System.Drawing.Size(288, 20)
         Me.ddGroup.TabIndex = 126
         Me.ddGroup.ThemeName = "Office2007Black"
         '
         'spnGroup
         '
-        Me.spnGroup.Location = New System.Drawing.Point(444, 58)
+        Me.spnGroup.Location = New System.Drawing.Point(694, 90)
+        Me.spnGroup.Margin = New System.Windows.Forms.Padding(5)
         Me.spnGroup.Maximum = New Decimal(New Integer() {90999999, 0, 0, 0})
         Me.spnGroup.Name = "spnGroup"
-        Me.spnGroup.Size = New System.Drawing.Size(254, 20)
+        Me.spnGroup.Size = New System.Drawing.Size(398, 20)
         Me.spnGroup.TabIndex = 122
         Me.spnGroup.ThemeName = "Office2007Black"
         '
         'RadLabel4
         '
-        Me.RadLabel4.Location = New System.Drawing.Point(398, 58)
+        Me.RadLabel4.Location = New System.Drawing.Point(622, 90)
+        Me.RadLabel4.Margin = New System.Windows.Forms.Padding(5)
         Me.RadLabel4.Name = "RadLabel4"
         Me.RadLabel4.Size = New System.Drawing.Size(40, 18)
         Me.RadLabel4.TabIndex = 123
@@ -357,20 +366,23 @@ Partial Class FrmFWPWDailyReport
         '
         'ddType
         '
+        Me.ddType.DropDownHeight = 166
         RadListDataItem3.Text = "PW"
         RadListDataItem4.Text = "FW"
         Me.ddType.Items.Add(RadListDataItem3)
         Me.ddType.Items.Add(RadListDataItem4)
-        Me.ddType.Location = New System.Drawing.Point(102, 84)
+        Me.ddType.Location = New System.Drawing.Point(160, 131)
+        Me.ddType.Margin = New System.Windows.Forms.Padding(5)
         Me.ddType.Name = "ddType"
         Me.ddType.ReadOnly = True
-        Me.ddType.Size = New System.Drawing.Size(64, 20)
+        Me.ddType.Size = New System.Drawing.Size(100, 20)
         Me.ddType.TabIndex = 124
         Me.ddType.ThemeName = "Office2007Black"
         '
         'RadLabel3
         '
-        Me.RadLabel3.Location = New System.Drawing.Point(64, 84)
+        Me.RadLabel3.Location = New System.Drawing.Point(100, 131)
+        Me.RadLabel3.Margin = New System.Windows.Forms.Padding(5)
         Me.RadLabel3.Name = "RadLabel3"
         Me.RadLabel3.Size = New System.Drawing.Size(33, 18)
         Me.RadLabel3.TabIndex = 125
@@ -378,15 +390,17 @@ Partial Class FrmFWPWDailyReport
         '
         'tbTL
         '
-        Me.tbTL.Location = New System.Drawing.Point(444, 84)
+        Me.tbTL.Location = New System.Drawing.Point(694, 131)
+        Me.tbTL.Margin = New System.Windows.Forms.Padding(5)
         Me.tbTL.Name = "tbTL"
-        Me.tbTL.Size = New System.Drawing.Size(254, 20)
+        Me.tbTL.Size = New System.Drawing.Size(398, 20)
         Me.tbTL.TabIndex = 123
         Me.tbTL.ThemeName = "Office2007Black"
         '
         'RadLabel2
         '
-        Me.RadLabel2.Location = New System.Drawing.Point(366, 84)
+        Me.RadLabel2.Location = New System.Drawing.Point(572, 131)
+        Me.RadLabel2.Margin = New System.Windows.Forms.Padding(5)
         Me.RadLabel2.Name = "RadLabel2"
         Me.RadLabel2.Size = New System.Drawing.Size(73, 18)
         Me.RadLabel2.TabIndex = 122
@@ -394,23 +408,26 @@ Partial Class FrmFWPWDailyReport
         '
         'spnLine
         '
-        Me.spnLine.Location = New System.Drawing.Point(102, 32)
+        Me.spnLine.Location = New System.Drawing.Point(160, 50)
+        Me.spnLine.Margin = New System.Windows.Forms.Padding(5)
         Me.spnLine.Name = "spnLine"
-        Me.spnLine.Size = New System.Drawing.Size(254, 20)
+        Me.spnLine.Size = New System.Drawing.Size(398, 20)
         Me.spnLine.TabIndex = 2
         Me.spnLine.ThemeName = "Office2007Black"
         '
         'spnLotNo
         '
-        Me.spnLotNo.Location = New System.Drawing.Point(444, 32)
+        Me.spnLotNo.Location = New System.Drawing.Point(694, 50)
+        Me.spnLotNo.Margin = New System.Windows.Forms.Padding(5)
         Me.spnLotNo.Maximum = New Decimal(New Integer() {90999999, 0, 0, 0})
         Me.spnLotNo.Name = "spnLotNo"
-        Me.spnLotNo.Size = New System.Drawing.Size(254, 20)
+        Me.spnLotNo.Size = New System.Drawing.Size(398, 20)
         Me.spnLotNo.TabIndex = 5
         Me.spnLotNo.ThemeName = "Office2007Black"
         '
         'ddModel
         '
+        Me.ddModel.DropDownHeight = 166
         RadListDataItem5.Text = "1"
         RadListDataItem6.Text = "2"
         RadListDataItem7.Text = "3"
@@ -433,14 +450,16 @@ Partial Class FrmFWPWDailyReport
         Me.ddModel.Items.Add(RadListDataItem13)
         Me.ddModel.Items.Add(RadListDataItem14)
         Me.ddModel.Items.Add(RadListDataItem15)
-        Me.ddModel.Location = New System.Drawing.Point(102, 6)
+        Me.ddModel.Location = New System.Drawing.Point(160, 10)
+        Me.ddModel.Margin = New System.Windows.Forms.Padding(5)
         Me.ddModel.Name = "ddModel"
-        Me.ddModel.Size = New System.Drawing.Size(254, 20)
+        Me.ddModel.Size = New System.Drawing.Size(398, 20)
         Me.ddModel.TabIndex = 1
         Me.ddModel.ThemeName = "Office2007Black"
         '
         'ddShift
         '
+        Me.ddShift.DropDownHeight = 166
         RadListDataItem16.Text = "1st Shift"
         RadListDataItem17.Text = "Day Shift"
         RadListDataItem18.Text = "2nd Shift"
@@ -451,15 +470,17 @@ Partial Class FrmFWPWDailyReport
         Me.ddShift.Items.Add(RadListDataItem18)
         Me.ddShift.Items.Add(RadListDataItem19)
         Me.ddShift.Items.Add(RadListDataItem20)
-        Me.ddShift.Location = New System.Drawing.Point(444, 6)
+        Me.ddShift.Location = New System.Drawing.Point(694, 10)
+        Me.ddShift.Margin = New System.Windows.Forms.Padding(5)
         Me.ddShift.Name = "ddShift"
-        Me.ddShift.Size = New System.Drawing.Size(254, 20)
+        Me.ddShift.Size = New System.Drawing.Size(398, 20)
         Me.ddShift.TabIndex = 4
         Me.ddShift.ThemeName = "Office2007Black"
         '
         'RadLabel1
         '
-        Me.RadLabel1.Location = New System.Drawing.Point(407, 32)
+        Me.RadLabel1.Location = New System.Drawing.Point(636, 50)
+        Me.RadLabel1.Margin = New System.Windows.Forms.Padding(5)
         Me.RadLabel1.Name = "RadLabel1"
         Me.RadLabel1.Size = New System.Drawing.Size(31, 18)
         Me.RadLabel1.TabIndex = 121
@@ -467,7 +488,8 @@ Partial Class FrmFWPWDailyReport
         '
         'RadLabel20
         '
-        Me.RadLabel20.Location = New System.Drawing.Point(55, 6)
+        Me.RadLabel20.Location = New System.Drawing.Point(86, 10)
+        Me.RadLabel20.Margin = New System.Windows.Forms.Padding(5)
         Me.RadLabel20.Name = "RadLabel20"
         Me.RadLabel20.Size = New System.Drawing.Size(41, 18)
         Me.RadLabel20.TabIndex = 119
@@ -475,7 +497,8 @@ Partial Class FrmFWPWDailyReport
         '
         'RadLabel19
         '
-        Me.RadLabel19.Location = New System.Drawing.Point(64, 60)
+        Me.RadLabel19.Location = New System.Drawing.Point(100, 94)
+        Me.RadLabel19.Margin = New System.Windows.Forms.Padding(5)
         Me.RadLabel19.Name = "RadLabel19"
         Me.RadLabel19.Size = New System.Drawing.Size(32, 18)
         Me.RadLabel19.TabIndex = 76
@@ -483,9 +506,10 @@ Partial Class FrmFWPWDailyReport
         '
         'dpDate
         '
-        Me.dpDate.Location = New System.Drawing.Point(102, 58)
+        Me.dpDate.Location = New System.Drawing.Point(160, 90)
+        Me.dpDate.Margin = New System.Windows.Forms.Padding(5)
         Me.dpDate.Name = "dpDate"
-        Me.dpDate.Size = New System.Drawing.Size(254, 20)
+        Me.dpDate.Size = New System.Drawing.Size(398, 20)
         Me.dpDate.TabIndex = 3
         Me.dpDate.TabStop = False
         Me.dpDate.Text = "Monday, January 25, 2021"
@@ -494,7 +518,8 @@ Partial Class FrmFWPWDailyReport
         '
         'RadLabel16
         '
-        Me.RadLabel16.Location = New System.Drawing.Point(407, 7)
+        Me.RadLabel16.Location = New System.Drawing.Point(636, 11)
+        Me.RadLabel16.Margin = New System.Windows.Forms.Padding(5)
         Me.RadLabel16.Name = "RadLabel16"
         Me.RadLabel16.Size = New System.Drawing.Size(31, 18)
         Me.RadLabel16.TabIndex = 66
@@ -502,7 +527,8 @@ Partial Class FrmFWPWDailyReport
         '
         'lblTo
         '
-        Me.lblTo.Location = New System.Drawing.Point(67, 34)
+        Me.lblTo.Location = New System.Drawing.Point(105, 52)
+        Me.lblTo.Margin = New System.Windows.Forms.Padding(5)
         Me.lblTo.Name = "lblTo"
         Me.lblTo.Size = New System.Drawing.Size(29, 18)
         Me.lblTo.TabIndex = 65
@@ -512,13 +538,14 @@ Partial Class FrmFWPWDailyReport
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1070, 753)
+        Me.ClientSize = New System.Drawing.Size(1125, 753)
         Me.Controls.Add(Me.gvData)
         Me.Controls.Add(Me.RadCommandBar1)
         Me.Controls.Add(Me.panelMore)
         Me.Name = "FrmFWPWDailyReport"
         Me.Text = "PW/FW Daily Report"
         Me.ThemeName = "CrystalDark"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.gvData.MasterTemplate, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gvData, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadCommandBar1, System.ComponentModel.ISupportInitialize).EndInit()

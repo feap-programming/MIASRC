@@ -102,7 +102,7 @@ Public Class FrmWeldingDailyReportViewer
                 Me.report.AddReportParameters("parGoodQty3", globalVariables.parGoodQty3)
                 Me.report.AddReportParameters("parGoodQty4", globalVariables.parGoodQty4)
 
-                Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptFWDailyReportv2")
+                Me.ReportViewer1.ReportSource = report.GenerateReport("MIA/rptFWDailyReport")
                 ReportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.Interactive
                 ReportViewer1.ZoomPercent = 100
 

@@ -249,7 +249,12 @@ Public Class FldAssemblyDowntimeMain
         If globalVariables.DowntimeType = "ASSY" Then
             FrmDowntimeReportSelector.Show()
         Else
-            FrmSRCDailyReportViewer.Show()
+            'FrmSRCDailyReportViewer.Show()
+            If globalVariables.currentUser("fldUserType") = "ADMINISTRATOR" AndAlso globalVariables.currentUser("fldModDailyReportSRC") = "RW" AndAlso globalVariables.reportSource = 0 Then
+                FrmSRCDailyReportOfflineViewer.Show()
+            Else
+                FrmSRCDailyReportViewer.Show()
+            End If
         End If
 
 

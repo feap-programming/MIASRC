@@ -6835,3 +6835,8 @@ C:\Users\maydard.seno\source\repos\MIASRC\ERP\obj\Debug\MIA.rptSRCDowntimeGraphP
 C:\Users\maydard.seno\source\repos\MIASRC\ERP\obj\Debug\MIA.rptSRCDowntimeGraphPerShift.resources
 C:\Users\maydard.seno\source\repos\MIASRC\ERP\obj\Debug\MIA.FrmWeldingDailyReportOfflineViewer.resources
 C:\Users\maydard.seno\source\repos\MIASRC\ERP\obj\Debug\MIA.rptAutoTapingDailyReport.resources
+C:\Users\maydard.seno\source\repos\MIASRC\ERP\obj\Debug\MIA.rptPWDailyReportv5.resources
+C:\Users\maydard.seno\source\repos\MIASRC\ERP\obj\Debug\MIA.rptSubPWWeldingLot.resources
+C:\Users\maydard.seno\source\repos\MIASRC\ERP\obj\Debug\MIA.rptSubWeldingGoodQty.resources
+C:\Users\maydard.seno\source\repos\MIASRC\ERP\obj\Debug\MIA.rptFWDailyReportv2.resources
+C:\Users\maydard.seno\source\repos\MIASRC\ERP\obj\Debug\MIA.rptSubWeldingGoodQtyFW.resources

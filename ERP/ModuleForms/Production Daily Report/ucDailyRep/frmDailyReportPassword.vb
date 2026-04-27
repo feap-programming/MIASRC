@@ -12,17 +12,18 @@ Public Class FrmDailyReportPassword
         Maria.AddMySqlParameters("parPassword", txtPassword.Text)
         Maria.AddMySqlParameters("parLine", globalVariables.parLine)
         Maria.AddMySqlParameters("parModelName", globalVariables.parModel)
-        Dim confirm As DataTable = Maria.SPSelect("SP_SelectDeletePassword")
+        Dim confirm As DataTable = Maria.SPSelect("SP_SelectDeletePasswordv2")
 
         If confirm.Rows.Count > 0 And CurrUser = globalVariables.SRCAddedBy Then
             Maria.AddMySqlParameters("parID", globalVariables.parDRID)
             Maria.SPADE("SP_SRCDailyReportDeleteRecord")
             'FrmSRCDailyReportNewV2.MdiParent = frmBase
             'FrmSRCDailyReportNewV2.Show()
+            'FrmSRCDailyReportNewV2.BringToFront()
+            'FrmSRCDailyReportNewV2.Activate()
 
-            Dim formSrc As New FrmSRCDailyReportNewV2()
-
-            formSrc.Show()
+            Dim frm As New FrmSRCDailyReportNewV2()
+            frm.Show()
 
             txtPassword.Clear()
             Me.Close()
