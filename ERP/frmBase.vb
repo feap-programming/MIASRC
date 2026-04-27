@@ -361,6 +361,9 @@ Public Class frmBase
             'Else
             '    Slapshock.NoAccessToMasterMessage()
             'End If
+
+            FrmNewAssyDailyReport.BringToFront()
+            FrmNewAssyDailyReport.Activate()
         End If
 
     End Sub
@@ -378,6 +381,8 @@ Public Class frmBase
             'Else
             '    Slapshock.NoAccessToMasterMessage()
             'End If
+            FrmFWPWDailyReport.BringToFront()
+            FrmFWPWDailyReport.Activate()
         End If
 
     End Sub
@@ -396,6 +401,8 @@ Public Class frmBase
             'Else
             '    Slapshock.NoAccessToMasterMessage()
             'End If
+            FrmFWDailyReport.BringToFront()
+            FrmFWDailyReport.Activate()
         End If
 
     End Sub

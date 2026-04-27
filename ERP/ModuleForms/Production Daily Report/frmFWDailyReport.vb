@@ -220,6 +220,10 @@ Public Class FrmFWPWDailyReport
     End Sub
 
     Private Sub cbbDailyReport_Click(sender As Object, e As EventArgs) Handles cbbDailyReport.Click
+        If gvData.CurrentRow Is Nothing Then
+            RadMessageBox.Show("Please select a record first.", "No Selection", MessageBoxButtons.OK)
+            Exit Sub
+        End If
         globalVariables.DailyRepID = gvData.CurrentRow.Cells("fldID").Value
         globalVariables.ModelCode = gvData.CurrentRow.Cells("fldModel").Value
         globalVariables.SRCReportType = gvData.CurrentRow.Cells("fldType").Value
@@ -229,6 +233,9 @@ Public Class FrmFWPWDailyReport
         globalVariables.ModelLineWelding = gvData.CurrentRow.Cells("fldLine").Value
         FrmWeldingDailyReportData.MdiParent = frmBase
         FrmWeldingDailyReportData.Show()
+
+        FrmWeldingDailyReportData.BringToFront()
+        FrmWeldingDailyReportData.Activate()
 
         'Mio.PWDRID = gvData.CurrentRow.Cells("fldID").Value
         'Mio.PWModel = gvData.CurrentRow.Cells("fldModel").Value

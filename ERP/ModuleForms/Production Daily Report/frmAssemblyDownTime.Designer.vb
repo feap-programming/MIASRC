@@ -22,23 +22,8 @@ Partial Class FrmAssemblyDownTime
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim RadListDataItem18 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem19 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem20 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem21 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem22 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem23 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem24 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem25 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem26 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem27 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem28 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem29 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem1 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem2 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem30 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem31 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem32 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem3 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem4 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem5 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
@@ -49,7 +34,22 @@ Partial Class FrmAssemblyDownTime
         Dim RadListDataItem10 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem11 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem12 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim TableViewDefinition4 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
+        Dim RadListDataItem13 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem14 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem15 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem16 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem17 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem18 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem19 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem20 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem21 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem22 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem23 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem24 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem25 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem26 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem27 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim TableViewDefinition1 As Telerik.WinControls.UI.TableViewDefinition = New Telerik.WinControls.UI.TableViewDefinition()
         Me.panelMore = New Telerik.WinControls.UI.RadPanel()
         Me.ddMachName = New Telerik.WinControls.UI.RadDropDownList()
         Me.ddProdName = New Telerik.WinControls.UI.RadDropDownList()
@@ -204,12 +204,11 @@ Partial Class FrmAssemblyDownTime
         '
         'ddMachName
         '
-        Me.ddMachName.Location = New System.Drawing.Point(559, 64)
+        Me.ddMachName.Location = New System.Drawing.Point(100, 66)
         Me.ddMachName.Name = "ddMachName"
         Me.ddMachName.Size = New System.Drawing.Size(232, 20)
         Me.ddMachName.TabIndex = 177
         Me.ddMachName.ThemeName = "Office2007Black"
-        Me.ddMachName.Visible = False
         '
         'ddProdName
         '
@@ -428,10 +427,10 @@ Partial Class FrmAssemblyDownTime
         'ddWeldingNo
         '
         Me.ddWeldingNo.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem18.Text = "108"
-        RadListDataItem19.Text = "112"
-        Me.ddWeldingNo.Items.Add(RadListDataItem18)
-        Me.ddWeldingNo.Items.Add(RadListDataItem19)
+        RadListDataItem1.Text = "108"
+        RadListDataItem2.Text = "112"
+        Me.ddWeldingNo.Items.Add(RadListDataItem1)
+        Me.ddWeldingNo.Items.Add(RadListDataItem2)
         Me.ddWeldingNo.Location = New System.Drawing.Point(762, 12)
         Me.ddWeldingNo.Name = "ddWeldingNo"
         Me.ddWeldingNo.Size = New System.Drawing.Size(88, 20)
@@ -531,11 +530,12 @@ Partial Class FrmAssemblyDownTime
         '
         'tbMachName
         '
-        Me.tbMachName.Location = New System.Drawing.Point(100, 65)
+        Me.tbMachName.Location = New System.Drawing.Point(559, 66)
         Me.tbMachName.Name = "tbMachName"
         Me.tbMachName.Size = New System.Drawing.Size(232, 20)
         Me.tbMachName.TabIndex = 134
         Me.tbMachName.ThemeName = "Office2007Black"
+        Me.tbMachName.Visible = False
         '
         'RadLabel5
         '
@@ -559,16 +559,16 @@ Partial Class FrmAssemblyDownTime
         '
         'ddStartMin
         '
-        RadListDataItem20.Text = "6AM-2PM(1st Shift)"
-        RadListDataItem21.Text = "6AM-6PM"
-        RadListDataItem22.Text = "2PM-10PM(2nd Shift)"
-        RadListDataItem23.Text = "6PM - 6AM"
-        RadListDataItem24.Text = "10PM-6AM(3rd Shift)"
-        Me.ddStartMin.Items.Add(RadListDataItem20)
-        Me.ddStartMin.Items.Add(RadListDataItem21)
-        Me.ddStartMin.Items.Add(RadListDataItem22)
-        Me.ddStartMin.Items.Add(RadListDataItem23)
-        Me.ddStartMin.Items.Add(RadListDataItem24)
+        RadListDataItem3.Text = "6AM-2PM(1st Shift)"
+        RadListDataItem4.Text = "6AM-6PM"
+        RadListDataItem5.Text = "2PM-10PM(2nd Shift)"
+        RadListDataItem6.Text = "6PM - 6AM"
+        RadListDataItem7.Text = "10PM-6AM(3rd Shift)"
+        Me.ddStartMin.Items.Add(RadListDataItem3)
+        Me.ddStartMin.Items.Add(RadListDataItem4)
+        Me.ddStartMin.Items.Add(RadListDataItem5)
+        Me.ddStartMin.Items.Add(RadListDataItem6)
+        Me.ddStartMin.Items.Add(RadListDataItem7)
         Me.ddStartMin.Location = New System.Drawing.Point(566, 39)
         Me.ddStartMin.Name = "ddStartMin"
         Me.ddStartMin.Size = New System.Drawing.Size(44, 20)
@@ -577,16 +577,16 @@ Partial Class FrmAssemblyDownTime
         '
         'ddStartTime
         '
-        RadListDataItem25.Text = "6AM-2PM(1st Shift)"
-        RadListDataItem26.Text = "6AM-6PM"
-        RadListDataItem27.Text = "2PM-10PM(2nd Shift)"
-        RadListDataItem28.Text = "6PM - 6AM"
-        RadListDataItem29.Text = "10PM-6AM(3rd Shift)"
-        Me.ddStartTime.Items.Add(RadListDataItem25)
-        Me.ddStartTime.Items.Add(RadListDataItem26)
-        Me.ddStartTime.Items.Add(RadListDataItem27)
-        Me.ddStartTime.Items.Add(RadListDataItem28)
-        Me.ddStartTime.Items.Add(RadListDataItem29)
+        RadListDataItem8.Text = "6AM-2PM(1st Shift)"
+        RadListDataItem9.Text = "6AM-6PM"
+        RadListDataItem10.Text = "2PM-10PM(2nd Shift)"
+        RadListDataItem11.Text = "6PM - 6AM"
+        RadListDataItem12.Text = "10PM-6AM(3rd Shift)"
+        Me.ddStartTime.Items.Add(RadListDataItem8)
+        Me.ddStartTime.Items.Add(RadListDataItem9)
+        Me.ddStartTime.Items.Add(RadListDataItem10)
+        Me.ddStartTime.Items.Add(RadListDataItem11)
+        Me.ddStartTime.Items.Add(RadListDataItem12)
         Me.ddStartTime.Location = New System.Drawing.Point(517, 39)
         Me.ddStartTime.Name = "ddStartTime"
         Me.ddStartTime.Size = New System.Drawing.Size(44, 20)
@@ -612,16 +612,16 @@ Partial Class FrmAssemblyDownTime
         '
         'ddStopMin
         '
-        RadListDataItem1.Text = "6AM-2PM(1st Shift)"
-        RadListDataItem2.Text = "6AM-6PM"
-        RadListDataItem30.Text = "2PM-10PM(2nd Shift)"
-        RadListDataItem31.Text = "6PM - 6AM"
-        RadListDataItem32.Text = "10PM-6AM(3rd Shift)"
-        Me.ddStopMin.Items.Add(RadListDataItem1)
-        Me.ddStopMin.Items.Add(RadListDataItem2)
-        Me.ddStopMin.Items.Add(RadListDataItem30)
-        Me.ddStopMin.Items.Add(RadListDataItem31)
-        Me.ddStopMin.Items.Add(RadListDataItem32)
+        RadListDataItem13.Text = "6AM-2PM(1st Shift)"
+        RadListDataItem14.Text = "6AM-6PM"
+        RadListDataItem15.Text = "2PM-10PM(2nd Shift)"
+        RadListDataItem16.Text = "6PM - 6AM"
+        RadListDataItem17.Text = "10PM-6AM(3rd Shift)"
+        Me.ddStopMin.Items.Add(RadListDataItem13)
+        Me.ddStopMin.Items.Add(RadListDataItem14)
+        Me.ddStopMin.Items.Add(RadListDataItem15)
+        Me.ddStopMin.Items.Add(RadListDataItem16)
+        Me.ddStopMin.Items.Add(RadListDataItem17)
         Me.ddStopMin.Location = New System.Drawing.Point(402, 40)
         Me.ddStopMin.Name = "ddStopMin"
         Me.ddStopMin.Size = New System.Drawing.Size(44, 20)
@@ -630,16 +630,16 @@ Partial Class FrmAssemblyDownTime
         '
         'ddStopTime
         '
-        RadListDataItem3.Text = "6AM-2PM(1st Shift)"
-        RadListDataItem4.Text = "6AM-6PM"
-        RadListDataItem5.Text = "2PM-10PM(2nd Shift)"
-        RadListDataItem6.Text = "6PM - 6AM"
-        RadListDataItem7.Text = "10PM-6AM(3rd Shift)"
-        Me.ddStopTime.Items.Add(RadListDataItem3)
-        Me.ddStopTime.Items.Add(RadListDataItem4)
-        Me.ddStopTime.Items.Add(RadListDataItem5)
-        Me.ddStopTime.Items.Add(RadListDataItem6)
-        Me.ddStopTime.Items.Add(RadListDataItem7)
+        RadListDataItem18.Text = "6AM-2PM(1st Shift)"
+        RadListDataItem19.Text = "6AM-6PM"
+        RadListDataItem20.Text = "2PM-10PM(2nd Shift)"
+        RadListDataItem21.Text = "6PM - 6AM"
+        RadListDataItem22.Text = "10PM-6AM(3rd Shift)"
+        Me.ddStopTime.Items.Add(RadListDataItem18)
+        Me.ddStopTime.Items.Add(RadListDataItem19)
+        Me.ddStopTime.Items.Add(RadListDataItem20)
+        Me.ddStopTime.Items.Add(RadListDataItem21)
+        Me.ddStopTime.Items.Add(RadListDataItem22)
         Me.ddStopTime.Location = New System.Drawing.Point(353, 40)
         Me.ddStopTime.Name = "ddStopTime"
         Me.ddStopTime.Size = New System.Drawing.Size(44, 20)
@@ -666,16 +666,16 @@ Partial Class FrmAssemblyDownTime
         'ddShift
         '
         Me.ddShift.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem8.Text = "1st Shift"
-        RadListDataItem9.Text = "2nd Shift"
-        RadListDataItem10.Text = "3rd Shift"
-        RadListDataItem11.Text = "Day Shift"
-        RadListDataItem12.Text = "Night Shift"
-        Me.ddShift.Items.Add(RadListDataItem8)
-        Me.ddShift.Items.Add(RadListDataItem9)
-        Me.ddShift.Items.Add(RadListDataItem10)
-        Me.ddShift.Items.Add(RadListDataItem11)
-        Me.ddShift.Items.Add(RadListDataItem12)
+        RadListDataItem23.Text = "1st Shift"
+        RadListDataItem24.Text = "2nd Shift"
+        RadListDataItem25.Text = "3rd Shift"
+        RadListDataItem26.Text = "Day Shift"
+        RadListDataItem27.Text = "Night Shift"
+        Me.ddShift.Items.Add(RadListDataItem23)
+        Me.ddShift.Items.Add(RadListDataItem24)
+        Me.ddShift.Items.Add(RadListDataItem25)
+        Me.ddShift.Items.Add(RadListDataItem26)
+        Me.ddShift.Items.Add(RadListDataItem27)
         Me.ddShift.Location = New System.Drawing.Point(558, 11)
         Me.ddShift.Name = "ddShift"
         Me.ddShift.Size = New System.Drawing.Size(126, 20)
@@ -751,7 +751,7 @@ Partial Class FrmAssemblyDownTime
         Me.gvData.MasterTemplate.AllowDragToGroup = False
         Me.gvData.MasterTemplate.AllowEditRow = False
         Me.gvData.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill
-        Me.gvData.MasterTemplate.ViewDefinition = TableViewDefinition4
+        Me.gvData.MasterTemplate.ViewDefinition = TableViewDefinition1
         Me.gvData.Name = "gvData"
         Me.gvData.Padding = New System.Windows.Forms.Padding(0, 0, 0, 1)
         Me.gvData.Size = New System.Drawing.Size(853, 300)

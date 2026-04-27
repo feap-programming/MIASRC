@@ -225,11 +225,16 @@ Public Class FrmNewAssyDailyReport
                 Mio.AssyTimeTo = Convert.ToDateTime(gvData.CurrentRow.Cells("fldTimeTo").Value).ToString("HH:mm")
                 Mio.Shift = gvData.CurrentRow.Cells("fldShift").Value.ToString
                 Mio.DRDate = gvData.CurrentRow.Cells("fldDate").Value
-                FrmSRCDailyReportNewV2.MdiParent = frmBase
+                'FrmSRCDailyReportNewV2.MdiParent = frmBase
                 'FrmSRCDailyReportNewV2.Show()
                 'FrmDailyReportPassword.Show()
                 If globalVariables.currentUser("fldUserType") = "ADMINISTRATOR" AndAlso globalVariables.currentUser("fldModDailyReportSRC") = "RW" Then
-                    FrmSRCDailyReportNewV2.Show()
+                    'FrmSRCDailyReportNewV2.MdiParent = frmBase
+                    'FrmSRCDailyReportNewV2.Show()
+                    'FrmSRCDailyReportNewV2.BringToFront()
+                    'FrmSRCDailyReportNewV2.Activate()
+                    Dim frm As New FrmSRCDailyReportNewV2()
+                    frm.Show()
                 Else
                     FrmDailyReportPassword.Show()
                 End If

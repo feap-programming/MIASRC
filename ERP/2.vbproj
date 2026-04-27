@@ -1410,7 +1410,9 @@
     <Compile Include="ModuleForms\Production Daily Report\frmNewAssyDailyReport.Designer.vb">
       <DependentUpon>frmNewAssyDailyReport.vb</DependentUpon>
     </Compile>
-    <Compile Include="ModuleForms\Production Daily Report\frmNewAssyDailyReport.vb" />
+    <Compile Include="ModuleForms\Production Daily Report\frmNewAssyDailyReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ModuleForms\Production Daily Report\frmProdDailyReportSRC.Designer.vb">
       <DependentUpon>frmProdDailyReportSRC.vb</DependentUpon>
     </Compile>
@@ -1687,10 +1689,22 @@
     <Compile Include="Reports\rptBookSRCDaily.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\rptFWDailyReportv2.Designer.vb">
+      <DependentUpon>rptFWDailyReportv2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptFWDailyReportv2.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\rptHourlyQuality.Designer.vb">
       <DependentUpon>rptHourlyQuality.vb</DependentUpon>
     </Compile>
     <Compile Include="Reports\rptHourlyQuality.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptPWDailyReportv5.Designer.vb">
+      <DependentUpon>rptPWDailyReportv5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptPWDailyReportv5.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\rptSRCDailyAssyEffZwei.Designer.vb">
@@ -1801,6 +1815,12 @@
     <Compile Include="Reports\rptPWDailyReportv22.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\rptSubPWWeldingLot.Designer.vb">
+      <DependentUpon>rptSubPWWeldingLot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSubPWWeldingLot.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\rptSubPWWeldingLot5.Designer.vb">
       <DependentUpon>rptSubPWWeldingLot5.vb</DependentUpon>
     </Compile>
@@ -1831,6 +1851,12 @@
     <Compile Include="Reports\rptSubPWWeldingLot1.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\rptSubWeldingGoodQty.Designer.vb">
+      <DependentUpon>rptSubWeldingGoodQty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSubWeldingGoodQty.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\rptSubWeldingGoodQty2.Designer.vb">
       <DependentUpon>rptSubWeldingGoodQty2.vb</DependentUpon>
     </Compile>
@@ -1841,6 +1867,12 @@
       <DependentUpon>rptSubWeldingGoodQty1.vb</DependentUpon>
     </Compile>
     <Compile Include="Reports\rptSubWeldingGoodQty1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSubWeldingGoodQtyFW.Designer.vb">
+      <DependentUpon>rptSubWeldingGoodQtyFW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSubWeldingGoodQtyFW.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="ucTest.Designer.vb">
@@ -2880,8 +2912,14 @@
     <EmbeddedResource Include="Reports\rptAutoTapingDailyReport.resx">
       <DependentUpon>rptAutoTapingDailyReport.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptFWDailyReportv2.resx">
+      <DependentUpon>rptFWDailyReportv2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\rptHourlyQuality.resx">
       <DependentUpon>rptHourlyQuality.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptPWDailyReportv5.resx">
+      <DependentUpon>rptPWDailyReportv5.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\rptSRCDailyAssyEffZwei.resx">
       <DependentUpon>rptSRCDailyAssyEffZwei.vb</DependentUpon>
@@ -2937,6 +2975,9 @@
     <EmbeddedResource Include="Reports\rptPWDailyReportv22.resx">
       <DependentUpon>rptPWDailyReportv22.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSubPWWeldingLot.resx">
+      <DependentUpon>rptSubPWWeldingLot.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\rptSubPWWeldingLot5.resx">
       <DependentUpon>rptSubPWWeldingLot5.vb</DependentUpon>
     </EmbeddedResource>
@@ -2952,11 +2993,17 @@
     <EmbeddedResource Include="Reports\rptSubPWWeldingLot1.resx">
       <DependentUpon>rptSubPWWeldingLot1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSubWeldingGoodQty.resx">
+      <DependentUpon>rptSubWeldingGoodQty.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\rptSubWeldingGoodQty2.resx">
       <DependentUpon>rptSubWeldingGoodQty2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\rptSubWeldingGoodQty1.resx">
       <DependentUpon>rptSubWeldingGoodQty1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptSubWeldingGoodQtyFW.resx">
+      <DependentUpon>rptSubWeldingGoodQtyFW.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucTest.resx">
       <DependentUpon>ucTest.vb</DependentUpon>

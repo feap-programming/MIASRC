@@ -2,7 +2,12 @@
     Private Sub btnGo_Click(sender As Object, e As EventArgs) Handles btnGo.Click
         globalVariables.downtimeReportType = ddType.Text
         If ddType.Text = "STANDARD" Then
-            FrmSRCDailyReportViewer.Show()
+            'FrmSRCDailyReportViewer.Show()
+            If globalVariables.currentUser("fldUserType") = "ADMINISTRATOR" AndAlso globalVariables.currentUser("fldModDailyReportSRC") = "RW" AndAlso globalVariables.reportSource = 0 Then
+                FrmSRCDailyReportOfflineViewer.Show()
+            Else
+                FrmSRCDailyReportViewer.Show()
+            End If
         Else
             FrmDowntimeGraphInfo.Show()
             Me.Close()

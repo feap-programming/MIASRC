@@ -1,4 +1,5 @@
-﻿Imports FEAPNS.DataAccess
+﻿Imports System.ComponentModel
+Imports FEAPNS.DataAccess
 Imports Telerik.WinControls
 Imports Telerik.WinControls.UI
 
@@ -18,7 +19,16 @@ Public Class FrmAssemblyDownTime
 
     Private allCauses As New List(Of String)
 
+    Private isLoading As Boolean = True
+    Private dtGrid As DataTable
+    Private WithEvents bgLoadGrid As New BackgroundWorker
+
     Private Sub FrmAssemblyDownTime_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        isLoading = True
+
+        bgLoadGrid.WorkerReportsProgress = False
+        bgLoadGrid.WorkerSupportsCancellation = False
 
         'GetEngEmp()
         GetMinutes()
@@ -54,11 +64,13 @@ Public Class FrmAssemblyDownTime
             lblWeldingNo.Visible = False
         End If
         GridCol()
-        ReloadGrid()
         readyddModelName()
         readyddMachineName()
         ddProdName.SelectedIndex = -1
         ddMachName.SelectedIndex = -1
+
+        isLoading = False
+        ReloadGrid()
     End Sub
     Private Sub readyddModelName()
         Dim DTModelName As DataTable
@@ -335,7 +347,8 @@ Public Class FrmAssemblyDownTime
             Maria.AddMySqlParameters("parStopTime", If(ddStopTime.Text = "24", "00", ddStopTime.Text) & ":" & ddStopMin.Text & ":00")
             Maria.AddMySqlParameters("parStartTime", If(ddStartTime.Text = "24", "00", ddStartTime.Text) & ":" & ddStartMin.Text & ":00")
             Maria.AddMySqlParameters("parPlan", swPlan.Value)
-            Maria.AddMySqlParameters("parMachName", tbMachName.Text)
+            'Maria.AddMySqlParameters("parMachName", tbMachName.Text)
+            Maria.AddMySqlParameters("parMachName", ddMachName.Text)
             Maria.AddMySqlParameters("parMan", cbDCMan.CheckState)
             Maria.AddMySqlParameters("parMachine", cbDCMachine.CheckState)
             Maria.AddMySqlParameters("parMaterial", cbDCMats.CheckState)
@@ -392,7 +405,8 @@ Public Class FrmAssemblyDownTime
             Maria.AddMySqlParameters("parStopTime", If(ddStopTime.Text = "24", "00", ddStopTime.Text) & ":" & ddStopMin.Text & ":00")
             Maria.AddMySqlParameters("parStartTime", If(ddStartTime.Text = "24", "00", ddStartTime.Text) & ":" & ddStartMin.Text & ":00")
             Maria.AddMySqlParameters("parPlan", swPlan.Value)
-            Maria.AddMySqlParameters("parMachName", tbMachName.Text)
+            'Maria.AddMySqlParameters("parMachName", tbMachName.Text)
+            Maria.AddMySqlParameters("parMachName", ddMachName.Text)
             Maria.AddMySqlParameters("parMan", cbDCMan.CheckState)
             Maria.AddMySqlParameters("parMachine", cbDCMachine.CheckState)
             Maria.AddMySqlParameters("parMaterial", cbDCMats.CheckState)
@@ -433,7 +447,76 @@ Public Class FrmAssemblyDownTime
     End Sub
     Private Sub ReloadGrid()
         'gvData.DataSource = Maria.MyQuery("SELECT * FROM tblDailyReportDownTime where fldDTID=" & globalVariables.AssyDownTimeID & " order by fldStopTime")
-        gvData.DataSource = Maria.MyQuery("SELECT * FROM tblDailyReportDownTime where fldDTID=" & AssyDownTimeID & " order by fldStopTime")
+        'gvData.DataSource = Maria.MyQuery("SELECT * FROM tblDailyReportDownTime where fldDTID=" & AssyDownTimeID & " AND fldWeldingNo=" & ddWeldingNo.Text & " order by fldStopTime")
+        If isLoading Then Exit Sub
+        If bgLoadGrid.IsBusy Then Exit Sub
+
+        If DowntimeType = "ASSY" Then
+            If Not bgLoadGrid.IsBusy Then
+                Cursor = Cursors.WaitCursor
+                bgLoadGrid.RunWorkerAsync("")
+            End If
+            Exit Sub
+        End If
+
+        If ddWeldingNo.SelectedValue Is Nothing Then Exit Sub
+        If TypeOf ddWeldingNo.SelectedValue Is DataRowView Then Exit Sub
+        If String.IsNullOrWhiteSpace(ddWeldingNo.Text) Then Exit Sub
+
+        Cursor = Cursors.WaitCursor
+
+        bgLoadGrid.RunWorkerAsync(ddWeldingNo.Text)
+    End Sub
+
+    Private Sub bgLoadGrid_DoWork(sender As Object, e As DoWorkEventArgs) Handles bgLoadGrid.DoWork
+
+        Try
+
+            Dim sql As String
+
+            If DowntimeType = "ASSY" Then
+
+                sql =
+              "SELECT * FROM tblDailyReportDownTime " &
+              "WHERE fldDTID=" & AssyDownTimeID &
+              " ORDER BY fldStopTime"
+
+            Else
+
+                Dim weldingNo As String = e.Argument.ToString().Replace("'", "''")
+
+                sql =
+              "SELECT * FROM tblDailyReportDownTime " &
+              "WHERE fldDTID=" & AssyDownTimeID &
+              " AND fldWeldingNo='" & weldingNo & "'" &
+              " ORDER BY fldStopTime"
+
+            End If
+
+            dtGrid = Maria.MyQuery(sql)
+
+        Catch ex As Exception
+            e.Result = ex.Message
+        End Try
+
+    End Sub
+
+    Private Sub bgLoadGrid_RunWorkerCompleted(sender As Object, e As RunWorkerCompletedEventArgs) Handles bgLoadGrid.RunWorkerCompleted
+
+        Cursor = Cursors.Default
+
+        If e.Error IsNot Nothing Then
+            MessageBox.Show(e.Error.Message)
+            Exit Sub
+        End If
+
+        If TypeOf e.Result Is String Then
+            MessageBox.Show(e.Result.ToString())
+            Exit Sub
+        End If
+
+        gvData.DataSource = dtGrid
+
     End Sub
 
     Private Sub gvData_CommandCellClick(sender As Object, e As GridViewCellEventArgs) Handles gvData.CommandCellClick
@@ -587,5 +670,13 @@ Public Class FrmAssemblyDownTime
             LoadDownTimeCause(selectedCategory)
         End If
 
+    End Sub
+
+    Private Sub ddWeldingNo_SelectedValueChanged(sender As Object, e As EventArgs) Handles ddWeldingNo.SelectedValueChanged
+        If isLoading Then Exit Sub
+        If ddWeldingNo.SelectedValue Is Nothing Then Exit Sub
+        If TypeOf ddWeldingNo.SelectedValue Is DataRowView Then Exit Sub
+
+        ReloadGrid()
     End Sub
 End Class
